@@ -3,7 +3,7 @@ import { reviewedSources } from './reviewed-announcements';
 import { seasons } from './seasons';
 import type { SourceRecord } from '../domain/types';
 
-export const DATA_VERSION = 'fortnite-br-classification-2026.11.6';
+export const DATA_VERSION = 'fortnite-br-gameplay-2026.11.10';
 
 export const sources: SourceRecord[] = [
   { id: 'epic-bp', label: 'Epic Games — Battle Pass archives and announcements', url: 'https://www.fortnite.com/news', verifiedOn: '2026-10-28' },
@@ -19,6 +19,8 @@ export const sources: SourceRecord[] = [
 // These are retrieval targets, not evidence that their contents were reviewed.
 // Wiki research remains pending. Independently reviewed Epic articles are registered separately.
 export const historicalSources: SourceRecord[] = [
+ {id:'phase3-container-research',label:'Container taxonomy research queue',url:'https://fortnite.wiki/wiki/Containers',status:'pending',notes:'Not retrieved. No classification or historical claims promoted.'},
+ {id:'phase3-marauders-research',label:'C2S3 Marauder drop-table research queue',url:'https://fortnite.wiki/wiki/Marauders',status:'pending',notes:'No complete drop table retrieved. Exact item/ammo/material scope unresolved; question disabled.'},
  ...seasons.map(season => ({ id: `history-${season.id.toLowerCase()}`, label: `${season.label} historical research`, url: `https://fortnite.wiki/wiki/${season.kind === 'throwback' ? (season.id === 'OG2023' ? 'Fortnite_OG' : 'Chapter_2_Remix') : season.label.replaceAll(' ', '_')}`, status: 'pending' as const, notes: 'Not retrieved. Introduction, availability and relationship claims remain pending.' })),
  ...[['wiki-weapons','Weapons'],['wiki-outfits','Outfits'],['wiki-items','Items'],['wiki-vehicles','Vehicles'],['wiki-events','Live_Events']].map(([id,page]) => ({id,label:`Fortnite Wiki — ${page.replaceAll('_',' ')}`,url:`https://fortnite.wiki/wiki/${page}`,status:'pending' as const,notes:'Research queue; not verified.'})),
 ];

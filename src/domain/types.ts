@@ -1,5 +1,5 @@
-export type EntityType = 'skin' | 'weapon' | 'location' | 'collaboration' | 'item' | 'vehicle' | 'event' | 'boss' | 'npc';
-export type Category = 'Skins' | 'Weapons' | 'Locations' | 'Crossovers' | 'Items' | 'Vehicles' | 'Events' | 'Bosses' | 'NPCs';
+export type EntityType = 'skin' | 'weapon' | 'location' | 'collaboration' | 'item' | 'vehicle' | 'event' | 'boss' | 'npc' | 'container' | 'ammo' | 'material' | 'faction';
+export type Category = 'Skins' | 'Weapons' | 'Locations' | 'Crossovers' | 'Items' | 'Vehicles' | 'Events' | 'Bosses' | 'NPCs' | 'Containers' | 'Ammunition' | 'Materials';
 export type Difficulty = 'easy' | 'medium' | 'hard' | 'expert';
 export type Operator = 'eq' | 'includes' | 'contains' | 'introducedOnOrAfter' | 'introducedOnOrBefore' | 'availableIn' | 'appearedInChapter' | 'historyChange' | 'hasRelationship' | 'historyFlag' | 'chapterCountAtLeast' | 'introducedInChapter' | 'changeInSeason' | 'relatedTo';
 
@@ -47,7 +47,7 @@ export interface HistoricalChange extends HistoricalEvidence {
   relatedEntityId?: string;
 }
 export interface HistoricalRelationship extends HistoricalEvidence {
-  kind: 'boss' | 'mythic' | 'location' | 'participant' | 'successor';
+  kind: 'boss' | 'mythic' | 'location' | 'participant' | 'successor' | 'droppedBy' | 'foundIn' | 'obtainableAt' | 'faction';
   entityId: string;
   variant?: 'mythic' | 'exotic';
   season: SeasonId;
@@ -73,6 +73,7 @@ export interface EntityAlias {
 }
 
 export interface Predicate {
+  season?: SeasonId;
   field: string;
   operator: Operator;
   value: string | number | boolean;
@@ -87,6 +88,7 @@ export interface QuestionTemplate {
   id: string;
   category: Category;
   answerType: EntityType;
+  answerTypes?: EntityType[];
   baseDifficulty: Difficulty;
   parameters: TemplateParameter[];
   prompt: (parameters: Record<string, string | number>) => string;
@@ -106,6 +108,7 @@ export interface GeneratedQuestion {
   templateId: string;
   category: Category;
   answerType: EntityType;
+  answerTypes?: EntityType[];
   prompt: string;
   parameters: Record<string, string | number>;
   predicates: Predicate[];

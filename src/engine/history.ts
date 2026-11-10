@@ -21,11 +21,11 @@ export function matchesHistory(entity: FortniteEntity, predicate: Predicate, inc
   if (predicate.operator === 'introducedInChapter') return usable(history.introduction, includePending) && seasonById.get(history.introduction!.season)?.chapter === Number(predicate.value);
   if (predicate.operator === 'chapterCountAtLeast') return appearanceChapters(entity, includePending, predicate.field === 'namedPoi').length >= Number(predicate.value);
   if (predicate.operator === 'changeInSeason') return history.changes.some(change => usable(change, includePending) && change.kind === predicate.field && change.season === value);
-  if (predicate.operator === 'relatedTo') return history.relationships.some(relationship => usable(relationship, includePending) && relationship.kind === predicate.field && relationship.entityId === value);
+  if (predicate.operator === 'relatedTo') return history.relationships.some(relationship => usable(relationship, includePending) && relationship.kind === predicate.field && relationship.entityId === value && (!predicate.season || relationship.season===predicate.season));
   if (predicate.operator === 'availableIn') return availableIn(entity, value, includePending, predicate.field === 'namedPoi');
   if (predicate.operator === 'appearedInChapter') return appearanceChapters(entity, includePending, predicate.field === 'namedPoi').includes(Number(predicate.value));
   if (predicate.operator === 'historyChange') return history.changes.some(change => usable(change, includePending) && change.kind === value && (predicate.field !== 'eventChange' || !!change.eventId));
-  if (predicate.operator === 'hasRelationship') return history.relationships.some(relationship => usable(relationship, includePending) && relationship.kind === value);
+  if (predicate.operator === 'hasRelationship') return history.relationships.some(relationship => usable(relationship, includePending) && relationship.kind === value && (!predicate.season || relationship.season===predicate.season));
   if (predicate.operator === 'historyFlag') {
     if (predicate.field === 'introductionTiming') return usable(history.introduction,includePending) && history.introduction!.timing === predicate.value;
     const flag = history.flags?.[predicate.field];

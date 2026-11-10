@@ -1,3 +1,4 @@
+import { questionQuality } from './quality';
 import { entities } from '../data/entities';
 import { templates } from '../data/templates';
 import { DATA_VERSION } from '../data/sources';
@@ -20,7 +21,7 @@ export function inspectAnswerBank(templateId:string,parameters:Record<string,str
  if(!supportsScope(template,parameters))disabledReasons.push('This parameter scope has no coverage approval.');
  if(!reviewedParametersSupported(template,parameters))disabledReasons.push('Duplicate or unsupported parameter scope.');
  const predicates=template.predicates(parameters);
- const rows=uniqueEntities(entities.filter(entity=>entity.type===template.answerType)).map(entity=>{
+ const rows=uniqueEntities(entities.filter(entity=>(template.answerTypes??[template.answerType]).includes(entity.type))).map(entity=>{
   const qualification=predicates.map(predicate=>assessPredicate(entity,predicate));
   return {id:entity.id,name:entity.name,aliases:entity.aliases,recordStatus:entity.verification,
    qualifies:qualification.every(result=>result.eligible),qualification,
@@ -31,7 +32,7 @@ export function inspectAnswerBank(templateId:string,parameters:Record<string,str
  const eligibleCount=rows.filter(row=>row.qualifies).length;
  if(!question && eligibleCount<Math.max(5,template.minAnswers??5))disabledReasons.push('Fewer than the required eligible answers.');
  return {questionText:template.prompt(parameters),templateId,parameters,dataVersion:DATA_VERSION,
-  enabled:!!question,questionId:question?.id??null,disabledReasons,
+  quality:question?questionQuality(question):null,enabled:!!question,questionId:question?.id??null,disabledReasons,
   acceptedCount:acceptedIds.size,eligibleCount,
   accepted:rows.filter(row=>acceptedIds.has(row.id)),
   excluded:rows.filter(row=>!acceptedIds.has(row.id)).map(row=>({...row,exclusionReasons:row.qualifies ? disabledReasons : row.exclusionReasons}))};

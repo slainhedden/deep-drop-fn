@@ -9,7 +9,7 @@ export function validateAnswer(question: GeneratedQuestion, submitted: string, t
   const valid = answerCandidates(question);
   const resolution = resolveAnswer(submitted,valid);
   const answer = resolution.entity;
-  if (!answer) return { submitted, correct:false, timedOut:false, points:0, explanation:'That answer does not match this question’s verified answer set.' };
+  if (!answer) return { submitted, correct:false, timedOut:false, points:0, explanation:resolution.ambiguous?'That name could match more than one answer. Try the full name.':'No match for this question. Try another name.' };
   const frequency = estimatedFrequency(answer, valid);
   const points = scoreFrequency(frequency);
   const template = templates.find((candidate)=>candidate.id === question.templateId)!;

@@ -1,3 +1,4 @@
+import { gameplayTemplates } from './gameplay-templates';
 import { activateReviewedHistory } from './activate-history';
 import { reviewedTemplates } from './reviewed-templates';
 import { historyTemplates } from './history-templates';
@@ -14,6 +15,7 @@ export const templates:QuestionTemplate[]=[
  {id:'vehicle',category:'Vehicles',answerType:'vehicle',baseDifficulty:'easy',parameters:[],prompt:()=> 'Name a vehicle you can drive or ride in Fortnite.',predicates:()=>[{field:'isVehicle',operator:'eq',value:true}],explanation:(a)=>`${a.name} has appeared as a Fortnite vehicle.`},
  {id:'live-event',category:'Events',answerType:'event',baseDifficulty:'easy',parameters:[],prompt:()=> 'Name a major Fortnite live event.',predicates:()=>[{field:'isLiveEvent',operator:'eq',value:true}],explanation:(a)=>`${a.name} was a major Fortnite live event.`},
  {id:'health-and-shield-item',category:'Items',answerType:'item',baseDifficulty:'medium',family:'item-function',parameters:[],prompt:()=> 'Name an item that can restore both health and shield in Fortnite.',predicates:()=>[{field:'itemClasses',operator:'includes',value:'health'},{field:'itemClasses',operator:'includes',value:'shield'}],explanation:(a)=>`${a.name} can restore both health and shield.`},
+ ...gameplayTemplates,
  ...historyTemplates,
  ...reviewedTemplates,
 ];

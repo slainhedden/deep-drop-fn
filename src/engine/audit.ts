@@ -1,3 +1,4 @@
+import { qualitySummary } from './quality';
 import { supportsScope } from './coverage';
 import type { EntityType, FortniteEntity, HistoricalEvidence } from '../domain/types';
 import { entities, entitiesByType } from '../data/entities';
@@ -6,11 +7,13 @@ import { sourceById } from '../data/sources';
 import { compareSeasons, seasonById } from '../data/seasons';
 import { normalizeAnswer } from './normalize';
 import { combinations, questionPool } from './questions';
-import { matchesAll } from './predicates';
+import { assessPredicate, matchesAll } from './predicates';
 import { appearanceChapters } from './history';
 
 export interface DisabledCombination { templateId:string; parameters:Record<string,string|number>; reason:'pending-review'|'coverage-incomplete'|'insufficient-answers'; eligibleAnswers:number; candidateAnswers:number }
 export interface AuditReport {
+ contentGaps:{category:string;reason:string;pendingRecords:number}[]; exclusionReview:{name:string;templateId:string;reasons:string[]}[];
+ quality:ReturnType<typeof qualitySummary>; mostRepeatedFamilies:{family:string;count:number}[];
  questions:number; templates:number; enabledTemplates:number; entities:number;
  entityCounts:Record<EntityType,number>; pendingEntities:number; legacyEntities:number; verifiedEntities:number; addedEntities:number; answerCombinations:number; playableEntities:number; newPlayableEntities:number;
  errors:string[]; warnings:string[]; answerRange:[number,number]; medianAnswers:number;
@@ -77,8 +80,9 @@ export function auditHistoricalEntities(bank:FortniteEntity[]): {errors:string[]
   for (const relationship of history.relationships) {
    validSeason(relationship.season); evidence(entity,relationship,'relationship');
    const target = byId.get(relationship.entityId);
-   const expected = {boss:'boss',mythic:'weapon',location:'location',participant:undefined,successor:entity.type}[relationship.kind];
+   const expected = {boss:'boss',mythic:'weapon',location:'location',participant:undefined,successor:entity.type,droppedBy:undefined,foundIn:'container',obtainableAt:'location',faction:'faction'}[relationship.kind];
    if (!target || (expected && target.type !== expected)) errors.push(`${entity.id}: invalid ${relationship.kind} target ${relationship.entityId}.`);
+   if(relationship.kind==='droppedBy' && target && !['boss','npc'].includes(target.type)) errors.push(`${entity.id}: droppedBy target must be a boss or NPC.`);
    if (relationship.kind === 'location' && target?.facts.namedPoi !== true) warnings.push(`${entity.id}: location relationship is not an official named POI.`);
   }
   for (const [flag,record] of Object.entries(history.flags ?? {})) evidence(entity,record,flag);
@@ -103,7 +107,7 @@ export function auditQuestionBank(): AuditReport {
   }
   if (template.status !== 'pending' && !questions.some(question=>question.templateId===template.id)) errors.push(`Template ${template.id} has no supported parameter combination.`);
   for (const parameters of combinations(template)) {
-   const bank=entitiesByType(template.answerType); const predicates=template.predicates(parameters);
+   const bank=(template.answerTypes??[template.answerType]).flatMap(entitiesByType); const predicates=template.predicates(parameters);
    const eligibleAnswers=bank.filter(entity=>matchesAll(entity,predicates)).length;
    if (template.status === 'pending' || !supportsScope(template,parameters) || eligibleAnswers<Math.max(5,template.minAnswers??5)) disabledCombinations.push({templateId:template.id,parameters,reason:template.status === 'pending' ? 'pending-review' : !supportsScope(template,parameters) ? 'coverage-incomplete' : 'insufficient-answers',eligibleAnswers,candidateAnswers:bank.filter(entity=>matchesAll(entity,predicates,true)).length});
   }
@@ -133,7 +137,7 @@ export function auditQuestionBank(): AuditReport {
  const playableIds=new Set(questions.flatMap(question=>question.validAnswerIds));
  const counts=questions.map(question=>question.validAnswerIds.length).sort((a,b)=>a-b);
  const middle=Math.floor(counts.length/2);
- const entityCounts=Object.fromEntries(['skin','weapon','location','collaboration','item','vehicle','event','boss','npc'].map(type=>[type,entities.filter(entity=>entity.type===type).length])) as Record<EntityType,number>;
+ const entityCounts=Object.fromEntries(['skin','weapon','location','collaboration','item','vehicle','event','boss','npc','container','ammo','material','faction'].map(type=>[type,entities.filter(entity=>entity.type===type).length])) as Record<EntityType,number>;
  const referenced=new Set(entities.flatMap(entity=>[
   ...entity.sourceIds,
   ...Object.values(entity.factEvidence??{}).flatMap(record=>record.sourceIds),
@@ -151,5 +155,5 @@ export function auditQuestionBank(): AuditReport {
  };
  const verified=[...referenced].filter(id=>sourceById.get(id)?.status==='verified').length;
  const pending=[...referenced].filter(id=>sourceById.get(id)?.status==='pending').length;
- return {questions:questions.length,templates:templates.length,enabledTemplates:templates.filter(template=>template.status!=='pending').length,entities:entities.length,entityCounts,pendingEntities:entities.filter(entity=>entity.verification==='pending').length,legacyEntities:entities.filter(entity=>entity.origin==='legacy').length,verifiedEntities:entities.filter(entity=>entity.verification==='verified').length,addedEntities:entities.filter(entity=>entity.origin==='expansion').length,answerCombinations:questions.reduce((total,question)=>total+question.validAnswerIds.length,0),playableEntities:playableIds.size,newPlayableEntities:entities.filter(entity=>entity.origin==='expansion' && playableIds.has(entity.id)).length,errors,warnings,answerRange:counts.length ? [counts[0],counts[counts.length-1]] : [0,0],medianAnswers:counts.length ? (counts.length%2 ? counts[middle] : (counts[middle-1]+counts[middle])/2) : 0,disabledCombinations,missingCriticalMetadata:historical.missing,ambiguousAliases,sourceCoverage:{referenced:referenced.size,verified,pending,legacy:referenced.size-verified-pending},poiByChapter};
+ return {contentGaps:[{category:'Mythic boss drops',reason:'Complete cross-chapter boss tables and exact Chapter 2 availability remain unreviewed.',pendingRecords:entities.filter(e=>e.type==='boss'&&e.verification==='pending').length},{category:'Containers',reason:'Rare/faction/cooler/produce taxonomy and complete contents need sources.',pendingRecords:entities.filter(e=>e.type==='container'&&e.verification==='pending').length},{category:'Fishing',reason:'No catchability catalog reviewed; do not infer it from healing classifications.',pendingRecords:entities.filter(e=>e.type==='item'&&/fish/i.test(e.name)&&!e.facts.isFish).length},{category:'Marauders',reason:'No complete C2S3 drop table; ammo/material granularity unresolved.',pendingRecords:1}],exclusionReview:[['Skye’s Assault Rifle','weapon-mythic-version'],['Brutus’ Minigun','weapon-mythic-version'],['Rare Chest','loot-container'],['Flopper','fish-class']].map(([name,templateId])=>{const entity=entities.find(e=>e.name===name)!;const template=templates.find(t=>t.id===templateId)!;return {name,templateId,reasons:template.predicates({}).map(p=>assessPredicate(entity,p)).filter(a=>!a.eligible).map(a=>a.reason)}}),quality:qualitySummary(questions),mostRepeatedFamilies:[...new Set(templates.map(t=>t.family??t.id))].map(family=>({family,count:questions.filter(q=>(templates.find(t=>t.id===q.templateId)?.family??q.templateId)===family).length})).filter(row=>row.count>0).sort((a,b)=>b.count-a.count),questions:questions.length,templates:templates.length,enabledTemplates:templates.filter(template=>template.status!=='pending').length,entities:entities.length,entityCounts,pendingEntities:entities.filter(entity=>entity.verification==='pending').length,legacyEntities:entities.filter(entity=>entity.origin==='legacy').length,verifiedEntities:entities.filter(entity=>entity.verification==='verified').length,addedEntities:entities.filter(entity=>entity.origin==='expansion').length,answerCombinations:questions.reduce((total,question)=>total+question.validAnswerIds.length,0),playableEntities:playableIds.size,newPlayableEntities:entities.filter(entity=>entity.origin==='expansion' && playableIds.has(entity.id)).length,errors,warnings,answerRange:counts.length ? [counts[0],counts[counts.length-1]] : [0,0],medianAnswers:counts.length ? (counts.length%2 ? counts[middle] : (counts[middle-1]+counts[middle])/2) : 0,disabledCombinations,missingCriticalMetadata:historical.missing,ambiguousAliases,sourceCoverage:{referenced:referenced.size,verified,pending,legacy:referenced.size-verified-pending},poiByChapter};
 }

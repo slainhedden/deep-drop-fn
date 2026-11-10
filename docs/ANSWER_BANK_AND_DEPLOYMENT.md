@@ -1,3 +1,5 @@
+> Historical answer-bank publication baseline. See [Phase 3](PHASE3_QUESTION_QUALITY.md) for current counts, three-character autocomplete and retry behavior.
+
 # Answer bank, autocomplete and deployment fixes
 
 The latest working source has 938 records, **496 active playable entities**, 38 enabled templates and **162 playable variants**. Dataset version: `fortnite-br-classification-2026.11.6`. This report supersedes the eligibility rules and current counts in the earlier historical checkpoints; those remain useful records of prior research.

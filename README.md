@@ -90,8 +90,15 @@ Fortnite and Epic Games are trademarks of Epic Games, Inc. This project is not e
 
 The Phase 2 catalog includes reviewed release and launch questions alongside a pending research queue. Unverified historical claims stay out of gameplay until source and coverage review. See [historical data status and verification workflow](docs/HISTORICAL_DATA.md) for catalog counts, disabled families, chronology semantics, research blockers and audit details.
 
-The [historical activation continuation](docs/HISTORICAL_ACTIVATION.md) records the latest review pass: 38 enabled templates, 162 playable variants, 495 playable answers, source coverage and outstanding verification gaps.
+The [historical activation continuation](docs/HISTORICAL_ACTIVATION.md) records the historical review baseline: 38 enabled templates, 162 playable variants, 495 playable answers, source coverage and outstanding verification gaps.
 
 ## Answer-bank diagnostics and deployment
 
 Broad classifications now use field-level eligibility, and autocomplete searches only the current question’s accepted bank. See [answer-bank and deployment instructions](docs/ANSWER_BANK_AND_DEPLOYMENT.md) for counts, the developer inspector, version diagnostics and redeployment steps. Use `npm run package:site` to prepare the latest static and source archives.
+
+
+### Phase 3 question quality
+
+Daily Drop now favors accessible banks: five of seven rounds target 20+ accepted answers, with distinct knowledge topics. Narrow history remains in practice. Invalid or ambiguous answers can be retried within the original 20-second deadline. Suggestions require three characters and remain question-specific.
+
+Run `npm run audit:quality -- --output /tmp/question-quality.json` for every active question's accessibility assessment, verified versus legacy counts, distribution, practice/daily eligibility and research gaps. See [Phase 3 results and source limitations](docs/PHASE3_QUESTION_QUALITY.md). Gameplay design, scoring and Sites project configuration are preserved.

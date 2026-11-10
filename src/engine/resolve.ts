@@ -56,7 +56,7 @@ export function resolveAnswer(input:string,candidates:FortniteEntity[]):Resoluti
 /** Ranked only within the active snapshot; a type-wide bank is never substituted. */
 export function suggestionsFor(input:string,bank:Pick<GeneratedQuestion,'validAnswerIds'>|readonly FortniteEntity[],limit=6):FortniteEntity[] {
  const query=normalizeAnswer(input);
- if(query.length<2 || query.length>128 || limit<=0)return [];
+ if(query.length<3 || query.length>128 || limit<=0)return [];
  const candidates=Array.isArray(bank)?uniqueEntities(bank):answerCandidates(bank as Pick<GeneratedQuestion,'validAnswerIds'>);
  const queryWords=query.split(' ');
  const threshold=query.length<=16?1:2;

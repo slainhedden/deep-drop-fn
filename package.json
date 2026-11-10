@@ -11,7 +11,8 @@
     "audit": "vitest run src/engine/audit.test.ts --reporter=verbose --silent=false",
     "inspect:answers": "node scripts/inspect-answer-bank.mjs",
     "diagnostics": "node scripts/build-info.mjs --print",
-    "package:site": "node scripts/package-site.mjs"
+    "package:site": "node scripts/package-site.mjs",
+    "audit:quality": "node scripts/audit-quality.mjs"
   },
   "dependencies": {
     "@vitejs/plugin-react": "latest",

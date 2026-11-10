@@ -2,7 +2,7 @@ import type { EntityType } from '../../domain/types';
 
 // Editorial recall priors, never ownership rarity or measured player frequencies.
 // Keep a conservative category default until playtest data justifies refinement.
-const defaults:Record<EntityType,number>={location:.4,weapon:.45,skin:.35,collaboration:.65,item:.4,vehicle:.5,event:.55,boss:.45,npc:.4};
+const defaults:Record<EntityType,number>={location:.4,weapon:.45,skin:.35,collaboration:.65,item:.4,vehicle:.5,event:.55,boss:.45,npc:.4,container:.7,ammo:.8,material:.8,faction:.6};
 const estimates:Record<string,number>={
  'MEGA City':.88,'Anvil Square':.65,'Brutal Bastion':.7,'The Citadel':.75,
  'The Shark':.82,'The Authority':.8,'The Fortilla':.65,'The Daily Bugle':.8,

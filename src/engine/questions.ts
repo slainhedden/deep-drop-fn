@@ -1,3 +1,4 @@
+import { questionQuality } from './quality';
 import { uniqueEntities } from './candidates';
 import { supportsScope } from './coverage';
 import type { Difficulty, GeneratedQuestion, QuestionTemplate } from '../domain/types';
@@ -26,15 +27,16 @@ export function buildQuestion(template: QuestionTemplate, parameters: Record<str
   if (template.status === 'pending' || !supportsScope(template,parameters)) return null;
   if ('from' in parameters && 'through' in parameters && compareSeasons(String(parameters.from), String(parameters.through)) > 0) return null;
   const predicates = template.predicates(parameters);
-  const answers = uniqueEntities(entitiesByType(template.answerType).filter((entity) => matchesAll(entity, predicates)));
+  const answers = uniqueEntities((template.answerTypes??[template.answerType]).flatMap(entitiesByType).filter((entity) => matchesAll(entity, predicates)));
   const minimum = Math.max(5, template.minAnswers ?? 5);
   if (answers.length < minimum) return null;
   const parameterKey = Object.entries(parameters).map(([key,value])=>`${key}=${value}`).join('&') || 'all';
-  return {
+  const question:GeneratedQuestion={
     id:`${template.id}:${parameterKey}:${DATA_VERSION}`,
     templateId:template.id,
     category:template.category,
     answerType:template.answerType,
+    answerTypes:template.answerTypes,
     prompt:template.prompt(parameters),
     parameters,
     predicates,
@@ -43,18 +45,23 @@ export function buildQuestion(template: QuestionTemplate, parameters: Record<str
     advanced:Boolean(template.advanced),
     dataVersion:DATA_VERSION,
   };
+  question.difficulty=questionQuality(question).difficulty;
+  return question;
 }
 
+let cachedPool:GeneratedQuestion[]|undefined;
 export function questionPool(): GeneratedQuestion[] {
+  if(cachedPool)return [...cachedPool];
   const candidates=templates.flatMap((template) => combinations(template).map((params) => buildQuestion(template, params)).filter((q): q is GeneratedQuestion => q !== null));
   const templateById=new Map(templates.map(template=>[template.id,template]));
   const seen=new Set<string>();
-  return candidates.filter(question=>{
+  cachedPool=candidates.filter(question=>{
     const family=templateById.get(question.templateId)?.family ?? question.templateId;
     const key=`${question.answerType}:${family}:${[...question.validAnswerIds].sort().join('|')}`;
     if (seen.has(key)) return false;
     seen.add(key);return true;
   });
+  return [...cachedPool];
 }
 
 /** Balance knowledge axes as well as answer categories for the daily seven rounds. */
@@ -75,12 +82,12 @@ export function questionKnowledgeGroup(question:GeneratedQuestion):string {
 export function generateGame(seed: string, roundCount = 10, categories?: string[]): GeneratedQuestion[] {
   if (!Number.isInteger(roundCount) || roundCount < 0) throw new Error('Round count must be a nonnegative integer.');
   const random = seededRandom(seed);
-  const remaining = shuffle(questionPool().filter(question => !categories?.length || categories.includes(question.category)), random);
+  const diverseDaily=seed.startsWith('storm-rare-daily-') && roundCount===7 && !categories?.length;
+  const remaining = shuffle(questionPool().filter(question => (!categories?.length || categories.includes(question.category)) && (!diverseDaily || questionQuality(question).dailyEligible)), random);
   const result: GeneratedQuestion[] = [];
   const categoryCounts = new Map<string,number>();
   const familyCounts = new Map<string,number>();
   const knowledgeGroups=new Set<string>();
-  const diverseDaily=seed.startsWith('storm-rare-daily-') && roundCount===7 && !categories?.length;
   const templateById = new Map(templates.map(template=>[template.id,template]));
   const family = (question:GeneratedQuestion) => templateById.get(question.templateId)?.family ?? question.templateId;
   const overlap = (left:GeneratedQuestion,right:GeneratedQuestion) => {
@@ -92,7 +99,7 @@ export function generateGame(seed: string, roundCount = 10, categories?: string[
   // Prefer fresh categories and families. Never repeat a question or a near-identical
   // answer set; a narrow category can therefore produce fewer than requested rounds.
   while (result.length < roundCount && remaining.length) {
-    const admissible=(question:GeneratedQuestion)=>!result.some(previous=>previous.prompt===question.prompt || overlap(previous,question)>=.85);
+    const admissible=(question:GeneratedQuestion)=>!(diverseDaily&&question.validAnswerIds.length<12&&result.some(q=>q.validAnswerIds.length<12))&&!result.some(previous=>previous.prompt===question.prompt || overlap(previous,question)>=.85);
     const freshKnowledge=diverseDaily && remaining.some(question=>!knowledgeGroups.has(questionKnowledgeGroup(question)) && admissible(question));
     let best = -1;
     let bestCost = Infinity;
@@ -100,7 +107,12 @@ export function generateGame(seed: string, roundCount = 10, categories?: string[
       const question = remaining[index];
       if (!admissible(question)) continue;
       if (freshKnowledge && knowledgeGroups.has(questionKnowledgeGroup(question))) continue;
-      const cost = (categoryCounts.get(question.category) ?? 0)*100 + (familyCounts.get(family(question)) ?? 0)*10;
+      const quality=questionQuality(question);
+      const preferredCount=result.filter(q=>q.validAnswerIds.length>=20).length;
+      // Five of seven rounds target 20+ answers; reserve the rest for accessible smaller banks.
+      const desiredLarge=preferredCount<5;
+      const qualityCost=diverseDaily ? ((quality.preferredDaily===desiredLarge?0:1000)+quality.historicalSpecificity*20) : 0;
+      const cost = qualityCost+(categoryCounts.get(question.category) ?? 0)*100 + (familyCounts.get(family(question)) ?? 0)*10;
       if (cost < bestCost) { best = index; bestCost = cost; }
     }
     if (best < 0) break;

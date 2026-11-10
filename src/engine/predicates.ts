@@ -16,7 +16,7 @@ function historicalEvidence(entity:FortniteEntity,predicate:Predicate):Historica
  if (['introducedOnOrAfter','introducedOnOrBefore','introducedInChapter'].includes(predicate.operator) || predicate.field==='introductionTiming') return h.introduction ? [h.introduction] : [];
  if (['availableIn','appearedInChapter','chapterCountAtLeast'].includes(predicate.operator)) return h.appearances;
  if (predicate.operator==='historyChange' || predicate.operator==='changeInSeason') return h.changes.filter(change=>change.kind===(predicate.operator==='changeInSeason' ? predicate.field : predicate.value));
- if (predicate.operator==='hasRelationship' || predicate.operator==='relatedTo') return h.relationships.filter(relation=>relation.kind===(predicate.operator==='relatedTo' ? predicate.field : predicate.value));
+ if (predicate.operator==='hasRelationship' || predicate.operator==='relatedTo') return h.relationships.filter(relation=>relation.kind===(predicate.operator==='relatedTo' ? predicate.field : predicate.value) && (!predicate.season || relation.season===predicate.season));
  return h.flags?.[predicate.field] ? [h.flags[predicate.field]] : [];
 }
 export function assessPredicate(entity:FortniteEntity,predicate:Predicate,includePending=false):PredicateAssessment {
