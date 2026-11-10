@@ -102,3 +102,8 @@ Broad classifications now use field-level eligibility, and autocomplete searches
 Daily Drop now favors accessible banks: five of seven rounds target 20+ accepted answers, with distinct knowledge topics. Narrow history remains in practice. Invalid or ambiguous answers can be retried within the original 20-second deadline. Suggestions require three characters and remain question-specific.
 
 Run `npm run audit:quality -- --output /tmp/question-quality.json` for every active question's accessibility assessment, verified versus legacy counts, distribution, practice/daily eligibility and research gaps. See [Phase 3 results and source limitations](docs/PHASE3_QUESTION_QUALITY.md). Gameplay design, scoring and Sites project configuration are preserved.
+
+
+### Phase 4A checkpoint
+
+Small Fry and sixteen reviewed fish identities now share the same verified gameplay attributes as healing/shield/foraged questions. Typed Chapter 7 map snapshots add named POIs and landmarks without inferring introductions or removals. See [Phase 4A checkpoint and fresh-task handoff](docs/PHASE4A_CHECKPOINT.md) for current counts, exact source limits and the stale network-policy blocker affecting Chapter 2/6 research.

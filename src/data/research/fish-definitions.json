@@ -1,0 +1,389 @@
+[
+  {
+    "path": "chapter_7/season_1/39_50/weapons/definitions/weapons/WID_Athena_FlopperSmall.json",
+    "sha256": "99780c310ba58bd1e63664e68737b10390ac4955d9b8080e8f0a8a75112a17a2",
+    "name": "Small Fry",
+    "description": "Consume for some light Health.",
+    "rarity": "EFortRarity::Common",
+    "tags": [
+      "Item.Consumable.Fish.FlopperSmall"
+    ],
+    "creativeTags": {
+      "CreativeTags": [
+        "CH2S1",
+        "CommonItem",
+        "ConsumableItem",
+        "Item",
+        "Regenerative",
+        "Throwable"
+      ]
+    },
+    "ability": {
+      "AssetPathName": "/Game/Athena/Items/Consumables/Flopper/Small/GA_Athena_FlopperSmall.GA_Athena_FlopperSmall_C",
+      "SubPathString": ""
+    }
+  },
+  {
+    "path": "chapter_7/season_1/39_50/weapons/definitions/weapons/WID_Athena_Flopper.json",
+    "sha256": "f7585e2c7e49c75cf86c02ee5f5a2474c82a0edc8d87fe27e89a5591ce7113a3",
+    "name": "Flopper",
+    "description": "Eat me! I'll Give You Health!",
+    "rarity": null,
+    "tags": [
+      "Item.Consumable.Fish.Flopper"
+    ],
+    "creativeTags": {
+      "CreativeTags": [
+        "CH2S1",
+        "ConsumableItem",
+        "Item",
+        "Regenerative",
+        "Throwable",
+        "UncommonItem"
+      ]
+    },
+    "ability": {
+      "AssetPathName": "/Game/Athena/Items/Consumables/Flopper/GA_Athena_Flopper.GA_Athena_Flopper_C",
+      "SubPathString": ""
+    }
+  },
+  {
+    "path": "chapter_7/season_1/39_50/weapons/definitions/weapons/WID_Athena_Flopper_Effective.json",
+    "sha256": "eb2baa6155cf4af46ccb8dc66f7747311e42420c529bdfcd54cee45c36d561cf",
+    "name": "Slurpfish",
+    "description": "Consume for juicy Health or Shield.",
+    "rarity": "EFortRarity::Epic",
+    "tags": [
+      "Item.Consumable.Fish.FlopperEffective"
+    ],
+    "creativeTags": {
+      "CreativeTags": [
+        "CH2S1",
+        "ConsumableItem",
+        "EpicItem",
+        "Item",
+        "Regenerative",
+        "Throwable"
+      ]
+    },
+    "ability": {
+      "AssetPathName": "/Game/Athena/Items/Consumables/Flopper/Effective/GA_Athena_Flopper_Effective.GA_Athena_Flopper_Effective_C",
+      "SubPathString": ""
+    }
+  },
+  {
+    "path": "chapter_7/season_1/39_50/weapons/definitions/weapons/WID_Athena_Flopper_Shield.json",
+    "sha256": "5ee1325cfdfe23ebcd0c49a4a31b0d1c1ccff108fba863c92f5f12e01012ade6",
+    "name": "Shield Fish",
+    "description": "Consume for juicy Shields.",
+    "rarity": "EFortRarity::Rare",
+    "tags": [
+      "Item.Consumable.Fish.FlopperShield"
+    ],
+    "creativeTags": {
+      "CreativeTags": [
+        "CH2S4",
+        "ConsumableItem",
+        "Item",
+        "RareItem",
+        "Regenerative",
+        "Throwable"
+      ]
+    },
+    "ability": {
+      "AssetPathName": "/Game/Athena/Items/Consumables/Flopper/ShieldFlopper/GA_Athena_Flopper_Shield.GA_Athena_Flopper_Shield_C",
+      "SubPathString": ""
+    }
+  },
+  {
+    "path": "chapter_7/season_1/39_50/weapons/definitions/weapons/WID_Athena_Flopper_JellyFish.json",
+    "sha256": "4c28a1804bbc07901021aa15313caadce08c1eec1fda3031135bf704aca2a585",
+    "name": "Jellyfish",
+    "description": "Squeeze to splash nearby players and instantly apply Health and Shields to them.",
+    "rarity": "EFortRarity::Rare",
+    "tags": [
+      "Item.Consumable.Fish.FlopperJellyFish"
+    ],
+    "creativeTags": {
+      "CreativeTags": [
+        "CH2S4",
+        "ConsumableItem",
+        "Item",
+        "RareItem",
+        "Regenerative",
+        "Throwable"
+      ]
+    },
+    "ability": {
+      "AssetPathName": "/Game/Athena/Items/Consumables/Flopper/JellyFish/GA_Athena_JellyFish_AOE_Heal.GA_Athena_JellyFish_AOE_Heal_C",
+      "SubPathString": ""
+    }
+  },
+  {
+    "path": "chapter_7/season_1/39_50/weapons/definitions/weapons/WID_Athena_Flopper_HopFlopper.json",
+    "sha256": "5548e8b98643c5eda7e4faf50731e78da2dc5aef911fde8bdf45d202aaac8918",
+    "name": "Hop Flopper",
+    "description": "A Flopper with mad hops. Consume to gain low gravity.",
+    "rarity": "EFortRarity::Epic",
+    "tags": [
+      "Item.Consumable.Fish.FlopperHopRock"
+    ],
+    "creativeTags": {
+      "CreativeTags": [
+        "CH2S4",
+        "ConsumableItem",
+        "EpicItem",
+        "Item",
+        "Regenerative",
+        "Throwable"
+      ]
+    },
+    "ability": {
+      "AssetPathName": "/Game/Athena/Items/Consumables/Flopper/HopFlopper/GA_Athena_Flopper_HopFlopper.GA_Athena_Flopper_HopFlopper_C",
+      "SubPathString": ""
+    }
+  },
+  {
+    "path": "chapter_7/season_1/39_50/weapons/definitions/weapons/WID_Athena_Flopper_Thermal.json",
+    "sha256": "4a12155f151806df0109c1d6a07ca3d8076fb0865c5588eae4725e9ce3cfa81f",
+    "name": "Thermal Fish",
+    "description": "Consume to see it all.",
+    "rarity": "EFortRarity::Legendary",
+    "tags": [
+      "Item.Consumable.Fish.FlopperThermal"
+    ],
+    "creativeTags": {
+      "CreativeTags": [
+        "CH2S4",
+        "ConsumableItem",
+        "Item",
+        "LegendaryItem",
+        "Regenerative",
+        "Throwable",
+        "ToolItem"
+      ]
+    },
+    "ability": {
+      "AssetPathName": "/Game/Athena/Items/Consumables/Flopper/Thermal/GA_Athena_Flopper_Thermal.GA_Athena_Flopper_Thermal_C",
+      "SubPathString": ""
+    }
+  },
+  {
+    "path": "chapter_7/season_1/39_50/weapons/definitions/weapons/WID_Athena_Flopper_FireFlopper.json",
+    "sha256": "bf598815799c360f0a18125ff81245e16eeea3f9a8a15d6db1b144392fbd0060",
+    "name": "Spicy Fish",
+    "description": "Spicy! Consume to gain a speed boost.",
+    "rarity": "EFortRarity::Rare",
+    "tags": [
+      "Item.Consumable.Fish.FlopperFire"
+    ],
+    "creativeTags": {
+      "CreativeTags": [
+        "CH2S4",
+        "ConsumableItem",
+        "Item",
+        "RareItem",
+        "Regenerative",
+        "Throwable"
+      ]
+    },
+    "ability": {
+      "AssetPathName": "/Game/Athena/Items/Consumables/Flopper/FireFlopper/GA_Athena_Flopper_FireFlopper.GA_Athena_Flopper_FireFlopper_C",
+      "SubPathString": ""
+    }
+  },
+  {
+    "path": "chapter_7/season_1/39_50/weapons/definitions/weapons/WID_Athena_Flopper_Snowman.json",
+    "sha256": "6ab2ac18f348cb00ce61c251207acd632e2c8c02bd6a4d23369a9aff43594394",
+    "name": "Snowy Flopper",
+    "description": "Got cold feet? Now you do.",
+    "rarity": null,
+    "tags": [
+      "Item.Consumable.Fish.FlopperSnowy"
+    ],
+    "creativeTags": {
+      "CreativeTags": [
+        "CH2S5",
+        "ConsumableItem",
+        "Item",
+        "Regenerative",
+        "Throwable",
+        "UncommonItem"
+      ]
+    },
+    "ability": {
+      "AssetPathName": "/Game/Athena/Items/Consumables/Flopper/SnowmanFlopper/GA_Athena_SnowmanFlopper.GA_Athena_SnowmanFlopper_C",
+      "SubPathString": ""
+    }
+  },
+  {
+    "path": "chapter_7/season_1/39_50/weapons/definitions/weapons/WID_Athena_Flopper_CuddleFish.json",
+    "sha256": "3aecddc1ca278ddbea9ad260fae7c441613bf2a09c264f165c9fa2a2bdfa921b",
+    "name": "Cuddle Fish",
+    "description": "Can be thrown. Cuddles enemies then bursts with joy.",
+    "rarity": "EFortRarity::Rare",
+    "tags": [
+      "Weapon.Ranged.Grenade",
+      "Item.Consumable.Fish.CuddleFish"
+    ],
+    "creativeTags": {
+      "CreativeTags": [
+        "ConsumableItem",
+        "DamageItem",
+        "Item",
+        "Primal",
+        "RareItem",
+        "Regenerative",
+        "Throwable"
+      ]
+    },
+    "ability": {
+      "AssetPathName": "/PrimalGameplay/Items/Consumables/CuddleFish/GA_Athena_CuddleFish_Throw.GA_Athena_CuddleFish_Throw_C",
+      "SubPathString": ""
+    }
+  },
+  {
+    "path": "chapter_7/season_1/39_50/weapons/definitions/weapons/WID_Athena_Flopper_Rift.json",
+    "sha256": "ba88da12e3da431a75ba4d1721403090b84c6f0e0a1b75b8390733e766ff5e8d",
+    "name": "Rift Fish",
+    "description": "Eat this when you'd rather be somewhere else.",
+    "rarity": "EFortRarity::Epic",
+    "tags": [
+      "Item.Consumable.Fish.FlopperRift"
+    ],
+    "creativeTags": {
+      "CreativeTags": [
+        "CH2S5",
+        "ConsumableItem",
+        "EpicItem",
+        "Item",
+        "MobilityItem",
+        "Regenerative",
+        "Throwable"
+      ]
+    },
+    "ability": {
+      "AssetPathName": "/Game/Athena/Items/Consumables/Flopper/RiftFlopper/GA_Athena_Rift_Flopper.GA_Athena_Rift_Flopper_C",
+      "SubPathString": ""
+    }
+  },
+  {
+    "path": "chapter_7/season_1/39_50/weapons/definitions/weapons/WID_Athena_BattleFlopper.json",
+    "sha256": "aad7e44fcd55a1b823acb1de7ca24ba3cd9f4c83f0f289345d3c97b2aed16321",
+    "name": "Vendetta Flopper",
+    "description": "Eat me! I'll mark a nearby enemy. ",
+    "rarity": "EFortRarity::Legendary",
+    "tags": null,
+    "creativeTags": {
+      "CreativeTags": [
+        "CH2S4",
+        "ConsumableItem",
+        "Item",
+        "LegendaryItem",
+        "Regenerative",
+        "Throwable"
+      ]
+    },
+    "ability": {
+      "AssetPathName": "/Game/Athena/Items/Consumables/Flopper/BattleFlopper/GA_Athena_BattleFlopper.GA_Athena_BattleFlopper_C",
+      "SubPathString": ""
+    }
+  },
+  {
+    "path": "chapter_7/season_1/39_50/weapons/definitions/weapons/WID_Athena_MechanicFlopper.json",
+    "sha256": "c4acf41d4290430523522ddf8d054711c0b080f3c770c9a33f62e2b66a38bdce",
+    "name": "Midas Flopper",
+    "description": "Eat me! I'll upgrade your weapons.",
+    "rarity": "EFortRarity::Legendary",
+    "tags": null,
+    "creativeTags": {
+      "CreativeTags": [
+        "CH2S4",
+        "ConsumableItem",
+        "Item",
+        "LegendaryItem",
+        "Regenerative",
+        "Throwable"
+      ]
+    },
+    "ability": {
+      "AssetPathName": "/Game/Athena/Items/Consumables/Flopper/MechanicFlopper/GA_Athena_MechanicFlopper.GA_Athena_MechanicFlopper_C",
+      "SubPathString": ""
+    }
+  },
+  {
+    "path": "chapter_7/season_1/39_50/weapons/definitions/weapons/WID_Athena_Flopper_GasFlopper.json",
+    "sha256": "9d7fd86db0c0dd950e9bccc7524835748addcb2adbd11043db9757a428804c09",
+    "name": "Stink Fish",
+    "description": "A stinky fish. Can be thrown or eaten. May cause indigestion.",
+    "rarity": null,
+    "tags": [
+      "Item.Consumable.Fish.FlopperGas"
+    ],
+    "creativeTags": {
+      "CreativeTags": [
+        "ConsumableItem",
+        "DamageItem",
+        "Item",
+        "Primal",
+        "Regenerative",
+        "Throwable",
+        "UncommonItem"
+      ]
+    },
+    "ability": {
+      "AssetPathName": "/Game/Athena/Items/Consumables/Flopper/GasFlopper/GasFlopperV2/GA_Athena_Flopper_GasFlopper_Consume_V2.GA_Athena_Flopper_GasFlopper_Consume_V2_C",
+      "SubPathString": ""
+    }
+  },
+  {
+    "path": "chapter_7/season_1/39_50/weapons/definitions/weapons/WID_Athena_Flopper_Zero.json",
+    "sha256": "d3020aa1b57126a14d6bc14f2fffb4b191d0bc84e6265be9f249ddbf3a9e894b",
+    "name": "Zero Point Fish",
+    "description": "Tastes like Zero Point displacement!",
+    "rarity": "EFortRarity::Rare",
+    "tags": [
+      "Item.Consumable.Fish.FlopperZero"
+    ],
+    "creativeTags": {
+      "CreativeTags": [
+        "CH2S5",
+        "ConsumableItem",
+        "Item",
+        "MobilityItem",
+        "RareItem",
+        "Regenerative",
+        "Throwable"
+      ]
+    },
+    "ability": {
+      "AssetPathName": "/ZeroPoint/Items/Consumables/Flopper/ZeroFlopper/GA_Athena_Flopper_Zero.GA_Athena_Flopper_Zero_C",
+      "SubPathString": ""
+    }
+  },
+  {
+    "path": "chapter_7/season_1/39_50/weapons/definitions/weapons/WID_Athena_Flopper_Cube.json",
+    "sha256": "549debee7edd7c2c4d7819e7335126cba44371a7ae022c8347f3634e18297faa",
+    "name": "Shadow Flopper",
+    "description": "Take a bite to heal and enter a ghostly form.",
+    "rarity": "EFortRarity::Rare",
+    "tags": [
+      "Item.Consumable.Fish.FlopperShadow"
+    ],
+    "creativeTags": {
+      "CreativeTags": [
+        "Concealment",
+        "ConsumableItem",
+        "Cubed",
+        "Item",
+        "RareItem",
+        "Regenerative",
+        "Throwable"
+      ]
+    },
+    "ability": {
+      "AssetPathName": "/CorruptionGameplay/Gameplay/Items/Consumables/CubeFlopper/GA_Athena_Flopper_Cube.GA_Athena_Flopper_Cube_C",
+      "SubPathString": ""
+    }
+  }
+]

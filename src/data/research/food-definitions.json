@@ -1,0 +1,341 @@
+[
+  {
+    "path": "chapter_7/season_1/39_50/weapons/definitions/weapons/WID_Athena_Apple.json",
+    "sha256": "95f3a5a587566a43300564385808ac660e309fa6db5a10e0e3b1da62bf027877",
+    "name": "Apple",
+    "description": "Consume for a small amount of health.",
+    "rarity": "EFortRarity::Common",
+    "tags": [
+      "Item.Consumable.Apple"
+    ],
+    "creativeTags": {
+      "CreativeTags": [
+        "CH1S4",
+        "CommonItem",
+        "ConsumableItem",
+        "Item",
+        "Regenerative",
+        "Throwable"
+      ]
+    },
+    "ability": {
+      "AssetPathName": "/Game/Athena/Items/Consumables/ForagedItemVersions/AppleItem/GA_Athena_Apple.GA_Athena_Apple_C",
+      "SubPathString": ""
+    },
+    "type": "EFortItemType::Consumable",
+    "actor": {
+      "AssetPathName": "/Game/Athena/Items/Consumables/ForagedItemVersions/AppleItem/B_Apple_Weap_Athena.B_Apple_Weap_Athena_C",
+      "SubPathString": ""
+    }
+  },
+  {
+    "path": "chapter_7/season_1/39_50/weapons/definitions/weapons/WID_Athena_Cabbage.json",
+    "sha256": "17c1d8abba11d4b1f1b949642e4ba02e9b58132983c8698e0e29eb943d52435c",
+    "name": "Cabbage",
+    "description": "Consume for a small amount of health over time.",
+    "rarity": "EFortRarity::Common",
+    "tags": [
+      "Item.Consumable.Cabbage"
+    ],
+    "creativeTags": {
+      "CreativeTags": [
+        "CH2S3",
+        "CommonItem",
+        "ConsumableItem",
+        "Item",
+        "Regenerative",
+        "Throwable"
+      ]
+    },
+    "ability": {
+      "AssetPathName": "/Game/Athena/Items/Consumables/ForagedItemVersions/Cabbage/GA_Athena_Cabbage.GA_Athena_Cabbage_C",
+      "SubPathString": ""
+    },
+    "type": "EFortItemType::Consumable",
+    "actor": {
+      "AssetPathName": "/Game/Athena/Items/Consumables/ForagedItemVersions/Cabbage/B_Cabbage_Weap_Athena.B_Cabbage_Weap_Athena_C",
+      "SubPathString": ""
+    }
+  },
+  {
+    "path": "chapter_7/season_1/39_50/weapons/definitions/weapons/WID_Athena_Corn.json",
+    "sha256": "ae47fb9d0a237acaf4d38b5ead7310b3048994989c4fb7cc2abe830208569916",
+    "name": "Corn",
+    "description": "Consume for a small amount of health over time.",
+    "rarity": "EFortRarity::Common",
+    "tags": [
+      "Item.Consumable.Corn"
+    ],
+    "creativeTags": {
+      "CreativeTags": [
+        "CH2S3",
+        "CommonItem",
+        "ConsumableItem",
+        "Item",
+        "Regenerative",
+        "Throwable"
+      ]
+    },
+    "ability": {
+      "AssetPathName": "/Game/Athena/Items/Consumables/ForagedItemVersions/Corn/GA_Athena_Corn.GA_Athena_Corn_C",
+      "SubPathString": ""
+    },
+    "type": "EFortItemType::Consumable",
+    "actor": {
+      "AssetPathName": "/Game/Athena/Items/Consumables/ForagedItemVersions/Corn/B_Corn_Weap_Athena.B_Corn_Weap_Athena_C",
+      "SubPathString": ""
+    }
+  },
+  {
+    "path": "chapter_7/season_1/39_50/weapons/definitions/weapons/WID_Athena_Coconut.json",
+    "sha256": "8ed7fe2f98b2b86e3e5eddcb62729a7b05268b0ace9d18fccea9f3ce05010496",
+    "name": "Coconut",
+    "description": "Consume for a small amount of health or shields over time.",
+    "rarity": "EFortRarity::Common",
+    "tags": [
+      "Item.Consumable.Coconut"
+    ],
+    "creativeTags": {
+      "CreativeTags": [
+        "CH1S8",
+        "CommonItem",
+        "ConsumableItem",
+        "Item",
+        "Regenerative",
+        "Throwable"
+      ]
+    },
+    "ability": {
+      "AssetPathName": "/Game/Athena/Items/Consumables/ForagedItemVersions/Coconut/GA_Athena_Coconut.GA_Athena_Coconut_C",
+      "SubPathString": ""
+    },
+    "type": "EFortItemType::Consumable",
+    "actor": {
+      "AssetPathName": "/Game/Athena/Items/Consumables/ForagedItemVersions/Coconut/B_Coconut_Weap_Athena.B_Coconut_Weap_Athena_C",
+      "SubPathString": ""
+    }
+  },
+  {
+    "path": "chapter_7/season_1/39_50/weapons/definitions/weapons/WID_Athena_Pepper.json",
+    "sha256": "1d86ab9ee2c6c3ad53571512c8c93eac6ccf17155bfd7fdc0fdb3c168859ba94",
+    "name": "Pepper",
+    "description": "Consume for a small amount of health and a speed boost effect.",
+    "rarity": "EFortRarity::Common",
+    "tags": [
+      "Item.Consumable.Pepper"
+    ],
+    "creativeTags": {
+      "CreativeTags": [
+        "CH1S8",
+        "CommonItem",
+        "ConsumableItem",
+        "Item",
+        "Regenerative",
+        "Throwable"
+      ]
+    },
+    "ability": {
+      "AssetPathName": "/Game/Athena/Items/Consumables/ForagedItemVersions/Pepper/GA_Athena_Pepper.GA_Athena_Pepper_C",
+      "SubPathString": ""
+    },
+    "type": "EFortItemType::Consumable",
+    "actor": {
+      "AssetPathName": "/Game/Athena/Items/Consumables/ForagedItemVersions/Pepper/B_Pepper_Weap_Athena.B_Pepper_Weap_Athena_C",
+      "SubPathString": ""
+    }
+  },
+  {
+    "path": "chapter_7/season_1/39_50/weapons/definitions/weapons/WID_Athena_ShieldMushroom.json",
+    "sha256": "4d77c95ea6bd55b2d76f413d621ba1ada6485903f691eee398dfe015c439fc37",
+    "name": "Shield Mushroom",
+    "description": "Consume for a small amount of instant shield.",
+    "rarity": "EFortRarity::Common",
+    "tags": [
+      "Item.Consumable.ShieldMushroom"
+    ],
+    "creativeTags": {
+      "CreativeTags": [
+        "CH1S4",
+        "CommonItem",
+        "ConsumableItem",
+        "Item",
+        "Regenerative",
+        "Throwable"
+      ]
+    },
+    "ability": {
+      "AssetPathName": "/Game/Athena/Items/Consumables/ForagedItemVersions/ShieldMushroom/GA_Athena_ShieldMushroom.GA_Athena_ShieldMushroom_C",
+      "SubPathString": ""
+    },
+    "type": "EFortItemType::Consumable",
+    "actor": {
+      "AssetPathName": "/Game/Athena/Items/Consumables/ForagedItemVersions/ShieldMushroom/B_ShieldMushroom_Weap_Athena.B_ShieldMushroom_Weap_Athena_C",
+      "SubPathString": ""
+    }
+  },
+  {
+    "path": "chapter_7/season_1/39_50/weapons/definitions/weapons/WID_Athena_SlurpMushroom.json",
+    "sha256": "df62f4829badbd23dbbeb88e2d908341faa1e28c3cf73320b94eda59ee8faebe",
+    "name": "Slurp Mushroom",
+    "description": "Consume for a small amount of health or shields over time.",
+    "rarity": "EFortRarity::Common",
+    "tags": [
+      "Item.Consumable.SlurpMushroom"
+    ],
+    "creativeTags": {
+      "CreativeTags": [
+        "CH2S1",
+        "CommonItem",
+        "ConsumableItem",
+        "Item",
+        "Regenerative",
+        "Throwable"
+      ]
+    },
+    "ability": {
+      "AssetPathName": "/Game/Athena/Items/Consumables/ForagedItemVersions/SlurpMushroom/GA_Athena_SlurpMushroom.GA_Athena_SlurpMushroom_C",
+      "SubPathString": ""
+    },
+    "type": "EFortItemType::Consumable",
+    "actor": {
+      "AssetPathName": "/Game/Athena/Items/Consumables/ForagedItemVersions/SlurpMushroom/B_SlurpMushroom_Weap_Athena.B_SlurpMushroom_Weap_Athena_C",
+      "SubPathString": ""
+    }
+  },
+  {
+    "path": "chapter_7/season_1/39_50/weapons/definitions/weapons/WID_Athena_CandyCorn.json",
+    "sha256": "b03e7c2ae6d5b7b3beba5a259a3c87aafec6e29f085b2615207e02ab2efe04f9",
+    "name": "Candy Corn",
+    "description": "Consume for a small amount of health over time.",
+    "rarity": "EFortRarity::Common",
+    "tags": null,
+    "creativeTags": {
+      "CreativeTags": [
+        "CH2S4",
+        "CommonItem",
+        "ConsumableItem",
+        "Item",
+        "Regenerative",
+        "Throwable"
+      ]
+    },
+    "ability": {
+      "AssetPathName": "/Game/Athena/Items/Consumables/ForagedItemVersions/Candy/CandyCorn/GA_Athena_CandyCorn.GA_Athena_CandyCorn_C",
+      "SubPathString": ""
+    },
+    "type": "EFortItemType::Consumable",
+    "actor": {
+      "AssetPathName": "/Game/Athena/Items/Consumables/ForagedItemVersions/Candy/CandyCorn/B_CandyCorn_Weap_Athena.B_CandyCorn_Weap_Athena_C",
+      "SubPathString": ""
+    }
+  },
+  {
+    "path": "chapter_7/season_1/39_50/weapons/definitions/weapons/WID_Athena_HopDrop.json",
+    "sha256": "e26d148271ce2613251d89b69f36c9f07b4cbc35968b5eb63e6e14fd17b672fc",
+    "name": "Hop Drop",
+    "description": "Consume for a small amount of health and low gravity effect.",
+    "rarity": "EFortRarity::Common",
+    "tags": null,
+    "creativeTags": {
+      "CreativeTags": [
+        "CH2S4",
+        "CommonItem",
+        "ConsumableItem",
+        "Item",
+        "Regenerative",
+        "Throwable"
+      ]
+    },
+    "ability": {
+      "AssetPathName": "/Game/Athena/Items/Consumables/ForagedItemVersions/Candy/HopDrop/GA_Athena_HopDrop.GA_Athena_HopDrop_C",
+      "SubPathString": ""
+    },
+    "type": "EFortItemType::Consumable",
+    "actor": {
+      "AssetPathName": "/Game/Athena/Items/Consumables/ForagedItemVersions/Candy/HopDrop/B_HopDrop_Weap_Athena.B_HopDrop_Weap_Athena_C",
+      "SubPathString": ""
+    }
+  },
+  {
+    "path": "chapter_7/season_1/39_50/weapons/definitions/weapons/WID_Athena_JellyBean.json",
+    "sha256": "bb8876350806111ca09741c9f890b037f4bf204609587722e284f5c85a2dac6f",
+    "name": "Jelly Bean",
+    "description": "Consume for a small amount of instant shield.",
+    "rarity": "EFortRarity::Common",
+    "tags": null,
+    "creativeTags": {
+      "CreativeTags": [
+        "CH2S4",
+        "CommonItem",
+        "ConsumableItem",
+        "Item",
+        "Regenerative",
+        "Throwable"
+      ]
+    },
+    "ability": {
+      "AssetPathName": "/Game/Athena/Items/Consumables/ForagedItemVersions/Candy/JellyBean/GA_Athena_JellyBean.GA_Athena_JellyBean_C",
+      "SubPathString": ""
+    },
+    "type": "EFortItemType::Consumable",
+    "actor": {
+      "AssetPathName": "/Game/Athena/Items/Consumables/ForagedItemVersions/Candy/JellyBean/B_JellyBean_Weap_Athena.B_JellyBean_Weap_Athena_C",
+      "SubPathString": ""
+    }
+  },
+  {
+    "path": "chapter_7/season_1/39_50/weapons/definitions/weapons/WID_Athena_PepperMint.json",
+    "sha256": "8b25abd35a3ee487b960c0cd5d3deb3d404d6cc3c386a3a9b2fc0dd75da0be44",
+    "name": "Pepper Mint",
+    "description": "Consume for a small amount of health and a speed boost effect.",
+    "rarity": "EFortRarity::Common",
+    "tags": null,
+    "creativeTags": {
+      "CreativeTags": [
+        "CH2S4",
+        "CommonItem",
+        "ConsumableItem",
+        "Item",
+        "Regenerative",
+        "Throwable"
+      ]
+    },
+    "ability": {
+      "AssetPathName": "/Game/Athena/Items/Consumables/ForagedItemVersions/Candy/PepperMint/GA_Athena_PepperMint.GA_Athena_PepperMint_C",
+      "SubPathString": ""
+    },
+    "type": "EFortItemType::Consumable",
+    "actor": {
+      "AssetPathName": "/Game/Athena/Items/Consumables/ForagedItemVersions/Candy/PepperMint/B_PepperMint_Weap_Athena.B_PepperMint_Weap_Athena_C",
+      "SubPathString": ""
+    }
+  },
+  {
+    "path": "chapter_7/season_1/39_50/weapons/definitions/weapons/WID_Athena_ThermalTaffy.json",
+    "sha256": "fabc9040ae5969e7827dcebd0c26ab833953c6da23417db756e78bf06924a130",
+    "name": "Thermal Taffy",
+    "description": "Consume for a small amount of health and thermal vision effect.",
+    "rarity": "EFortRarity::Common",
+    "tags": null,
+    "creativeTags": {
+      "CreativeTags": [
+        "CH2S4",
+        "CommonItem",
+        "ConsumableItem",
+        "Item",
+        "Regenerative",
+        "Throwable",
+        "ToolItem"
+      ]
+    },
+    "ability": {
+      "AssetPathName": "/Game/Athena/Items/Consumables/ForagedItemVersions/Candy/ThermalTaffy/GA_Athena_ThermalTaffy.GA_Athena_ThermalTaffy_C",
+      "SubPathString": ""
+    },
+    "type": "EFortItemType::Consumable",
+    "actor": {
+      "AssetPathName": "/Game/Athena/Items/Consumables/ForagedItemVersions/Candy/ThermalTaffy/B_ThermalTaffy_Weap_Athena.B_ThermalTaffy_Weap_Athena_C",
+      "SubPathString": ""
+    }
+  }
+]

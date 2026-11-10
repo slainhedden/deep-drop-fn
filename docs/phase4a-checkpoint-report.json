@@ -1,0 +1,498 @@
+{
+  "entities": 1054,
+  "playable": 612,
+  "variants": 178,
+  "enabledTemplates": 51,
+  "medianAnswers": 12,
+  "quality": {
+    "distribution": {
+      "under10": {
+        "count": 75,
+        "percentage": 42.1
+      },
+      "10to19": {
+        "count": 56,
+        "percentage": 31.5
+      },
+      "20to49": {
+        "count": 38,
+        "percentage": 21.3
+      },
+      "50to99": {
+        "count": 6,
+        "percentage": 3.4
+      },
+      "100plus": {
+        "count": 3,
+        "percentage": 1.7
+      }
+    },
+    "dailyEligible": 26,
+    "practiceOnly": 152,
+    "preferredDaily": 12
+  },
+  "content": {
+    "broadBanks": [
+      {
+        "templateId": "skin-battle-pass",
+        "parameters": {},
+        "prompt": "Name a Fortnite Battle Pass skin.",
+        "accepted": 123,
+        "explicitlyVerified": 84
+      },
+      {
+        "templateId": "weapon-class",
+        "parameters": {
+          "weaponClass": "shotgun"
+        },
+        "prompt": "Name a Fortnite shotgun.",
+        "accepted": 29,
+        "explicitlyVerified": 23
+      },
+      {
+        "templateId": "weapon-class",
+        "parameters": {
+          "weaponClass": "assault rifle"
+        },
+        "prompt": "Name a Fortnite assault rifle.",
+        "accepted": 30,
+        "explicitlyVerified": 26
+      },
+      {
+        "templateId": "weapon-class",
+        "parameters": {
+          "weaponClass": "smg"
+        },
+        "prompt": "Name a Fortnite smg.",
+        "accepted": 20,
+        "explicitlyVerified": 18
+      },
+      {
+        "templateId": "weapon-class",
+        "parameters": {
+          "weaponClass": "sniper rifle"
+        },
+        "prompt": "Name a Fortnite sniper rifle.",
+        "accepted": 13,
+        "explicitlyVerified": 10
+      },
+      {
+        "templateId": "weapon-class",
+        "parameters": {
+          "weaponClass": "pistol"
+        },
+        "prompt": "Name a Fortnite pistol.",
+        "accepted": 18,
+        "explicitlyVerified": 15
+      },
+      {
+        "templateId": "weapon-class",
+        "parameters": {
+          "weaponClass": "explosive"
+        },
+        "prompt": "Name a Fortnite explosive.",
+        "accepted": 13,
+        "explicitlyVerified": 9
+      },
+      {
+        "templateId": "location-catalog",
+        "parameters": {},
+        "prompt": "Name a named Fortnite POI in Deep Drop’s answer catalog.",
+        "accepted": 106,
+        "explicitlyVerified": 75
+      },
+      {
+        "templateId": "collaboration-group",
+        "parameters": {
+          "group": "Marvel"
+        },
+        "prompt": "Name a Marvel character with a Fortnite skin.",
+        "accepted": 12,
+        "explicitlyVerified": 0
+      },
+      {
+        "templateId": "collaboration-group",
+        "parameters": {
+          "group": "Star Wars"
+        },
+        "prompt": "Name a Star Wars character with a Fortnite skin.",
+        "accepted": 10,
+        "explicitlyVerified": 0
+      },
+      {
+        "templateId": "collaboration-group",
+        "parameters": {
+          "group": "Anime"
+        },
+        "prompt": "Name a Anime character with a Fortnite skin.",
+        "accepted": 9,
+        "explicitlyVerified": 0
+      },
+      {
+        "templateId": "collaboration-group",
+        "parameters": {
+          "group": "Video game"
+        },
+        "prompt": "Name a video game character with a Fortnite skin.",
+        "accepted": 12,
+        "explicitlyVerified": 0
+      },
+      {
+        "templateId": "health-item",
+        "parameters": {},
+        "prompt": "Name an item that can restore health in Fortnite.",
+        "accepted": 30,
+        "explicitlyVerified": 24
+      },
+      {
+        "templateId": "shield-item",
+        "parameters": {},
+        "prompt": "Name an item that can restore shield in Fortnite.",
+        "accepted": 19,
+        "explicitlyVerified": 13
+      },
+      {
+        "templateId": "utility-item",
+        "parameters": {},
+        "prompt": "Name a Fortnite utility item.",
+        "accepted": 36,
+        "explicitlyVerified": 32
+      },
+      {
+        "templateId": "vehicle",
+        "parameters": {},
+        "prompt": "Name a vehicle you can drive or ride in Fortnite.",
+        "accepted": 21,
+        "explicitlyVerified": 16
+      },
+      {
+        "templateId": "live-event",
+        "parameters": {},
+        "prompt": "Name a major Fortnite live event.",
+        "accepted": 15,
+        "explicitlyVerified": 1
+      },
+      {
+        "templateId": "health-and-shield-item",
+        "parameters": {},
+        "prompt": "Name an item that can restore both health and shield in Fortnite.",
+        "accepted": 12,
+        "explicitlyVerified": 10
+      },
+      {
+        "templateId": "weapon-general",
+        "parameters": {},
+        "prompt": "Name a Fortnite weapon.",
+        "accepted": 153,
+        "explicitlyVerified": 131
+      },
+      {
+        "templateId": "crossover-general",
+        "parameters": {},
+        "prompt": "Name a crossover character with a Fortnite skin.",
+        "accepted": 43,
+        "explicitlyVerified": 0
+      },
+      {
+        "templateId": "weapon-mythic-version",
+        "parameters": {},
+        "prompt": "Name a Fortnite weapon that has a Mythic version.",
+        "accepted": 24,
+        "explicitlyVerified": 24
+      },
+      {
+        "templateId": "weapon-exotic-class",
+        "parameters": {},
+        "prompt": "Name an Exotic weapon in Fortnite.",
+        "accepted": 9,
+        "explicitlyVerified": 9
+      },
+      {
+        "templateId": "loot-container",
+        "parameters": {},
+        "prompt": "Name a Fortnite Battle Royale loot container.",
+        "accepted": 8,
+        "explicitlyVerified": 8
+      },
+      {
+        "templateId": "mobility-equipment",
+        "parameters": {},
+        "prompt": "Name an item or weapon used for mobility in Fortnite.",
+        "accepted": 27,
+        "explicitlyVerified": 27
+      },
+      {
+        "templateId": "throwable-equipment",
+        "parameters": {},
+        "prompt": "Name a throwable utility item in Fortnite.",
+        "accepted": 6,
+        "explicitlyVerified": 6
+      },
+      {
+        "templateId": "trap-equipment",
+        "parameters": {},
+        "prompt": "Name a placeable trap in Fortnite.",
+        "accepted": 7,
+        "explicitlyVerified": 7
+      },
+      {
+        "templateId": "ammunition-class",
+        "parameters": {},
+        "prompt": "Name a standard firearm ammunition type in Fortnite.",
+        "accepted": 5,
+        "explicitlyVerified": 5
+      },
+      {
+        "templateId": "foraged-class",
+        "parameters": {},
+        "prompt": "Name a foraged consumable in Fortnite.",
+        "accepted": 13,
+        "explicitlyVerified": 13
+      },
+      {
+        "templateId": "fish-class",
+        "parameters": {},
+        "prompt": "Name a fish item in Fortnite Battle Royale.",
+        "accepted": 16,
+        "explicitlyVerified": 16
+      },
+      {
+        "templateId": "landmark-general",
+        "parameters": {},
+        "prompt": "Name a landmark in Fortnite Battle Royale.",
+        "accepted": 35,
+        "explicitlyVerified": 35
+      }
+    ],
+    "verifiedClassifications": {
+      "healthItems": 24,
+      "shieldItems": 13,
+      "fish": 16,
+      "foraged": 13,
+      "mythicWeapons": 24,
+      "exoticWeapons": 9
+    },
+    "namedByChapter": {
+      "1": 18,
+      "2": 0,
+      "3": 11,
+      "4": 18,
+      "5": 3,
+      "6": 0,
+      "7": 31
+    },
+    "seasonAssignments": {
+      "2": {
+        "assignments": 0,
+        "bySeason": [
+          {
+            "season": "C2S1",
+            "namedPois": 0
+          },
+          {
+            "season": "C2S2",
+            "namedPois": 0
+          },
+          {
+            "season": "C2S3",
+            "namedPois": 0
+          },
+          {
+            "season": "C2S4",
+            "namedPois": 0
+          },
+          {
+            "season": "C2S5",
+            "namedPois": 0
+          },
+          {
+            "season": "C2S6",
+            "namedPois": 0
+          },
+          {
+            "season": "C2S7",
+            "namedPois": 0
+          },
+          {
+            "season": "C2S8",
+            "namedPois": 0
+          }
+        ]
+      },
+      "6": {
+        "assignments": 0,
+        "bySeason": [
+          {
+            "season": "C6S1",
+            "namedPois": 0
+          },
+          {
+            "season": "C6S2",
+            "namedPois": 0
+          },
+          {
+            "season": "C6S3",
+            "namedPois": 0
+          },
+          {
+            "season": "C6S4",
+            "namedPois": 0
+          }
+        ]
+      },
+      "7": {
+        "assignments": 41,
+        "bySeason": [
+          {
+            "season": "C7S1",
+            "namedPois": 0
+          },
+          {
+            "season": "C7S2",
+            "namedPois": 0
+          },
+          {
+            "season": "C7S3",
+            "namedPois": 13
+          },
+          {
+            "season": "C7S4",
+            "namedPois": 15
+          },
+          {
+            "season": "C7TREASURE2026",
+            "namedPois": 13
+          }
+        ]
+      }
+    },
+    "pendingHistoricalClaims": 1252,
+    "dailyDistribution": {
+      "sampleDays": 120,
+      "rounds": 840,
+      "atLeast20Percent": 71.4,
+      "bands": {
+        "under10": 113,
+        "10to19": 127,
+        "20to49": 403,
+        "50to99": 0,
+        "100plus": 197
+      },
+      "examples": [
+        [
+          {
+            "templateId": "mobility-equipment",
+            "count": 27
+          },
+          {
+            "templateId": "crossover-general",
+            "count": 43
+          },
+          {
+            "templateId": "weapon-class",
+            "count": 20
+          },
+          {
+            "templateId": "location-catalog",
+            "count": 106
+          },
+          {
+            "templateId": "skin-battle-pass",
+            "count": 123
+          },
+          {
+            "templateId": "loot-container",
+            "count": 8
+          },
+          {
+            "templateId": "live-event",
+            "count": 15
+          }
+        ],
+        [
+          {
+            "templateId": "location-catalog",
+            "count": 106
+          },
+          {
+            "templateId": "skin-battle-pass",
+            "count": 123
+          },
+          {
+            "templateId": "weapon-class",
+            "count": 29
+          },
+          {
+            "templateId": "utility-item",
+            "count": 36
+          },
+          {
+            "templateId": "crossover-general",
+            "count": 43
+          },
+          {
+            "templateId": "live-event",
+            "count": 15
+          },
+          {
+            "templateId": "loot-container",
+            "count": 8
+          }
+        ],
+        [
+          {
+            "templateId": "health-item",
+            "count": 30
+          },
+          {
+            "templateId": "location-catalog",
+            "count": 106
+          },
+          {
+            "templateId": "vehicle",
+            "count": 21
+          },
+          {
+            "templateId": "weapon-mythic-version",
+            "count": 24
+          },
+          {
+            "templateId": "skin-battle-pass",
+            "count": 123
+          },
+          {
+            "templateId": "collaboration-group",
+            "count": 12
+          },
+          {
+            "templateId": "loot-container",
+            "count": 8
+          }
+        ]
+      ]
+    }
+  },
+  "errors": [],
+  "contentGaps": [
+    {
+      "category": "Mythic boss drops",
+      "reason": "Complete cross-chapter boss tables and exact Chapter 2 availability remain unreviewed.",
+      "pendingRecords": 36
+    },
+    {
+      "category": "Containers",
+      "reason": "Rare/faction/cooler/produce taxonomy and complete contents need sources.",
+      "pendingRecords": 12
+    },
+    {
+      "category": "Fishing",
+      "reason": "16 BR fish identities reviewed. Some secondary health/shield effects and all exact historical spawn windows remain unknown.",
+      "pendingRecords": 11
+    },
+    {
+      "category": "Marauders",
+      "reason": "No complete C2S3 drop table; ammo/material granularity unresolved.",
+      "pendingRecords": 1
+    }
+  ]
+}

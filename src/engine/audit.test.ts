@@ -12,7 +12,7 @@ describe('question bank audit',()=>{
   expect(report.ambiguousAliases.some(alias=>alias.startsWith('location:dusty:'))).toBe(true);
   expect(report.disabledCombinations.some(combination=>combination.reason==='pending-review')).toBe(true);
   console.info(JSON.stringify({
-   contentGaps:report.contentGaps,exclusionReview:report.exclusionReview,quality:report.quality,mostRepeatedFamilies:report.mostRepeatedFamilies,entities:report.entities,entitiesByType:report.entityCounts,
+   content:report.content,contentGaps:report.contentGaps,exclusionReview:report.exclusionReview,quality:report.quality,mostRepeatedFamilies:report.mostRepeatedFamilies,entities:report.entities,entitiesByType:report.entityCounts,
    retainedOriginalEntities:report.legacyEntities,addedEntities:report.addedEntities,verifiedEntities:report.verifiedEntities,pendingResearchEntities:report.pendingEntities,answerCombinations:report.answerCombinations,playableEntities:report.playableEntities,newPlayableEntities:report.newPlayableEntities,
    templates:report.templates,enabledTemplates:report.enabledTemplates,playableVariants:report.questions,
    pendingCandidateVariantsWithFiveAnswers:report.disabledCombinations.filter(combination=>combination.candidateAnswers>=5).length,

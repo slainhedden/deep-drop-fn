@@ -1,0 +1,1459 @@
+[
+  {
+    "path": "chapter_7/season_3/41_20/pois.json",
+    "season": "C7S3",
+    "version": "41.20",
+    "sourceId": "map-archive-41_20",
+    "sha256": "f1808ac6ea7ff6cbf7047b7717f1941908de5a2e93018753dd4dca813421429f",
+    "locations": [
+      {
+        "name": "Calamari Canyon",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.36"
+      },
+      {
+        "name": "Chopped Shop",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.32"
+      },
+      {
+        "name": "Cluster Coast",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.23"
+      },
+      {
+        "name": "Frosted Flats",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.30"
+      },
+      {
+        "name": "Golden Grove",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.26"
+      },
+      {
+        "name": "Heatwave Harbor",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.28"
+      },
+      {
+        "name": "LAtte Landing",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.35"
+      },
+      {
+        "name": "Lifty Lodge",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.24"
+      },
+      {
+        "name": "Shaken Sanctuary",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.33"
+      },
+      {
+        "name": "Sinister Strip",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.29"
+      },
+      {
+        "name": "Sunken Shores",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.25"
+      },
+      {
+        "name": "The Battlewoods",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.34"
+      },
+      {
+        "name": "WonkeeLand",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.31"
+      },
+      {
+        "name": "Artsy RVs",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.86"
+      },
+      {
+        "name": "Batcave",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.90"
+      },
+      {
+        "name": "Birder's Beach",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.88"
+      },
+      {
+        "name": "Carwash",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.84"
+      },
+      {
+        "name": "Carwash",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.79"
+      },
+      {
+        "name": "Collider Corridor Alpha",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.60"
+      },
+      {
+        "name": "Collider Corridor Beta",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.62"
+      },
+      {
+        "name": "Collider Corridor Gamma",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.64"
+      },
+      {
+        "name": "Collider Corridor Theta",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.69"
+      },
+      {
+        "name": "Collider Corridor X",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.75"
+      },
+      {
+        "name": "Crashout Estates",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.87"
+      },
+      {
+        "name": "Dine 'n Docks",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.67"
+      },
+      {
+        "name": "Ol' Stumpy",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.85"
+      },
+      {
+        "name": "Stack o' Stones",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.89"
+      },
+      {
+        "name": "The Bus Stop",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.61"
+      },
+      {
+        "name": "The Quackaway",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.49"
+      },
+      {
+        "name": "The Sleazy Snooze",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.73"
+      },
+      {
+        "name": "The Zero Point",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.80"
+      },
+      {
+        "name": "Wettest-Bones Research Facility",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.71"
+      }
+    ]
+  },
+  {
+    "path": "chapter_7/season_3/41_30/pois.json",
+    "season": "C7S3",
+    "version": "41.30",
+    "sourceId": "map-archive-41_30",
+    "sha256": "6c3b4e12056a23671727439f3189e92e589f06970ab7ce7bda9f7e668b0e02e9",
+    "locations": [
+      {
+        "name": "Calamari Canyon",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.36"
+      },
+      {
+        "name": "Chopped Shop",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.32"
+      },
+      {
+        "name": "Cluster Coast",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.23"
+      },
+      {
+        "name": "Frosted Flats",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.30"
+      },
+      {
+        "name": "Golden Grove",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.26"
+      },
+      {
+        "name": "Heatwave Harbor",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.28"
+      },
+      {
+        "name": "LAtte Landing",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.35"
+      },
+      {
+        "name": "Lifty Lodge",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.24"
+      },
+      {
+        "name": "Shaken Sanctuary",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.33"
+      },
+      {
+        "name": "Sinister Strip",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.29"
+      },
+      {
+        "name": "Sunken Shores",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.25"
+      },
+      {
+        "name": "The Battlewoods",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.34"
+      },
+      {
+        "name": "WonkeeLand",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.31"
+      },
+      {
+        "name": "Artsy RVs",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.86"
+      },
+      {
+        "name": "Batcave",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.90"
+      },
+      {
+        "name": "Birder's Beach",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.88"
+      },
+      {
+        "name": "Collider Corridor Alpha",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.60"
+      },
+      {
+        "name": "Collider Corridor Beta",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.62"
+      },
+      {
+        "name": "Collider Corridor Gamma",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.64"
+      },
+      {
+        "name": "Collider Corridor X",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.75"
+      },
+      {
+        "name": "Crashout Estates",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.87"
+      },
+      {
+        "name": "Dine 'n Docks",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.67"
+      },
+      {
+        "name": "Ol' Stumpy",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.85"
+      },
+      {
+        "name": "Stack o' Stones",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.89"
+      },
+      {
+        "name": "The Bus Stop",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.61"
+      },
+      {
+        "name": "The Quackaway",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.49"
+      },
+      {
+        "name": "The Sleazy Snooze",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.73"
+      },
+      {
+        "name": "The Zero Point",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.80"
+      },
+      {
+        "name": "Wettest-Bones Research Facility",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.71"
+      },
+      {
+        "name": "[PH]FortPoiVolume_Landmark_16",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.69"
+      }
+    ]
+  },
+  {
+    "path": "chapter_7/season_4/42_00/pois.json",
+    "season": "C7S4",
+    "version": "42.00",
+    "sourceId": "map-archive-42_00",
+    "sha256": "1d1bb651d6756d32af463f57d063830a33c58844a23f67d1b6dbe33b87406765",
+    "locations": [
+      {
+        "name": "CHOPPED SHOP",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.32"
+      },
+      {
+        "name": "CLUSTER COAST",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.23"
+      },
+      {
+        "name": "GOLDEN GROVE",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.26"
+      },
+      {
+        "name": "GREEN HILL ZONE",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.36"
+      },
+      {
+        "name": "HEATWAVE HARBOR",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.28"
+      },
+      {
+        "name": "LATTE LANDING",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.35"
+      },
+      {
+        "name": "LIFTY LODGE",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.24"
+      },
+      {
+        "name": "REALITY'S REIGN",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.30"
+      },
+      {
+        "name": "SHAKEN SANCTUARY",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.33"
+      },
+      {
+        "name": "STONE SANCTUM",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.29"
+      },
+      {
+        "name": "SUNKEN SHORES",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.25"
+      },
+      {
+        "name": "THE BATTLEWOODS",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.34"
+      },
+      {
+        "name": "WONKEELAND",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.31"
+      },
+      {
+        "name": "ARCADE",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.62"
+      },
+      {
+        "name": "ARTSY RVS",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.86"
+      },
+      {
+        "name": "BARNCADE",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.69"
+      },
+      {
+        "name": "BIRDER'S BEACH",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.88"
+      },
+      {
+        "name": "BLINKY ISLAND",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.50"
+      },
+      {
+        "name": "CRASHOUT ESTATES",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.87"
+      },
+      {
+        "name": "DINE 'N DOCKS",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.67"
+      },
+      {
+        "name": "GENO'S MACHINE",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.80"
+      },
+      {
+        "name": "MEGA MAZE",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.96"
+      },
+      {
+        "name": "OL' STUMPY",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.85"
+      },
+      {
+        "name": "OVERRIDE CONSOLE",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.54"
+      },
+      {
+        "name": "OVERRIDE CONSOLE",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.55"
+      },
+      {
+        "name": "OVERRIDE CONSOLE",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.52"
+      },
+      {
+        "name": "OVERRIDE CONSOLE",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.56"
+      },
+      {
+        "name": "OVERRIDE CONSOLE",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.53"
+      },
+      {
+        "name": "OVERRIDE CONSOLE",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.57"
+      },
+      {
+        "name": "OVERRIDE CONSOLE",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.58"
+      },
+      {
+        "name": "PAC-MAN ISLAND",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.51"
+      },
+      {
+        "name": "PINKY ISLAND",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.91"
+      },
+      {
+        "name": "PIXEL POLYS",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.60"
+      },
+      {
+        "name": "STACK O' STONES",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.89"
+      },
+      {
+        "name": "THE QUACKAWAY",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.49"
+      },
+      {
+        "name": "THE SLEAZY SNOOZE",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.73"
+      },
+      {
+        "name": "WETTEST-BONES RESEARCH FACILITY",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.71"
+      }
+    ]
+  },
+  {
+    "path": "chapter_7/season_4/42_10/pois.json",
+    "season": "C7S4",
+    "version": "42.10",
+    "sourceId": "map-archive-42_10",
+    "sha256": "3ed5779689d57d2508bf417f7b1cd0d78253bfab2ac0fe421b491e04ed1cee3b",
+    "locations": [
+      {
+        "name": "CHOPPED SHOP",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.32"
+      },
+      {
+        "name": "CLUSTER COAST",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.23"
+      },
+      {
+        "name": "GOLDEN GROVE",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.26"
+      },
+      {
+        "name": "GREEN HILL ZONE",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.36"
+      },
+      {
+        "name": "HEATWAVE HARBOR",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.28"
+      },
+      {
+        "name": "LATTE LANDING",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.35"
+      },
+      {
+        "name": "LIFTY LODGE",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.24"
+      },
+      {
+        "name": "REALITY'S REIGN",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.30"
+      },
+      {
+        "name": "SHAKEN SANCTUARY",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.33"
+      },
+      {
+        "name": "STONE SANCTUM",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.29"
+      },
+      {
+        "name": "SUNKEN SHORES",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.25"
+      },
+      {
+        "name": "THE BATTLEWOODS",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.34"
+      },
+      {
+        "name": "WONKEELAND",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.31"
+      },
+      {
+        "name": "ARCADE",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.62"
+      },
+      {
+        "name": "ARTSY RVS",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.86"
+      },
+      {
+        "name": "BARNCADE",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.69"
+      },
+      {
+        "name": "BIRDER'S BEACH",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.88"
+      },
+      {
+        "name": "BLINKY ISLAND",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.50"
+      },
+      {
+        "name": "CARWASH",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.84"
+      },
+      {
+        "name": "CARWASH",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.79"
+      },
+      {
+        "name": "CRASHOUT ESTATES",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.87"
+      },
+      {
+        "name": "DINE 'N DOCKS",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.67"
+      },
+      {
+        "name": "GENO'S MACHINE",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.80"
+      },
+      {
+        "name": "MEGA MAZE",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.96"
+      },
+      {
+        "name": "OL' STUMPY",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.85"
+      },
+      {
+        "name": "OVERRIDE CONSOLE",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.54"
+      },
+      {
+        "name": "OVERRIDE CONSOLE",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.55"
+      },
+      {
+        "name": "OVERRIDE CONSOLE",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.97"
+      },
+      {
+        "name": "OVERRIDE CONSOLE",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.52"
+      },
+      {
+        "name": "OVERRIDE CONSOLE",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.56"
+      },
+      {
+        "name": "OVERRIDE CONSOLE",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.53"
+      },
+      {
+        "name": "OVERRIDE CONSOLE",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.57"
+      },
+      {
+        "name": "OVERRIDE CONSOLE",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.58"
+      },
+      {
+        "name": "PAC-MAN ISLAND",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.51"
+      },
+      {
+        "name": "PINKY ISLAND",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.91"
+      },
+      {
+        "name": "PIXEL POLYS",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.60"
+      },
+      {
+        "name": "STACK O' STONES",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.89"
+      },
+      {
+        "name": "THE QUACKAWAY",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.49"
+      },
+      {
+        "name": "THE SLEAZY SNOOZE",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.73"
+      },
+      {
+        "name": "WETTEST-BONES RESEARCH FACILITY",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.71"
+      }
+    ]
+  },
+  {
+    "path": "chapter_7/season_4/42_20/pois.json",
+    "season": "C7S4",
+    "version": "42.20",
+    "sourceId": "map-archive-42_20",
+    "sha256": "3ed5779689d57d2508bf417f7b1cd0d78253bfab2ac0fe421b491e04ed1cee3b",
+    "locations": [
+      {
+        "name": "CHOPPED SHOP",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.32"
+      },
+      {
+        "name": "CLUSTER COAST",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.23"
+      },
+      {
+        "name": "GOLDEN GROVE",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.26"
+      },
+      {
+        "name": "GREEN HILL ZONE",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.36"
+      },
+      {
+        "name": "HEATWAVE HARBOR",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.28"
+      },
+      {
+        "name": "LATTE LANDING",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.35"
+      },
+      {
+        "name": "LIFTY LODGE",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.24"
+      },
+      {
+        "name": "REALITY'S REIGN",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.30"
+      },
+      {
+        "name": "SHAKEN SANCTUARY",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.33"
+      },
+      {
+        "name": "STONE SANCTUM",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.29"
+      },
+      {
+        "name": "SUNKEN SHORES",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.25"
+      },
+      {
+        "name": "THE BATTLEWOODS",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.34"
+      },
+      {
+        "name": "WONKEELAND",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.31"
+      },
+      {
+        "name": "ARCADE",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.62"
+      },
+      {
+        "name": "ARTSY RVS",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.86"
+      },
+      {
+        "name": "BARNCADE",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.69"
+      },
+      {
+        "name": "BIRDER'S BEACH",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.88"
+      },
+      {
+        "name": "BLINKY ISLAND",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.50"
+      },
+      {
+        "name": "CARWASH",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.84"
+      },
+      {
+        "name": "CARWASH",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.79"
+      },
+      {
+        "name": "CRASHOUT ESTATES",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.87"
+      },
+      {
+        "name": "DINE 'N DOCKS",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.67"
+      },
+      {
+        "name": "GENO'S MACHINE",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.80"
+      },
+      {
+        "name": "MEGA MAZE",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.96"
+      },
+      {
+        "name": "OL' STUMPY",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.85"
+      },
+      {
+        "name": "OVERRIDE CONSOLE",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.54"
+      },
+      {
+        "name": "OVERRIDE CONSOLE",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.55"
+      },
+      {
+        "name": "OVERRIDE CONSOLE",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.97"
+      },
+      {
+        "name": "OVERRIDE CONSOLE",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.52"
+      },
+      {
+        "name": "OVERRIDE CONSOLE",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.56"
+      },
+      {
+        "name": "OVERRIDE CONSOLE",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.53"
+      },
+      {
+        "name": "OVERRIDE CONSOLE",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.57"
+      },
+      {
+        "name": "OVERRIDE CONSOLE",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.58"
+      },
+      {
+        "name": "PAC-MAN ISLAND",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.51"
+      },
+      {
+        "name": "PINKY ISLAND",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.91"
+      },
+      {
+        "name": "PIXEL POLYS",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.60"
+      },
+      {
+        "name": "STACK O' STONES",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.89"
+      },
+      {
+        "name": "THE QUACKAWAY",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.49"
+      },
+      {
+        "name": "THE SLEAZY SNOOZE",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.73"
+      },
+      {
+        "name": "WETTEST-BONES RESEARCH FACILITY",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.71"
+      }
+    ]
+  },
+  {
+    "path": "chapter_7/season_4/42_30/pois.json",
+    "season": "C7S4",
+    "version": "42.30",
+    "sourceId": "map-archive-42_30",
+    "sha256": "a96d2b6e93d9c55ef016d62c07f77cb9f6fc54dd5229f3a39c856e7a217f1204",
+    "locations": [
+      {
+        "name": "CHOPPED SHOP",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.32"
+      },
+      {
+        "name": "CLUSTER COAST",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.23"
+      },
+      {
+        "name": "FREAKY FIELDS",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.02"
+      },
+      {
+        "name": "GOLDEN GROVE",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.26"
+      },
+      {
+        "name": "GREEN HILL ZONE",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.36"
+      },
+      {
+        "name": "HEATWAVE HARBOR",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.28"
+      },
+      {
+        "name": "LIFTY LODGE",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.24"
+      },
+      {
+        "name": "NIGHTMARE NEIGHBORHOOD",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.01"
+      },
+      {
+        "name": "REALITY'S REIGN",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.30"
+      },
+      {
+        "name": "SHAKEN SANCTUARY",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.33"
+      },
+      {
+        "name": "STONE SANCTUM",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.29"
+      },
+      {
+        "name": "SUNKEN SHORES",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.25"
+      },
+      {
+        "name": "WONKEELAND",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.31"
+      },
+      {
+        "name": "ARTSY RVS",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.86"
+      },
+      {
+        "name": "BARNCADE",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.69"
+      },
+      {
+        "name": "BIRDER'S BEACH",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.88"
+      },
+      {
+        "name": "BLINKY ISLAND",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.50"
+      },
+      {
+        "name": "CARWASH",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.84"
+      },
+      {
+        "name": "CARWASH",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.79"
+      },
+      {
+        "name": "CRASHOUT ESTATES",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.87"
+      },
+      {
+        "name": "DARK CARTRIDGE",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.59"
+      },
+      {
+        "name": "DINE 'N DOCKS",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.67"
+      },
+      {
+        "name": "FREDDY FAZBEAR'S PIZZERIA",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.100"
+      },
+      {
+        "name": "GENO'S MACHINE",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.80"
+      },
+      {
+        "name": "MEGA MAZE",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.96"
+      },
+      {
+        "name": "OL' STUMPY",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.85"
+      },
+      {
+        "name": "OVERRIDE CONSOLE",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.54"
+      },
+      {
+        "name": "OVERRIDE CONSOLE",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.55"
+      },
+      {
+        "name": "OVERRIDE CONSOLE",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.97"
+      },
+      {
+        "name": "OVERRIDE CONSOLE",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.52"
+      },
+      {
+        "name": "OVERRIDE CONSOLE",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.56"
+      },
+      {
+        "name": "OVERRIDE CONSOLE",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.53"
+      },
+      {
+        "name": "OVERRIDE CONSOLE",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.57"
+      },
+      {
+        "name": "PAC-MAN ISLAND",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.51"
+      },
+      {
+        "name": "PINKY ISLAND",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.91"
+      },
+      {
+        "name": "PIXEL POLYS",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.60"
+      },
+      {
+        "name": "STACK O' STONES",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.89"
+      },
+      {
+        "name": "THE QUACKAWAY",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.49"
+      },
+      {
+        "name": "THE SLEAZY SNOOZE",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.73"
+      },
+      {
+        "name": "WETTEST-BONES RESEARCH FACILITY",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.71"
+      }
+    ]
+  },
+  {
+    "path": "chapter_7/season_4/42_40/pois.json",
+    "season": "C7S4",
+    "version": "42.40",
+    "sourceId": "map-archive-42_40",
+    "sha256": "a96d2b6e93d9c55ef016d62c07f77cb9f6fc54dd5229f3a39c856e7a217f1204",
+    "locations": [
+      {
+        "name": "CHOPPED SHOP",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.32"
+      },
+      {
+        "name": "CLUSTER COAST",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.23"
+      },
+      {
+        "name": "FREAKY FIELDS",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.02"
+      },
+      {
+        "name": "GOLDEN GROVE",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.26"
+      },
+      {
+        "name": "GREEN HILL ZONE",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.36"
+      },
+      {
+        "name": "HEATWAVE HARBOR",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.28"
+      },
+      {
+        "name": "LIFTY LODGE",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.24"
+      },
+      {
+        "name": "NIGHTMARE NEIGHBORHOOD",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.01"
+      },
+      {
+        "name": "REALITY'S REIGN",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.30"
+      },
+      {
+        "name": "SHAKEN SANCTUARY",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.33"
+      },
+      {
+        "name": "STONE SANCTUM",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.29"
+      },
+      {
+        "name": "SUNKEN SHORES",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.25"
+      },
+      {
+        "name": "WONKEELAND",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.31"
+      },
+      {
+        "name": "ARTSY RVS",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.86"
+      },
+      {
+        "name": "BARNCADE",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.69"
+      },
+      {
+        "name": "BIRDER'S BEACH",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.88"
+      },
+      {
+        "name": "BLINKY ISLAND",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.50"
+      },
+      {
+        "name": "CARWASH",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.84"
+      },
+      {
+        "name": "CARWASH",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.79"
+      },
+      {
+        "name": "CRASHOUT ESTATES",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.87"
+      },
+      {
+        "name": "DARK CARTRIDGE",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.59"
+      },
+      {
+        "name": "DINE 'N DOCKS",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.67"
+      },
+      {
+        "name": "FREDDY FAZBEAR'S PIZZERIA",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.100"
+      },
+      {
+        "name": "GENO'S MACHINE",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.80"
+      },
+      {
+        "name": "MEGA MAZE",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.96"
+      },
+      {
+        "name": "OL' STUMPY",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.85"
+      },
+      {
+        "name": "OVERRIDE CONSOLE",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.54"
+      },
+      {
+        "name": "OVERRIDE CONSOLE",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.55"
+      },
+      {
+        "name": "OVERRIDE CONSOLE",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.97"
+      },
+      {
+        "name": "OVERRIDE CONSOLE",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.52"
+      },
+      {
+        "name": "OVERRIDE CONSOLE",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.56"
+      },
+      {
+        "name": "OVERRIDE CONSOLE",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.53"
+      },
+      {
+        "name": "OVERRIDE CONSOLE",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.57"
+      },
+      {
+        "name": "PAC-MAN ISLAND",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.51"
+      },
+      {
+        "name": "PINKY ISLAND",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.91"
+      },
+      {
+        "name": "PIXEL POLYS",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.60"
+      },
+      {
+        "name": "STACK O' STONES",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.89"
+      },
+      {
+        "name": "THE QUACKAWAY",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.49"
+      },
+      {
+        "name": "THE SLEAZY SNOOZE",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.73"
+      },
+      {
+        "name": "WETTEST-BONES RESEARCH FACILITY",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.71"
+      }
+    ]
+  },
+  {
+    "path": "chapter_7/season_5/43_00/pois.json",
+    "season": "C7TREASURE2026",
+    "version": "43.00",
+    "sourceId": "map-archive-43_00",
+    "sha256": "52c46cf31c0d1d84c04d9c82b56cacbac500369ccc395a990265542f13898e0b",
+    "locations": [
+      {
+        "name": "ARLONG PARK",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.01"
+      },
+      {
+        "name": "BUSY BAY",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.03"
+      },
+      {
+        "name": "CURSED CAVERN",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.04"
+      },
+      {
+        "name": "FORTUNE'S FORT",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.06"
+      },
+      {
+        "name": "LANTERN LANDING",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.07"
+      },
+      {
+        "name": "LIL' UZI'S STRONGHOLD",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.12"
+      },
+      {
+        "name": "LOGUETOWN",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.08"
+      },
+      {
+        "name": "LOOT LAGOON",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.09"
+      },
+      {
+        "name": "PLUNDER PORT",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.11"
+      },
+      {
+        "name": "RUBBER RESORT",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.10"
+      },
+      {
+        "name": "THE $.$. ROCKY",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.02"
+      },
+      {
+        "name": "THE CHEST",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.13"
+      },
+      {
+        "name": "WINDMILL VILLAGE",
+        "type": "named",
+        "tag": "Athena.Location.POI.Generic.05"
+      },
+      {
+        "name": "BARATIE",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.05"
+      },
+      {
+        "name": "BOOGIE BOAT",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.PartyBarge"
+      },
+      {
+        "name": "GIANT'S BATTLEFIELD",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.01"
+      },
+      {
+        "name": "HENRY",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.03"
+      },
+      {
+        "name": "THE SALTY SKULL",
+        "type": "landmark",
+        "tag": "Athena.Location.UnNamedPOI.Landmark.04"
+      }
+    ]
+  }
+]

@@ -1,0 +1,261 @@
+[
+  {
+    "path": "chapter_7/season_1/39_50/weapons/definitions/weapons/WID_Boss_Adventure_AR.json",
+    "sha256": "34fa8b9adba5ee1d2e285ffa7cfa09ff2805178b6e940155044048f2e95039fb",
+    "name": "Skye's Assault Rifle",
+    "description": "Assault Weapon: Fully Automatic. Flexible assault rifle capable of handling all types of combat scenarios. High rate of fire with solid accuracy when aiming down sights and firing in controlled bursts.",
+    "rarity": "EFortRarity::Mythic",
+    "tags": [
+      "Weapon.Ranged.Assault",
+      "Item.Weapon.Ranged.Assault.Auto.Jas"
+    ],
+    "creativeTags": {
+      "CreativeTags": [
+        "Ammo:Medium",
+        "Assault",
+        "CH2S2",
+        "Guard",
+        "Mythic",
+        "Weapon"
+      ]
+    },
+    "type": null,
+    "weaponTags": null
+  },
+  {
+    "path": "chapter_7/season_1/39_50/weapons/definitions/weapons/WID_Boss_Hos_MG.json",
+    "sha256": "4bf2bf5c66e5967147933b210541140ab9a23dd5fdca14a6ac65f376120fc372",
+    "name": "Brutus' Minigun",
+    "description": "Assault Weapon: A heavy weapon with high damage, an extreme rate of fire. Very inaccurate unless aiming down sights from a fixed position, and firing in short bursts.",
+    "rarity": "EFortRarity::Mythic",
+    "tags": [
+      "Weapon.Ranged.Minigun",
+      "Item.Weapon.Ranged.Assault.Minigun.Brutus"
+    ],
+    "creativeTags": {
+      "CreativeTags": [
+        "Ammo:Light",
+        "Assault",
+        "CH2S2",
+        "Guard",
+        "Mythic",
+        "Weapon"
+      ]
+    },
+    "type": null,
+    "weaponTags": null
+  },
+  {
+    "path": "chapter_7/season_1/39_50/weapons/definitions/weapons/WID_Boss_Meow_HA.json",
+    "sha256": "0755d72f554ff791c69005f3c4e28b6f9539ac69412ce2e7a79157c547ae3527",
+    "name": "Meowscle's Peow Peow Rifle",
+    "description": null,
+    "rarity": "EFortRarity::Mythic",
+    "tags": [
+      "Weapon.Ranged.Assault",
+      "Item.Weapon.Ranged.Assault.Heavy.Meowscles"
+    ],
+    "creativeTags": {
+      "CreativeTags": [
+        "Ammo:Medium",
+        "Assault",
+        "CH2S2",
+        "Guard",
+        "Mythic",
+        "Weapon"
+      ]
+    },
+    "type": null,
+    "weaponTags": null
+  },
+  {
+    "path": "chapter_7/season_1/39_50/weapons/definitions/weapons/WID_Boss_Midas.json",
+    "sha256": "d382b35e6abc1cebccc2faff5f624f960b57b32685db9b7c46352378703d15d1",
+    "name": "Jules' Drum Gun",
+    "description": "Assault Weapon: A heavy weapon with high damage, an extreme rate of fire, and a huge magazine size. Very inaccurate unless aiming down sights from a fixed position, and firing in short bursts.",
+    "rarity": "EFortRarity::Mythic",
+    "tags": [
+      "Weapon.Ranged.SMG",
+      "Item.Weapon.Ranged.Assault.Drum.Midas"
+    ],
+    "creativeTags": {
+      "CreativeTags": [
+        "Ammo:Medium",
+        "Assault",
+        "CH2S3",
+        "Guard",
+        "Mythic",
+        "Weapon"
+      ]
+    },
+    "type": null,
+    "weaponTags": null
+  },
+  {
+    "path": "chapter_7/season_1/39_50/weapons/definitions/weapons/WID_Boss_MidasDrumGun.json",
+    "sha256": "cf6b74b4bc131eb3438d4780b3c12bfc921d77a5f52d2b2a3180f157f4542511",
+    "name": "Midas' Drum Gun",
+    "description": "Assault Weapon: A heavy weapon with high damage, an extreme rate of fire, and a huge magazine size. Very inaccurate unless aiming down sights from a fixed position, and firing in short bursts.",
+    "rarity": "EFortRarity::Mythic",
+    "tags": [
+      "Weapon.Ranged.SMG",
+      "Item.Weapon.Ranged.Assault.Drum.Midas"
+    ],
+    "creativeTags": {
+      "CreativeTags": [
+        "Ammo:Medium",
+        "CH2S2",
+        "Guard",
+        "Mythic",
+        "SMG",
+        "Weapon"
+      ]
+    },
+    "type": null,
+    "weaponTags": null
+  },
+  {
+    "path": "chapter_7/season_1/39_50/weapons/definitions/weapons/WID_Boss_Tina_Deprecated.json",
+    "sha256": "0b79d13b20584f2bcaf40741085971aaf61269eabc517c53c5210c44fc3845b7",
+    "name": "TNTina's Ka-Boom Bow",
+    "description": null,
+    "rarity": "EFortRarity::Mythic",
+    "tags": [
+      "Weapon.Ranged.Crossbow.Explosive",
+      "Item.Weapon.Ranged.Bow.Explosive.TNTina"
+    ],
+    "creativeTags": null,
+    "type": null,
+    "weaponTags": null
+  },
+  {
+    "path": "chapter_7/season_1/39_50/weapons/definitions/weapons/WID_Boss_Adventure_GH.json",
+    "sha256": "c9eacc2a4920563c06aa5da3c04abbc88ed870e705ba8a6c55d087b10b8f8f37",
+    "name": "Skye's Grappler",
+    "description": "Stick and move.",
+    "rarity": "EFortRarity::Mythic",
+    "tags": [
+      "Weapon.Ranged",
+      "Item.Consumable.GrapplingHoot"
+    ],
+    "creativeTags": {
+      "CreativeTags": [
+        "CH2S2",
+        "Item",
+        "MobilityItem",
+        "MythicItem"
+      ]
+    },
+    "type": null,
+    "weaponTags": null
+  },
+  {
+    "path": "chapter_7/season_1/39_50/weapons/definitions/weapons/WID_Boss_GrapplingHoot.json",
+    "sha256": "063bda84ec5ee689eefa0e77968ec7354d139e92581a1b4ce676063e8ad78381",
+    "name": "Jules' Glider Gun",
+    "description": "Pull yourself towards a target location and then deploy a glider!",
+    "rarity": "EFortRarity::Mythic",
+    "tags": [
+      "Weapon.Ranged",
+      "Item.Consumable.HookGun.GrapplingHoot"
+    ],
+    "creativeTags": {
+      "CreativeTags": [
+        "CH2S3",
+        "Item",
+        "MobilityItem",
+        "MythicItem"
+      ]
+    },
+    "type": null,
+    "weaponTags": null
+  },
+  {
+    "path": "chapter_7/season_1/39_50/weapons/definitions/weapons/WID_Boss_GhostMidas.json",
+    "sha256": "54d1c5d566977cb50b2d3b6f340682135c23078445d9e45fd1e6eef5da5511dd",
+    "name": "Shadow Midas' Drum Gun",
+    "description": "Assault Weapon: A heavy weapon with high damage, an extreme rate of fire, and a huge magazine size. Very inaccurate unless aiming down sights from a fixed position, and firing in short bursts.",
+    "rarity": "EFortRarity::Mythic",
+    "tags": [
+      "Weapon.Ranged.SMG",
+      "Item.Weapon.Ranged.Assault.Drum.GhostMidas"
+    ],
+    "creativeTags": {
+      "CreativeTags": [
+        "Ammo:Medium",
+        "Assault",
+        "CH2S4",
+        "Guard",
+        "Mythic",
+        "Weapon"
+      ]
+    },
+    "type": null,
+    "weaponTags": null
+  },
+  {
+    "path": "chapter_7/season_1/39_50/weapons/definitions/weapons/WID_Assault_SemiAuto_Athena_UR_Ore_T03.json",
+    "sha256": "57abf9234a4045c85801e366348793228668ad8cff455fe662ed6c064c453168",
+    "name": "Ocean's Burst Assault Rifle",
+    "description": "Assault Weapon: Burst-fire. A versatile rifle that rewards careful aim and can be fired in short bursts.",
+    "rarity": "EFortRarity::Mythic",
+    "tags": [
+      "Item.Weapon.Ranged.Assault.Burst.NeonGirl"
+    ],
+    "creativeTags": {
+      "CreativeTags": [
+        "Ammo:Medium",
+        "Assault",
+        "CH2S3",
+        "Guard",
+        "Mythic",
+        "Weapon"
+      ]
+    },
+    "type": null,
+    "weaponTags": null
+  },
+  {
+    "path": "chapter_7/season_1/39_50/weapons/definitions/weapons/WID_Shotgun_Charge_Athena_UR_Ore_T03.json",
+    "sha256": "a734bab8a339b0c62b06ab4db99a141a5f21228afe1bdf4bb175079517d27c27",
+    "name": "Kit's Charge Shotgun",
+    "description": "Shotgun: Chargeable. High accuracy shotgun that lets the user charge and hold a powerful blast that can be released at will.",
+    "rarity": "EFortRarity::Mythic",
+    "tags": [
+      "Item.Weapon.Ranged.Shotgun.Charge.RoboMeow"
+    ],
+    "creativeTags": {
+      "CreativeTags": [
+        "Ammo:Shells",
+        "CH2S3",
+        "Guard",
+        "Mythic",
+        "Shotgun",
+        "Weapon"
+      ]
+    },
+    "type": null,
+    "weaponTags": null
+  },
+  {
+    "path": "chapter_7/season_1/39_50/weapons/definitions/weapons/WID_Launcher_Shockwave_Athena_UR_Ore_T03.json",
+    "sha256": "dd9d20008c5fd4b83b2dfe835fef15c53f53dd9784812b32f6279f26e906ff7c",
+    "name": "Kit's Shockwave Launcher",
+    "description": "Explosive Weapon: Lobs Shockwave Grenades",
+    "rarity": "EFortRarity::Mythic",
+    "tags": [
+      "Item.Weapon.Ranged.Launcher.ShockWave"
+    ],
+    "creativeTags": {
+      "CreativeTags": [
+        "Ammo:Rockets",
+        "CH2S3",
+        "Explosive",
+        "Mythic",
+        "Weapon"
+      ]
+    },
+    "type": null,
+    "weaponTags": null
+  }
+]
