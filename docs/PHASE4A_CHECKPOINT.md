@@ -1,5 +1,7 @@
 # Phase 4A checkpoint and fresh-task handoff
 
+> Latest continuation: [Phase 4B natural questions, cosmetics and rotation](PHASE4B.md). Earlier checkpoint details below remain preserved.
+
 > Continued from this committed checkpoint: see [Phase 4A location-history continuation](PHASE4A_LOCATION_HISTORY.md) for the resolved network blocker, reviewed Chapter 2/6/7 populations, enabled chapter questions, current counts, and remaining global coverage gates. The text below preserves the original checkpoint.
 
 ## Published foundation and completed work

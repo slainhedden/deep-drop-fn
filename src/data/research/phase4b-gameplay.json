@@ -1,0 +1,1390 @@
+{
+  "sources": [
+    {
+      "id": "phase4b-container-index",
+      "url": "https://fortnite.weirdgloop.org/w/Containers",
+      "revision": 1325489,
+      "sha256": "9494451194f5cffb7471a0eb8b801c83cd543e8d2923041924bf172fdede411d"
+    },
+    {
+      "id": "phase4b-ice-machine",
+      "url": "https://fortnite.weirdgloop.org/w/Ice_Machine",
+      "revision": 1236182,
+      "sha256": "4f3686d1efe43e39448f246aab5f70ef9f4ec5f7b66dacd87d40d81071fb4ffb"
+    },
+    {
+      "id": "phase4b-seven-chest",
+      "url": "https://fortnite.weirdgloop.org/w/Seven_Supply_Chest",
+      "revision": 1236206,
+      "sha256": "e3db03d0cab30f27ed4a2cc6ebbc5972171d9994ec6e9172609240d07f9c417a"
+    },
+    {
+      "id": "phase4b-chest",
+      "url": "https://fortnite.weirdgloop.org/w/Chest",
+      "revision": 1325365,
+      "sha256": "165534e02d84fc965c55c46d701dedbeb0356d64210d50e01ef8e8c5f7076072"
+    },
+    {
+      "id": "phase4b-grapple_glove",
+      "url": "https://fortnite.weirdgloop.org/w/Grapple_Glove",
+      "revision": 1309296,
+      "sha256": "590e7319a4c0c80c654a4a4b66e6af97d68db3ca640b40d103845e9434f5622c"
+    },
+    {
+      "id": "phase4b-crash_pad",
+      "url": "https://fortnite.weirdgloop.org/w/Crash_Pad",
+      "revision": 995928,
+      "sha256": "b92d1985a55373a12c023a10565a9040b3c58aaf660001b2b34797db7800ca76"
+    },
+    {
+      "id": "phase4b-mechanical_shockwave_bow",
+      "url": "https://fortnite.weirdgloop.org/w/Mechanical_Shockwave_Bow",
+      "revision": 1133612,
+      "sha256": "b680a33ebc577f0c5bc556e1fe618c6e123ced52b811a1ac079e0bda1e715895"
+    },
+    {
+      "id": "phase4b-choppa",
+      "url": "https://fortnite.weirdgloop.org/w/Choppa",
+      "revision": 1191314,
+      "sha256": "2a1add5b37b56ee840477b71f37a85f9c1820cf8486cf8c36a458fa3bc72a2ec"
+    },
+    {
+      "id": "phase4b-motorboat",
+      "url": "https://fortnite.weirdgloop.org/w/Motorboat",
+      "revision": 1198012,
+      "sha256": "8ae03c0850bfc495424309abd8ebe60caaaff6affc2803ddf0836462c240360f"
+    },
+    {
+      "id": "phase4b-all_terrain_kart",
+      "url": "https://fortnite.weirdgloop.org/w/All_Terrain_Kart",
+      "revision": 1106441,
+      "sha256": "8c277364513b790dce4b53c6f19868837b187f9fb14db562253de1dda8a580e5"
+    },
+    {
+      "id": "phase4b-x-4_stormwing",
+      "url": "https://fortnite.weirdgloop.org/w/X-4_Stormwing",
+      "revision": 1178654,
+      "sha256": "254bd820e572a99474552829d29a38c4fbf7a355db128eff36a99af8cad5e0b3"
+    },
+    {
+      "id": "phase4b-winterfest-2021",
+      "url": "https://fortnite.weirdgloop.org/w/Winterfest_2021",
+      "revision": 1268431,
+      "sha256": "290e3fc06e43039f165237e3e8740779a8ed2a477578b278cd23a7475ca29c73"
+    },
+    {
+      "id": "phase4b-winterfest-2022",
+      "url": "https://fortnite.weirdgloop.org/w/Winterfest_2022",
+      "revision": 1268430,
+      "sha256": "fbea4b9af48710ca085b584acdc2687dcdfaa38ca207d2decc39e513af6c39d2"
+    },
+    {
+      "id": "phase4b-grenade",
+      "url": "https://fortnite.weirdgloop.org/w/Grenade",
+      "revision": 1248844,
+      "sha256": "63159120ae3132b73ee56adf14ea8a3f31b008bba86b05b08eb5183d4f6bf252"
+    },
+    {
+      "id": "phase4b-clinger",
+      "url": "https://fortnite.weirdgloop.org/w/Clinger",
+      "revision": 1250476,
+      "sha256": "d439f066c7f271eaddd04f754ed688bca3c9a70fc62e3ac03270e6d4aa81a0a8"
+    },
+    {
+      "id": "phase4b-stink-bomb",
+      "url": "https://fortnite.weirdgloop.org/w/Stink_Bomb",
+      "revision": 1250840,
+      "sha256": "120a7a7541469e443c3ed6b96b7f67b8339d6674cd77e9e37976293d3e4b22d8"
+    },
+    {
+      "id": "phase4b-smoke-grenade",
+      "url": "https://fortnite.weirdgloop.org/w/Smoke_Grenade",
+      "revision": 1256115,
+      "sha256": "f20a13139855a0e754e233ff476b426b12bec75296ffe1e9fdaa6a16f9022195"
+    },
+    {
+      "id": "phase4b-firefly-jar",
+      "url": "https://fortnite.weirdgloop.org/w/Firefly_Jar",
+      "revision": 930891,
+      "sha256": "e0eda58e9d2c423256b54916614bc795829323be89c78351ab07e3a026805c1d"
+    },
+    {
+      "id": "phase4b-boogie-bomb",
+      "url": "https://fortnite.weirdgloop.org/w/Boogie_Bomb",
+      "revision": 1246865,
+      "sha256": "bae3178887d79c5c3cab5237cd3fa638145f337d69f880626751ea346bad68bf"
+    },
+    {
+      "id": "phase4b-port-a-fort",
+      "url": "https://fortnite.weirdgloop.org/w/Port-A-Fort",
+      "revision": 1250425,
+      "sha256": "91153b0ba48bb4d98d5559031ca9f8a05fb13098eada5461e173ab9de015c64f"
+    },
+    {
+      "id": "phase4b-remote-explosives",
+      "url": "https://fortnite.weirdgloop.org/w/Remote_Explosives",
+      "revision": 1247953,
+      "sha256": "df7c7806b9a6b6f94dd22d8313ea60aa0209a400e6acb65772ba9e691330eaaf"
+    },
+    {
+      "id": "phase4b-junk-rift",
+      "url": "https://fortnite.weirdgloop.org/w/Junk_Rift",
+      "revision": 1206673,
+      "sha256": "b4fe8e9eb754a63f82ad59675af28f618e182d361da5c98936fd1412287287a8"
+    },
+    {
+      "id": "phase4b-shield-bubble",
+      "url": "https://fortnite.weirdgloop.org/w/Shield_Bubble",
+      "revision": 1206687,
+      "sha256": "3acce23d2355c7a0f5eea405f4056578e216f2c95ec75d9e049f3fea52e1410c"
+    },
+    {
+      "id": "phase4b-crash-pad-jr",
+      "url": "https://fortnite.weirdgloop.org/w/Crash_Pad_Jr.",
+      "revision": 1322713,
+      "sha256": "593e48c5778b9377869a4a6cc2acd33d0239b718b19c5ed39cfffd508841e7bd"
+    },
+    {
+      "id": "phase4b-victory-motors-whiplash",
+      "url": "https://fortnite.weirdgloop.org/w/Victory_Motors_Whiplash",
+      "revision": 1224061,
+      "sha256": "2355227ecef2b246a4f3147b1591c1f3d045c82a0db5b75cd033ad0774e24c0f"
+    },
+    {
+      "id": "phase4b-og-bear",
+      "url": "https://fortnite.weirdgloop.org/w/OG_Bear",
+      "revision": 1297017,
+      "sha256": "68a160d4a180a6beb98e2b8afcc410a8988e3c48f8625e0c53862bbfc0e6968d"
+    },
+    {
+      "id": "phase4b-islander-prevalent",
+      "url": "https://fortnite.weirdgloop.org/w/Islander_Prevalent",
+      "revision": 1181593,
+      "sha256": "73d9a5e26b8318c73aa188b5509e50f18c77ae3c03374a189f9a057ff489ab59"
+    },
+    {
+      "id": "phase4b-saucer",
+      "url": "https://fortnite.weirdgloop.org/w/Saucer",
+      "revision": 1085731,
+      "sha256": "e4b48260b5b4049cc4f7d5aec03e17d56d3ad599d2aa725b4065ac055d43e2c3"
+    },
+    {
+      "id": "phase4b-witch-broom",
+      "url": "https://fortnite.weirdgloop.org/w/Witch_Broom",
+      "revision": 1293511,
+      "sha256": "d8191fc2c2a9c6a6fad4eef00587163f40f911e79b23f399163455e5b8091120"
+    },
+    {
+      "id": "phase4b-silver-surfer-s-board",
+      "url": "https://fortnite.weirdgloop.org/w/Silver_Surfer's_Board",
+      "revision": 1293004,
+      "sha256": "aa13b43ac8f03558c4720dbdbb8e8de003fcca90650074a2ed872ca2bea94103"
+    },
+    {
+      "id": "phase4b-nimbus-cloud-kintoun",
+      "url": "https://fortnite.weirdgloop.org/w/Nimbus_Cloud_(Kintoun)",
+      "revision": 955242,
+      "sha256": "1ab632255e3cc4ab48190bd8dee46765c814f4c10cfeb93eb5e2400dcb5e5e61"
+    },
+    {
+      "id": "phase4b-med-kit",
+      "url": "https://fortnite.weirdgloop.org/w/Med_Kit",
+      "revision": 1326043,
+      "sha256": "7ae262bdb1bd97b2aff18b1447dee48d16ab0e548697420cbd11aff83816fa44"
+    },
+    {
+      "id": "phase4b-bandage",
+      "url": "https://fortnite.weirdgloop.org/w/Bandage",
+      "revision": 1326041,
+      "sha256": "1c975ae45c48bfef27bff61e2d9785d69db5118b0407f9bac954a8efb011f279"
+    },
+    {
+      "id": "phase4b-small-shield-potion",
+      "url": "https://fortnite.weirdgloop.org/w/Small_Shield_Potion",
+      "revision": 1326044,
+      "sha256": "c29095e7fe3a57e9ab9907a6db436d1c7d9d623ec7a57001fed4c5a8c435afaa"
+    },
+    {
+      "id": "phase4b-shield-potion",
+      "url": "https://fortnite.weirdgloop.org/w/Shield_Potion",
+      "revision": 1326042,
+      "sha256": "042af58645d622254e7df06eec9f89cc185566e4536831cd99fc6f916d9bd2bf"
+    },
+    {
+      "id": "phase4b-chug-jug",
+      "url": "https://fortnite.weirdgloop.org/w/Chug_Jug",
+      "revision": 1147949,
+      "sha256": "a51ca08a2831eafc775846fed9a96260373549392b7be4e26268a3dca8c3f2ed"
+    },
+    {
+      "id": "phase4b-bandage-bazooka",
+      "url": "https://fortnite.weirdgloop.org/w/Bandage_Bazooka",
+      "revision": 1287724,
+      "sha256": "ea73311787313baa6bdcf0f8f0f1ae1dc84a2783f0744a6c611d4830809141ed"
+    },
+    {
+      "id": "phase4b-meat",
+      "url": "https://fortnite.weirdgloop.org/w/Meat",
+      "revision": 1101573,
+      "sha256": "eef5291e186d32cc56d61316c5c0740579fd87a98cba10ce5f012a58c356e218"
+    },
+    {
+      "id": "phase4b-shield-keg",
+      "url": "https://fortnite.weirdgloop.org/w/Shield_Keg",
+      "revision": 1322716,
+      "sha256": "4d71f62849b6628bc0125fcc2045c4089c3d509d0d8f1f62de4ebf5744ec88b7"
+    },
+    {
+      "id": "phase4b-flowberry-fizz",
+      "url": "https://fortnite.weirdgloop.org/w/Flowberry_Fizz",
+      "revision": 1322272,
+      "sha256": "ffe2ef3daccbde58f127fd26e11e0dbba4bd8007e60605d577d795631aa3a1a8"
+    },
+    {
+      "id": "phase4b-pizza-slice",
+      "url": "https://fortnite.weirdgloop.org/w/Pizza_Slice",
+      "revision": 1213998,
+      "sha256": "2305a5eb6f2071799367ed50b312316d97b3707d0fbc99d721495a632d7dcae7"
+    },
+    {
+      "id": "phase4b-campfire",
+      "url": "https://fortnite.weirdgloop.org/w/Campfire",
+      "revision": 1304821,
+      "sha256": "9771c3068779a7db4d451422065a221f7746670fcfa7b68f074508bf2e7e318a"
+    },
+    {
+      "id": "phase4b-med-mist",
+      "url": "https://fortnite.weirdgloop.org/w/Med-Mist",
+      "revision": 1321573,
+      "sha256": "126da6dcfef2b0733ca4382b6d747c240833d381b26b1624d0c486e503709764"
+    },
+    {
+      "id": "phase4b-guzzle-juice",
+      "url": "https://fortnite.weirdgloop.org/w/Guzzle_Juice",
+      "revision": 1200009,
+      "sha256": "7c18c75f677bbe1a69becb8894554a33b794aa998cde4f501cc2fcf5c45f0a9b"
+    }
+  ],
+  "containers": [
+    {
+      "name": "Chest",
+      "aliases": [
+        "Standard Chest"
+      ],
+      "isChest": true,
+      "sourceId": "phase4b-container-index",
+      "kind": "chest"
+    },
+    {
+      "name": "Ammo Box",
+      "aliases": [
+        "Small Ammo Box"
+      ],
+      "isChest": false,
+      "sourceId": "phase4b-container-index",
+      "kind": "loot-container"
+    },
+    {
+      "name": "Supply Drop",
+      "aliases": [],
+      "isChest": false,
+      "sourceId": "phase4b-container-index",
+      "kind": "loot-container"
+    },
+    {
+      "name": "Supply Llama",
+      "aliases": [],
+      "isChest": false,
+      "sourceId": "phase4b-container-index",
+      "kind": "loot-container"
+    },
+    {
+      "name": "Block Chest",
+      "aliases": [],
+      "isChest": true,
+      "sourceId": "phase4b-container-index",
+      "kind": "chest"
+    },
+    {
+      "name": "Buried Treasure Chest",
+      "aliases": [
+        "Treasure Chest"
+      ],
+      "isChest": true,
+      "sourceId": "phase4b-container-index",
+      "kind": "chest"
+    },
+    {
+      "name": "Borderlands Chest",
+      "aliases": [],
+      "isChest": true,
+      "sourceId": "phase4b-container-index",
+      "kind": "chest"
+    },
+    {
+      "name": "Fishing Barrel",
+      "aliases": [],
+      "isChest": false,
+      "sourceId": "phase4b-container-index",
+      "kind": "barrel"
+    },
+    {
+      "name": "Ice Machine",
+      "aliases": [
+        "Freezer"
+      ],
+      "isChest": true,
+      "sourceId": "phase4b-ice-machine",
+      "kind": "chest"
+    },
+    {
+      "name": "Large Ammo Box",
+      "aliases": [],
+      "isChest": false,
+      "sourceId": "phase4b-container-index",
+      "kind": "loot-container"
+    },
+    {
+      "name": "Lightsaber Cube",
+      "aliases": [
+        "Lightsaber Cubes"
+      ],
+      "isChest": true,
+      "sourceId": "phase4b-container-index",
+      "kind": "chest"
+    },
+    {
+      "name": "Rare Chest",
+      "aliases": [],
+      "isChest": true,
+      "sourceId": "phase4b-container-index",
+      "kind": "chest"
+    },
+    {
+      "name": "GHOST Chest",
+      "aliases": [],
+      "isChest": true,
+      "sourceId": "phase4b-container-index",
+      "kind": "chest"
+    },
+    {
+      "name": "SHADOW Chest",
+      "aliases": [],
+      "isChest": true,
+      "sourceId": "phase4b-container-index",
+      "kind": "chest"
+    },
+    {
+      "name": "Produce Box",
+      "aliases": [
+        "Produce Boxes"
+      ],
+      "isChest": false,
+      "sourceId": "phase4b-container-index",
+      "kind": "loot-container"
+    },
+    {
+      "name": "Doom Chest",
+      "aliases": [],
+      "isChest": true,
+      "sourceId": "phase4b-container-index",
+      "kind": "chest"
+    },
+    {
+      "name": "S.H.I.E.L.D. Chest",
+      "aliases": [],
+      "isChest": true,
+      "sourceId": "phase4b-container-index",
+      "kind": "chest"
+    },
+    {
+      "name": "Stark Industries Chest",
+      "aliases": [],
+      "isChest": true,
+      "sourceId": "phase4b-container-index",
+      "kind": "chest"
+    },
+    {
+      "name": "Broom Barrel",
+      "aliases": [],
+      "isChest": false,
+      "sourceId": "phase4b-container-index",
+      "kind": "barrel"
+    },
+    {
+      "name": "Cash Register",
+      "aliases": [],
+      "isChest": false,
+      "sourceId": "phase4b-container-index",
+      "kind": "loot-container"
+    },
+    {
+      "name": "Candy Bucket",
+      "aliases": [
+        "Candy Buckets"
+      ],
+      "isChest": false,
+      "sourceId": "phase4b-container-index",
+      "kind": "loot-container"
+    },
+    {
+      "name": "Safe",
+      "aliases": [],
+      "isChest": true,
+      "sourceId": "phase4b-container-index",
+      "kind": "chest"
+    },
+    {
+      "name": "Bunker Chest",
+      "aliases": [],
+      "isChest": true,
+      "sourceId": "phase4b-container-index",
+      "kind": "chest"
+    },
+    {
+      "name": "Cosmic Chest",
+      "aliases": [],
+      "isChest": true,
+      "sourceId": "phase4b-container-index",
+      "kind": "chest"
+    },
+    {
+      "name": "IO Supply Chest",
+      "aliases": [],
+      "isChest": true,
+      "sourceId": "phase4b-container-index",
+      "kind": "chest"
+    },
+    {
+      "name": "Mothership Vault Chest",
+      "aliases": [
+        "Common Mothership Vault Chest",
+        "Uncommon Mothership Vault Chest",
+        "Rare Mothership Vault Chest",
+        "Epic Mothership Vault Chest",
+        "Legendary Mothership Vault Chest"
+      ],
+      "isChest": true,
+      "sourceId": "phase4b-container-index",
+      "kind": "chest"
+    },
+    {
+      "name": "Toolbox",
+      "aliases": [],
+      "isChest": false,
+      "sourceId": "phase4b-container-index",
+      "kind": "loot-container"
+    },
+    {
+      "name": "Sideways Chest",
+      "aliases": [],
+      "isChest": true,
+      "sourceId": "phase4b-container-index",
+      "kind": "chest"
+    },
+    {
+      "name": "Symbiote Canister",
+      "aliases": [],
+      "isChest": false,
+      "sourceId": "phase4b-container-index",
+      "kind": "loot-container"
+    },
+    {
+      "name": "Cooler",
+      "aliases": [],
+      "isChest": false,
+      "sourceId": "phase4b-container-index",
+      "kind": "loot-container"
+    },
+    {
+      "name": "Seven Supply Chest",
+      "aliases": [
+        "Seven Chest"
+      ],
+      "isChest": true,
+      "sourceId": "phase4b-seven-chest",
+      "kind": "chest"
+    },
+    {
+      "name": "Spider-Man's Backpack",
+      "aliases": [],
+      "isChest": false,
+      "sourceId": "phase4b-container-index",
+      "kind": "loot-container"
+    },
+    {
+      "name": "Jetpack Container",
+      "aliases": [],
+      "isChest": false,
+      "sourceId": "phase4b-container-index",
+      "kind": "loot-container"
+    },
+    {
+      "name": "Grapple Glove Toolbox",
+      "aliases": [],
+      "isChest": false,
+      "sourceId": "phase4b-container-index",
+      "kind": "loot-container"
+    },
+    {
+      "name": "Imperial Chest",
+      "aliases": [],
+      "isChest": true,
+      "sourceId": "phase4b-container-index",
+      "kind": "chest"
+    },
+    {
+      "name": "Capsule Corp. Capsule",
+      "aliases": [
+        "Capsule Corp. Drops"
+      ],
+      "isChest": false,
+      "sourceId": "phase4b-container-index",
+      "kind": "loot-container"
+    },
+    {
+      "name": "Chrome Chest",
+      "aliases": [],
+      "isChest": true,
+      "sourceId": "phase4b-container-index",
+      "kind": "chest"
+    },
+    {
+      "name": "Holo-Chest",
+      "aliases": [],
+      "isChest": true,
+      "sourceId": "phase4b-container-index",
+      "kind": "chest"
+    },
+    {
+      "name": "Oathbound Chest",
+      "aliases": [],
+      "isChest": true,
+      "sourceId": "phase4b-container-index",
+      "kind": "chest"
+    },
+    {
+      "name": "My Hero Academia Supply Drop",
+      "aliases": [],
+      "isChest": false,
+      "sourceId": "phase4b-container-index",
+      "kind": "loot-container"
+    },
+    {
+      "name": "Cold Blooded Coffer",
+      "aliases": [],
+      "isChest": true,
+      "sourceId": "phase4b-container-index",
+      "kind": "chest"
+    },
+    {
+      "name": "Combat Cache",
+      "aliases": [],
+      "isChest": false,
+      "sourceId": "phase4b-container-index",
+      "kind": "loot-container"
+    },
+    {
+      "name": "Kinetic Blade Stand",
+      "aliases": [],
+      "isChest": false,
+      "sourceId": "phase4b-container-index",
+      "kind": "equipment-cache"
+    },
+    {
+      "name": "Scout Regiment Footlocker",
+      "aliases": [],
+      "isChest": true,
+      "sourceId": "phase4b-container-index",
+      "kind": "chest"
+    },
+    {
+      "name": "Republic Chest",
+      "aliases": [],
+      "isChest": true,
+      "sourceId": "phase4b-container-index",
+      "kind": "chest"
+    },
+    {
+      "name": "Kinetic Boomerang Pedestal",
+      "aliases": [],
+      "isChest": false,
+      "sourceId": "phase4b-container-index",
+      "kind": "equipment-cache"
+    },
+    {
+      "name": "Heist Bag",
+      "aliases": [],
+      "isChest": false,
+      "sourceId": "phase4b-container-index",
+      "kind": "loot-container"
+    },
+    {
+      "name": "Weapon Case",
+      "aliases": [],
+      "isChest": false,
+      "sourceId": "phase4b-container-index",
+      "kind": "loot-container"
+    },
+    {
+      "name": "Train Heist Chest",
+      "aliases": [],
+      "isChest": false,
+      "sourceId": "phase4b-container-index",
+      "kind": "loot-container"
+    },
+    {
+      "name": "Train Chest",
+      "aliases": [],
+      "isChest": true,
+      "sourceId": "phase4b-container-index",
+      "kind": "chest"
+    },
+    {
+      "name": "Present",
+      "aliases": [],
+      "isChest": false,
+      "sourceId": "phase4b-container-index",
+      "kind": "loot-container"
+    },
+    {
+      "name": "Ninja Turtle Supply Drop",
+      "aliases": [],
+      "isChest": false,
+      "sourceId": "phase4b-container-index",
+      "kind": "loot-container"
+    },
+    {
+      "name": "Olympus Chest",
+      "aliases": [],
+      "isChest": true,
+      "sourceId": "phase4b-container-index",
+      "kind": "chest"
+    },
+    {
+      "name": "Underworld Chest",
+      "aliases": [],
+      "isChest": true,
+      "sourceId": "phase4b-container-index",
+      "kind": "chest"
+    },
+    {
+      "name": "Ride the Lightning Stand",
+      "aliases": [],
+      "isChest": true,
+      "sourceId": "phase4b-container-index",
+      "kind": "equipment-cache"
+    },
+    {
+      "name": "Cursed Chest",
+      "aliases": [],
+      "isChest": true,
+      "sourceId": "phase4b-container-index",
+      "kind": "chest"
+    },
+    {
+      "name": "Avenger Chest",
+      "aliases": [],
+      "isChest": true,
+      "sourceId": "phase4b-container-index",
+      "kind": "chest"
+    },
+    {
+      "name": "Iron Man Stand",
+      "aliases": [],
+      "isChest": false,
+      "sourceId": "phase4b-container-index",
+      "kind": "equipment-cache"
+    },
+    {
+      "name": "War Machine Stand",
+      "aliases": [],
+      "isChest": false,
+      "sourceId": "phase4b-container-index",
+      "kind": "equipment-cache"
+    },
+    {
+      "name": "Elemental Chest",
+      "aliases": [],
+      "isChest": true,
+      "sourceId": "phase4b-container-index",
+      "kind": "chest"
+    },
+    {
+      "name": "Typhoon Blade Stand",
+      "aliases": [],
+      "isChest": false,
+      "sourceId": "phase4b-container-index",
+      "kind": "equipment-cache"
+    },
+    {
+      "name": "Demon Mask Stand",
+      "aliases": [],
+      "isChest": false,
+      "sourceId": "phase4b-container-index",
+      "kind": "equipment-cache"
+    },
+    {
+      "name": "Academy Stand",
+      "aliases": [],
+      "isChest": false,
+      "sourceId": "phase4b-container-index",
+      "kind": "equipment-cache"
+    },
+    {
+      "name": "Hero Cache",
+      "aliases": [
+        "Hero Caches"
+      ],
+      "isChest": false,
+      "sourceId": "phase4b-container-index",
+      "kind": "loot-container"
+    },
+    {
+      "name": "Hive Stash",
+      "aliases": [],
+      "isChest": true,
+      "sourceId": "phase4b-container-index",
+      "kind": "chest"
+    },
+    {
+      "name": "O.X.R. Chest",
+      "aliases": [],
+      "isChest": true,
+      "sourceId": "phase4b-container-index",
+      "kind": "chest"
+    },
+    {
+      "name": "Drop Pod",
+      "aliases": [],
+      "isChest": false,
+      "sourceId": "phase4b-container-index",
+      "kind": "loot-container"
+    },
+    {
+      "name": "Rita's Supply Comet",
+      "aliases": [],
+      "isChest": false,
+      "sourceId": "phase4b-container-index",
+      "kind": "loot-container"
+    },
+    {
+      "name": "Pumpkin Chest",
+      "aliases": [
+        "Pumpkin Chest"
+      ],
+      "isChest": false,
+      "sourceId": "phase4b-container-index",
+      "kind": "loot-container"
+    },
+    {
+      "name": "Mr. Burns Mystery Box",
+      "aliases": [],
+      "isChest": false,
+      "sourceId": "phase4b-container-index",
+      "kind": "loot-container"
+    },
+    {
+      "name": "Chest of Drawers",
+      "aliases": [],
+      "isChest": false,
+      "sourceId": "phase4b-container-index",
+      "kind": "loot-container"
+    },
+    {
+      "name": "Care Package",
+      "aliases": [],
+      "isChest": false,
+      "sourceId": "phase4b-container-index",
+      "kind": "loot-container"
+    },
+    {
+      "name": "Time Travelled Chest",
+      "aliases": [],
+      "isChest": true,
+      "sourceId": "phase4b-container-index",
+      "kind": "chest"
+    },
+    {
+      "name": "Overwatch Cache",
+      "aliases": [],
+      "isChest": true,
+      "sourceId": "phase4b-container-index",
+      "kind": "chest"
+    },
+    {
+      "name": "Sprite Chest",
+      "aliases": [],
+      "isChest": true,
+      "sourceId": "phase4b-container-index",
+      "kind": "chest"
+    }
+  ],
+  "excludedContainers": [
+    {
+      "name": "Storm Chest",
+      "reason": "Horde Rush LTM, outside core BR."
+    },
+    {
+      "name": "Star",
+      "reason": "Environmental loot source."
+    },
+    {
+      "name": "Faction Chest",
+      "reason": "Umbrella taxonomy; GHOST and SHADOW variants recorded independently."
+    },
+    {
+      "name": "Exotic Holo-Chest",
+      "reason": "Alias of Holo-Chest; loot tier does not duplicate its identity."
+    },
+    {
+      "name": "Golden Egg",
+      "reason": "Foraged/environmental loot source."
+    },
+    {
+      "name": "Training Targets",
+      "reason": "Environmental target."
+    },
+    {
+      "name": "Spire Spike",
+      "reason": "Environmental encounter."
+    },
+    {
+      "name": "Blitz Chest",
+      "reason": "Separate Blitz island mode."
+    },
+    {
+      "name": "Large Bug Spawner",
+      "reason": "Environmental encounter."
+    },
+    {
+      "name": "Small Bug Spawner",
+      "reason": "Environmental encounter."
+    },
+    {
+      "name": "Wonkeeland Cannon",
+      "reason": "Environmental cannon."
+    },
+    {
+      "name": "Extraction Chest",
+      "reason": "Stores extracted items and drops no loot."
+    },
+    {
+      "name": "Cheat Codes",
+      "reason": "Environmental interaction."
+    },
+    {
+      "name": "Chest (Treasure Hunters)",
+      "reason": "Visual/seasonal standard chest, not another canonical type."
+    },
+    {
+      "name": "Rare Chest (Treasure Hunters)",
+      "reason": "Visual/seasonal Rare Chest."
+    },
+    {
+      "name": "Sprite Wanted Poster",
+      "reason": "Environmental poster."
+    }
+  ],
+  "movement": [
+    {
+      "type": "item",
+      "name": "Grapple Glove",
+      "sourceId": "phase4b-grapple_glove",
+      "tags": [
+        "rotate"
+      ]
+    },
+    {
+      "type": "item",
+      "name": "Crash Pad",
+      "sourceId": "phase4b-crash_pad",
+      "tags": [
+        "rotate",
+        "launch",
+        "throwable",
+        "structureDamage"
+      ]
+    },
+    {
+      "type": "weapon",
+      "name": "Mechanical Shockwave Bow",
+      "sourceId": "phase4b-mechanical_shockwave_bow",
+      "tags": [
+        "rotate",
+        "launch"
+      ]
+    },
+    {
+      "type": "vehicle",
+      "name": "Choppa",
+      "sourceId": "phase4b-choppa",
+      "tags": [
+        "rotate",
+        "fly"
+      ]
+    },
+    {
+      "type": "vehicle",
+      "name": "Motorboat",
+      "sourceId": "phase4b-motorboat",
+      "tags": [
+        "rotate"
+      ]
+    },
+    {
+      "type": "vehicle",
+      "name": "All Terrain Kart",
+      "sourceId": "phase4b-all_terrain_kart",
+      "tags": [
+        "rotate"
+      ]
+    },
+    {
+      "type": "vehicle",
+      "name": "X-4 Stormwing",
+      "sourceId": "phase4b-x-4_stormwing",
+      "tags": [
+        "rotate",
+        "fly"
+      ]
+    },
+    {
+      "type": "item",
+      "name": "Grenade",
+      "sourceId": "phase4b-grenade",
+      "tags": [
+        "throwable",
+        "structureDamage"
+      ]
+    },
+    {
+      "type": "item",
+      "name": "Clinger",
+      "sourceId": "phase4b-clinger",
+      "tags": [
+        "throwable",
+        "structureDamage"
+      ]
+    },
+    {
+      "type": "item",
+      "name": "Stink Bomb",
+      "sourceId": "phase4b-stink-bomb",
+      "tags": [
+        "throwable"
+      ]
+    },
+    {
+      "type": "item",
+      "name": "Smoke Grenade",
+      "sourceId": "phase4b-smoke-grenade",
+      "tags": [
+        "throwable"
+      ]
+    },
+    {
+      "type": "item",
+      "name": "Firefly Jar",
+      "sourceId": "phase4b-firefly-jar",
+      "tags": [
+        "throwable",
+        "structureDamage"
+      ]
+    },
+    {
+      "type": "item",
+      "name": "Boogie Bomb",
+      "sourceId": "phase4b-boogie-bomb",
+      "tags": [
+        "throwable"
+      ]
+    },
+    {
+      "type": "item",
+      "name": "Port-A-Fort",
+      "sourceId": "phase4b-port-a-fort",
+      "tags": [
+        "throwable",
+        "highGround",
+        "launch"
+      ]
+    },
+    {
+      "type": "weapon",
+      "name": "Remote Explosives",
+      "sourceId": "phase4b-remote-explosives",
+      "tags": [
+        "throwable",
+        "structureDamage"
+      ]
+    },
+    {
+      "type": "item",
+      "name": "Junk Rift",
+      "sourceId": "phase4b-junk-rift",
+      "tags": [
+        "throwable",
+        "structureDamage"
+      ]
+    },
+    {
+      "type": "item",
+      "name": "Shield Bubble",
+      "sourceId": "phase4b-shield-bubble",
+      "tags": [
+        "throwable"
+      ]
+    },
+    {
+      "type": "item",
+      "name": "Crash Pad Jr.",
+      "sourceId": "phase4b-crash-pad-jr",
+      "tags": [
+        "throwable",
+        "rotate",
+        "launch",
+        "highGround"
+      ]
+    },
+    {
+      "type": "vehicle",
+      "name": "Whiplash",
+      "sourceId": "phase4b-victory-motors-whiplash",
+      "tags": [
+        "rotate"
+      ]
+    },
+    {
+      "type": "vehicle",
+      "name": "Bear",
+      "sourceId": "phase4b-og-bear",
+      "tags": [
+        "rotate"
+      ]
+    },
+    {
+      "type": "vehicle",
+      "name": "Islander Prevalent",
+      "sourceId": "phase4b-islander-prevalent",
+      "tags": [
+        "rotate"
+      ]
+    },
+    {
+      "type": "vehicle",
+      "name": "Saucer",
+      "sourceId": "phase4b-saucer",
+      "tags": [
+        "rotate",
+        "fly"
+      ]
+    },
+    {
+      "type": "item",
+      "name": "Witch Broom",
+      "sourceId": "phase4b-witch-broom",
+      "tags": [
+        "rotate",
+        "fly",
+        "launch",
+        "highGround",
+        "structureDamage"
+      ]
+    },
+    {
+      "type": "item",
+      "name": "Silver Surfer’s Board",
+      "sourceId": "phase4b-silver-surfer-s-board",
+      "tags": [
+        "rotate",
+        "fly",
+        "launch",
+        "highGround"
+      ]
+    },
+    {
+      "type": "item",
+      "name": "Nimbus Cloud (Kintoun)",
+      "sourceId": "phase4b-nimbus-cloud-kintoun",
+      "tags": [
+        "rotate",
+        "fly",
+        "launch",
+        "highGround",
+        "structureDamage"
+      ]
+    },
+    {
+      "type": "item",
+      "name": "Med Kit",
+      "sourceId": "phase4b-med-kit",
+      "tags": [
+        "health",
+        "throwable"
+      ]
+    },
+    {
+      "type": "item",
+      "name": "Bandage",
+      "sourceId": "phase4b-bandage",
+      "tags": [
+        "health",
+        "throwable"
+      ]
+    },
+    {
+      "type": "item",
+      "name": "Small Shield Potion",
+      "sourceId": "phase4b-small-shield-potion",
+      "tags": [
+        "shield",
+        "throwable"
+      ]
+    },
+    {
+      "type": "item",
+      "name": "Shield Potion",
+      "sourceId": "phase4b-shield-potion",
+      "tags": [
+        "shield",
+        "throwable"
+      ]
+    },
+    {
+      "type": "item",
+      "name": "Chug Jug",
+      "sourceId": "phase4b-chug-jug",
+      "tags": [
+        "health",
+        "shield"
+      ]
+    },
+    {
+      "type": "item",
+      "name": "Bandage Bazooka",
+      "sourceId": "phase4b-bandage-bazooka",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "type": "item",
+      "name": "Meat",
+      "sourceId": "phase4b-meat",
+      "tags": [
+        "health",
+        "throwable"
+      ]
+    },
+    {
+      "type": "item",
+      "name": "Shield Keg",
+      "sourceId": "phase4b-shield-keg",
+      "tags": [
+        "shield",
+        "throwable"
+      ]
+    },
+    {
+      "type": "item",
+      "name": "FlowBerry Fizz",
+      "sourceId": "phase4b-flowberry-fizz",
+      "tags": [
+        "shield"
+      ]
+    },
+    {
+      "type": "item",
+      "name": "Pizza Slice",
+      "sourceId": "phase4b-pizza-slice",
+      "tags": [
+        "health",
+        "shield",
+        "throwable"
+      ]
+    },
+    {
+      "type": "item",
+      "name": "Cozy Campfire",
+      "sourceId": "phase4b-campfire",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "type": "item",
+      "name": "Med-Mist",
+      "sourceId": "phase4b-med-mist",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "type": "item",
+      "name": "Guzzle Juice",
+      "sourceId": "phase4b-guzzle-juice",
+      "tags": [
+        "health",
+        "throwable"
+      ]
+    }
+  ],
+  "rewards": [
+    {
+      "name": "Auroral Arc",
+      "event": "Winterfest 2021",
+      "sourceId": "phase4b-winterfest-2021"
+    },
+    {
+      "name": "Bombastic Winterfest",
+      "event": "Winterfest 2021",
+      "sourceId": "phase4b-winterfest-2021"
+    },
+    {
+      "name": "Choice Knit",
+      "event": "Winterfest 2021",
+      "sourceId": "phase4b-winterfest-2021"
+    },
+    {
+      "name": "Holly Hatchets",
+      "event": "Winterfest 2021",
+      "sourceId": "phase4b-winterfest-2021"
+    },
+    {
+      "name": "It’s Perfect!",
+      "event": "Winterfest 2021",
+      "sourceId": "phase4b-winterfest-2021"
+    },
+    {
+      "name": "Krisabelle",
+      "event": "Winterfest 2021",
+      "sourceId": "phase4b-winterfest-2021"
+    },
+    {
+      "name": "Loot in the Mountains",
+      "event": "Winterfest 2021",
+      "sourceId": "phase4b-winterfest-2021"
+    },
+    {
+      "name": "Polar Peely",
+      "event": "Winterfest 2021",
+      "sourceId": "phase4b-winterfest-2021"
+    },
+    {
+      "name": "Sentinel",
+      "event": "Winterfest 2021",
+      "sourceId": "phase4b-winterfest-2021"
+    },
+    {
+      "name": "Snowflake Banner",
+      "event": "Winterfest 2021",
+      "sourceId": "phase4b-winterfest-2021"
+    },
+    {
+      "name": "Snowplower",
+      "event": "Winterfest 2021",
+      "sourceId": "phase4b-winterfest-2021"
+    },
+    {
+      "name": "Twinkly",
+      "event": "Winterfest 2021",
+      "sourceId": "phase4b-winterfest-2021"
+    },
+    {
+      "name": "Wooly",
+      "event": "Winterfest 2021",
+      "sourceId": "phase4b-winterfest-2021"
+    },
+    {
+      "name": "You Better Watch Out!",
+      "event": "Winterfest 2021",
+      "sourceId": "phase4b-winterfest-2021"
+    },
+    {
+      "name": "Arctic Adeline",
+      "event": "Winterfest 2022",
+      "sourceId": "phase4b-winterfest-2022"
+    },
+    {
+      "name": "Boom Bauble",
+      "event": "Winterfest 2022",
+      "sourceId": "phase4b-winterfest-2022"
+    },
+    {
+      "name": "Fa-la-la-Llama",
+      "event": "Winterfest 2022",
+      "sourceId": "phase4b-winterfest-2022"
+    },
+    {
+      "name": "Fractured Melody",
+      "event": "Winterfest 2022",
+      "sourceId": "phase4b-winterfest-2022"
+    },
+    {
+      "name": "Gringle Gift",
+      "event": "Winterfest 2022",
+      "sourceId": "phase4b-winterfest-2022"
+    },
+    {
+      "name": "Har-Har-Har!",
+      "event": "Winterfest 2022",
+      "sourceId": "phase4b-winterfest-2022"
+    },
+    {
+      "name": "Lil’ Prancer",
+      "event": "Winterfest 2022",
+      "sourceId": "phase4b-winterfest-2022"
+    },
+    {
+      "name": "Naughty or Nice?",
+      "event": "Winterfest 2022",
+      "sourceId": "phase4b-winterfest-2022"
+    },
+    {
+      "name": "Ribbon Trail",
+      "event": "Winterfest 2022",
+      "sourceId": "phase4b-winterfest-2022"
+    },
+    {
+      "name": "Rip & Tear (2016)",
+      "event": "Winterfest 2022",
+      "sourceId": "phase4b-winterfest-2022"
+    },
+    {
+      "name": "Season’s Guffings",
+      "event": "Winterfest 2022",
+      "sourceId": "phase4b-winterfest-2022"
+    },
+    {
+      "name": "Sled Ready Guff",
+      "event": "Winterfest 2022",
+      "sourceId": "phase4b-winterfest-2022"
+    },
+    {
+      "name": "Sledgecracker",
+      "event": "Winterfest 2022",
+      "sourceId": "phase4b-winterfest-2022"
+    },
+    {
+      "name": "Slush-Faced",
+      "event": "Winterfest 2022",
+      "sourceId": "phase4b-winterfest-2022"
+    },
+    {
+      "name": "Slushy Sneak",
+      "event": "Winterfest 2022",
+      "sourceId": "phase4b-winterfest-2022"
+    },
+    {
+      "name": "When the Wind Blows",
+      "event": "Winterfest 2022",
+      "sourceId": "phase4b-winterfest-2022"
+    },
+    {
+      "name": "Wintry Whirligig",
+      "event": "Winterfest 2022",
+      "sourceId": "phase4b-winterfest-2022"
+    }
+  ]
+}

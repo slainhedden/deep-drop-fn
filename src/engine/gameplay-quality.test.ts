@@ -8,7 +8,7 @@ import {auditHistoricalEntities} from './audit';
 import {suggestionsFor} from './resolve';
 import {validateAnswer} from './validation';
 const byName=(name:string)=>entities.find(e=>e.name===name)!;
-const q=(id:string)=>questionPool().find(q=>q.templateId===id)!;
+const q=(id:string)=>questionPool({expert:true}).find(q=>q.templateId===id)!;
 describe('reviewed gameplay classifications and reusable loot relationships',()=>{
  it('accepts named Mythics and evolving rarity weapons without creating rarity-only entities',()=>{
   for(const name of ['Midas’ Drum Gun','Kit’s Charge Shotgun','Infinity Blade','EvoChrome Shotgun'])expect(validateAnswer(q('weapon-mythic-version'),name).correct).toBe(true);
@@ -22,10 +22,11 @@ describe('reviewed gameplay classifications and reusable loot relationships',()=
  });
  it('deduplicates standard container names and preserves historical containers',()=>{
   const bank=q('loot-container');
-  expect(validateAnswer(bank,'Treasure Chest').canonicalAnswer).toBe('Chest');
+  expect(validateAnswer(bank,'Standard Chest').canonicalAnswer).toBe('Chest');
+  expect(validateAnswer(bank,'Treasure Chest').canonicalAnswer).toBe('Buried Treasure Chest');
   expect(validateAnswer(bank,'Exotic Holo-Chest').canonicalAnswer).toBe('Holo-Chest');
   expect(validateAnswer(bank,'Chrome Chest').correct).toBe(true);
-  expect(validateAnswer(bank,'Rare Chest').correct).toBe(false); // pending, not evidence of known absence
+  expect(validateAnswer(bank,'Rare Chest').correct).toBe(true); // Explicitly reviewed in Phase 4B.
  });
  it('uses ammo classes and excludes arbitrary generic Ammo and unrelated materials',()=>{
   const bank=q('ammunition-class');
@@ -70,7 +71,7 @@ describe('question quality and accessible deterministic dailies',()=>{
   const pool=questionPool(),summary=qualitySummary(pool);
   expect(summary.questions).toHaveLength(pool.length);
   expect(Object.values(summary.distribution).reduce((n,b)=>n+b.count,0)).toBe(pool.length);
-  expect(questionQuality(q('crossover-general')).fieldVerifiedAnswers).toBe(0);
+  expect(questionQuality(q('crossover-general')).fieldVerifiedAnswers).toBeGreaterThanOrEqual(15); // Exact outfit identities now corroborate this field; unknown franchise labels stay unreviewed.
   for(const row of summary.questions)expect(row.fieldVerifiedAnswers).toBeLessThanOrEqual(row.acceptedAnswers);
  });
  it('does not make large unrecognizable or season-specific questions daily eligible',()=>{
@@ -83,11 +84,11 @@ describe('question quality and accessible deterministic dailies',()=>{
   for(let d=1;d<=120;d++){
    const seed=dailySeed(new Date(Date.UTC(2026,8,d)));const game=generateGame(seed,7);
    expect(game).toHaveLength(7);
-   expect(game.filter(q=>q.validAnswerIds.length>=20)).toHaveLength(5);
+   expect(game.filter(q=>questionQuality(q).fieldVerifiedAnswers>=20).length).toBeGreaterThanOrEqual(5);
    expect(new Set(game.map(questionKnowledgeGroup)).size).toBe(7);
    expect(new Set(game.map(q=>q.id)).size).toBe(7);
    expect(game.filter(q=>q.category==='Weapons').length).toBeLessThanOrEqual(1);
-   expect(game.filter(q=>q.validAnswerIds.length<12).length).toBeLessThanOrEqual(1);
+   expect(game.every(q=>questionQuality(q).fieldVerifiedAnswers>=15)).toBe(true);
    expect(game.every(q=>questionQuality(q).dailyEligible)).toBe(true);
    expect(game.map(q=>q.id)).toEqual(generateGame(seed,7).map(q=>q.id));
   }

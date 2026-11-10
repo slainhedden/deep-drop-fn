@@ -9,7 +9,7 @@ import { supportsScope } from './coverage';
 
 const entity=(name:string)=>entities.find(entity=>entity.name===name)!;
 const template=(id:string)=>templates.find(template=>template.id===id)!;
-const names=(id:string,parameters:Record<string,string|number>)=>buildQuestion(template(id),parameters)!.validAnswerIds.map(id=>entitiesById.get(id)!.name).sort();
+const names=(id:string,parameters:Record<string,string|number>)=>buildQuestion(template(id),parameters,{expert:true})!.validAnswerIds.map(id=>entitiesById.get(id)!.name).sort();
 
 describe('approved historical scopes',()=>{
  it('has the complete original Seasons 7–8 named-POI introduction set',()=>{
@@ -30,7 +30,7 @@ describe('approved historical scopes',()=>{
   expect(buildQuestion(template('vehicle-introduced-chapter'),{chapter:2})).toBeNull();
  });
  it('bounds OG questions to the five named mentions instead of claiming the full OG map',()=>{
-  const question=buildQuestion(template('location-return-og'),{})!;
+  const question=buildQuestion(template('location-return-og'),{},{expert:true})!;
   expect(question.prompt).toContain('announcement');
   expect(names('location-return-og',{})).toEqual(['Tilted Towers','Greasy Grove','Risky Reels','Loot Lake','Frosty Flights'].sort());
   expect(validateAnswer(question,'Frosty Flights').correct).toBe(true);
@@ -38,7 +38,7 @@ describe('approved historical scopes',()=>{
  });
  it('retains exact scope and spawn restrictions on Season X weapon unvaults',()=>{
   expect(names('weapon-unvaulted',{})).toEqual(['Double Barrel Shotgun','Six Shooter','Hunting Rifle','Infantry Rifle','Tactical Submachine Gun'].sort());
-  const question=buildQuestion(template('weapon-unvaulted'),{})!;
+  const question=buildQuestion(template('weapon-unvaulted'),{},{expert:true})!;
   expect(validateAnswer(question,'Hunting Rifle').explanation).toContain('restricted to Tilted Town');
   expect(validateAnswer(question,'Infinity Blade').correct).toBe(false);
  });

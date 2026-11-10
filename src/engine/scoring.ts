@@ -1,8 +1,12 @@
 import type { FortniteEntity, RarityTier } from '../domain/types';
 
+const totals=new WeakMap<FortniteEntity[],number>();
 export function estimatedFrequency(answer: FortniteEntity, validAnswers: FortniteEntity[]): number {
-  const total = validAnswers.reduce((sum, entity) => sum + Math.max(.05, entity.familiarity), 0);
-  return Math.max(.005, answer.familiarity / total);
+  // Large catalogs need more separation than a uniform prior; rarity remains unrelated.
+  const weight=(e:FortniteEntity)=>validAnswers.length>200?Math.pow(e.familiarity,4):Math.max(.05,e.familiarity);
+  const total = totals.get(validAnswers)??validAnswers.reduce((sum, entity) => sum + weight(entity), 0);
+  totals.set(validAnswers,total);
+  return Math.max(validAnswers.length>200?.00001:.005, weight(answer) / total);
 }
 
 export function scoreFrequency(frequency: number): number {

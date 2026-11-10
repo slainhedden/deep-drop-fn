@@ -1,5 +1,5 @@
-export type EntityType = 'skin' | 'weapon' | 'location' | 'collaboration' | 'item' | 'vehicle' | 'event' | 'boss' | 'npc' | 'container' | 'ammo' | 'material' | 'faction';
-export type Category = 'Skins' | 'Weapons' | 'Locations' | 'Crossovers' | 'Items' | 'Vehicles' | 'Events' | 'Bosses' | 'NPCs' | 'Containers' | 'Ammunition' | 'Materials';
+export type EntityType = 'skin' | 'weapon' | 'location' | 'collaboration' | 'item' | 'vehicle' | 'event' | 'boss' | 'npc' | 'container' | 'ammo' | 'material' | 'faction' | 'cosmetic';
+export type Category = 'Skins' | 'Weapons' | 'Locations' | 'Crossovers' | 'Items' | 'Vehicles' | 'Events' | 'Bosses' | 'NPCs' | 'Containers' | 'Ammunition' | 'Materials' | 'Cosmetics';
 export type Difficulty = 'easy' | 'medium' | 'hard' | 'expert';
 export type Operator = 'eq' | 'includes' | 'contains' | 'introducedOnOrAfter' | 'introducedOnOrBefore' | 'availableIn' | 'appearedInChapter' | 'historyChange' | 'hasRelationship' | 'historyFlag' | 'chapterCountAtLeast' | 'introducedInChapter' | 'changeInSeason' | 'relatedTo';
 
@@ -23,6 +23,7 @@ export interface FortniteEntity {
   factEvidence?: Record<string, HistoricalEvidence>;
   dataVersion: string;
   history?: EntityHistory;
+  cosmetic?: { type:string; externalIds:string[]; catalogAddedAt?:string; releaseDate?:string; memberships:{kind:'set'|'bundle';id:string;name:string;sourceId:string}[] };
   origin?: 'legacy' | 'expansion';
   verification?: 'legacy' | 'pending' | 'verified';
 }

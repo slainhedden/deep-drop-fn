@@ -13,7 +13,7 @@ describe('expanded catalog integrity and evidence gates',()=>{
   expect(entitiesById.get('tilted')?.name).toBe('Tilted Towers');
   expect(entitiesById.get('pump-shotgun')?.name).toBe('Pump Shotgun');
   expect(new Set(entities.map(entity=>entity.id)).size).toBe(entities.length);
-  expect(new Set(entities.map(entity=>`${entity.type}:${entity.name.toLowerCase()}`)).size).toBe(entities.length);
+  expect(new Set(entities.map(entity=>`${entity.type}:${entity.cosmetic?.type??''}:${entity.name.toLowerCase()}`)).size).toBe(entities.length);
  });
  it('excludes pending catalog rows from answers and autocomplete',()=>{
   for (const question of questionPool()) for(const id of question.validAnswerIds) expect(matchesAll(entitiesById.get(id)!,question.predicates)).toBe(true);

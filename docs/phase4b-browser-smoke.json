@@ -1,0 +1,13 @@
+{
+  "homeReadyMs": 2191,
+  "dropReadyMs": 9,
+  "suggestionsMs": 13,
+  "sevenRoundsCompleted": true,
+  "invalidRetry": true,
+  "twoCharacterSuggestionsSuppressed": true,
+  "canonicalAnswers": true,
+  "deadlineResets": true,
+  "practiceHistoryPersisted": true,
+  "externalRequests": [],
+  "pageErrors": []
+}

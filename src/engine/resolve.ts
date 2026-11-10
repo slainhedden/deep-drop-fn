@@ -26,11 +26,13 @@ function names(entity:FortniteEntity) {
  return values;
 }
 
+const exactIndexes=new WeakMap<FortniteEntity[],Map<string,Array<{entity:FortniteEntity;via:'canonical'|'alias'}>>>();
 export function resolveAnswer(input:string,candidates:FortniteEntity[]):Resolution {
-  candidates=uniqueEntities(candidates);
   const query=normalizeAnswer(input);
   if(!query || query.length > 128) return {};
-  const exact=candidates.flatMap(entity=>names(entity).map(name=>({entity,...name}))).filter(item=>item.normalized===query);
+  let index=exactIndexes.get(candidates);
+  if(!index){index=new Map();for(const entity of uniqueEntities(candidates))for(const n of names(entity))index.set(n.normalized,[...(index.get(n.normalized)??[]),{entity,via:n.via}]);exactIndexes.set(candidates,index);}
+  const exact=index.get(query)??[];
   const canonical=exact.filter(item=>item.via==='canonical');
   if(new Set(canonical.map(item=>item.entity.id)).size===1) return {entity:canonical[0].entity,via:'canonical'};
   const exactIds=new Set(exact.map(item=>item.entity.id));

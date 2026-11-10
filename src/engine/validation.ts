@@ -1,3 +1,4 @@
+import {naturalWording} from '../data/update-registry';
 import type { AnswerResult, GeneratedQuestion } from '../domain/types';
 import { answerCandidates } from './candidates';
 import { templates } from '../data/templates';
@@ -13,5 +14,5 @@ export function validateAnswer(question: GeneratedQuestion, submitted: string, t
   const frequency = estimatedFrequency(answer, valid);
   const points = scoreFrequency(frequency);
   const template = templates.find((candidate)=>candidate.id === question.templateId)!;
-  return { submitted, canonicalAnswer:answer.name, answerId:answer.id, correct:true, timedOut:false, points, tier:rarityTier(points), explanation:template.explanation(answer, question.parameters), frequencySource:'estimated', estimatedFrequency:frequency, matchedVia:resolution.via, correctedFrom:resolution.correctedFrom };
+  return { submitted, canonicalAnswer:answer.name, answerId:answer.id, correct:true, timedOut:false, points, tier:rarityTier(points), explanation:naturalWording(template.explanation(answer, question.parameters)), frequencySource:'estimated', estimatedFrequency:frequency, matchedVia:resolution.via, correctedFrom:resolution.correctedFrom };
 }

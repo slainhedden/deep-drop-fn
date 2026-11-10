@@ -9,7 +9,7 @@ import { validateAnswer } from './validation';
 import { matchesAll } from './predicates';
 
 const entity=(type:string,name:string)=>entities.find(entity=>entity.type===type && entity.name===name)!;
-const question=(id:string,parameters:Record<string,string|number>)=>buildQuestion(reviewedTemplates.find(template=>template.id===id)!,parameters)!;
+const question=(id:string,parameters:Record<string,string|number>)=>buildQuestion(reviewedTemplates.find(template=>template.id===id)!,parameters,{expert:true})!;
 
 describe('reviewed official history regressions',()=>{
  it('has complete eight-outfit lineups for all Chapter 3 and Chapter 4 passes',()=>{
@@ -22,7 +22,8 @@ describe('reviewed official history regressions',()=>{
   }
  });
  it('does not mistake a franchise character for the actual outfit name',()=>{
-  expect(entity('skin','Tony Stark').verification).toBe('pending');
+  expect(entity('skin','Tony Stark').facts.isCosmetic).toBe(true);
+  expect(entity('skin','Tony Stark').factEvidence?.cosmeticType.status).toBe('verified');
   expect(entity('skin','Doom').history?.introduction?.season).toBe('C5S4');
   expect(entity('collaboration','Doctor Doom').id).toBe('doctor-doom');
  });

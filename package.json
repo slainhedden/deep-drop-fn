@@ -12,7 +12,8 @@
     "inspect:answers": "node scripts/inspect-answer-bank.mjs",
     "diagnostics": "node scripts/build-info.mjs --print",
     "package:site": "node scripts/package-site.mjs",
-    "audit:quality": "node scripts/audit-quality.mjs"
+    "audit:quality": "node scripts/audit-quality.mjs",
+    "audit:phase4b": "node scripts/audit-phase4b.mjs"
   },
   "dependencies": {
     "@vitejs/plugin-react": "latest",

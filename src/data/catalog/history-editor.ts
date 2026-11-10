@@ -11,8 +11,8 @@ export const proof=(sourceId:string,note:string):HistoricalEvidence=>{
 
 export function historyEditor(bank:FortniteEntity[]) {
  const byName=new Map(bank.map(entity=>[`${entity.type}:${normalizeAnswer(entity.name)}`,entity]));
- function record(type:EntityType,name:string,sourceId:string,claims:FortniteEntity['facts']={}) {
-  const key=`${type}:${normalizeAnswer(name)}`;
+ function record(type:EntityType,name:string,sourceId:string,claims:FortniteEntity['facts']={},identityKey?:string) {
+  const key=identityKey??`${type}:${normalizeAnswer(name)}`;
   let entity=byName.get(key);
   if (!entity) { entity=candidate(type,name,undefined,sourceId);entity.origin='expansion';bank.push(entity);byName.set(key,entity); }
   // Reviewing a date alone does not reverify an original classification.

@@ -6,7 +6,7 @@ export const gameplayTemplates:QuestionTemplate[]=[
  broad('weapon-mythic-version','Weapons','weapon','Name a Fortnite weapon that has a Mythic version.','hasMythicVersion'),
  broad('weapon-exotic-class','Weapons','weapon','Name an Exotic weapon in Fortnite.','isExotic'),
  broad('loot-container','Containers','container','Name a Fortnite Battle Royale loot container.','isLootContainer'),
- {...broad('mobility-equipment','Items','item','Name an item or weapon used for mobility in Fortnite.','playerMobility'),answerTypes:['item','weapon'],diversityGroup:'movement-equipment'},
+ {...broad('mobility-equipment','Items','item','Name an item or weapon used for mobility in Fortnite.','playerMobility'),answerTypes:['item','weapon'],diversityGroup:'movement'},
  broad('throwable-equipment','Items','item','Name a throwable utility item in Fortnite.','isThrowableUtility'),
  broad('trap-equipment','Items','item','Name a placeable trap in Fortnite.','isPlaceableTrap'),
  broad('ammunition-class','Ammunition','ammo','Name a standard firearm ammunition type in Fortnite.','isAmmo'),

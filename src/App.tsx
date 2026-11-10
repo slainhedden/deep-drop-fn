@@ -1,7 +1,8 @@
+import {loadPracticeHistory,rememberPracticeQuestion} from './storage/practice';
 import { useCallback,useEffect,useMemo,useRef,useState } from 'react';
 import { BarChart3,CalendarDays,Check,ChevronLeft,ChevronRight,Clock3,Gift,Home,MapPin,Package,Settings,Shield,Star,Swords,Target,Trophy,UserRound,Zap } from 'lucide-react';
 import type { GeneratedQuestion,RoundResult } from './domain/types';
-import { dailySeed,generateGame } from './engine/questions';
+import { dailySeed,generateGame,generatePractice } from './engine/questions';
 import { suggestionsFor } from './engine/resolve';
 import { validateAnswer } from './engine/validation';
 import { loadStats,recordGame,type PlayerStats } from './storage/stats';
@@ -39,8 +40,9 @@ export default function App(){
  const start=useCallback((nextMode:Mode)=>{
   const seed=nextMode==='daily'?dailySeed():`practice-${Date.now()}`;
   lockedRef.current=false;deadline.current=Date.now()+20000;setAttemptFeedback('');
-  setMode(nextMode);setQuestions(generateGame(seed,7));setRound(0);setResults([]);setAnswer('');setLocked(false);setSeconds(20);setScreen('game');finalized.current=false;
+  setMode(nextMode);setQuestions(nextMode==='daily'?generateGame(seed,7):generatePractice(seed,7,undefined,loadPracticeHistory()));setRound(0);setResults([]);setAnswer('');setLocked(false);setSeconds(20);setScreen('game');finalized.current=false;
  },[]);
+ useEffect(()=>{if(mode==='practice'&&screen==='game'&&question)rememberPracticeQuestion(question.id);},[mode,screen,question]);
  const submit=useCallback((timedOut=false)=>{
   if(!question||lockedRef.current)return;
   const result=validateAnswer(question,answer,timedOut||Date.now()>=deadline.current);

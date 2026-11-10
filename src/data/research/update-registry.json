@@ -1,0 +1,82 @@
+[
+  {
+    "version": "41.20",
+    "season": "C7S3",
+    "date": "July 16 2026",
+    "url": "https://fortnite.weirdgloop.org/w/Update_v41.20",
+    "revision": 1285385,
+    "sha256": "f95da0573fca0638d34db2e7b9e314e4e4b6db4f992b5133ebfaf2e96208c959"
+  },
+  {
+    "version": "41.30",
+    "season": "C7S3",
+    "date": "July 30 2026",
+    "url": "https://fortnite.weirdgloop.org/w/Update_v41.30",
+    "revision": 1323472,
+    "sha256": "f5cf814b3d9980384c683b3ec330a24ba716bcfabf86dd1336a3cd67ae107333"
+  },
+  {
+    "version": "42.00",
+    "season": "C7S4",
+    "date": "August 20 2026",
+    "url": "https://fortnite.weirdgloop.org/w/Update_v42.00",
+    "revision": 1320987,
+    "sha256": "06d4c84ca32a531d6ad2a8d9a24d4347049bd25520d1fe71c046f156b9528621"
+  },
+  {
+    "version": "42.10",
+    "season": "C7S4",
+    "date": "September 3 2026",
+    "url": "https://fortnite.weirdgloop.org/w/Update_v42.10",
+    "revision": 1293139,
+    "sha256": "26549c5e635fb84d3cf79e5bbc0ebf218b8945cc7c094bf095a87fd92ea778d3"
+  },
+  {
+    "version": "42.20",
+    "season": "C7S4",
+    "date": "September 17 2026",
+    "url": "https://fortnite.weirdgloop.org/w/Update_v42.20",
+    "revision": 1294230,
+    "sha256": "3d90ceb78692e05c4e280412190c17b3127f0068576d5d1cea43f9cd214b1bd3"
+  },
+  {
+    "version": "42.30",
+    "season": "C7S4",
+    "date": "October 1 2026",
+    "url": "https://fortnite.weirdgloop.org/w/Update_v42.30",
+    "revision": 1323079,
+    "sha256": "a11d1676c9ecdae6e71fb9a8b84943dc844c926b5e2f9b396d24a9ac693f09ac"
+  },
+  {
+    "version": "42.40",
+    "season": "C7S4",
+    "date": "October 15 2026",
+    "url": "https://fortnite.weirdgloop.org/w/Update_v42.40",
+    "revision": 1322146,
+    "sha256": "5f7a2c3fd6eeb69e28051cf43558bdb6d309b05daee104271a8bc3de93b03a08"
+  },
+  {
+    "version": "43.00",
+    "season": "C7TREASURE2026",
+    "date": "November 1 2026",
+    "url": "https://fortnite.weirdgloop.org/w/Update_v43.00",
+    "revision": 1325496,
+    "sha256": "26b188ddde1c95f89ef6aa8740a367876e159881924704f19da16aaa2cc8de78"
+  },
+  {
+    "version": "6.02",
+    "season": "C1S6",
+    "date": "October 10 2018",
+    "url": "https://fortnite.weirdgloop.org/w/Update_v6.02",
+    "revision": 1207076,
+    "sha256": "2fe6c4b1e6996dc827062cf3ceafe14895fb1e2dc5566834ccda142e43e47e2c"
+  },
+  {
+    "version": "10.30",
+    "season": "C1SX",
+    "date": "September 11 2019",
+    "url": "https://fortnite.weirdgloop.org/w/Update_v10.30",
+    "revision": 531509,
+    "sha256": "7a753aa29b8752bb8a20987d7fdd272b40a2323e7605413e44ee42d658b4994c"
+  }
+]
