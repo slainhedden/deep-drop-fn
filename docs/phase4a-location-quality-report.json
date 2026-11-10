@@ -1,0 +1,4509 @@
+{
+  "dataVersion": "fortnite-br-location-history-2026.11.10",
+  "enabledVariants": 201,
+  "medianAnswers": 13,
+  "content": {
+    "broadBanks": [
+      {
+        "templateId": "skin-battle-pass",
+        "parameters": {},
+        "prompt": "Name a Fortnite Battle Pass skin.",
+        "accepted": 123,
+        "explicitlyVerified": 84
+      },
+      {
+        "templateId": "weapon-class",
+        "parameters": {
+          "weaponClass": "shotgun"
+        },
+        "prompt": "Name a Fortnite shotgun.",
+        "accepted": 29,
+        "explicitlyVerified": 23
+      },
+      {
+        "templateId": "weapon-class",
+        "parameters": {
+          "weaponClass": "assault rifle"
+        },
+        "prompt": "Name a Fortnite assault rifle.",
+        "accepted": 30,
+        "explicitlyVerified": 26
+      },
+      {
+        "templateId": "weapon-class",
+        "parameters": {
+          "weaponClass": "smg"
+        },
+        "prompt": "Name a Fortnite smg.",
+        "accepted": 20,
+        "explicitlyVerified": 18
+      },
+      {
+        "templateId": "weapon-class",
+        "parameters": {
+          "weaponClass": "sniper rifle"
+        },
+        "prompt": "Name a Fortnite sniper rifle.",
+        "accepted": 13,
+        "explicitlyVerified": 10
+      },
+      {
+        "templateId": "weapon-class",
+        "parameters": {
+          "weaponClass": "pistol"
+        },
+        "prompt": "Name a Fortnite pistol.",
+        "accepted": 18,
+        "explicitlyVerified": 15
+      },
+      {
+        "templateId": "weapon-class",
+        "parameters": {
+          "weaponClass": "explosive"
+        },
+        "prompt": "Name a Fortnite explosive.",
+        "accepted": 13,
+        "explicitlyVerified": 9
+      },
+      {
+        "templateId": "location-catalog",
+        "parameters": {},
+        "prompt": "Name a named Fortnite POI in Deep Drop’s answer catalog.",
+        "accepted": 204,
+        "explicitlyVerified": 191
+      },
+      {
+        "templateId": "collaboration-group",
+        "parameters": {
+          "group": "Marvel"
+        },
+        "prompt": "Name a Marvel character with a Fortnite skin.",
+        "accepted": 12,
+        "explicitlyVerified": 0
+      },
+      {
+        "templateId": "collaboration-group",
+        "parameters": {
+          "group": "Star Wars"
+        },
+        "prompt": "Name a Star Wars character with a Fortnite skin.",
+        "accepted": 10,
+        "explicitlyVerified": 0
+      },
+      {
+        "templateId": "collaboration-group",
+        "parameters": {
+          "group": "Anime"
+        },
+        "prompt": "Name a Anime character with a Fortnite skin.",
+        "accepted": 9,
+        "explicitlyVerified": 0
+      },
+      {
+        "templateId": "collaboration-group",
+        "parameters": {
+          "group": "Video game"
+        },
+        "prompt": "Name a video game character with a Fortnite skin.",
+        "accepted": 12,
+        "explicitlyVerified": 0
+      },
+      {
+        "templateId": "health-item",
+        "parameters": {},
+        "prompt": "Name an item that can restore health in Fortnite.",
+        "accepted": 30,
+        "explicitlyVerified": 24
+      },
+      {
+        "templateId": "shield-item",
+        "parameters": {},
+        "prompt": "Name an item that can restore shield in Fortnite.",
+        "accepted": 19,
+        "explicitlyVerified": 13
+      },
+      {
+        "templateId": "utility-item",
+        "parameters": {},
+        "prompt": "Name a Fortnite utility item.",
+        "accepted": 36,
+        "explicitlyVerified": 32
+      },
+      {
+        "templateId": "vehicle",
+        "parameters": {},
+        "prompt": "Name a vehicle you can drive or ride in Fortnite.",
+        "accepted": 21,
+        "explicitlyVerified": 16
+      },
+      {
+        "templateId": "live-event",
+        "parameters": {},
+        "prompt": "Name a major Fortnite live event.",
+        "accepted": 15,
+        "explicitlyVerified": 1
+      },
+      {
+        "templateId": "health-and-shield-item",
+        "parameters": {},
+        "prompt": "Name an item that can restore both health and shield in Fortnite.",
+        "accepted": 12,
+        "explicitlyVerified": 10
+      },
+      {
+        "templateId": "weapon-general",
+        "parameters": {},
+        "prompt": "Name a Fortnite weapon.",
+        "accepted": 153,
+        "explicitlyVerified": 131
+      },
+      {
+        "templateId": "crossover-general",
+        "parameters": {},
+        "prompt": "Name a crossover character with a Fortnite skin.",
+        "accepted": 43,
+        "explicitlyVerified": 0
+      },
+      {
+        "templateId": "weapon-mythic-version",
+        "parameters": {},
+        "prompt": "Name a Fortnite weapon that has a Mythic version.",
+        "accepted": 24,
+        "explicitlyVerified": 24
+      },
+      {
+        "templateId": "weapon-exotic-class",
+        "parameters": {},
+        "prompt": "Name an Exotic weapon in Fortnite.",
+        "accepted": 9,
+        "explicitlyVerified": 9
+      },
+      {
+        "templateId": "loot-container",
+        "parameters": {},
+        "prompt": "Name a Fortnite Battle Royale loot container.",
+        "accepted": 8,
+        "explicitlyVerified": 8
+      },
+      {
+        "templateId": "mobility-equipment",
+        "parameters": {},
+        "prompt": "Name an item or weapon used for mobility in Fortnite.",
+        "accepted": 27,
+        "explicitlyVerified": 27
+      },
+      {
+        "templateId": "throwable-equipment",
+        "parameters": {},
+        "prompt": "Name a throwable utility item in Fortnite.",
+        "accepted": 6,
+        "explicitlyVerified": 6
+      },
+      {
+        "templateId": "trap-equipment",
+        "parameters": {},
+        "prompt": "Name a placeable trap in Fortnite.",
+        "accepted": 7,
+        "explicitlyVerified": 7
+      },
+      {
+        "templateId": "ammunition-class",
+        "parameters": {},
+        "prompt": "Name a standard firearm ammunition type in Fortnite.",
+        "accepted": 5,
+        "explicitlyVerified": 5
+      },
+      {
+        "templateId": "foraged-class",
+        "parameters": {},
+        "prompt": "Name a foraged consumable in Fortnite.",
+        "accepted": 13,
+        "explicitlyVerified": 13
+      },
+      {
+        "templateId": "fish-class",
+        "parameters": {},
+        "prompt": "Name a fish item in Fortnite Battle Royale.",
+        "accepted": 16,
+        "explicitlyVerified": 16
+      },
+      {
+        "templateId": "landmark-general",
+        "parameters": {},
+        "prompt": "Name a landmark in Fortnite Battle Royale.",
+        "accepted": 35,
+        "explicitlyVerified": 35
+      }
+    ],
+    "verifiedClassifications": {
+      "healthItems": 24,
+      "shieldItems": 13,
+      "fish": 16,
+      "foraged": 13,
+      "mythicWeapons": 24,
+      "exoticWeapons": 9
+    },
+    "namedByChapter": {
+      "1": 18,
+      "2": 41,
+      "3": 11,
+      "4": 18,
+      "5": 22,
+      "6": 56,
+      "7": 50
+    },
+    "seasonAssignments": {
+      "2": {
+        "assignments": 137,
+        "bySeason": [
+          {
+            "season": "C2S1",
+            "namedPois": 13
+          },
+          {
+            "season": "C2S2",
+            "namedPois": 19
+          },
+          {
+            "season": "C2S3",
+            "namedPois": 18
+          },
+          {
+            "season": "C2S4",
+            "namedPois": 19
+          },
+          {
+            "season": "C2S5",
+            "namedPois": 17
+          },
+          {
+            "season": "C2S6",
+            "namedPois": 17
+          },
+          {
+            "season": "C2S7",
+            "namedPois": 17
+          },
+          {
+            "season": "C2S8",
+            "namedPois": 17
+          }
+        ]
+      },
+      "6": {
+        "assignments": 111,
+        "bySeason": [
+          {
+            "season": "C6S1",
+            "namedPois": 20
+          },
+          {
+            "season": "C6S2",
+            "namedPois": 18
+          },
+          {
+            "season": "C6GALACTIC2025",
+            "namedPois": 18
+          },
+          {
+            "season": "C6S3",
+            "namedPois": 18
+          },
+          {
+            "season": "C6S4",
+            "namedPois": 27
+          },
+          {
+            "season": "C6SIMPSONS2025",
+            "namedPois": 10
+          }
+        ]
+      },
+      "7": {
+        "assignments": 72,
+        "bySeason": [
+          {
+            "season": "C7S1",
+            "namedPois": 16
+          },
+          {
+            "season": "C7S2",
+            "namedPois": 15
+          },
+          {
+            "season": "C7S3",
+            "namedPois": 13
+          },
+          {
+            "season": "C7S4",
+            "namedPois": 15
+          },
+          {
+            "season": "C7TREASURE2026",
+            "namedPois": 13
+          }
+        ]
+      }
+    },
+    "pendingHistoricalClaims": 1213,
+    "dailyDistribution": {
+      "sampleDays": 120,
+      "rounds": 840,
+      "atLeast20Percent": 71.4,
+      "bands": {
+        "under10": 97,
+        "10to19": 143,
+        "20to49": 379,
+        "50to99": 0,
+        "100plus": 221
+      },
+      "examples": [
+        [
+          {
+            "templateId": "location-catalog",
+            "count": 204
+          },
+          {
+            "templateId": "utility-item",
+            "count": 36
+          },
+          {
+            "templateId": "weapon-mythic-version",
+            "count": 24
+          },
+          {
+            "templateId": "skin-battle-pass",
+            "count": 123
+          },
+          {
+            "templateId": "vehicle",
+            "count": 21
+          },
+          {
+            "templateId": "live-event",
+            "count": 15
+          },
+          {
+            "templateId": "collaboration-group",
+            "count": 12
+          }
+        ],
+        [
+          {
+            "templateId": "weapon-mythic-version",
+            "count": 24
+          },
+          {
+            "templateId": "skin-battle-pass",
+            "count": 123
+          },
+          {
+            "templateId": "vehicle",
+            "count": 21
+          },
+          {
+            "templateId": "location-catalog",
+            "count": 204
+          },
+          {
+            "templateId": "utility-item",
+            "count": 36
+          },
+          {
+            "templateId": "collaboration-group",
+            "count": 12
+          },
+          {
+            "templateId": "live-event",
+            "count": 15
+          }
+        ],
+        [
+          {
+            "templateId": "location-catalog",
+            "count": 204
+          },
+          {
+            "templateId": "health-item",
+            "count": 30
+          },
+          {
+            "templateId": "crossover-general",
+            "count": 43
+          },
+          {
+            "templateId": "weapon-general",
+            "count": 153
+          },
+          {
+            "templateId": "skin-battle-pass",
+            "count": 123
+          },
+          {
+            "templateId": "live-event",
+            "count": 15
+          },
+          {
+            "templateId": "loot-container",
+            "count": 8
+          }
+        ]
+      ]
+    }
+  },
+  "quality": {
+    "distribution": {
+      "under10": {
+        "count": 75,
+        "percentage": 37.3
+      },
+      "10to19": {
+        "count": 74,
+        "percentage": 36.8
+      },
+      "20to49": {
+        "count": 41,
+        "percentage": 20.4
+      },
+      "50to99": {
+        "count": 8,
+        "percentage": 4
+      },
+      "100plus": {
+        "count": 3,
+        "percentage": 1.5
+      }
+    },
+    "dailyEligible": 27,
+    "practiceOnly": 174,
+    "preferredDaily": 13,
+    "questions": [
+      {
+        "id": "skin-battle-pass:all:fortnite-br-location-history-2026.11.10",
+        "templateId": "skin-battle-pass",
+        "prompt": "Name a Fortnite Battle Pass skin.",
+        "acceptedAnswers": 123,
+        "fieldVerifiedAnswers": 84,
+        "recognizableAnswers": 21,
+        "breadth": "broad",
+        "historicalSpecificity": 0,
+        "difficulty": "easy",
+        "dailyEligible": true,
+        "preferredDaily": true,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 91,
+        "reasons": []
+      },
+      {
+        "id": "weapon-class:weaponClass=shotgun:fortnite-br-location-history-2026.11.10",
+        "templateId": "weapon-class",
+        "prompt": "Name a Fortnite shotgun.",
+        "acceptedAnswers": 29,
+        "fieldVerifiedAnswers": 23,
+        "recognizableAnswers": 7,
+        "breadth": "standard",
+        "historicalSpecificity": 0,
+        "difficulty": "easy",
+        "dailyEligible": true,
+        "preferredDaily": true,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 2,
+        "reasons": []
+      },
+      {
+        "id": "weapon-class:weaponClass=assault rifle:fortnite-br-location-history-2026.11.10",
+        "templateId": "weapon-class",
+        "prompt": "Name a Fortnite assault rifle.",
+        "acceptedAnswers": 30,
+        "fieldVerifiedAnswers": 26,
+        "recognizableAnswers": 5,
+        "breadth": "standard",
+        "historicalSpecificity": 0,
+        "difficulty": "easy",
+        "dailyEligible": true,
+        "preferredDaily": true,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 3,
+        "reasons": []
+      },
+      {
+        "id": "weapon-class:weaponClass=smg:fortnite-br-location-history-2026.11.10",
+        "templateId": "weapon-class",
+        "prompt": "Name a Fortnite smg.",
+        "acceptedAnswers": 20,
+        "fieldVerifiedAnswers": 18,
+        "recognizableAnswers": 5,
+        "breadth": "standard",
+        "historicalSpecificity": 0,
+        "difficulty": "easy",
+        "dailyEligible": true,
+        "preferredDaily": true,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 1,
+        "reasons": []
+      },
+      {
+        "id": "weapon-class:weaponClass=sniper rifle:fortnite-br-location-history-2026.11.10",
+        "templateId": "weapon-class",
+        "prompt": "Name a Fortnite sniper rifle.",
+        "acceptedAnswers": 13,
+        "fieldVerifiedAnswers": 10,
+        "recognizableAnswers": 4,
+        "breadth": "medium",
+        "historicalSpecificity": 0,
+        "difficulty": "medium",
+        "dailyEligible": true,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 2,
+        "reasons": []
+      },
+      {
+        "id": "weapon-class:weaponClass=pistol:fortnite-br-location-history-2026.11.10",
+        "templateId": "weapon-class",
+        "prompt": "Name a Fortnite pistol.",
+        "acceptedAnswers": 18,
+        "fieldVerifiedAnswers": 15,
+        "recognizableAnswers": 6,
+        "breadth": "medium",
+        "historicalSpecificity": 0,
+        "difficulty": "medium",
+        "dailyEligible": true,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": []
+      },
+      {
+        "id": "weapon-class:weaponClass=explosive:fortnite-br-location-history-2026.11.10",
+        "templateId": "weapon-class",
+        "prompt": "Name a Fortnite explosive.",
+        "acceptedAnswers": 13,
+        "fieldVerifiedAnswers": 9,
+        "recognizableAnswers": 4,
+        "breadth": "medium",
+        "historicalSpecificity": 0,
+        "difficulty": "medium",
+        "dailyEligible": true,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 1,
+        "reasons": []
+      },
+      {
+        "id": "location-catalog:all:fortnite-br-location-history-2026.11.10",
+        "templateId": "location-catalog",
+        "prompt": "Name a named Fortnite POI in Deep Drop’s answer catalog.",
+        "acceptedAnswers": 204,
+        "fieldVerifiedAnswers": 191,
+        "recognizableAnswers": 41,
+        "breadth": "broad",
+        "historicalSpecificity": 0,
+        "difficulty": "easy",
+        "dailyEligible": true,
+        "preferredDaily": true,
+        "clarity": "Explicit bounded reference scope.",
+        "rareAnswerCount": 2,
+        "reasons": []
+      },
+      {
+        "id": "collaboration-group:group=Marvel:fortnite-br-location-history-2026.11.10",
+        "templateId": "collaboration-group",
+        "prompt": "Name a Marvel character with a Fortnite skin.",
+        "acceptedAnswers": 12,
+        "fieldVerifiedAnswers": 0,
+        "recognizableAnswers": 12,
+        "breadth": "medium",
+        "historicalSpecificity": 0,
+        "difficulty": "medium",
+        "dailyEligible": true,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": []
+      },
+      {
+        "id": "collaboration-group:group=Star Wars:fortnite-br-location-history-2026.11.10",
+        "templateId": "collaboration-group",
+        "prompt": "Name a Star Wars character with a Fortnite skin.",
+        "acceptedAnswers": 10,
+        "fieldVerifiedAnswers": 0,
+        "recognizableAnswers": 10,
+        "breadth": "hard",
+        "historicalSpecificity": 0,
+        "difficulty": "medium",
+        "dailyEligible": true,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": [
+          "Small accessible bank: eligible only as a daily wildcard."
+        ]
+      },
+      {
+        "id": "collaboration-group:group=Anime:fortnite-br-location-history-2026.11.10",
+        "templateId": "collaboration-group",
+        "prompt": "Name a Anime character with a Fortnite skin.",
+        "acceptedAnswers": 9,
+        "fieldVerifiedAnswers": 0,
+        "recognizableAnswers": 9,
+        "breadth": "hard",
+        "historicalSpecificity": 0,
+        "difficulty": "medium",
+        "dailyEligible": true,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": [
+          "Small accessible bank: eligible only as a daily wildcard."
+        ]
+      },
+      {
+        "id": "collaboration-group:group=Video game:fortnite-br-location-history-2026.11.10",
+        "templateId": "collaboration-group",
+        "prompt": "Name a video game character with a Fortnite skin.",
+        "acceptedAnswers": 12,
+        "fieldVerifiedAnswers": 0,
+        "recognizableAnswers": 12,
+        "breadth": "medium",
+        "historicalSpecificity": 0,
+        "difficulty": "medium",
+        "dailyEligible": true,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": []
+      },
+      {
+        "id": "health-item:all:fortnite-br-location-history-2026.11.10",
+        "templateId": "health-item",
+        "prompt": "Name an item that can restore health in Fortnite.",
+        "acceptedAnswers": 30,
+        "fieldVerifiedAnswers": 24,
+        "recognizableAnswers": 18,
+        "breadth": "standard",
+        "historicalSpecificity": 0,
+        "difficulty": "easy",
+        "dailyEligible": true,
+        "preferredDaily": true,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": []
+      },
+      {
+        "id": "shield-item:all:fortnite-br-location-history-2026.11.10",
+        "templateId": "shield-item",
+        "prompt": "Name an item that can restore shield in Fortnite.",
+        "acceptedAnswers": 19,
+        "fieldVerifiedAnswers": 13,
+        "recognizableAnswers": 14,
+        "breadth": "medium",
+        "historicalSpecificity": 0,
+        "difficulty": "medium",
+        "dailyEligible": true,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": []
+      },
+      {
+        "id": "utility-item:all:fortnite-br-location-history-2026.11.10",
+        "templateId": "utility-item",
+        "prompt": "Name a Fortnite utility item.",
+        "acceptedAnswers": 36,
+        "fieldVerifiedAnswers": 32,
+        "recognizableAnswers": 8,
+        "breadth": "standard",
+        "historicalSpecificity": 0,
+        "difficulty": "easy",
+        "dailyEligible": true,
+        "preferredDaily": true,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": []
+      },
+      {
+        "id": "vehicle:all:fortnite-br-location-history-2026.11.10",
+        "templateId": "vehicle",
+        "prompt": "Name a vehicle you can drive or ride in Fortnite.",
+        "acceptedAnswers": 21,
+        "fieldVerifiedAnswers": 16,
+        "recognizableAnswers": 15,
+        "breadth": "standard",
+        "historicalSpecificity": 0,
+        "difficulty": "easy",
+        "dailyEligible": true,
+        "preferredDaily": true,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": []
+      },
+      {
+        "id": "live-event:all:fortnite-br-location-history-2026.11.10",
+        "templateId": "live-event",
+        "prompt": "Name a major Fortnite live event.",
+        "acceptedAnswers": 15,
+        "fieldVerifiedAnswers": 1,
+        "recognizableAnswers": 14,
+        "breadth": "medium",
+        "historicalSpecificity": 0,
+        "difficulty": "medium",
+        "dailyEligible": true,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": []
+      },
+      {
+        "id": "health-and-shield-item:all:fortnite-br-location-history-2026.11.10",
+        "templateId": "health-and-shield-item",
+        "prompt": "Name an item that can restore both health and shield in Fortnite.",
+        "acceptedAnswers": 12,
+        "fieldVerifiedAnswers": 10,
+        "recognizableAnswers": 8,
+        "breadth": "medium",
+        "historicalSpecificity": 0,
+        "difficulty": "medium",
+        "dailyEligible": true,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": []
+      },
+      {
+        "id": "weapon-general:all:fortnite-br-location-history-2026.11.10",
+        "templateId": "weapon-general",
+        "prompt": "Name a Fortnite weapon.",
+        "acceptedAnswers": 153,
+        "fieldVerifiedAnswers": 131,
+        "recognizableAnswers": 36,
+        "breadth": "broad",
+        "historicalSpecificity": 0,
+        "difficulty": "easy",
+        "dailyEligible": true,
+        "preferredDaily": true,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 9,
+        "reasons": []
+      },
+      {
+        "id": "crossover-general:all:fortnite-br-location-history-2026.11.10",
+        "templateId": "crossover-general",
+        "prompt": "Name a crossover character with a Fortnite skin.",
+        "acceptedAnswers": 43,
+        "fieldVerifiedAnswers": 0,
+        "recognizableAnswers": 43,
+        "breadth": "broad",
+        "historicalSpecificity": 0,
+        "difficulty": "easy",
+        "dailyEligible": true,
+        "preferredDaily": true,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": []
+      },
+      {
+        "id": "weapon-mythic-version:all:fortnite-br-location-history-2026.11.10",
+        "templateId": "weapon-mythic-version",
+        "prompt": "Name a Fortnite weapon that has a Mythic version.",
+        "acceptedAnswers": 24,
+        "fieldVerifiedAnswers": 24,
+        "recognizableAnswers": 5,
+        "breadth": "standard",
+        "historicalSpecificity": 0,
+        "difficulty": "easy",
+        "dailyEligible": true,
+        "preferredDaily": true,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": []
+      },
+      {
+        "id": "weapon-exotic-class:all:fortnite-br-location-history-2026.11.10",
+        "templateId": "weapon-exotic-class",
+        "prompt": "Name an Exotic weapon in Fortnite.",
+        "acceptedAnswers": 9,
+        "fieldVerifiedAnswers": 9,
+        "recognizableAnswers": 0,
+        "breadth": "hard",
+        "historicalSpecificity": 0,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": [
+          "Small accessible bank: eligible only as a daily wildcard.",
+          "Fewer than three high-recall editorial estimates."
+        ]
+      },
+      {
+        "id": "loot-container:all:fortnite-br-location-history-2026.11.10",
+        "templateId": "loot-container",
+        "prompt": "Name a Fortnite Battle Royale loot container.",
+        "acceptedAnswers": 8,
+        "fieldVerifiedAnswers": 8,
+        "recognizableAnswers": 5,
+        "breadth": "hard",
+        "historicalSpecificity": 0,
+        "difficulty": "medium",
+        "dailyEligible": true,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": [
+          "Small accessible bank: eligible only as a daily wildcard."
+        ]
+      },
+      {
+        "id": "mobility-equipment:all:fortnite-br-location-history-2026.11.10",
+        "templateId": "mobility-equipment",
+        "prompt": "Name an item or weapon used for mobility in Fortnite.",
+        "acceptedAnswers": 27,
+        "fieldVerifiedAnswers": 27,
+        "recognizableAnswers": 9,
+        "breadth": "standard",
+        "historicalSpecificity": 0,
+        "difficulty": "easy",
+        "dailyEligible": true,
+        "preferredDaily": true,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": []
+      },
+      {
+        "id": "throwable-equipment:all:fortnite-br-location-history-2026.11.10",
+        "templateId": "throwable-equipment",
+        "prompt": "Name a throwable utility item in Fortnite.",
+        "acceptedAnswers": 6,
+        "fieldVerifiedAnswers": 6,
+        "recognizableAnswers": 2,
+        "breadth": "expert",
+        "historicalSpecificity": 0,
+        "difficulty": "hard",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": [
+          "Small bank: preserve for practice.",
+          "Fewer than three high-recall editorial estimates."
+        ]
+      },
+      {
+        "id": "trap-equipment:all:fortnite-br-location-history-2026.11.10",
+        "templateId": "trap-equipment",
+        "prompt": "Name a placeable trap in Fortnite.",
+        "acceptedAnswers": 7,
+        "fieldVerifiedAnswers": 7,
+        "recognizableAnswers": 3,
+        "breadth": "expert",
+        "historicalSpecificity": 0,
+        "difficulty": "medium",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": [
+          "Small bank: preserve for practice."
+        ]
+      },
+      {
+        "id": "ammunition-class:all:fortnite-br-location-history-2026.11.10",
+        "templateId": "ammunition-class",
+        "prompt": "Name a standard firearm ammunition type in Fortnite.",
+        "acceptedAnswers": 5,
+        "fieldVerifiedAnswers": 5,
+        "recognizableAnswers": 5,
+        "breadth": "expert",
+        "historicalSpecificity": 0,
+        "difficulty": "medium",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": [
+          "Small bank: preserve for practice."
+        ]
+      },
+      {
+        "id": "foraged-class:all:fortnite-br-location-history-2026.11.10",
+        "templateId": "foraged-class",
+        "prompt": "Name a foraged consumable in Fortnite.",
+        "acceptedAnswers": 13,
+        "fieldVerifiedAnswers": 13,
+        "recognizableAnswers": 3,
+        "breadth": "medium",
+        "historicalSpecificity": 0,
+        "difficulty": "medium",
+        "dailyEligible": true,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": []
+      },
+      {
+        "id": "fish-class:all:fortnite-br-location-history-2026.11.10",
+        "templateId": "fish-class",
+        "prompt": "Name a fish item in Fortnite Battle Royale.",
+        "acceptedAnswers": 16,
+        "fieldVerifiedAnswers": 16,
+        "recognizableAnswers": 5,
+        "breadth": "medium",
+        "historicalSpecificity": 0,
+        "difficulty": "medium",
+        "dailyEligible": true,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": []
+      },
+      {
+        "id": "landmark-general:all:fortnite-br-location-history-2026.11.10",
+        "templateId": "landmark-general",
+        "prompt": "Name a landmark in Fortnite Battle Royale.",
+        "acceptedAnswers": 35,
+        "fieldVerifiedAnswers": 35,
+        "recognizableAnswers": 0,
+        "breadth": "standard",
+        "historicalSpecificity": 0,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": [
+          "Fewer than three high-recall editorial estimates."
+        ]
+      },
+      {
+        "id": "location-reviewed-map:version=41.20:fortnite-br-location-history-2026.11.10",
+        "templateId": "location-reviewed-map",
+        "prompt": "Name a named POI on Fortnite Battle Royale’s v41.20 map.",
+        "acceptedAnswers": 13,
+        "fieldVerifiedAnswers": 13,
+        "recognizableAnswers": 0,
+        "breadth": "medium",
+        "historicalSpecificity": 1,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": [
+          "Fewer than three high-recall editorial estimates.",
+          "Advanced scope stays in practice."
+        ]
+      },
+      {
+        "id": "location-reviewed-map:version=42.00:fortnite-br-location-history-2026.11.10",
+        "templateId": "location-reviewed-map",
+        "prompt": "Name a named POI on Fortnite Battle Royale’s v42.00 map.",
+        "acceptedAnswers": 13,
+        "fieldVerifiedAnswers": 13,
+        "recognizableAnswers": 0,
+        "breadth": "medium",
+        "historicalSpecificity": 1,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": [
+          "Fewer than three high-recall editorial estimates.",
+          "Advanced scope stays in practice."
+        ]
+      },
+      {
+        "id": "location-reviewed-map:version=42.30:fortnite-br-location-history-2026.11.10",
+        "templateId": "location-reviewed-map",
+        "prompt": "Name a named POI on Fortnite Battle Royale’s v42.30 map.",
+        "acceptedAnswers": 13,
+        "fieldVerifiedAnswers": 13,
+        "recognizableAnswers": 0,
+        "breadth": "medium",
+        "historicalSpecificity": 1,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": [
+          "Fewer than three high-recall editorial estimates.",
+          "Advanced scope stays in practice."
+        ]
+      },
+      {
+        "id": "location-reviewed-map:version=43.00:fortnite-br-location-history-2026.11.10",
+        "templateId": "location-reviewed-map",
+        "prompt": "Name a named POI on Fortnite Battle Royale’s v43.00 map.",
+        "acceptedAnswers": 13,
+        "fieldVerifiedAnswers": 13,
+        "recognizableAnswers": 0,
+        "breadth": "medium",
+        "historicalSpecificity": 1,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": [
+          "Fewer than three high-recall editorial estimates.",
+          "Advanced scope stays in practice."
+        ]
+      },
+      {
+        "id": "location-introduced-range:from=C1S7&through=C1S8:fortnite-br-location-history-2026.11.10",
+        "templateId": "location-introduced-range",
+        "prompt": "Name a named POI first introduced from Chapter 1 Season 7 through Chapter 1 Season 8, inclusive.",
+        "acceptedAnswers": 6,
+        "fieldVerifiedAnswers": 6,
+        "recognizableAnswers": 2,
+        "breadth": "expert",
+        "historicalSpecificity": 3,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": [
+          "Small bank: preserve for practice.",
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval.",
+          "Advanced scope stays in practice."
+        ]
+      },
+      {
+        "id": "location-available-season:season=C2S1:fortnite-br-location-history-2026.11.10",
+        "templateId": "location-available-season",
+        "prompt": "Name a named POI that appeared during Chapter 2 Season 1.",
+        "acceptedAnswers": 13,
+        "fieldVerifiedAnswers": 13,
+        "recognizableAnswers": 11,
+        "breadth": "medium",
+        "historicalSpecificity": 2,
+        "difficulty": "hard",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": [
+          "Requires a specific season, update or historical interval.",
+          "Advanced scope stays in practice."
+        ]
+      },
+      {
+        "id": "location-available-season:season=C2S2:fortnite-br-location-history-2026.11.10",
+        "templateId": "location-available-season",
+        "prompt": "Name a named POI that appeared during Chapter 2 Season 2.",
+        "acceptedAnswers": 19,
+        "fieldVerifiedAnswers": 19,
+        "recognizableAnswers": 17,
+        "breadth": "medium",
+        "historicalSpecificity": 2,
+        "difficulty": "hard",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": [
+          "Requires a specific season, update or historical interval.",
+          "Advanced scope stays in practice."
+        ]
+      },
+      {
+        "id": "location-available-season:season=C2S3:fortnite-br-location-history-2026.11.10",
+        "templateId": "location-available-season",
+        "prompt": "Name a named POI that appeared during Chapter 2 Season 3.",
+        "acceptedAnswers": 18,
+        "fieldVerifiedAnswers": 18,
+        "recognizableAnswers": 15,
+        "breadth": "medium",
+        "historicalSpecificity": 2,
+        "difficulty": "hard",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": [
+          "Requires a specific season, update or historical interval.",
+          "Advanced scope stays in practice."
+        ]
+      },
+      {
+        "id": "location-available-season:season=C2S4:fortnite-br-location-history-2026.11.10",
+        "templateId": "location-available-season",
+        "prompt": "Name a named POI that appeared during Chapter 2 Season 4.",
+        "acceptedAnswers": 19,
+        "fieldVerifiedAnswers": 19,
+        "recognizableAnswers": 14,
+        "breadth": "medium",
+        "historicalSpecificity": 2,
+        "difficulty": "hard",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": [
+          "Requires a specific season, update or historical interval.",
+          "Advanced scope stays in practice."
+        ]
+      },
+      {
+        "id": "location-available-season:season=C2S5:fortnite-br-location-history-2026.11.10",
+        "templateId": "location-available-season",
+        "prompt": "Name a named POI that appeared during Chapter 2 Season 5.",
+        "acceptedAnswers": 17,
+        "fieldVerifiedAnswers": 17,
+        "recognizableAnswers": 11,
+        "breadth": "medium",
+        "historicalSpecificity": 2,
+        "difficulty": "hard",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": [
+          "Requires a specific season, update or historical interval.",
+          "Advanced scope stays in practice."
+        ]
+      },
+      {
+        "id": "location-available-season:season=C2S6:fortnite-br-location-history-2026.11.10",
+        "templateId": "location-available-season",
+        "prompt": "Name a named POI that appeared during Chapter 2 Season 6.",
+        "acceptedAnswers": 17,
+        "fieldVerifiedAnswers": 17,
+        "recognizableAnswers": 11,
+        "breadth": "medium",
+        "historicalSpecificity": 2,
+        "difficulty": "hard",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": [
+          "Requires a specific season, update or historical interval.",
+          "Advanced scope stays in practice."
+        ]
+      },
+      {
+        "id": "location-available-season:season=C2S7:fortnite-br-location-history-2026.11.10",
+        "templateId": "location-available-season",
+        "prompt": "Name a named POI that appeared during Chapter 2 Season 7.",
+        "acceptedAnswers": 17,
+        "fieldVerifiedAnswers": 17,
+        "recognizableAnswers": 10,
+        "breadth": "medium",
+        "historicalSpecificity": 2,
+        "difficulty": "hard",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": [
+          "Requires a specific season, update or historical interval.",
+          "Advanced scope stays in practice."
+        ]
+      },
+      {
+        "id": "location-available-season:season=C2S8:fortnite-br-location-history-2026.11.10",
+        "templateId": "location-available-season",
+        "prompt": "Name a named POI that appeared during Chapter 2 Season 8.",
+        "acceptedAnswers": 17,
+        "fieldVerifiedAnswers": 17,
+        "recognizableAnswers": 9,
+        "breadth": "medium",
+        "historicalSpecificity": 2,
+        "difficulty": "hard",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": [
+          "Requires a specific season, update or historical interval.",
+          "Advanced scope stays in practice."
+        ]
+      },
+      {
+        "id": "location-available-season:season=REMIX2024:fortnite-br-location-history-2026.11.10",
+        "templateId": "location-available-season",
+        "prompt": "Name a named POI that appeared during Chapter 2 Remix (2024).",
+        "acceptedAnswers": 19,
+        "fieldVerifiedAnswers": 19,
+        "recognizableAnswers": 14,
+        "breadth": "medium",
+        "historicalSpecificity": 2,
+        "difficulty": "hard",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": [
+          "Requires a specific season, update or historical interval.",
+          "Advanced scope stays in practice."
+        ]
+      },
+      {
+        "id": "location-available-season:season=C6S1:fortnite-br-location-history-2026.11.10",
+        "templateId": "location-available-season",
+        "prompt": "Name a named POI that appeared during Chapter 6 Season 1.",
+        "acceptedAnswers": 20,
+        "fieldVerifiedAnswers": 20,
+        "recognizableAnswers": 0,
+        "breadth": "standard",
+        "historicalSpecificity": 2,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 1,
+        "reasons": [
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval.",
+          "Advanced scope stays in practice."
+        ]
+      },
+      {
+        "id": "location-available-season:season=C6S2:fortnite-br-location-history-2026.11.10",
+        "templateId": "location-available-season",
+        "prompt": "Name a named POI that appeared during Chapter 6 Season 2.",
+        "acceptedAnswers": 18,
+        "fieldVerifiedAnswers": 18,
+        "recognizableAnswers": 0,
+        "breadth": "medium",
+        "historicalSpecificity": 2,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 1,
+        "reasons": [
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval.",
+          "Advanced scope stays in practice."
+        ]
+      },
+      {
+        "id": "location-available-season:season=C6GALACTIC2025:fortnite-br-location-history-2026.11.10",
+        "templateId": "location-available-season",
+        "prompt": "Name a named POI that appeared during Chapter 6: Galactic Battle (2025).",
+        "acceptedAnswers": 18,
+        "fieldVerifiedAnswers": 18,
+        "recognizableAnswers": 0,
+        "breadth": "medium",
+        "historicalSpecificity": 2,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 1,
+        "reasons": [
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval.",
+          "Advanced scope stays in practice."
+        ]
+      },
+      {
+        "id": "location-available-season:season=C6S3:fortnite-br-location-history-2026.11.10",
+        "templateId": "location-available-season",
+        "prompt": "Name a named POI that appeared during Chapter 6 Season 3.",
+        "acceptedAnswers": 18,
+        "fieldVerifiedAnswers": 18,
+        "recognizableAnswers": 0,
+        "breadth": "medium",
+        "historicalSpecificity": 2,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 1,
+        "reasons": [
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval.",
+          "Advanced scope stays in practice."
+        ]
+      },
+      {
+        "id": "location-available-season:season=C6S4:fortnite-br-location-history-2026.11.10",
+        "templateId": "location-available-season",
+        "prompt": "Name a named POI that appeared during Chapter 6 Season 4.",
+        "acceptedAnswers": 27,
+        "fieldVerifiedAnswers": 27,
+        "recognizableAnswers": 0,
+        "breadth": "standard",
+        "historicalSpecificity": 2,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 1,
+        "reasons": [
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval.",
+          "Advanced scope stays in practice."
+        ]
+      },
+      {
+        "id": "location-available-season:season=C6SIMPSONS2025:fortnite-br-location-history-2026.11.10",
+        "templateId": "location-available-season",
+        "prompt": "Name a named POI that appeared during Chapter 6: The Simpsons (2025).",
+        "acceptedAnswers": 10,
+        "fieldVerifiedAnswers": 10,
+        "recognizableAnswers": 0,
+        "breadth": "hard",
+        "historicalSpecificity": 2,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": [
+          "Small accessible bank: eligible only as a daily wildcard.",
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval.",
+          "Advanced scope stays in practice."
+        ]
+      },
+      {
+        "id": "location-available-season:season=C7S1:fortnite-br-location-history-2026.11.10",
+        "templateId": "location-available-season",
+        "prompt": "Name a named POI that appeared during Chapter 7 Season 1.",
+        "acceptedAnswers": 16,
+        "fieldVerifiedAnswers": 16,
+        "recognizableAnswers": 0,
+        "breadth": "medium",
+        "historicalSpecificity": 2,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": [
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval.",
+          "Advanced scope stays in practice."
+        ]
+      },
+      {
+        "id": "location-available-season:season=C7S2:fortnite-br-location-history-2026.11.10",
+        "templateId": "location-available-season",
+        "prompt": "Name a named POI that appeared during Chapter 7 Season 2.",
+        "acceptedAnswers": 15,
+        "fieldVerifiedAnswers": 15,
+        "recognizableAnswers": 0,
+        "breadth": "medium",
+        "historicalSpecificity": 2,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": [
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval.",
+          "Advanced scope stays in practice."
+        ]
+      },
+      {
+        "id": "location-available-season:season=C7S3:fortnite-br-location-history-2026.11.10",
+        "templateId": "location-available-season",
+        "prompt": "Name a named POI that appeared during Chapter 7 Season 3.",
+        "acceptedAnswers": 13,
+        "fieldVerifiedAnswers": 13,
+        "recognizableAnswers": 0,
+        "breadth": "medium",
+        "historicalSpecificity": 2,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": [
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval.",
+          "Advanced scope stays in practice."
+        ]
+      },
+      {
+        "id": "location-available-season:season=C7S4:fortnite-br-location-history-2026.11.10",
+        "templateId": "location-available-season",
+        "prompt": "Name a named POI that appeared during Chapter 7 Season 4.",
+        "acceptedAnswers": 15,
+        "fieldVerifiedAnswers": 15,
+        "recognizableAnswers": 0,
+        "breadth": "medium",
+        "historicalSpecificity": 2,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": [
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval.",
+          "Advanced scope stays in practice."
+        ]
+      },
+      {
+        "id": "location-available-season:season=C7TREASURE2026:fortnite-br-location-history-2026.11.10",
+        "templateId": "location-available-season",
+        "prompt": "Name a named POI that appeared during Chapter 7: Treasure Hunters (2026).",
+        "acceptedAnswers": 13,
+        "fieldVerifiedAnswers": 13,
+        "recognizableAnswers": 0,
+        "breadth": "medium",
+        "historicalSpecificity": 2,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": [
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval.",
+          "Advanced scope stays in practice."
+        ]
+      },
+      {
+        "id": "weapon-available-season:season=C1S6:fortnite-br-location-history-2026.11.10",
+        "templateId": "weapon-available-season",
+        "prompt": "Name a weapon with a loot drop-rate adjustment in Epic’s v6.02 patch notes.",
+        "acceptedAnswers": 6,
+        "fieldVerifiedAnswers": 6,
+        "recognizableAnswers": 5,
+        "breadth": "expert",
+        "historicalSpecificity": 2,
+        "difficulty": "hard",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": [
+          "Small bank: preserve for practice.",
+          "Requires a specific season, update or historical interval.",
+          "Advanced scope stays in practice."
+        ]
+      },
+      {
+        "id": "weapon-available-season:season=C2S6:fortnite-br-location-history-2026.11.10",
+        "templateId": "weapon-available-season",
+        "prompt": "Name a weapon explicitly named in Epic’s Chapter 2 Season 6 Primal crafting guide.",
+        "acceptedAnswers": 10,
+        "fieldVerifiedAnswers": 10,
+        "recognizableAnswers": 3,
+        "breadth": "hard",
+        "historicalSpecificity": 2,
+        "difficulty": "hard",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": [
+          "Small accessible bank: eligible only as a daily wildcard.",
+          "Requires a specific season, update or historical interval.",
+          "Advanced scope stays in practice."
+        ]
+      },
+      {
+        "id": "vehicle-introduced-chapter:chapter=1:fortnite-br-location-history-2026.11.10",
+        "templateId": "vehicle-introduced-chapter",
+        "prompt": "Name a vehicle first introduced in Chapter 1.",
+        "acceptedAnswers": 8,
+        "fieldVerifiedAnswers": 8,
+        "recognizableAnswers": 7,
+        "breadth": "hard",
+        "historicalSpecificity": 1,
+        "difficulty": "medium",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": [
+          "Small accessible bank: eligible only as a daily wildcard.",
+          "Advanced scope stays in practice."
+        ]
+      },
+      {
+        "id": "location-chapter:chapter=2:fortnite-br-location-history-2026.11.10",
+        "templateId": "location-chapter",
+        "prompt": "Name a Chapter 2 named location.",
+        "acceptedAnswers": 41,
+        "fieldVerifiedAnswers": 41,
+        "recognizableAnswers": 21,
+        "breadth": "broad",
+        "historicalSpecificity": 1,
+        "difficulty": "easy",
+        "dailyEligible": true,
+        "preferredDaily": true,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": []
+      },
+      {
+        "id": "location-chapter:chapter=6:fortnite-br-location-history-2026.11.10",
+        "templateId": "location-chapter",
+        "prompt": "Name a Chapter 6 named location.",
+        "acceptedAnswers": 56,
+        "fieldVerifiedAnswers": 56,
+        "recognizableAnswers": 0,
+        "breadth": "broad",
+        "historicalSpecificity": 1,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 1,
+        "reasons": [
+          "Fewer than three high-recall editorial estimates."
+        ]
+      },
+      {
+        "id": "location-chapter:chapter=7:fortnite-br-location-history-2026.11.10",
+        "templateId": "location-chapter",
+        "prompt": "Name a Chapter 7 named location.",
+        "acceptedAnswers": 50,
+        "fieldVerifiedAnswers": 50,
+        "recognizableAnswers": 0,
+        "breadth": "broad",
+        "historicalSpecificity": 1,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": [
+          "Fewer than three high-recall editorial estimates."
+        ]
+      },
+      {
+        "id": "location-return-og:all:fortnite-br-location-history-2026.11.10",
+        "templateId": "location-return-og",
+        "prompt": "Name a returning Chapter 1 named POI mentioned in Epic’s Fortnite OG (2023) announcement.",
+        "acceptedAnswers": 5,
+        "fieldVerifiedAnswers": 5,
+        "recognizableAnswers": 4,
+        "breadth": "expert",
+        "historicalSpecificity": 1,
+        "difficulty": "medium",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Explicit bounded reference scope.",
+        "rareAnswerCount": 0,
+        "reasons": [
+          "Small bank: preserve for practice.",
+          "Advanced scope stays in practice."
+        ]
+      },
+      {
+        "id": "weapon-vaulted:all:fortnite-br-location-history-2026.11.10",
+        "templateId": "weapon-vaulted",
+        "prompt": "Name a weapon listed as vaulted in Epic’s original Chapter 1 Season 4–X launch patch notes.",
+        "acceptedAnswers": 12,
+        "fieldVerifiedAnswers": 12,
+        "recognizableAnswers": 3,
+        "breadth": "medium",
+        "historicalSpecificity": 1,
+        "difficulty": "medium",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": [
+          "Advanced scope stays in practice."
+        ]
+      },
+      {
+        "id": "weapon-unvaulted:all:fortnite-br-location-history-2026.11.10",
+        "templateId": "weapon-unvaulted",
+        "prompt": "Name a weapon unvaulted in the Tilted Town content update or the v10.30 update in Season X.",
+        "acceptedAnswers": 5,
+        "fieldVerifiedAnswers": 5,
+        "recognizableAnswers": 2,
+        "breadth": "expert",
+        "historicalSpecificity": 1,
+        "difficulty": "hard",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": [
+          "Small bank: preserve for practice.",
+          "Fewer than three high-recall editorial estimates.",
+          "Advanced scope stays in practice."
+        ]
+      },
+      {
+        "id": "item-vaulted:all:fortnite-br-location-history-2026.11.10",
+        "templateId": "item-vaulted",
+        "prompt": "Name a non-weapon item listed as vaulted in Epic’s original Chapter 1 Season 4–X launch patch notes.",
+        "acceptedAnswers": 16,
+        "fieldVerifiedAnswers": 16,
+        "recognizableAnswers": 4,
+        "breadth": "medium",
+        "historicalSpecificity": 1,
+        "difficulty": "medium",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": [
+          "Advanced scope stays in practice."
+        ]
+      },
+      {
+        "id": "vehicle-vaulted:all:fortnite-br-location-history-2026.11.10",
+        "templateId": "vehicle-vaulted",
+        "prompt": "Name a vehicle listed as vaulted in Epic’s original Chapter 1 Season 4–X launch patch notes.",
+        "acceptedAnswers": 5,
+        "fieldVerifiedAnswers": 5,
+        "recognizableAnswers": 5,
+        "breadth": "expert",
+        "historicalSpecificity": 1,
+        "difficulty": "medium",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": [
+          "Small bank: preserve for practice.",
+          "Advanced scope stays in practice."
+        ]
+      },
+      {
+        "id": "reviewed-pass-season:season=C3S1:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-pass-season",
+        "prompt": "Name a Battle Pass outfit first released in Chapter 3 Season 1.",
+        "acceptedAnswers": 8,
+        "fieldVerifiedAnswers": 8,
+        "recognizableAnswers": 0,
+        "breadth": "hard",
+        "historicalSpecificity": 2,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 8,
+        "reasons": [
+          "Small accessible bank: eligible only as a daily wildcard.",
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-pass-season:season=C3S2:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-pass-season",
+        "prompt": "Name a Battle Pass outfit first released in Chapter 3 Season 2.",
+        "acceptedAnswers": 8,
+        "fieldVerifiedAnswers": 8,
+        "recognizableAnswers": 0,
+        "breadth": "hard",
+        "historicalSpecificity": 2,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 8,
+        "reasons": [
+          "Small accessible bank: eligible only as a daily wildcard.",
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-pass-season:season=C3S3:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-pass-season",
+        "prompt": "Name a Battle Pass outfit first released in Chapter 3 Season 3.",
+        "acceptedAnswers": 8,
+        "fieldVerifiedAnswers": 8,
+        "recognizableAnswers": 0,
+        "breadth": "hard",
+        "historicalSpecificity": 2,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 8,
+        "reasons": [
+          "Small accessible bank: eligible only as a daily wildcard.",
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-pass-season:season=C3S4:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-pass-season",
+        "prompt": "Name a Battle Pass outfit first released in Chapter 3 Season 4.",
+        "acceptedAnswers": 8,
+        "fieldVerifiedAnswers": 8,
+        "recognizableAnswers": 0,
+        "breadth": "hard",
+        "historicalSpecificity": 2,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 8,
+        "reasons": [
+          "Small accessible bank: eligible only as a daily wildcard.",
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-pass-season:season=C4S1:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-pass-season",
+        "prompt": "Name a Battle Pass outfit first released in Chapter 4 Season 1.",
+        "acceptedAnswers": 8,
+        "fieldVerifiedAnswers": 8,
+        "recognizableAnswers": 0,
+        "breadth": "hard",
+        "historicalSpecificity": 2,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 8,
+        "reasons": [
+          "Small accessible bank: eligible only as a daily wildcard.",
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-pass-season:season=C4S2:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-pass-season",
+        "prompt": "Name a Battle Pass outfit first released in Chapter 4 Season 2.",
+        "acceptedAnswers": 8,
+        "fieldVerifiedAnswers": 8,
+        "recognizableAnswers": 0,
+        "breadth": "hard",
+        "historicalSpecificity": 2,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 8,
+        "reasons": [
+          "Small accessible bank: eligible only as a daily wildcard.",
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-pass-season:season=C4S3:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-pass-season",
+        "prompt": "Name a Battle Pass outfit first released in Chapter 4 Season 3.",
+        "acceptedAnswers": 8,
+        "fieldVerifiedAnswers": 8,
+        "recognizableAnswers": 0,
+        "breadth": "hard",
+        "historicalSpecificity": 2,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 8,
+        "reasons": [
+          "Small accessible bank: eligible only as a daily wildcard.",
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-pass-season:season=C4S4:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-pass-season",
+        "prompt": "Name a Battle Pass outfit first released in Chapter 4 Season 4.",
+        "acceptedAnswers": 8,
+        "fieldVerifiedAnswers": 8,
+        "recognizableAnswers": 0,
+        "breadth": "hard",
+        "historicalSpecificity": 2,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 8,
+        "reasons": [
+          "Small accessible bank: eligible only as a daily wildcard.",
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-pass-season:season=C5S4:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-pass-season",
+        "prompt": "Name a Battle Pass outfit first released in Chapter 5 Season 4.",
+        "acceptedAnswers": 8,
+        "fieldVerifiedAnswers": 8,
+        "recognizableAnswers": 0,
+        "breadth": "hard",
+        "historicalSpecificity": 2,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 8,
+        "reasons": [
+          "Small accessible bank: eligible only as a daily wildcard.",
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-pass-range:from=C3S1&through=C3S2:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-pass-range",
+        "prompt": "Name a Battle Pass or OG Pass outfit first released from Chapter 3 Season 1 through Chapter 3 Season 2, inclusive.",
+        "acceptedAnswers": 16,
+        "fieldVerifiedAnswers": 16,
+        "recognizableAnswers": 0,
+        "breadth": "medium",
+        "historicalSpecificity": 3,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 16,
+        "reasons": [
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-pass-range:from=C3S1&through=C3S3:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-pass-range",
+        "prompt": "Name a Battle Pass or OG Pass outfit first released from Chapter 3 Season 1 through Chapter 3 Season 3, inclusive.",
+        "acceptedAnswers": 24,
+        "fieldVerifiedAnswers": 24,
+        "recognizableAnswers": 0,
+        "breadth": "standard",
+        "historicalSpecificity": 3,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 24,
+        "reasons": [
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-pass-range:from=C3S1&through=C3S4:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-pass-range",
+        "prompt": "Name a Battle Pass or OG Pass outfit first released from Chapter 3 Season 1 through Chapter 3 Season 4, inclusive.",
+        "acceptedAnswers": 32,
+        "fieldVerifiedAnswers": 32,
+        "recognizableAnswers": 0,
+        "breadth": "standard",
+        "historicalSpecificity": 3,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 32,
+        "reasons": [
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-pass-range:from=C3S1&through=C4S1:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-pass-range",
+        "prompt": "Name a Battle Pass or OG Pass outfit first released from Chapter 3 Season 1 through Chapter 4 Season 1, inclusive.",
+        "acceptedAnswers": 40,
+        "fieldVerifiedAnswers": 40,
+        "recognizableAnswers": 0,
+        "breadth": "broad",
+        "historicalSpecificity": 3,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 40,
+        "reasons": [
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-pass-range:from=C3S1&through=C4S2:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-pass-range",
+        "prompt": "Name a Battle Pass or OG Pass outfit first released from Chapter 3 Season 1 through Chapter 4 Season 2, inclusive.",
+        "acceptedAnswers": 48,
+        "fieldVerifiedAnswers": 48,
+        "recognizableAnswers": 0,
+        "breadth": "broad",
+        "historicalSpecificity": 3,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 48,
+        "reasons": [
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-pass-range:from=C3S1&through=C4S3:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-pass-range",
+        "prompt": "Name a Battle Pass or OG Pass outfit first released from Chapter 3 Season 1 through Chapter 4 Season 3, inclusive.",
+        "acceptedAnswers": 56,
+        "fieldVerifiedAnswers": 56,
+        "recognizableAnswers": 0,
+        "breadth": "broad",
+        "historicalSpecificity": 3,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 56,
+        "reasons": [
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-pass-range:from=C3S1&through=C4S4:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-pass-range",
+        "prompt": "Name a Battle Pass or OG Pass outfit first released from Chapter 3 Season 1 through Chapter 4 Season 4, inclusive.",
+        "acceptedAnswers": 64,
+        "fieldVerifiedAnswers": 64,
+        "recognizableAnswers": 0,
+        "breadth": "broad",
+        "historicalSpecificity": 3,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 64,
+        "reasons": [
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-pass-range:from=C3S1&through=OG2023:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-pass-range",
+        "prompt": "Name a Battle Pass or OG Pass outfit first released from Chapter 3 Season 1 through Fortnite OG (2023), inclusive.",
+        "acceptedAnswers": 68,
+        "fieldVerifiedAnswers": 68,
+        "recognizableAnswers": 0,
+        "breadth": "broad",
+        "historicalSpecificity": 3,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 68,
+        "reasons": [
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-pass-range:from=C3S2&through=C3S3:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-pass-range",
+        "prompt": "Name a Battle Pass or OG Pass outfit first released from Chapter 3 Season 2 through Chapter 3 Season 3, inclusive.",
+        "acceptedAnswers": 16,
+        "fieldVerifiedAnswers": 16,
+        "recognizableAnswers": 0,
+        "breadth": "medium",
+        "historicalSpecificity": 3,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 16,
+        "reasons": [
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-pass-range:from=C3S2&through=C3S4:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-pass-range",
+        "prompt": "Name a Battle Pass or OG Pass outfit first released from Chapter 3 Season 2 through Chapter 3 Season 4, inclusive.",
+        "acceptedAnswers": 24,
+        "fieldVerifiedAnswers": 24,
+        "recognizableAnswers": 0,
+        "breadth": "standard",
+        "historicalSpecificity": 3,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 24,
+        "reasons": [
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-pass-range:from=C3S2&through=C4S1:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-pass-range",
+        "prompt": "Name a Battle Pass or OG Pass outfit first released from Chapter 3 Season 2 through Chapter 4 Season 1, inclusive.",
+        "acceptedAnswers": 32,
+        "fieldVerifiedAnswers": 32,
+        "recognizableAnswers": 0,
+        "breadth": "standard",
+        "historicalSpecificity": 3,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 32,
+        "reasons": [
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-pass-range:from=C3S2&through=C4S2:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-pass-range",
+        "prompt": "Name a Battle Pass or OG Pass outfit first released from Chapter 3 Season 2 through Chapter 4 Season 2, inclusive.",
+        "acceptedAnswers": 40,
+        "fieldVerifiedAnswers": 40,
+        "recognizableAnswers": 0,
+        "breadth": "broad",
+        "historicalSpecificity": 3,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 40,
+        "reasons": [
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-pass-range:from=C3S2&through=C4S3:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-pass-range",
+        "prompt": "Name a Battle Pass or OG Pass outfit first released from Chapter 3 Season 2 through Chapter 4 Season 3, inclusive.",
+        "acceptedAnswers": 48,
+        "fieldVerifiedAnswers": 48,
+        "recognizableAnswers": 0,
+        "breadth": "broad",
+        "historicalSpecificity": 3,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 48,
+        "reasons": [
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-pass-range:from=C3S2&through=C4S4:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-pass-range",
+        "prompt": "Name a Battle Pass or OG Pass outfit first released from Chapter 3 Season 2 through Chapter 4 Season 4, inclusive.",
+        "acceptedAnswers": 56,
+        "fieldVerifiedAnswers": 56,
+        "recognizableAnswers": 0,
+        "breadth": "broad",
+        "historicalSpecificity": 3,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 56,
+        "reasons": [
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-pass-range:from=C3S2&through=OG2023:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-pass-range",
+        "prompt": "Name a Battle Pass or OG Pass outfit first released from Chapter 3 Season 2 through Fortnite OG (2023), inclusive.",
+        "acceptedAnswers": 60,
+        "fieldVerifiedAnswers": 60,
+        "recognizableAnswers": 0,
+        "breadth": "broad",
+        "historicalSpecificity": 3,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 60,
+        "reasons": [
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-pass-range:from=C3S3&through=C3S4:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-pass-range",
+        "prompt": "Name a Battle Pass or OG Pass outfit first released from Chapter 3 Season 3 through Chapter 3 Season 4, inclusive.",
+        "acceptedAnswers": 16,
+        "fieldVerifiedAnswers": 16,
+        "recognizableAnswers": 0,
+        "breadth": "medium",
+        "historicalSpecificity": 3,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 16,
+        "reasons": [
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-pass-range:from=C3S3&through=C4S1:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-pass-range",
+        "prompt": "Name a Battle Pass or OG Pass outfit first released from Chapter 3 Season 3 through Chapter 4 Season 1, inclusive.",
+        "acceptedAnswers": 24,
+        "fieldVerifiedAnswers": 24,
+        "recognizableAnswers": 0,
+        "breadth": "standard",
+        "historicalSpecificity": 3,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 24,
+        "reasons": [
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-pass-range:from=C3S3&through=C4S2:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-pass-range",
+        "prompt": "Name a Battle Pass or OG Pass outfit first released from Chapter 3 Season 3 through Chapter 4 Season 2, inclusive.",
+        "acceptedAnswers": 32,
+        "fieldVerifiedAnswers": 32,
+        "recognizableAnswers": 0,
+        "breadth": "standard",
+        "historicalSpecificity": 3,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 32,
+        "reasons": [
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-pass-range:from=C3S3&through=C4S3:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-pass-range",
+        "prompt": "Name a Battle Pass or OG Pass outfit first released from Chapter 3 Season 3 through Chapter 4 Season 3, inclusive.",
+        "acceptedAnswers": 40,
+        "fieldVerifiedAnswers": 40,
+        "recognizableAnswers": 0,
+        "breadth": "broad",
+        "historicalSpecificity": 3,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 40,
+        "reasons": [
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-pass-range:from=C3S3&through=C4S4:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-pass-range",
+        "prompt": "Name a Battle Pass or OG Pass outfit first released from Chapter 3 Season 3 through Chapter 4 Season 4, inclusive.",
+        "acceptedAnswers": 48,
+        "fieldVerifiedAnswers": 48,
+        "recognizableAnswers": 0,
+        "breadth": "broad",
+        "historicalSpecificity": 3,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 48,
+        "reasons": [
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-pass-range:from=C3S3&through=OG2023:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-pass-range",
+        "prompt": "Name a Battle Pass or OG Pass outfit first released from Chapter 3 Season 3 through Fortnite OG (2023), inclusive.",
+        "acceptedAnswers": 52,
+        "fieldVerifiedAnswers": 52,
+        "recognizableAnswers": 0,
+        "breadth": "broad",
+        "historicalSpecificity": 3,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 52,
+        "reasons": [
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-pass-range:from=C3S4&through=C4S1:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-pass-range",
+        "prompt": "Name a Battle Pass or OG Pass outfit first released from Chapter 3 Season 4 through Chapter 4 Season 1, inclusive.",
+        "acceptedAnswers": 16,
+        "fieldVerifiedAnswers": 16,
+        "recognizableAnswers": 0,
+        "breadth": "medium",
+        "historicalSpecificity": 3,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 16,
+        "reasons": [
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-pass-range:from=C3S4&through=C4S2:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-pass-range",
+        "prompt": "Name a Battle Pass or OG Pass outfit first released from Chapter 3 Season 4 through Chapter 4 Season 2, inclusive.",
+        "acceptedAnswers": 24,
+        "fieldVerifiedAnswers": 24,
+        "recognizableAnswers": 0,
+        "breadth": "standard",
+        "historicalSpecificity": 3,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 24,
+        "reasons": [
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-pass-range:from=C3S4&through=C4S3:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-pass-range",
+        "prompt": "Name a Battle Pass or OG Pass outfit first released from Chapter 3 Season 4 through Chapter 4 Season 3, inclusive.",
+        "acceptedAnswers": 32,
+        "fieldVerifiedAnswers": 32,
+        "recognizableAnswers": 0,
+        "breadth": "standard",
+        "historicalSpecificity": 3,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 32,
+        "reasons": [
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-pass-range:from=C3S4&through=C4S4:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-pass-range",
+        "prompt": "Name a Battle Pass or OG Pass outfit first released from Chapter 3 Season 4 through Chapter 4 Season 4, inclusive.",
+        "acceptedAnswers": 40,
+        "fieldVerifiedAnswers": 40,
+        "recognizableAnswers": 0,
+        "breadth": "broad",
+        "historicalSpecificity": 3,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 40,
+        "reasons": [
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-pass-range:from=C3S4&through=OG2023:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-pass-range",
+        "prompt": "Name a Battle Pass or OG Pass outfit first released from Chapter 3 Season 4 through Fortnite OG (2023), inclusive.",
+        "acceptedAnswers": 44,
+        "fieldVerifiedAnswers": 44,
+        "recognizableAnswers": 0,
+        "breadth": "broad",
+        "historicalSpecificity": 3,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 44,
+        "reasons": [
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-pass-range:from=C4S1&through=C4S2:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-pass-range",
+        "prompt": "Name a Battle Pass or OG Pass outfit first released from Chapter 4 Season 1 through Chapter 4 Season 2, inclusive.",
+        "acceptedAnswers": 16,
+        "fieldVerifiedAnswers": 16,
+        "recognizableAnswers": 0,
+        "breadth": "medium",
+        "historicalSpecificity": 3,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 16,
+        "reasons": [
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-pass-range:from=C4S1&through=C4S3:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-pass-range",
+        "prompt": "Name a Battle Pass or OG Pass outfit first released from Chapter 4 Season 1 through Chapter 4 Season 3, inclusive.",
+        "acceptedAnswers": 24,
+        "fieldVerifiedAnswers": 24,
+        "recognizableAnswers": 0,
+        "breadth": "standard",
+        "historicalSpecificity": 3,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 24,
+        "reasons": [
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-pass-range:from=C4S1&through=C4S4:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-pass-range",
+        "prompt": "Name a Battle Pass or OG Pass outfit first released from Chapter 4 Season 1 through Chapter 4 Season 4, inclusive.",
+        "acceptedAnswers": 32,
+        "fieldVerifiedAnswers": 32,
+        "recognizableAnswers": 0,
+        "breadth": "standard",
+        "historicalSpecificity": 3,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 32,
+        "reasons": [
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-pass-range:from=C4S1&through=OG2023:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-pass-range",
+        "prompt": "Name a Battle Pass or OG Pass outfit first released from Chapter 4 Season 1 through Fortnite OG (2023), inclusive.",
+        "acceptedAnswers": 36,
+        "fieldVerifiedAnswers": 36,
+        "recognizableAnswers": 0,
+        "breadth": "standard",
+        "historicalSpecificity": 3,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 36,
+        "reasons": [
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-pass-range:from=C4S2&through=C4S3:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-pass-range",
+        "prompt": "Name a Battle Pass or OG Pass outfit first released from Chapter 4 Season 2 through Chapter 4 Season 3, inclusive.",
+        "acceptedAnswers": 16,
+        "fieldVerifiedAnswers": 16,
+        "recognizableAnswers": 0,
+        "breadth": "medium",
+        "historicalSpecificity": 3,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 16,
+        "reasons": [
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-pass-range:from=C4S2&through=C4S4:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-pass-range",
+        "prompt": "Name a Battle Pass or OG Pass outfit first released from Chapter 4 Season 2 through Chapter 4 Season 4, inclusive.",
+        "acceptedAnswers": 24,
+        "fieldVerifiedAnswers": 24,
+        "recognizableAnswers": 0,
+        "breadth": "standard",
+        "historicalSpecificity": 3,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 24,
+        "reasons": [
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-pass-range:from=C4S2&through=OG2023:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-pass-range",
+        "prompt": "Name a Battle Pass or OG Pass outfit first released from Chapter 4 Season 2 through Fortnite OG (2023), inclusive.",
+        "acceptedAnswers": 28,
+        "fieldVerifiedAnswers": 28,
+        "recognizableAnswers": 0,
+        "breadth": "standard",
+        "historicalSpecificity": 3,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 28,
+        "reasons": [
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-pass-range:from=C4S3&through=C4S4:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-pass-range",
+        "prompt": "Name a Battle Pass or OG Pass outfit first released from Chapter 4 Season 3 through Chapter 4 Season 4, inclusive.",
+        "acceptedAnswers": 16,
+        "fieldVerifiedAnswers": 16,
+        "recognizableAnswers": 0,
+        "breadth": "medium",
+        "historicalSpecificity": 3,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 16,
+        "reasons": [
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-pass-range:from=C4S3&through=OG2023:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-pass-range",
+        "prompt": "Name a Battle Pass or OG Pass outfit first released from Chapter 4 Season 3 through Fortnite OG (2023), inclusive.",
+        "acceptedAnswers": 20,
+        "fieldVerifiedAnswers": 20,
+        "recognizableAnswers": 0,
+        "breadth": "standard",
+        "historicalSpecificity": 3,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 20,
+        "reasons": [
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-pass-range:from=C4S4&through=OG2023:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-pass-range",
+        "prompt": "Name a Battle Pass or OG Pass outfit first released from Chapter 4 Season 4 through Fortnite OG (2023), inclusive.",
+        "acceptedAnswers": 12,
+        "fieldVerifiedAnswers": 12,
+        "recognizableAnswers": 0,
+        "breadth": "medium",
+        "historicalSpecificity": 3,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 12,
+        "reasons": [
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-launch-loot:season=C3S1:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-launch-loot",
+        "prompt": "Name a weapon listed as new, unvaulted or returning in Epic’s Chapter 3 Season 1 launch overview.",
+        "acceptedAnswers": 7,
+        "fieldVerifiedAnswers": 7,
+        "recognizableAnswers": 1,
+        "breadth": "expert",
+        "historicalSpecificity": 2,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": [
+          "Small bank: preserve for practice.",
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-launch-loot:season=C3S2:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-launch-loot",
+        "prompt": "Name a weapon listed as new, unvaulted or returning in Epic’s Chapter 3 Season 2 launch overview.",
+        "acceptedAnswers": 18,
+        "fieldVerifiedAnswers": 18,
+        "recognizableAnswers": 3,
+        "breadth": "medium",
+        "historicalSpecificity": 2,
+        "difficulty": "hard",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": [
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-launch-loot:season=C3S3:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-launch-loot",
+        "prompt": "Name a weapon listed as new, unvaulted or returning in Epic’s Chapter 3 Season 3 launch overview.",
+        "acceptedAnswers": 19,
+        "fieldVerifiedAnswers": 19,
+        "recognizableAnswers": 5,
+        "breadth": "medium",
+        "historicalSpecificity": 2,
+        "difficulty": "hard",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 1,
+        "reasons": [
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-launch-loot:season=C3S4:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-launch-loot",
+        "prompt": "Name a weapon listed as new, unvaulted or returning in Epic’s Chapter 3 Season 4 launch overview.",
+        "acceptedAnswers": 17,
+        "fieldVerifiedAnswers": 17,
+        "recognizableAnswers": 1,
+        "breadth": "medium",
+        "historicalSpecificity": 2,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": [
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-launch-loot:season=C4S1:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-launch-loot",
+        "prompt": "Name a weapon listed as new, unvaulted or returning in Epic’s Chapter 4 Season 1 launch overview.",
+        "acceptedAnswers": 7,
+        "fieldVerifiedAnswers": 7,
+        "recognizableAnswers": 1,
+        "breadth": "expert",
+        "historicalSpecificity": 2,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": [
+          "Small bank: preserve for practice.",
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-launch-loot:season=C4S2:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-launch-loot",
+        "prompt": "Name a weapon listed as new, unvaulted or returning in Epic’s Chapter 4 Season 2 launch overview.",
+        "acceptedAnswers": 12,
+        "fieldVerifiedAnswers": 12,
+        "recognizableAnswers": 4,
+        "breadth": "medium",
+        "historicalSpecificity": 2,
+        "difficulty": "hard",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": [
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-launch-loot:season=C4S3:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-launch-loot",
+        "prompt": "Name a weapon listed as new, unvaulted or returning in Epic’s Chapter 4 Season 3 launch overview.",
+        "acceptedAnswers": 17,
+        "fieldVerifiedAnswers": 17,
+        "recognizableAnswers": 4,
+        "breadth": "medium",
+        "historicalSpecificity": 2,
+        "difficulty": "hard",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 1,
+        "reasons": [
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-launch-loot:season=C4S4:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-launch-loot",
+        "prompt": "Name a weapon listed as new, unvaulted or returning in Epic’s Chapter 4 Season 4 launch overview.",
+        "acceptedAnswers": 22,
+        "fieldVerifiedAnswers": 22,
+        "recognizableAnswers": 3,
+        "breadth": "standard",
+        "historicalSpecificity": 2,
+        "difficulty": "hard",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": [
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-launch-loot:season=C5S4:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-launch-loot",
+        "prompt": "Name a weapon listed as new, unvaulted or returning in Epic’s Chapter 5 Season 4 launch overview.",
+        "acceptedAnswers": 14,
+        "fieldVerifiedAnswers": 14,
+        "recognizableAnswers": 0,
+        "breadth": "medium",
+        "historicalSpecificity": 2,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": [
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-launch-loot:season=OG2023:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-launch-loot",
+        "prompt": "Name a weapon listed as new, unvaulted or returning in Epic’s Fortnite OG (2023) launch overview.",
+        "acceptedAnswers": 10,
+        "fieldVerifiedAnswers": 10,
+        "recognizableAnswers": 6,
+        "breadth": "hard",
+        "historicalSpecificity": 2,
+        "difficulty": "hard",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": [
+          "Small accessible bank: eligible only as a daily wildcard.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-launch-weapon-class:season=C3S2&weaponClass=pistol:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-launch-weapon-class",
+        "prompt": "Name a pistol listed in Epic’s Chapter 3 Season 2 launch loot rundown.",
+        "acceptedAnswers": 5,
+        "fieldVerifiedAnswers": 5,
+        "recognizableAnswers": 1,
+        "breadth": "expert",
+        "historicalSpecificity": 2,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": [
+          "Small bank: preserve for practice.",
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-launch-weapon-class:season=C4S3&weaponClass=shotgun:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-launch-weapon-class",
+        "prompt": "Name a shotgun listed in Epic’s Chapter 4 Season 3 launch loot rundown.",
+        "acceptedAnswers": 5,
+        "fieldVerifiedAnswers": 5,
+        "recognizableAnswers": 1,
+        "breadth": "expert",
+        "historicalSpecificity": 2,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": [
+          "Small bank: preserve for practice.",
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-launch-weapon-class:season=C4S4&weaponClass=shotgun:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-launch-weapon-class",
+        "prompt": "Name a shotgun listed in Epic’s Chapter 4 Season 4 launch loot rundown.",
+        "acceptedAnswers": 6,
+        "fieldVerifiedAnswers": 6,
+        "recognizableAnswers": 0,
+        "breadth": "expert",
+        "historicalSpecificity": 2,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": [
+          "Small bank: preserve for practice.",
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-launch-weapon-class:season=C4S4&weaponClass=smg:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-launch-weapon-class",
+        "prompt": "Name a smg listed in Epic’s Chapter 4 Season 4 launch loot rundown.",
+        "acceptedAnswers": 5,
+        "fieldVerifiedAnswers": 5,
+        "recognizableAnswers": 2,
+        "breadth": "expert",
+        "historicalSpecificity": 2,
+        "difficulty": "hard",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": [
+          "Small bank: preserve for practice.",
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-launch-both-seasons:from=C3S1&through=C3S2:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-launch-both-seasons",
+        "prompt": "Name a weapon listed in the launch loot rundowns for both Chapter 3 Season 1 and Chapter 3 Season 2.",
+        "acceptedAnswers": 6,
+        "fieldVerifiedAnswers": 6,
+        "recognizableAnswers": 1,
+        "breadth": "expert",
+        "historicalSpecificity": 2,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": [
+          "Small bank: preserve for practice.",
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-launch-both-seasons:from=C3S1&through=C3S3:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-launch-both-seasons",
+        "prompt": "Name a weapon listed in the launch loot rundowns for both Chapter 3 Season 1 and Chapter 3 Season 3.",
+        "acceptedAnswers": 5,
+        "fieldVerifiedAnswers": 5,
+        "recognizableAnswers": 1,
+        "breadth": "expert",
+        "historicalSpecificity": 2,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": [
+          "Small bank: preserve for practice.",
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-launch-both-seasons:from=C3S2&through=C3S3:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-launch-both-seasons",
+        "prompt": "Name a weapon listed in the launch loot rundowns for both Chapter 3 Season 2 and Chapter 3 Season 3.",
+        "acceptedAnswers": 12,
+        "fieldVerifiedAnswers": 12,
+        "recognizableAnswers": 3,
+        "breadth": "medium",
+        "historicalSpecificity": 2,
+        "difficulty": "hard",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": [
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-launch-both-seasons:from=C3S2&through=C3S4:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-launch-both-seasons",
+        "prompt": "Name a weapon listed in the launch loot rundowns for both Chapter 3 Season 2 and Chapter 3 Season 4.",
+        "acceptedAnswers": 6,
+        "fieldVerifiedAnswers": 6,
+        "recognizableAnswers": 0,
+        "breadth": "expert",
+        "historicalSpecificity": 2,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": [
+          "Small bank: preserve for practice.",
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-launch-both-seasons:from=C3S3&through=C3S4:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-launch-both-seasons",
+        "prompt": "Name a weapon listed in the launch loot rundowns for both Chapter 3 Season 3 and Chapter 3 Season 4.",
+        "acceptedAnswers": 10,
+        "fieldVerifiedAnswers": 10,
+        "recognizableAnswers": 1,
+        "breadth": "hard",
+        "historicalSpecificity": 2,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": [
+          "Small accessible bank: eligible only as a daily wildcard.",
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-launch-both-seasons:from=C4S2&through=C4S3:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-launch-both-seasons",
+        "prompt": "Name a weapon listed in the launch loot rundowns for both Chapter 4 Season 2 and Chapter 4 Season 3.",
+        "acceptedAnswers": 6,
+        "fieldVerifiedAnswers": 6,
+        "recognizableAnswers": 2,
+        "breadth": "expert",
+        "historicalSpecificity": 2,
+        "difficulty": "hard",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": [
+          "Small bank: preserve for practice.",
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-launch-both-seasons:from=C4S3&through=C4S4:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-launch-both-seasons",
+        "prompt": "Name a weapon listed in the launch loot rundowns for both Chapter 4 Season 3 and Chapter 4 Season 4.",
+        "acceptedAnswers": 8,
+        "fieldVerifiedAnswers": 8,
+        "recognizableAnswers": 1,
+        "breadth": "hard",
+        "historicalSpecificity": 2,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": [
+          "Small accessible bank: eligible only as a daily wildcard.",
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-new-gun-season:season=C3S1:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-new-gun-season",
+        "prompt": "Name a gun introduced at the launch of Chapter 3 Season 1.",
+        "acceptedAnswers": 7,
+        "fieldVerifiedAnswers": 7,
+        "recognizableAnswers": 1,
+        "breadth": "expert",
+        "historicalSpecificity": 2,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": [
+          "Small bank: preserve for practice.",
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-new-gun-season:season=C4S1:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-new-gun-season",
+        "prompt": "Name a gun introduced at the launch of Chapter 4 Season 1.",
+        "acceptedAnswers": 6,
+        "fieldVerifiedAnswers": 6,
+        "recognizableAnswers": 0,
+        "breadth": "expert",
+        "historicalSpecificity": 2,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": [
+          "Small bank: preserve for practice.",
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-new-gun-range:from=C3S1&through=C3S2:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-new-gun-range",
+        "prompt": "Name a gun introduced at a season launch from Chapter 3 Season 1 through Chapter 3 Season 2, inclusive.",
+        "acceptedAnswers": 9,
+        "fieldVerifiedAnswers": 9,
+        "recognizableAnswers": 2,
+        "breadth": "hard",
+        "historicalSpecificity": 3,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": [
+          "Small accessible bank: eligible only as a daily wildcard.",
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-new-gun-range:from=C3S1&through=C3S3:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-new-gun-range",
+        "prompt": "Name a gun introduced at a season launch from Chapter 3 Season 1 through Chapter 3 Season 3, inclusive.",
+        "acceptedAnswers": 12,
+        "fieldVerifiedAnswers": 12,
+        "recognizableAnswers": 3,
+        "breadth": "medium",
+        "historicalSpecificity": 3,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 1,
+        "reasons": [
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-new-gun-range:from=C3S1&through=C3S4:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-new-gun-range",
+        "prompt": "Name a gun introduced at a season launch from Chapter 3 Season 1 through Chapter 3 Season 4, inclusive.",
+        "acceptedAnswers": 14,
+        "fieldVerifiedAnswers": 14,
+        "recognizableAnswers": 3,
+        "breadth": "medium",
+        "historicalSpecificity": 3,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 1,
+        "reasons": [
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-new-gun-range:from=C3S1&through=C4S1:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-new-gun-range",
+        "prompt": "Name a gun introduced at a season launch from Chapter 3 Season 1 through Chapter 4 Season 1, inclusive.",
+        "acceptedAnswers": 20,
+        "fieldVerifiedAnswers": 20,
+        "recognizableAnswers": 3,
+        "breadth": "standard",
+        "historicalSpecificity": 3,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 1,
+        "reasons": [
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-new-gun-range:from=C3S1&through=C4S2:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-new-gun-range",
+        "prompt": "Name a gun introduced at a season launch from Chapter 3 Season 1 through Chapter 4 Season 2, inclusive.",
+        "acceptedAnswers": 23,
+        "fieldVerifiedAnswers": 23,
+        "recognizableAnswers": 4,
+        "breadth": "standard",
+        "historicalSpecificity": 3,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 1,
+        "reasons": [
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-new-gun-range:from=C3S1&through=C4S3:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-new-gun-range",
+        "prompt": "Name a gun introduced at a season launch from Chapter 3 Season 1 through Chapter 4 Season 3, inclusive.",
+        "acceptedAnswers": 25,
+        "fieldVerifiedAnswers": 25,
+        "recognizableAnswers": 4,
+        "breadth": "standard",
+        "historicalSpecificity": 3,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 2,
+        "reasons": [
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-new-gun-range:from=C3S1&through=C4S4:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-new-gun-range",
+        "prompt": "Name a gun introduced at a season launch from Chapter 3 Season 1 through Chapter 4 Season 4, inclusive.",
+        "acceptedAnswers": 28,
+        "fieldVerifiedAnswers": 28,
+        "recognizableAnswers": 4,
+        "breadth": "standard",
+        "historicalSpecificity": 3,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 2,
+        "reasons": [
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-new-gun-range:from=C3S2&through=C3S3:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-new-gun-range",
+        "prompt": "Name a gun introduced at a season launch from Chapter 3 Season 2 through Chapter 3 Season 3, inclusive.",
+        "acceptedAnswers": 5,
+        "fieldVerifiedAnswers": 5,
+        "recognizableAnswers": 2,
+        "breadth": "expert",
+        "historicalSpecificity": 3,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 1,
+        "reasons": [
+          "Small bank: preserve for practice.",
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-new-gun-range:from=C3S2&through=C3S4:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-new-gun-range",
+        "prompt": "Name a gun introduced at a season launch from Chapter 3 Season 2 through Chapter 3 Season 4, inclusive.",
+        "acceptedAnswers": 7,
+        "fieldVerifiedAnswers": 7,
+        "recognizableAnswers": 2,
+        "breadth": "expert",
+        "historicalSpecificity": 3,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 1,
+        "reasons": [
+          "Small bank: preserve for practice.",
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-new-gun-range:from=C3S2&through=C4S1:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-new-gun-range",
+        "prompt": "Name a gun introduced at a season launch from Chapter 3 Season 2 through Chapter 4 Season 1, inclusive.",
+        "acceptedAnswers": 13,
+        "fieldVerifiedAnswers": 13,
+        "recognizableAnswers": 2,
+        "breadth": "medium",
+        "historicalSpecificity": 3,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 1,
+        "reasons": [
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-new-gun-range:from=C3S2&through=C4S2:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-new-gun-range",
+        "prompt": "Name a gun introduced at a season launch from Chapter 3 Season 2 through Chapter 4 Season 2, inclusive.",
+        "acceptedAnswers": 16,
+        "fieldVerifiedAnswers": 16,
+        "recognizableAnswers": 3,
+        "breadth": "medium",
+        "historicalSpecificity": 3,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 1,
+        "reasons": [
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-new-gun-range:from=C3S2&through=C4S3:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-new-gun-range",
+        "prompt": "Name a gun introduced at a season launch from Chapter 3 Season 2 through Chapter 4 Season 3, inclusive.",
+        "acceptedAnswers": 18,
+        "fieldVerifiedAnswers": 18,
+        "recognizableAnswers": 3,
+        "breadth": "medium",
+        "historicalSpecificity": 3,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 2,
+        "reasons": [
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-new-gun-range:from=C3S2&through=C4S4:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-new-gun-range",
+        "prompt": "Name a gun introduced at a season launch from Chapter 3 Season 2 through Chapter 4 Season 4, inclusive.",
+        "acceptedAnswers": 21,
+        "fieldVerifiedAnswers": 21,
+        "recognizableAnswers": 3,
+        "breadth": "standard",
+        "historicalSpecificity": 3,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 2,
+        "reasons": [
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-new-gun-range:from=C3S3&through=C3S4:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-new-gun-range",
+        "prompt": "Name a gun introduced at a season launch from Chapter 3 Season 3 through Chapter 3 Season 4, inclusive.",
+        "acceptedAnswers": 5,
+        "fieldVerifiedAnswers": 5,
+        "recognizableAnswers": 1,
+        "breadth": "expert",
+        "historicalSpecificity": 3,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 1,
+        "reasons": [
+          "Small bank: preserve for practice.",
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-new-gun-range:from=C3S3&through=C4S1:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-new-gun-range",
+        "prompt": "Name a gun introduced at a season launch from Chapter 3 Season 3 through Chapter 4 Season 1, inclusive.",
+        "acceptedAnswers": 11,
+        "fieldVerifiedAnswers": 11,
+        "recognizableAnswers": 1,
+        "breadth": "hard",
+        "historicalSpecificity": 3,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 1,
+        "reasons": [
+          "Small accessible bank: eligible only as a daily wildcard.",
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-new-gun-range:from=C3S3&through=C4S2:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-new-gun-range",
+        "prompt": "Name a gun introduced at a season launch from Chapter 3 Season 3 through Chapter 4 Season 2, inclusive.",
+        "acceptedAnswers": 14,
+        "fieldVerifiedAnswers": 14,
+        "recognizableAnswers": 2,
+        "breadth": "medium",
+        "historicalSpecificity": 3,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 1,
+        "reasons": [
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-new-gun-range:from=C3S3&through=C4S3:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-new-gun-range",
+        "prompt": "Name a gun introduced at a season launch from Chapter 3 Season 3 through Chapter 4 Season 3, inclusive.",
+        "acceptedAnswers": 16,
+        "fieldVerifiedAnswers": 16,
+        "recognizableAnswers": 2,
+        "breadth": "medium",
+        "historicalSpecificity": 3,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 2,
+        "reasons": [
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-new-gun-range:from=C3S3&through=C4S4:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-new-gun-range",
+        "prompt": "Name a gun introduced at a season launch from Chapter 3 Season 3 through Chapter 4 Season 4, inclusive.",
+        "acceptedAnswers": 19,
+        "fieldVerifiedAnswers": 19,
+        "recognizableAnswers": 2,
+        "breadth": "medium",
+        "historicalSpecificity": 3,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 2,
+        "reasons": [
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-new-gun-range:from=C3S4&through=C4S1:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-new-gun-range",
+        "prompt": "Name a gun introduced at a season launch from Chapter 3 Season 4 through Chapter 4 Season 1, inclusive.",
+        "acceptedAnswers": 8,
+        "fieldVerifiedAnswers": 8,
+        "recognizableAnswers": 0,
+        "breadth": "hard",
+        "historicalSpecificity": 3,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": [
+          "Small accessible bank: eligible only as a daily wildcard.",
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-new-gun-range:from=C3S4&through=C4S2:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-new-gun-range",
+        "prompt": "Name a gun introduced at a season launch from Chapter 3 Season 4 through Chapter 4 Season 2, inclusive.",
+        "acceptedAnswers": 11,
+        "fieldVerifiedAnswers": 11,
+        "recognizableAnswers": 1,
+        "breadth": "hard",
+        "historicalSpecificity": 3,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": [
+          "Small accessible bank: eligible only as a daily wildcard.",
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-new-gun-range:from=C3S4&through=C4S3:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-new-gun-range",
+        "prompt": "Name a gun introduced at a season launch from Chapter 3 Season 4 through Chapter 4 Season 3, inclusive.",
+        "acceptedAnswers": 13,
+        "fieldVerifiedAnswers": 13,
+        "recognizableAnswers": 1,
+        "breadth": "medium",
+        "historicalSpecificity": 3,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 1,
+        "reasons": [
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-new-gun-range:from=C3S4&through=C4S4:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-new-gun-range",
+        "prompt": "Name a gun introduced at a season launch from Chapter 3 Season 4 through Chapter 4 Season 4, inclusive.",
+        "acceptedAnswers": 16,
+        "fieldVerifiedAnswers": 16,
+        "recognizableAnswers": 1,
+        "breadth": "medium",
+        "historicalSpecificity": 3,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 1,
+        "reasons": [
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-new-gun-range:from=C4S1&through=C4S2:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-new-gun-range",
+        "prompt": "Name a gun introduced at a season launch from Chapter 4 Season 1 through Chapter 4 Season 2, inclusive.",
+        "acceptedAnswers": 9,
+        "fieldVerifiedAnswers": 9,
+        "recognizableAnswers": 1,
+        "breadth": "hard",
+        "historicalSpecificity": 3,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": [
+          "Small accessible bank: eligible only as a daily wildcard.",
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-new-gun-range:from=C4S1&through=C4S3:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-new-gun-range",
+        "prompt": "Name a gun introduced at a season launch from Chapter 4 Season 1 through Chapter 4 Season 3, inclusive.",
+        "acceptedAnswers": 11,
+        "fieldVerifiedAnswers": 11,
+        "recognizableAnswers": 1,
+        "breadth": "hard",
+        "historicalSpecificity": 3,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 1,
+        "reasons": [
+          "Small accessible bank: eligible only as a daily wildcard.",
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-new-gun-range:from=C4S1&through=C4S4:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-new-gun-range",
+        "prompt": "Name a gun introduced at a season launch from Chapter 4 Season 1 through Chapter 4 Season 4, inclusive.",
+        "acceptedAnswers": 14,
+        "fieldVerifiedAnswers": 14,
+        "recognizableAnswers": 1,
+        "breadth": "medium",
+        "historicalSpecificity": 3,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 1,
+        "reasons": [
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-new-gun-range:from=C4S2&through=C4S3:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-new-gun-range",
+        "prompt": "Name a gun introduced at a season launch from Chapter 4 Season 2 through Chapter 4 Season 3, inclusive.",
+        "acceptedAnswers": 5,
+        "fieldVerifiedAnswers": 5,
+        "recognizableAnswers": 1,
+        "breadth": "expert",
+        "historicalSpecificity": 3,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 1,
+        "reasons": [
+          "Small bank: preserve for practice.",
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-new-gun-range:from=C4S2&through=C4S4:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-new-gun-range",
+        "prompt": "Name a gun introduced at a season launch from Chapter 4 Season 2 through Chapter 4 Season 4, inclusive.",
+        "acceptedAnswers": 8,
+        "fieldVerifiedAnswers": 8,
+        "recognizableAnswers": 1,
+        "breadth": "hard",
+        "historicalSpecificity": 3,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 1,
+        "reasons": [
+          "Small accessible bank: eligible only as a daily wildcard.",
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-new-gun-range:from=C4S3&through=C4S4:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-new-gun-range",
+        "prompt": "Name a gun introduced at a season launch from Chapter 4 Season 3 through Chapter 4 Season 4, inclusive.",
+        "acceptedAnswers": 5,
+        "fieldVerifiedAnswers": 5,
+        "recognizableAnswers": 0,
+        "breadth": "expert",
+        "historicalSpecificity": 3,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 1,
+        "reasons": [
+          "Small bank: preserve for practice.",
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-new-gun-class-range:from=C3S1&through=C3S4&weaponClass=assault rifle:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-new-gun-class-range",
+        "prompt": "Name a assault rifle introduced at a season launch from Chapter 3 Season 1 through Chapter 3 Season 4, inclusive.",
+        "acceptedAnswers": 5,
+        "fieldVerifiedAnswers": 5,
+        "recognizableAnswers": 0,
+        "breadth": "expert",
+        "historicalSpecificity": 3,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": [
+          "Small bank: preserve for practice.",
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-new-gun-class-range:from=C3S1&through=C4S1&weaponClass=shotgun:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-new-gun-class-range",
+        "prompt": "Name a shotgun introduced at a season launch from Chapter 3 Season 1 through Chapter 4 Season 1, inclusive.",
+        "acceptedAnswers": 6,
+        "fieldVerifiedAnswers": 6,
+        "recognizableAnswers": 0,
+        "breadth": "expert",
+        "historicalSpecificity": 3,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 1,
+        "reasons": [
+          "Small bank: preserve for practice.",
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-new-gun-class-range:from=C3S1&through=C4S1&weaponClass=assault rifle:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-new-gun-class-range",
+        "prompt": "Name a assault rifle introduced at a season launch from Chapter 3 Season 1 through Chapter 4 Season 1, inclusive.",
+        "acceptedAnswers": 6,
+        "fieldVerifiedAnswers": 6,
+        "recognizableAnswers": 0,
+        "breadth": "expert",
+        "historicalSpecificity": 3,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": [
+          "Small bank: preserve for practice.",
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-new-gun-class-range:from=C3S1&through=C4S2&weaponClass=shotgun:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-new-gun-class-range",
+        "prompt": "Name a shotgun introduced at a season launch from Chapter 3 Season 1 through Chapter 4 Season 2, inclusive.",
+        "acceptedAnswers": 7,
+        "fieldVerifiedAnswers": 7,
+        "recognizableAnswers": 1,
+        "breadth": "expert",
+        "historicalSpecificity": 3,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 1,
+        "reasons": [
+          "Small bank: preserve for practice.",
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-new-gun-class-range:from=C3S1&through=C4S2&weaponClass=assault rifle:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-new-gun-class-range",
+        "prompt": "Name a assault rifle introduced at a season launch from Chapter 3 Season 1 through Chapter 4 Season 2, inclusive.",
+        "acceptedAnswers": 8,
+        "fieldVerifiedAnswers": 8,
+        "recognizableAnswers": 0,
+        "breadth": "hard",
+        "historicalSpecificity": 3,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": [
+          "Small accessible bank: eligible only as a daily wildcard.",
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-new-gun-class-range:from=C3S1&through=C4S3&weaponClass=assault rifle:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-new-gun-class-range",
+        "prompt": "Name a assault rifle introduced at a season launch from Chapter 3 Season 1 through Chapter 4 Season 3, inclusive.",
+        "acceptedAnswers": 9,
+        "fieldVerifiedAnswers": 9,
+        "recognizableAnswers": 0,
+        "breadth": "hard",
+        "historicalSpecificity": 3,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 1,
+        "reasons": [
+          "Small accessible bank: eligible only as a daily wildcard.",
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-new-gun-class-range:from=C3S1&through=C4S4&weaponClass=shotgun:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-new-gun-class-range",
+        "prompt": "Name a shotgun introduced at a season launch from Chapter 3 Season 1 through Chapter 4 Season 4, inclusive.",
+        "acceptedAnswers": 8,
+        "fieldVerifiedAnswers": 8,
+        "recognizableAnswers": 1,
+        "breadth": "hard",
+        "historicalSpecificity": 3,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 1,
+        "reasons": [
+          "Small accessible bank: eligible only as a daily wildcard.",
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-new-gun-class-range:from=C3S1&through=C4S4&weaponClass=assault rifle:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-new-gun-class-range",
+        "prompt": "Name a assault rifle introduced at a season launch from Chapter 3 Season 1 through Chapter 4 Season 4, inclusive.",
+        "acceptedAnswers": 10,
+        "fieldVerifiedAnswers": 10,
+        "recognizableAnswers": 0,
+        "breadth": "hard",
+        "historicalSpecificity": 3,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 1,
+        "reasons": [
+          "Small accessible bank: eligible only as a daily wildcard.",
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-new-gun-class-range:from=C3S2&through=C4S2&weaponClass=shotgun:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-new-gun-class-range",
+        "prompt": "Name a shotgun introduced at a season launch from Chapter 3 Season 2 through Chapter 4 Season 2, inclusive.",
+        "acceptedAnswers": 5,
+        "fieldVerifiedAnswers": 5,
+        "recognizableAnswers": 1,
+        "breadth": "expert",
+        "historicalSpecificity": 3,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 1,
+        "reasons": [
+          "Small bank: preserve for practice.",
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-new-gun-class-range:from=C3S2&through=C4S2&weaponClass=assault rifle:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-new-gun-class-range",
+        "prompt": "Name a assault rifle introduced at a season launch from Chapter 3 Season 2 through Chapter 4 Season 2, inclusive.",
+        "acceptedAnswers": 6,
+        "fieldVerifiedAnswers": 6,
+        "recognizableAnswers": 0,
+        "breadth": "expert",
+        "historicalSpecificity": 3,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": [
+          "Small bank: preserve for practice.",
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-new-gun-class-range:from=C3S2&through=C4S3&weaponClass=assault rifle:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-new-gun-class-range",
+        "prompt": "Name a assault rifle introduced at a season launch from Chapter 3 Season 2 through Chapter 4 Season 3, inclusive.",
+        "acceptedAnswers": 7,
+        "fieldVerifiedAnswers": 7,
+        "recognizableAnswers": 0,
+        "breadth": "expert",
+        "historicalSpecificity": 3,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 1,
+        "reasons": [
+          "Small bank: preserve for practice.",
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-new-gun-class-range:from=C3S2&through=C4S4&weaponClass=shotgun:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-new-gun-class-range",
+        "prompt": "Name a shotgun introduced at a season launch from Chapter 3 Season 2 through Chapter 4 Season 4, inclusive.",
+        "acceptedAnswers": 6,
+        "fieldVerifiedAnswers": 6,
+        "recognizableAnswers": 1,
+        "breadth": "expert",
+        "historicalSpecificity": 3,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 1,
+        "reasons": [
+          "Small bank: preserve for practice.",
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-new-gun-class-range:from=C3S2&through=C4S4&weaponClass=assault rifle:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-new-gun-class-range",
+        "prompt": "Name a assault rifle introduced at a season launch from Chapter 3 Season 2 through Chapter 4 Season 4, inclusive.",
+        "acceptedAnswers": 8,
+        "fieldVerifiedAnswers": 8,
+        "recognizableAnswers": 0,
+        "breadth": "hard",
+        "historicalSpecificity": 3,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 1,
+        "reasons": [
+          "Small accessible bank: eligible only as a daily wildcard.",
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-new-gun-class-range:from=C3S3&through=C4S2&weaponClass=assault rifle:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-new-gun-class-range",
+        "prompt": "Name a assault rifle introduced at a season launch from Chapter 3 Season 3 through Chapter 4 Season 2, inclusive.",
+        "acceptedAnswers": 5,
+        "fieldVerifiedAnswers": 5,
+        "recognizableAnswers": 0,
+        "breadth": "expert",
+        "historicalSpecificity": 3,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": [
+          "Small bank: preserve for practice.",
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-new-gun-class-range:from=C3S3&through=C4S3&weaponClass=assault rifle:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-new-gun-class-range",
+        "prompt": "Name a assault rifle introduced at a season launch from Chapter 3 Season 3 through Chapter 4 Season 3, inclusive.",
+        "acceptedAnswers": 6,
+        "fieldVerifiedAnswers": 6,
+        "recognizableAnswers": 0,
+        "breadth": "expert",
+        "historicalSpecificity": 3,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 1,
+        "reasons": [
+          "Small bank: preserve for practice.",
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-new-gun-class-range:from=C3S3&through=C4S4&weaponClass=assault rifle:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-new-gun-class-range",
+        "prompt": "Name a assault rifle introduced at a season launch from Chapter 3 Season 3 through Chapter 4 Season 4, inclusive.",
+        "acceptedAnswers": 7,
+        "fieldVerifiedAnswers": 7,
+        "recognizableAnswers": 0,
+        "breadth": "expert",
+        "historicalSpecificity": 3,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 1,
+        "reasons": [
+          "Small bank: preserve for practice.",
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-new-gun-class-range:from=C3S4&through=C4S3&weaponClass=assault rifle:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-new-gun-class-range",
+        "prompt": "Name a assault rifle introduced at a season launch from Chapter 3 Season 4 through Chapter 4 Season 3, inclusive.",
+        "acceptedAnswers": 5,
+        "fieldVerifiedAnswers": 5,
+        "recognizableAnswers": 0,
+        "breadth": "expert",
+        "historicalSpecificity": 3,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 1,
+        "reasons": [
+          "Small bank: preserve for practice.",
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-new-gun-class-range:from=C3S4&through=C4S4&weaponClass=shotgun:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-new-gun-class-range",
+        "prompt": "Name a shotgun introduced at a season launch from Chapter 3 Season 4 through Chapter 4 Season 4, inclusive.",
+        "acceptedAnswers": 5,
+        "fieldVerifiedAnswers": 5,
+        "recognizableAnswers": 1,
+        "breadth": "expert",
+        "historicalSpecificity": 3,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": [
+          "Small bank: preserve for practice.",
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-new-gun-class-range:from=C3S4&through=C4S4&weaponClass=assault rifle:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-new-gun-class-range",
+        "prompt": "Name a assault rifle introduced at a season launch from Chapter 3 Season 4 through Chapter 4 Season 4, inclusive.",
+        "acceptedAnswers": 6,
+        "fieldVerifiedAnswers": 6,
+        "recognizableAnswers": 0,
+        "breadth": "expert",
+        "historicalSpecificity": 3,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 1,
+        "reasons": [
+          "Small bank: preserve for practice.",
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-new-gun-class-range:from=C4S1&through=C4S4&weaponClass=assault rifle:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-new-gun-class-range",
+        "prompt": "Name a assault rifle introduced at a season launch from Chapter 4 Season 1 through Chapter 4 Season 4, inclusive.",
+        "acceptedAnswers": 5,
+        "fieldVerifiedAnswers": 5,
+        "recognizableAnswers": 0,
+        "breadth": "expert",
+        "historicalSpecificity": 3,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 1,
+        "reasons": [
+          "Small bank: preserve for practice.",
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-unvaulted-season:season=C3S2:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-unvaulted-season",
+        "prompt": "Name a weapon explicitly listed as unvaulted in Epic’s Chapter 3 Season 2 launch overview.",
+        "acceptedAnswers": 6,
+        "fieldVerifiedAnswers": 6,
+        "recognizableAnswers": 1,
+        "breadth": "expert",
+        "historicalSpecificity": 2,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": [
+          "Small bank: preserve for practice.",
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-unvaulted-season:season=OG2023:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-unvaulted-season",
+        "prompt": "Name a weapon explicitly listed as unvaulted in Epic’s Fortnite OG (2023) launch overview.",
+        "acceptedAnswers": 10,
+        "fieldVerifiedAnswers": 10,
+        "recognizableAnswers": 6,
+        "breadth": "hard",
+        "historicalSpecificity": 2,
+        "difficulty": "hard",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": [
+          "Small accessible bank: eligible only as a daily wildcard.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-carryover-season:season=C3S2:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-carryover-season",
+        "prompt": "Name a weapon listed as a previous-season carryover in Epic’s Chapter 3 Season 2 launch overview.",
+        "acceptedAnswers": 10,
+        "fieldVerifiedAnswers": 10,
+        "recognizableAnswers": 1,
+        "breadth": "hard",
+        "historicalSpecificity": 2,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": [
+          "Small accessible bank: eligible only as a daily wildcard.",
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-carryover-season:season=C3S3:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-carryover-season",
+        "prompt": "Name a weapon listed as a previous-season carryover in Epic’s Chapter 3 Season 3 launch overview.",
+        "acceptedAnswers": 16,
+        "fieldVerifiedAnswers": 16,
+        "recognizableAnswers": 4,
+        "breadth": "medium",
+        "historicalSpecificity": 2,
+        "difficulty": "hard",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": [
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-carryover-season:season=C4S3:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-carryover-season",
+        "prompt": "Name a weapon listed as a previous-season carryover in Epic’s Chapter 4 Season 3 launch overview.",
+        "acceptedAnswers": 11,
+        "fieldVerifiedAnswers": 11,
+        "recognizableAnswers": 3,
+        "breadth": "hard",
+        "historicalSpecificity": 2,
+        "difficulty": "hard",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": [
+          "Small accessible bank: eligible only as a daily wildcard.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-carryover-season:season=C5S4:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-carryover-season",
+        "prompt": "Name a weapon listed as a previous-season carryover in Epic’s Chapter 5 Season 4 launch overview.",
+        "acceptedAnswers": 6,
+        "fieldVerifiedAnswers": 6,
+        "recognizableAnswers": 0,
+        "breadth": "expert",
+        "historicalSpecificity": 2,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": [
+          "Small bank: preserve for practice.",
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-poi-overview:season=C3S1:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-poi-overview",
+        "prompt": "Name a named POI mentioned in Epic’s Chapter 3 Season 1 launch overview.",
+        "acceptedAnswers": 8,
+        "fieldVerifiedAnswers": 8,
+        "recognizableAnswers": 2,
+        "breadth": "hard",
+        "historicalSpecificity": 2,
+        "difficulty": "hard",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": [
+          "Small accessible bank: eligible only as a daily wildcard.",
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-poi-overview:season=C4S1:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-poi-overview",
+        "prompt": "Name a named POI mentioned in Epic’s Chapter 4 Season 1 launch overview.",
+        "acceptedAnswers": 6,
+        "fieldVerifiedAnswers": 6,
+        "recognizableAnswers": 3,
+        "breadth": "expert",
+        "historicalSpecificity": 2,
+        "difficulty": "hard",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": [
+          "Small bank: preserve for practice.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-poi-overview:season=C4S4:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-poi-overview",
+        "prompt": "Name a named POI mentioned in Epic’s Chapter 4 Season 4 launch overview.",
+        "acceptedAnswers": 5,
+        "fieldVerifiedAnswers": 5,
+        "recognizableAnswers": 1,
+        "breadth": "expert",
+        "historicalSpecificity": 2,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": [
+          "Small bank: preserve for practice.",
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-items-overview:season=C4S4:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-items-overview",
+        "prompt": "Name a utility or healing item featured in Epic’s Chapter 4 Season 4 launch overview.",
+        "acceptedAnswers": 5,
+        "fieldVerifiedAnswers": 5,
+        "recognizableAnswers": 1,
+        "breadth": "expert",
+        "historicalSpecificity": 2,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": [
+          "Small bank: preserve for practice.",
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-items-overview:season=OG2023:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-items-overview",
+        "prompt": "Name a utility or healing item featured in Epic’s Fortnite OG (2023) launch overview.",
+        "acceptedAnswers": 14,
+        "fieldVerifiedAnswers": 14,
+        "recognizableAnswers": 2,
+        "breadth": "medium",
+        "historicalSpecificity": 2,
+        "difficulty": "hard",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": [
+          "Fewer than three high-recall editorial estimates.",
+          "Requires a specific season, update or historical interval."
+        ]
+      },
+      {
+        "id": "reviewed-exotic-loot:all:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-exotic-loot",
+        "prompt": "Name an Exotic weapon listed in the Resistance, Wilds or Last Resort launch loot rundowns.",
+        "acceptedAnswers": 9,
+        "fieldVerifiedAnswers": 9,
+        "recognizableAnswers": 0,
+        "breadth": "hard",
+        "historicalSpecificity": 1,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": [
+          "Small accessible bank: eligible only as a daily wildcard.",
+          "Fewer than three high-recall editorial estimates."
+        ]
+      },
+      {
+        "id": "reviewed-heist-mythics:all:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-heist-mythics",
+        "prompt": "Name a Mythic weapon in Kado Thorne’s property vaults at the launch of Chapter 4 Season 4.",
+        "acceptedAnswers": 7,
+        "fieldVerifiedAnswers": 7,
+        "recognizableAnswers": 1,
+        "breadth": "expert",
+        "historicalSpecificity": 1,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": [
+          "Small bank: preserve for practice.",
+          "Fewer than three high-recall editorial estimates."
+        ]
+      },
+      {
+        "id": "reviewed-mythic-vault-pois:all:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-mythic-vault-pois",
+        "prompt": "Name a named POI documented as a Mythic-weapon source in the Last Resort or Absolute Doom launch overviews.",
+        "acceptedAnswers": 6,
+        "fieldVerifiedAnswers": 6,
+        "recognizableAnswers": 0,
+        "breadth": "expert",
+        "historicalSpecificity": 1,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": [
+          "Small bank: preserve for practice.",
+          "Fewer than three high-recall editorial estimates."
+        ]
+      },
+      {
+        "id": "reviewed-mobility-items:all:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-mobility-items",
+        "prompt": "Name a mobility item featured in the reviewed Flipped, Paradise, Last Resort, Absolute Doom or OG launch overviews.",
+        "acceptedAnswers": 9,
+        "fieldVerifiedAnswers": 9,
+        "recognizableAnswers": 2,
+        "breadth": "hard",
+        "historicalSpecificity": 1,
+        "difficulty": "hard",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": [
+          "Small accessible bank: eligible only as a daily wildcard.",
+          "Fewer than three high-recall editorial estimates."
+        ]
+      },
+      {
+        "id": "reviewed-og-vehicles:all:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-og-vehicles",
+        "prompt": "Name a vehicle in Epic’s Fortnite OG (2023) returning-vehicle rollout.",
+        "acceptedAnswers": 7,
+        "fieldVerifiedAnswers": 7,
+        "recognizableAnswers": 6,
+        "breadth": "expert",
+        "historicalSpecificity": 1,
+        "difficulty": "medium",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": [
+          "Small bank: preserve for practice."
+        ]
+      },
+      {
+        "id": "reviewed-classic-pois:all:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-classic-pois",
+        "prompt": "Name a named POI described in Epic’s original Season 8, Season 9 or Fortnite OG overview.",
+        "acceptedAnswers": 9,
+        "fieldVerifiedAnswers": 9,
+        "recognizableAnswers": 4,
+        "breadth": "hard",
+        "historicalSpecificity": 1,
+        "difficulty": "medium",
+        "dailyEligible": true,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": [
+          "Small accessible bank: eligible only as a daily wildcard."
+        ]
+      },
+      {
+        "id": "reviewed-og-items:all:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-og-items",
+        "prompt": "Name a utility item in Epic’s Fortnite OG (2023) unvaulting overview.",
+        "acceptedAnswers": 10,
+        "fieldVerifiedAnswers": 10,
+        "recognizableAnswers": 2,
+        "breadth": "hard",
+        "historicalSpecificity": 1,
+        "difficulty": "hard",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": [
+          "Small accessible bank: eligible only as a daily wildcard.",
+          "Fewer than three high-recall editorial estimates."
+        ]
+      },
+      {
+        "id": "reviewed-loot-bosses:all:fortnite-br-location-history-2026.11.10",
+        "templateId": "reviewed-loot-bosses",
+        "prompt": "Name a boss described as a special-weapon source in the Flipped, MEGA or Absolute Doom launch overviews.",
+        "acceptedAnswers": 5,
+        "fieldVerifiedAnswers": 5,
+        "recognizableAnswers": 0,
+        "breadth": "expert",
+        "historicalSpecificity": 1,
+        "difficulty": "expert",
+        "dailyEligible": false,
+        "preferredDaily": false,
+        "clarity": "Direct category or documented relationship.",
+        "rareAnswerCount": 0,
+        "reasons": [
+          "Small bank: preserve for practice.",
+          "Fewer than three high-recall editorial estimates."
+        ]
+      }
+    ]
+  },
+  "mostRepeatedFamilies": [
+    {
+      "family": "weapon-introduction",
+      "count": 50
+    },
+    {
+      "family": "skin-introduction",
+      "count": 45
+    },
+    {
+      "family": "location-availability",
+      "count": 26
+    },
+    {
+      "family": "weapon-availability",
+      "count": 23
+    },
+    {
+      "family": "weapon-class",
+      "count": 6
+    },
+    {
+      "family": "collaboration-group",
+      "count": 4
+    },
+    {
+      "family": "location-map-snapshot",
+      "count": 4
+    },
+    {
+      "family": "weapon-carryovers",
+      "count": 4
+    },
+    {
+      "family": "weapon-returns",
+      "count": 3
+    },
+    {
+      "family": "item-function",
+      "count": 2
+    },
+    {
+      "family": "item-availability",
+      "count": 2
+    },
+    {
+      "family": "weapon-status",
+      "count": 2
+    },
+    {
+      "family": "skin-battle-pass",
+      "count": 1
+    },
+    {
+      "family": "location-general",
+      "count": 1
+    },
+    {
+      "family": "health-item",
+      "count": 1
+    },
+    {
+      "family": "shield-item",
+      "count": 1
+    },
+    {
+      "family": "utility-item",
+      "count": 1
+    },
+    {
+      "family": "vehicle",
+      "count": 1
+    },
+    {
+      "family": "live-event",
+      "count": 1
+    },
+    {
+      "family": "weapon-general",
+      "count": 1
+    },
+    {
+      "family": "crossover-general",
+      "count": 1
+    },
+    {
+      "family": "weapon-mythic-version",
+      "count": 1
+    },
+    {
+      "family": "weapon-exotic-class",
+      "count": 1
+    },
+    {
+      "family": "loot-container",
+      "count": 1
+    },
+    {
+      "family": "mobility-equipment",
+      "count": 1
+    },
+    {
+      "family": "throwable-equipment",
+      "count": 1
+    },
+    {
+      "family": "trap-equipment",
+      "count": 1
+    },
+    {
+      "family": "ammunition-class",
+      "count": 1
+    },
+    {
+      "family": "foraged-class",
+      "count": 1
+    },
+    {
+      "family": "fish-class",
+      "count": 1
+    },
+    {
+      "family": "landmark-general",
+      "count": 1
+    },
+    {
+      "family": "location-introduction",
+      "count": 1
+    },
+    {
+      "family": "location-returns",
+      "count": 1
+    },
+    {
+      "family": "item-returns",
+      "count": 1
+    },
+    {
+      "family": "vehicle-introduction",
+      "count": 1
+    },
+    {
+      "family": "vehicle-returns",
+      "count": 1
+    },
+    {
+      "family": "location-mythic",
+      "count": 1
+    },
+    {
+      "family": "weapon-changes",
+      "count": 1
+    },
+    {
+      "family": "item-changes",
+      "count": 1
+    },
+    {
+      "family": "vehicle-changes",
+      "count": 1
+    },
+    {
+      "family": "boss-loot",
+      "count": 1
+    },
+    {
+      "family": "location-history",
+      "count": 1
+    }
+  ],
+  "contentGaps": [
+    {
+      "category": "Global location returns and transitions",
+      "reason": "Chapter 2/6/7 populations are reviewed. Complete Chapter 1/3/4/5 tables and conflicting historical transitions still need review before unrestricted cross-chapter return or rename/replacement questions can be enabled.",
+      "pendingRecords": 3
+    },
+    {
+      "category": "Mythic boss drops",
+      "reason": "Complete cross-chapter boss tables and exact Chapter 2 availability remain unreviewed.",
+      "pendingRecords": 36
+    },
+    {
+      "category": "Containers",
+      "reason": "Rare/faction/cooler/produce taxonomy and complete contents need sources.",
+      "pendingRecords": 12
+    },
+    {
+      "category": "Fishing",
+      "reason": "16 BR fish identities reviewed. Some secondary health/shield effects and all exact historical spawn windows remain unknown.",
+      "pendingRecords": 11
+    },
+    {
+      "category": "Marauders",
+      "reason": "No complete C2S3 drop table; ammo/material granularity unresolved.",
+      "pendingRecords": 1
+    }
+  ],
+  "exclusionReview": [
+    {
+      "name": "Skye’s Assault Rifle",
+      "templateId": "weapon-mythic-version",
+      "accepted": true,
+      "reasons": []
+    },
+    {
+      "name": "Brutus’ Minigun",
+      "templateId": "weapon-mythic-version",
+      "accepted": true,
+      "reasons": []
+    },
+    {
+      "name": "Rare Chest",
+      "templateId": "loot-container",
+      "accepted": false,
+      "reasons": [
+        "Classification isLootContainer is missing field-level verification."
+      ]
+    },
+    {
+      "name": "Flopper",
+      "templateId": "fish-class",
+      "accepted": true,
+      "reasons": []
+    }
+  ],
+  "errors": []
+}

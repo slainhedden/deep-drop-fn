@@ -12,7 +12,11 @@ export const seasons: readonly SeasonRecord[] = [
   { id: 'OG2023', chapter: 4, label: 'Fortnite OG (2023)', kind: 'throwback' },
   ...regular(5, 4),
   { id: 'REMIX2024', chapter: 5, label: 'Chapter 2 Remix (2024)', kind: 'throwback' },
-  ...regular(6, 4), ...regular(7, 4),
+  ...regular(6, 2),
+  {id:'C6GALACTIC2025',chapter:6,label:'Chapter 6: Galactic Battle (2025)',kind:'special'},
+  ...regular(6, 4).slice(2),
+  {id:'C6SIMPSONS2025',chapter:6,label:'Chapter 6: The Simpsons (2025)',kind:'special'},
+  ...regular(7, 4),
   {id:'C7TREASURE2026',chapter:7,label:'Chapter 7: Treasure Hunters (2026)',kind:'special'},
 ];
 const positions = new Map(seasons.map((season, index) => [season.id, index]));

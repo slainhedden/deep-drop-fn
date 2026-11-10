@@ -17,7 +17,8 @@ describe('expanded catalog integrity and evidence gates',()=>{
  });
  it('excludes pending catalog rows from answers and autocomplete',()=>{
   for (const question of questionPool()) for(const id of question.validAnswerIds) expect(matchesAll(entitiesById.get(id)!,question.predicates)).toBe(true);
-  expect(suggestionsFor('Fox Floodgate',questionPool().find(question=>question.templateId==='location-catalog')!)).toEqual([]);
+  const pending=entitiesByType('location').find(e=>e.verification==='pending')!;
+  expect(suggestionsFor(pending.name,questionPool().find(question=>question.templateId==='location-catalog')!).some(e=>e.id===pending.id)).toBe(false);
   expect(entitiesByType('location').some(entity=>entity.name==='MEGA City')).toBe(true);
  });
  it('does not generate unreversed ranges or duplicate chapter pairs',()=>{
@@ -63,7 +64,7 @@ describe('expanded catalog integrity and evidence gates',()=>{
  });
  it('detects evidence incorrectly promoted without reviewed sources',()=>{
   const entity=structuredClone(entitiesById.get('location-fox-floodgate')!);
-  entity.history!.introduction!.status='verified';
+  entity.history!.introduction={season:'C6S1',status:'verified',sourceIds:['history-c6s1']};
   expect(auditHistoricalEntities([entity]).errors.some(error=>error.includes('unreviewed source'))).toBe(true);
  });
 });
@@ -103,9 +104,10 @@ describe('contextual aliases and deterministic variety',()=>{
   }
  });
  it('does not cycle a narrow bank to fill a long session',()=>{
-  const game=generateGame('locations-only',20,['Locations']);
+  const requested=questionPool().filter(q=>q.category==='Locations').length+1;
+  const game=generateGame('locations-only',requested,['Locations']);
   expect(game.length).toBeGreaterThan(0);
-  expect(game.length).toBeLessThan(20);
+  expect(game.length).toBeLessThan(requested);
   expect(new Set(game.map(question=>question.id)).size).toBe(game.length);
  });
 });

@@ -1,3 +1,4 @@
+import { activateLocationHistory } from './activate-location-history';
 import { phase4Templates } from './phase4-templates';
 import { gameplayTemplates } from './gameplay-templates';
 import { activateReviewedHistory } from './activate-history';
@@ -23,3 +24,5 @@ export const templates:QuestionTemplate[]=[
 ];
 
 activateReviewedHistory(templates);
+
+activateLocationHistory(templates);

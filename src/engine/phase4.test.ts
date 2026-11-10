@@ -82,16 +82,17 @@ describe('typed Chapter 7 snapshots without fabricated Chapter 2 or 6 timelines'
   expect(validateAnswer(question,'The $.$. Rocky').answerId).toBe(byName('$.$. Rocky').id);
   expect(entities.filter(e=>/\$\.\$\./.test(e.name)&&e.type==='location')).toHaveLength(1);
  });
- it('does not infer removals, replacements, or introductions from a missing snapshot row',()=>{
+ it('uses explicit historical sources rather than missing snapshot rows for new changes',()=>{
   const latte=byName('Latte Landing');
-  expect(latte.history?.changes.filter(c=>c.status==='verified')).toEqual([]);
-  expect(latte.history?.introduction?.status).not.toBe('verified');
-  expect(availableIn(latte,'C7S1',false,true)).toBe(false);
+  expect(latte.history?.changes.filter(c=>c.status==='verified').every(c=>c.sourceIds.every(id=>!id.startsWith('map-archive-')))).toBe(true);
+  expect(latte.history?.introduction?.sourceIds).toContain('wg-named-locations');
+  expect(availableIn(latte,'C7S1',false,true)).toBe(true);
  });
- it('retains incomplete whole-chapter historical families behind coverage review',()=>{
+ it('enables reviewed chapters while retaining unreviewed chapter gates',()=>{
   const template=templates.find(t=>t.id==='location-chapter')!;
   expect(template).toBeDefined();
-  for(const chapter of [2,6,7])expect(buildQuestion(template,{chapter})).toBeNull();
+  for(const chapter of [2,6,7])expect(buildQuestion(template,{chapter})).not.toBeNull();
+  for(const chapter of [1,3,4,5])expect(buildQuestion(template,{chapter})).toBeNull();
   for(const e of entities.filter(e=>e.type==='location'))for(const p of e.history?.appearances??[])if(['C2S2','C6S1'].includes(p.from)&&p.status==='verified')expect(p.sourceIds.every(id=>!id.startsWith('map-archive-'))).toBe(true);
  });
 });

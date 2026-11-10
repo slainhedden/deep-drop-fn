@@ -1,5 +1,7 @@
 # Phase 4A checkpoint and fresh-task handoff
 
+> Continued from this committed checkpoint: see [Phase 4A location-history continuation](PHASE4A_LOCATION_HISTORY.md) for the resolved network blocker, reviewed Chapter 2/6/7 populations, enabled chapter questions, current counts, and remaining global coverage gates. The text below preserves the original checkpoint.
+
 ## Published foundation and completed work
 
 Phase 3 was preserved, tested and pushed to `main` as `5fca4615d31c2e9a0edc821e0af12b881d93ca1b`. Its checkpoint has 970 records, 519 playable entities, 48 enabled templates and 172 variants. This Phase 4A continuation changes data, verification/audits and tests; it retains Phase 3's design, seven-round daily selector, unlimited mode, retries, absolute 20-second deadline, scoring, animation, question-specific autocomplete and Sites project binding.
