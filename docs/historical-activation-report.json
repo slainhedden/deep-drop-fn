@@ -1,0 +1,719 @@
+{
+  "reviewedOn": "2026-11-09",
+  "baseline": {
+    "entities": 932,
+    "verifiedEntities": 293,
+    "pendingEntities": 440,
+    "playableEntities": 472,
+    "templates": 96,
+    "enabledTemplates": 30,
+    "questions": 153,
+    "answerCombinations": 2646,
+    "poiByChapter": {
+      "1": {
+        "verified": 8,
+        "pending": 30
+      },
+      "2": {
+        "verified": 0,
+        "pending": 38
+      },
+      "3": {
+        "verified": 11,
+        "pending": 23
+      },
+      "4": {
+        "verified": 17,
+        "pending": 22
+      },
+      "5": {
+        "verified": 3,
+        "pending": 33
+      },
+      "6": {
+        "verified": 0,
+        "pending": 17
+      },
+      "7": {
+        "verified": 1,
+        "pending": 0
+      }
+    }
+  },
+  "current": {
+    "entities": 938,
+    "verifiedEntities": 346,
+    "pendingEntities": 418,
+    "playableEntities": 495,
+    "templates": 96,
+    "enabledTemplates": 38,
+    "questions": 162,
+    "answerCombinations": 2733,
+    "poiByChapter": {
+      "1": {
+        "verified": 18,
+        "pending": 20
+      },
+      "2": {
+        "verified": 0,
+        "pending": 38
+      },
+      "3": {
+        "verified": 11,
+        "pending": 23
+      },
+      "4": {
+        "verified": 18,
+        "pending": 22
+      },
+      "5": {
+        "verified": 3,
+        "pending": 33
+      },
+      "6": {
+        "verified": 0,
+        "pending": 17
+      },
+      "7": {
+        "verified": 1,
+        "pending": 0
+      }
+    }
+  },
+  "delta": {
+    "newlyVerifiedExisting": 47,
+    "promotedPending": 22,
+    "promotedLegacy": 25,
+    "newVerifiedRecords": 6,
+    "enabledTemplates": 8,
+    "playableVariants": 9,
+    "playableEntities": 23,
+    "answerCombinations": 87
+  },
+  "observations": {
+    "total": 109,
+    "present": 71,
+    "absent": 38
+  },
+  "activated": [
+    {
+      "id": "location-introduced-range",
+      "coverage": {
+        "sourceIds": [
+          "epic-patch-v7-00",
+          "epic-block-2018",
+          "epic-patch-v8-00"
+        ],
+        "reviewedOn": "2026-11-09",
+        "note": "Complete first introductions of named POIs in original Chapter 1 Seasons 7 and 8: Frosty Flights, Polar Peak, Happy Hamlet, The Block, Lazy Lagoon, Sunny Steps. Landmark additions and relocations of an existing canonical POI are excluded.",
+        "parameters": [
+          {
+            "from": "C1S7",
+            "through": "C1S8"
+          }
+        ]
+      }
+    },
+    {
+      "id": "weapon-available-season",
+      "coverage": {
+        "sourceIds": [
+          "epic-primal-crafting",
+          "epic-patch-v6-02"
+        ],
+        "reviewedOn": "2026-11-09",
+        "note": "Complete explicitly named weapon list in the March 16/April 5 Primal crafting guide. The two challenge answers deliberately unnamed in that article are excluded. C1S6 uses the complete six canonical weapons in the v6.02 loot drop-rate table. Neither scope claims the entire season loot pool.",
+        "parameters": [
+          {
+            "season": "C2S6"
+          },
+          {
+            "season": "C1S6"
+          }
+        ]
+      }
+    },
+    {
+      "id": "vehicle-introduced-chapter",
+      "coverage": {
+        "sourceIds": [
+          "epic-patch-v4-3",
+          "epic-patch-v5-0",
+          "epic-patch-v6-10",
+          "epic-patch-v7-00",
+          "epic-patch-v7-40-content-update",
+          "epic-patch-v8-00",
+          "epic-patch-v8-10",
+          "epic-patch-v10-00-patch-notes"
+        ],
+        "reviewedOn": "2026-11-09",
+        "note": "Complete original Chapter 1 player-operated Battle Royale vehicle introductions: Shopping Cart, All Terrain Kart, Quadcrasher, X-4 Stormwing, Driftboard, Pirate Cannon, The Baller, B.R.U.T.E. Stationary traps, wildlife and Creative-only vehicles are excluded.",
+        "parameters": [
+          {
+            "chapter": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "location-return-og",
+      "coverage": {
+        "sourceIds": [
+          "epic-og-2023",
+          "archive-frosty-og-corroboration"
+        ],
+        "reviewedOn": "2026-11-09",
+        "note": "Complete named-POI mentions in the official OG announcement: Tilted Towers, Greasy Grove, Risky Reels, Loot Lake and Frosty Flights. This is not the complete OG map."
+      }
+    },
+    {
+      "id": "weapon-vaulted",
+      "coverage": {
+        "sourceIds": [
+          "epic-patch-v4-0",
+          "epic-patch-v6-00",
+          "epic-patch-v7-00",
+          "epic-patch-v8-00",
+          "epic-patch-v9-00",
+          "epic-patch-v10-00-patch-notes"
+        ],
+        "reviewedOn": "2026-11-09",
+        "note": "Complete type-filtered vault lists explicitly published in archived original Chapter 1 Season 4, 6, 7, 8, 9 and X launch notes. No later patch, temporary disable, Playground or LTM exception is included."
+      }
+    },
+    {
+      "id": "weapon-unvaulted",
+      "coverage": {
+        "sourceIds": [
+          "epic-patch-v10-00-content-update",
+          "epic-patch-v10-30-patch-notes"
+        ],
+        "reviewedOn": "2026-11-09",
+        "note": "Complete weapon unvault lists in two specified original Season X updates: Double Barrel Shotgun, Six Shooter, Hunting Rifle and Infantry Rifle (Tilted Town only), plus Tactical Submachine Gun (v10.30). Infinity Blade was LTM-only in v10.10 and is excluded."
+      }
+    },
+    {
+      "id": "item-vaulted",
+      "coverage": {
+        "sourceIds": [
+          "epic-patch-v4-0",
+          "epic-patch-v6-00",
+          "epic-patch-v7-00",
+          "epic-patch-v8-00",
+          "epic-patch-v9-00",
+          "epic-patch-v10-00-patch-notes"
+        ],
+        "reviewedOn": "2026-11-09",
+        "note": "Complete type-filtered vault lists explicitly published in archived original Chapter 1 Season 4, 6, 7, 8, 9 and X launch notes. No later patch, temporary disable, Playground or LTM exception is included."
+      }
+    },
+    {
+      "id": "vehicle-vaulted",
+      "coverage": {
+        "sourceIds": [
+          "epic-patch-v4-0",
+          "epic-patch-v6-00",
+          "epic-patch-v7-00",
+          "epic-patch-v8-00",
+          "epic-patch-v9-00",
+          "epic-patch-v10-00-patch-notes"
+        ],
+        "reviewedOn": "2026-11-09",
+        "note": "Complete type-filtered vault lists explicitly published in archived original Chapter 1 Season 4, 6, 7, 8, 9 and X launch notes. No later patch, temporary disable, Playground or LTM exception is included."
+      }
+    }
+  ],
+  "newlyVerifiedExisting": [
+    {
+      "id": "heavy-ar",
+      "name": "Heavy Assault Rifle",
+      "type": "weapon",
+      "previous": "legacy",
+      "sourceIds": [
+        "epic-patch-v6-22"
+      ]
+    },
+    {
+      "id": "infantry",
+      "name": "Infantry Rifle",
+      "type": "weapon",
+      "previous": "legacy",
+      "sourceIds": [
+        "epic-patch-v7-40",
+        "epic-patch-v10-00-content-update"
+      ]
+    },
+    {
+      "id": "suppressed-ar",
+      "name": "Suppressed Assault Rifle",
+      "type": "weapon",
+      "previous": "legacy",
+      "sourceIds": [
+        "epic-patch-v5-40-content-update",
+        "epic-patch-v9-00"
+      ]
+    },
+    {
+      "id": "tactical-ar",
+      "name": "Tactical Assault Rifle",
+      "type": "weapon",
+      "previous": "legacy",
+      "sourceIds": [
+        "epic-patch-v9-01",
+        "epic-patch-v10-00-patch-notes"
+      ]
+    },
+    {
+      "id": "tactical-smg",
+      "name": "Tactical Submachine Gun",
+      "type": "weapon",
+      "previous": "legacy",
+      "sourceIds": [
+        "epic-patch-v10-30-patch-notes"
+      ]
+    },
+    {
+      "id": "compact-smg",
+      "name": "Compact SMG",
+      "type": "weapon",
+      "previous": "legacy",
+      "sourceIds": [
+        "epic-patch-v5-10"
+      ]
+    },
+    {
+      "id": "burst-smg",
+      "name": "Burst SMG",
+      "type": "weapon",
+      "previous": "legacy",
+      "sourceIds": [
+        "epic-patch-v9-10-content-update"
+      ]
+    },
+    {
+      "id": "bolt-action",
+      "name": "Bolt-Action Sniper Rifle",
+      "type": "weapon",
+      "previous": "legacy",
+      "sourceIds": [
+        "epic-patch-v6-02"
+      ]
+    },
+    {
+      "id": "semi-auto-sniper",
+      "name": "Semi-Auto Sniper Rifle",
+      "type": "weapon",
+      "previous": "legacy",
+      "sourceIds": [
+        "epic-patch-v10-00-patch-notes",
+        "epic-patch-v6-02"
+      ]
+    },
+    {
+      "id": "automatic-sniper",
+      "name": "Automatic Sniper Rifle",
+      "type": "weapon",
+      "previous": "legacy",
+      "sourceIds": [
+        "epic-patch-v10-00-content-update"
+      ]
+    },
+    {
+      "id": "pistol",
+      "name": "Pistol",
+      "type": "weapon",
+      "previous": "legacy",
+      "sourceIds": [
+        "epic-patch-v6-02"
+      ]
+    },
+    {
+      "id": "dual-pistols",
+      "name": "Dual Pistols",
+      "type": "weapon",
+      "previous": "legacy",
+      "sourceIds": [
+        "epic-patch-v4-5"
+      ]
+    },
+    {
+      "id": "scoped-revolver",
+      "name": "Scoped Revolver",
+      "type": "weapon",
+      "previous": "legacy",
+      "sourceIds": [
+        "epic-patch-v7-20",
+        "epic-patch-v9-00"
+      ]
+    },
+    {
+      "id": "rocket-launcher",
+      "name": "Rocket Launcher",
+      "type": "weapon",
+      "previous": "legacy",
+      "sourceIds": [
+        "epic-patch-v6-02"
+      ]
+    },
+    {
+      "id": "grenade-launcher",
+      "name": "Grenade Launcher",
+      "type": "weapon",
+      "previous": "legacy",
+      "sourceIds": [
+        "epic-patch-v6-02"
+      ]
+    },
+    {
+      "id": "retail",
+      "name": "Retail Row",
+      "type": "location",
+      "previous": "legacy",
+      "sourceIds": [
+        "epic-patch-v10-10-patch-notes"
+      ]
+    },
+    {
+      "id": "paradise",
+      "name": "Paradise Palms",
+      "type": "location",
+      "previous": "legacy",
+      "sourceIds": [
+        "epic-patch-v5-0",
+        "epic-patch-v10-30-patch-notes"
+      ]
+    },
+    {
+      "id": "lazy-links",
+      "name": "Lazy Links",
+      "type": "location",
+      "previous": "legacy",
+      "sourceIds": [
+        "epic-patch-v5-0"
+      ]
+    },
+    {
+      "id": "happy",
+      "name": "Happy Hamlet",
+      "type": "location",
+      "previous": "legacy",
+      "sourceIds": [
+        "epic-patch-v7-00"
+      ]
+    },
+    {
+      "id": "polar",
+      "name": "Polar Peak",
+      "type": "location",
+      "previous": "legacy",
+      "sourceIds": [
+        "epic-patch-v7-00",
+        "epic-patch-v7-01"
+      ]
+    },
+    {
+      "id": "banana",
+      "name": "Banana",
+      "type": "item",
+      "previous": "legacy",
+      "sourceIds": [
+        "epic-patch-v8-20"
+      ]
+    },
+    {
+      "id": "chug-splash",
+      "name": "Chug Splash",
+      "type": "item",
+      "previous": "legacy",
+      "sourceIds": [
+        "epic-patch-v9-30"
+      ]
+    },
+    {
+      "id": "coconut",
+      "name": "Coconut",
+      "type": "item",
+      "previous": "legacy",
+      "sourceIds": [
+        "epic-patch-v8-20"
+      ]
+    },
+    {
+      "id": "rift-to-go",
+      "name": "Rift-To-Go",
+      "type": "item",
+      "previous": "legacy",
+      "sourceIds": [
+        "epic-patch-v5-30"
+      ]
+    },
+    {
+      "id": "brute",
+      "name": "B.R.U.T.E.",
+      "type": "vehicle",
+      "previous": "legacy",
+      "sourceIds": [
+        "epic-patch-v10-00-patch-notes"
+      ]
+    },
+    {
+      "id": "location-frosty-flights",
+      "name": "Frosty Flights",
+      "type": "location",
+      "previous": "pending",
+      "sourceIds": [
+        "epic-patch-v7-00",
+        "epic-og-2023",
+        "archive-frosty-og-corroboration"
+      ]
+    },
+    {
+      "id": "location-tilted-town",
+      "name": "Tilted Town",
+      "type": "location",
+      "previous": "pending",
+      "sourceIds": [
+        "epic-patch-v10-00-content-update"
+      ]
+    },
+    {
+      "id": "location-starry-suburbs",
+      "name": "Starry Suburbs",
+      "type": "location",
+      "previous": "pending",
+      "sourceIds": [
+        "epic-patch-v10-40-patch-notes"
+      ]
+    },
+    {
+      "id": "location-moisty-palms",
+      "name": "Moisty Palms",
+      "type": "location",
+      "previous": "pending",
+      "sourceIds": [
+        "epic-patch-v10-30-patch-notes"
+      ]
+    },
+    {
+      "id": "location-the-block",
+      "name": "The Block",
+      "type": "location",
+      "previous": "pending",
+      "sourceIds": [
+        "epic-block-2018"
+      ]
+    },
+    {
+      "id": "location-floating-island",
+      "name": "Floating Island",
+      "type": "location",
+      "previous": "pending",
+      "sourceIds": [
+        "epic-patch-v6-00"
+      ]
+    },
+    {
+      "id": "weapon-makeshift-rifle",
+      "name": "Makeshift Rifle",
+      "type": "weapon",
+      "previous": "pending",
+      "sourceIds": [
+        "epic-primal-crafting"
+      ]
+    },
+    {
+      "id": "weapon-primal-rifle",
+      "name": "Primal Rifle",
+      "type": "weapon",
+      "previous": "pending",
+      "sourceIds": [
+        "epic-primal-crafting"
+      ]
+    },
+    {
+      "id": "weapon-drum-gun",
+      "name": "Drum Gun",
+      "type": "weapon",
+      "previous": "pending",
+      "sourceIds": [
+        "epic-patch-v4-5-content-update"
+      ]
+    },
+    {
+      "id": "weapon-mechanical-bow",
+      "name": "Mechanical Bow",
+      "type": "weapon",
+      "previous": "pending",
+      "sourceIds": [
+        "epic-primal-crafting"
+      ]
+    },
+    {
+      "id": "weapon-primal-bow",
+      "name": "Primal Bow",
+      "type": "weapon",
+      "previous": "pending",
+      "sourceIds": [
+        "epic-primal-crafting"
+      ]
+    },
+    {
+      "id": "weapon-mechanical-shockwave-bow",
+      "name": "Mechanical Shockwave Bow",
+      "type": "weapon",
+      "previous": "pending",
+      "sourceIds": [
+        "epic-primal-crafting"
+      ]
+    },
+    {
+      "id": "weapon-mechanical-explosive-bow",
+      "name": "Mechanical Explosive Bow",
+      "type": "weapon",
+      "previous": "pending",
+      "sourceIds": [
+        "epic-launch-c4s1"
+      ]
+    },
+    {
+      "id": "weapon-primal-flame-bow",
+      "name": "Primal Flame Bow",
+      "type": "weapon",
+      "previous": "pending",
+      "sourceIds": [
+        "epic-primal-crafting"
+      ]
+    },
+    {
+      "id": "weapon-infinity-blade",
+      "name": "Infinity Blade",
+      "type": "weapon",
+      "previous": "pending",
+      "sourceIds": [
+        "epic-patch-v7-01"
+      ]
+    },
+    {
+      "id": "item-bouncer",
+      "name": "Bouncer",
+      "type": "item",
+      "previous": "pending",
+      "sourceIds": [
+        "epic-patch-v6-00"
+      ]
+    },
+    {
+      "id": "item-chiller-grenade",
+      "name": "Chiller Grenade",
+      "type": "item",
+      "previous": "pending",
+      "sourceIds": [
+        "epic-patch-v7-30",
+        "epic-patch-v8-00"
+      ]
+    },
+    {
+      "id": "item-shadow-stone",
+      "name": "Shadow Stone",
+      "type": "item",
+      "previous": "pending",
+      "sourceIds": [
+        "epic-patch-v6-00",
+        "epic-patch-v7-00"
+      ]
+    },
+    {
+      "id": "item-shield-bubble",
+      "name": "Shield Bubble",
+      "type": "item",
+      "previous": "pending",
+      "sourceIds": [
+        "epic-patch-v10-20-patch-notes"
+      ]
+    },
+    {
+      "id": "item-zapper-trap",
+      "name": "Zapper Trap",
+      "type": "item",
+      "previous": "pending",
+      "sourceIds": [
+        "epic-patch-v10-20-content-update"
+      ]
+    },
+    {
+      "id": "item-pepper",
+      "name": "Pepper",
+      "type": "item",
+      "previous": "pending",
+      "sourceIds": [
+        "epic-patch-v8-20"
+      ]
+    },
+    {
+      "id": "item-sneaky-snowman",
+      "name": "Sneaky Snowman",
+      "type": "item",
+      "previous": "pending",
+      "sourceIds": [
+        "epic-patch-v8-00"
+      ]
+    }
+  ],
+  "newVerifiedRecords": [
+    {
+      "id": "weapon-boom-bow",
+      "name": "Boom Bow",
+      "type": "weapon",
+      "sourceIds": [
+        "epic-patch-v8-20-content-update"
+      ]
+    },
+    {
+      "id": "item-balloons",
+      "name": "Balloons",
+      "type": "item",
+      "sourceIds": [
+        "epic-patch-v6-21",
+        "epic-patch-v9-00"
+      ]
+    },
+    {
+      "id": "weapon-crossbow",
+      "name": "Crossbow",
+      "type": "weapon",
+      "sourceIds": [
+        "epic-patch-v4-0"
+      ]
+    },
+    {
+      "id": "weapon-light-machine-gun",
+      "name": "Light Machine Gun",
+      "type": "weapon",
+      "sourceIds": [
+        "epic-patch-v6-00"
+      ]
+    },
+    {
+      "id": "item-shadow-bomb",
+      "name": "Shadow Bomb",
+      "type": "item",
+      "sourceIds": [
+        "epic-patch-v10-00-patch-notes"
+      ]
+    },
+    {
+      "id": "weapon-makeshift-bow",
+      "name": "Makeshift Bow",
+      "type": "weapon",
+      "sourceIds": [
+        "epic-primal-crafting"
+      ]
+    }
+  ],
+  "validation": {
+    "tests": 78,
+    "testFiles": 13,
+    "auditErrors": [],
+    "build": "passed"
+  }
+}

@@ -1,83 +1,20 @@
-import type { EntityAlias, EntityType, FortniteEntity } from '../domain/types';
-import { DATA_VERSION } from './sources';
-
-type AliasSeed=string|[string,EntityAlias['kind'],EntityAlias['confidence']?];
-type Facts=Record<string,string|number|boolean|string[]|number[]|undefined>;
-type Row=[string,string,number,Facts,AliasSeed[]?];
-const alias=(value:AliasSeed):EntityAlias=>typeof value==='string'?{text:value,kind:'slang',confidence:'strong'}:{text:value[0],kind:value[1],confidence:value[2]??'strong'};
-const group=(type:EntityType,rows:Row[],sourceIds=['fn-wiki']):FortniteEntity[]=>rows.map(([id,name,familiarity,facts,aliases=[]])=>({id,name,type,familiarity,facts,aliases:aliases.map(alias),sourceIds,dataVersion:DATA_VERSION}));
-
-const skins=group('skin',[
- ['midas','Midas',.99,{acquisitionMethod:'battle_pass'},[]],['peely','Peely',.99,{acquisitionMethod:'battle_pass'},[]],['omega','Omega',.88,{acquisitionMethod:'battle_pass'},[]],['dire','Dire',.55,{acquisitionMethod:'battle_pass'},[]],['luxe','Luxe',.38,{acquisitionMethod:'battle_pass'},[]],
- ['drift','Drift',.94,{acquisitionMethod:'battle_pass'},[]],['calamity','Calamity',.67,{acquisitionMethod:'battle_pass'},[]],['ice-king','The Ice King',.75,{acquisitionMethod:'battle_pass'},['Ice King']],['blackheart','Blackheart',.45,{acquisitionMethod:'battle_pass'},[]],['rox','Rox',.42,{acquisitionMethod:'battle_pass'},[]],
- ['vendetta','Vendetta',.32,{acquisitionMethod:'battle_pass'},[]],['catalyst','Catalyst',.5,{acquisitionMethod:'battle_pass'},[]],['the-reaper','The Reaper',.87,{acquisitionMethod:'battle_pass'},[['John Wick','slang','contextual']]],['dark-voyager','Dark Voyager',.72,{acquisitionMethod:'battle_pass'},['Astronaut']],['rust-lord','Rust Lord',.65,{acquisitionMethod:'battle_pass'},[]],
- ['carbide','Carbide',.62,{acquisitionMethod:'battle_pass'},[]],['zoey','Zoey',.68,{acquisitionMethod:'battle_pass'},[]],['ragnarok','Ragnarok',.7,{acquisitionMethod:'battle_pass'},[]],['lynx','Lynx',.9,{acquisitionMethod:'battle_pass'},[]],['zenith','Zenith',.38,{acquisitionMethod:'battle_pass'},[]],
- ['prisoner','The Prisoner',.58,{acquisitionMethod:'battle_pass'},['Prisoner']],['hybrid','Hybrid',.48,{acquisitionMethod:'battle_pass'},[]],['ember','Ember',.42,{acquisitionMethod:'battle_pass'},[]],['fusion','Fusion',.34,{acquisitionMethod:'battle_pass'},[]],['maya','Maya',.62,{acquisitionMethod:'battle_pass'},[]],
- ['agent-peely','Agent Peely',.78,{acquisitionMethod:'battle_pass'},[]],['brutus','Brutus',.85,{acquisitionMethod:'battle_pass'},[]],['meowscles','Meowscles',.97,{acquisitionMethod:'battle_pass'},[]],['skye','Skye',.89,{acquisitionMethod:'battle_pass'},[]],['tntina','TNTina',.72,{acquisitionMethod:'battle_pass'},[['TNT Tina','official']]],
- ['ocean','Ocean',.43,{acquisitionMethod:'battle_pass'},[]],['fade','Fade',.47,{acquisitionMethod:'battle_pass'},[]],['kit','Kit',.81,{acquisitionMethod:'battle_pass'},[]],['jules','Jules',.84,{acquisitionMethod:'battle_pass'},[]],['eternal-knight','Eternal Knight',.5,{acquisitionMethod:'battle_pass'},[]],
- ['menace','Menace',.36,{acquisitionMethod:'battle_pass'},[]],['charlotte','Charlotte',.52,{acquisitionMethod:'battle_pass'},[]],['torin','Torin',.39,{acquisitionMethod:'battle_pass'},[]],['sunny','Sunny',.35,{acquisitionMethod:'battle_pass'},[]],
-],['epic-bp','fn-wiki']);
-
-const weapon=(id:string,name:string,familiarity:number,weaponClass:string,aliases:AliasSeed[]=[]):Row=>[id,name,familiarity,{weaponClass},aliases];
-const weapons=group('weapon',[
- weapon('pump-shotgun','Pump Shotgun',.99,'shotgun',['pump',['spas','slang','contextual']]),weapon('tactical-shotgun','Tactical Shotgun',.96,'shotgun',['tac','tac shotgun','tac shotty','tactical']),weapon('heavy-shotgun','Heavy Shotgun',.65,'shotgun',['heavy shotty']),weapon('combat-shotgun','Combat Shotgun',.78,'shotgun',['combat']),weapon('charge-shotgun','Charge Shotgun',.7,'shotgun',['charge']),
- weapon('lever-action-shotgun','Lever Action Shotgun',.52,'shotgun',['lever','lever shotty']),weapon('drum-shotgun','Drum Shotgun',.55,'shotgun',['drum shotty']),weapon('ranger-shotgun','Ranger Shotgun',.38,'shotgun'),weapon('double-barrel-shotgun','Double Barrel Shotgun',.58,'shotgun',['double barrel','dub']),weapon('primal-shotgun','Primal Shotgun',.43,'shotgun'),
- weapon('auto-shotgun','Auto Shotgun',.56,'shotgun'),weapon('striker-pump','Striker Pump Shotgun',.58,'shotgun',['striker pump']),weapon('two-shot','Two-Shot Shotgun',.38,'shotgun',['two shot']),weapon('prime-shotgun','Prime Shotgun',.42,'shotgun'),weapon('thunder-shotgun','Thunder Shotgun',.55,'shotgun'),
- weapon('maven','Maven Auto Shotgun',.52,'shotgun',['maven']),weapon('havoc-pump','Havoc Pump Shotgun',.61,'shotgun',['havoc pump']),weapon('frenzy-auto','Frenzy Auto Shotgun',.63,'shotgun',['frenzy']),weapon('gatekeeper','Gatekeeper Shotgun',.59,'shotgun',['gatekeeper']),
- weapon('assault-rifle','Assault Rifle',.99,'assault rifle',['AR','scar']),weapon('burst-ar','Burst Assault Rifle',.78,'assault rifle',['burst AR','famas']),weapon('heavy-ar','Heavy Assault Rifle',.72,'assault rifle',['heavy AR','AK']),weapon('infantry','Infantry Rifle',.58,'assault rifle',['infantry']),weapon('ranger-ar','Ranger Assault Rifle',.48,'assault rifle',['ranger AR']),
- weapon('hammer-ar','Hammer Assault Rifle',.45,'assault rifle',['hammer AR']),weapon('suppressed-ar','Suppressed Assault Rifle',.62,'assault rifle',['suppressed AR','silenced AR']),weapon('tactical-ar','Tactical Assault Rifle',.57,'assault rifle',['tac AR']),weapon('combat-ar','Combat Assault Rifle',.52,'assault rifle',['combat AR']),weapon('striker-burst','Striker Burst Rifle',.5,'assault rifle',['striker burst']),
- weapon('red-eye','Red-Eye Assault Rifle',.55,'assault rifle',['red eye']),weapon('havoc-suppressed','Havoc Suppressed Assault Rifle',.5,'assault rifle',['havoc AR']),weapon('flapjack','FlapJack Rifle',.38,'assault rifle',['flapjack']),weapon('twin-mag-ar','Twin Mag Assault Rifle',.44,'assault rifle',['twin mag AR']),weapon('nemesis','Nemesis AR',.42,'assault rifle',['nemesis']),
- weapon('warforged','Warforged Assault Rifle',.35,'assault rifle',['warforged AR']),weapon('striker-ar','Striker AR',.45,'assault rifle',['striker']),weapon('enforcer','Enforcer AR',.32,'assault rifle',['enforcer']),
- weapon('smg','Submachine Gun',.92,'smg',['SMG']),weapon('tactical-smg','Tactical Submachine Gun',.76,'smg',['tac SMG']),weapon('compact-smg','Compact SMG',.55,'smg',['P90']),weapon('rapid-fire','Rapid Fire SMG',.55,'smg',['rapid fire']),weapon('stinger','Stinger SMG',.73,'smg',['stinger']),
- weapon('combat-smg','Combat SMG',.62,'smg'),weapon('suppressed-smg','Suppressed Submachine Gun',.58,'smg',['suppressed SMG','silenced SMG']),weapon('burst-smg','Burst SMG',.42,'smg'),weapon('charge-smg','Charge SMG',.37,'smg'),weapon('twin-mag-smg','Twin Mag SMG',.52,'smg',['twin mag']),weapon('hyper-smg','Hyper SMG',.48,'smg',['hyper']),weapon('thunder-burst','Thunder Burst SMG',.46,'smg',['thunder burst']),
- weapon('bolt-action','Bolt-Action Sniper Rifle',.87,'sniper rifle',['bolt','bolt action']),weapon('heavy-sniper','Heavy Sniper Rifle',.84,'sniper rifle',['heavy snipe','heavy sniper']),weapon('hunting-rifle','Hunting Rifle',.76,'sniper rifle',['hunting']),weapon('semi-auto-sniper','Semi-Auto Sniper Rifle',.49,'sniper rifle',['semi auto sniper']),weapon('suppressed-sniper','Suppressed Sniper Rifle',.52,'sniper rifle',['suppressed sniper','silenced sniper']),
- weapon('automatic-sniper','Automatic Sniper Rifle',.39,'sniper rifle',['auto sniper']),weapon('storm-scout','Storm Scout Sniper Rifle',.5,'sniper rifle',['storm scout']),weapon('hunter-bolt','Hunter Bolt-Action Sniper',.47,'sniper rifle',['hunter bolt']),weapon('reaper-sniper','Reaper Sniper Rifle',.53,'sniper rifle',['reaper sniper']),weapon('zapotron','Zapotron',.3,'sniper rifle',['zapatron']),weapon('rail-gun','Rail Gun',.7,'sniper rifle',['railgun']),
- weapon('pistol','Pistol',.9,'pistol'),weapon('suppressed-pistol','Suppressed Pistol',.65,'pistol',['silenced pistol']),weapon('hand-cannon','Hand Cannon',.79,'pistol',['deagle','desert eagle']),weapon('dual-pistols','Dual Pistols',.7,'pistol',['duallies']),weapon('six-shooter','Six Shooter',.54,'pistol'),weapon('flint-knock','Flint-Knock Pistol',.7,'pistol',['flint knock']),
- weapon('revolver','Revolver',.72,'pistol'),weapon('scoped-revolver','Scoped Revolver',.4,'pistol'),weapon('combat-pistol','Combat Pistol',.43,'pistol'),weapon('sidearm','Sidearm Pistol',.48,'pistol'),weapon('tactical-pistol','Tactical Pistol',.49,'pistol',['tac pistol']),weapon('lock-on','Lock On Pistol',.55,'pistol',['lock on']),
- weapon('rocket-launcher','Rocket Launcher',.96,'explosive',['RPG','rocket']),weapon('grenade-launcher','Grenade Launcher',.85,'explosive',['GL']),weapon('guided-missile','Guided Missile',.72,'explosive',['guided rocket']),weapon('quad-launcher','Quad Launcher',.64,'explosive',['quad']),weapon('proximity-launcher','Proximity Grenade Launcher',.48,'explosive',['proximity launcher']),weapon('snowball-launcher','Snowball Launcher',.52,'explosive',['snowball']),weapon('egg-launcher','Egg Launcher',.38,'explosive'),weapon('anvil','Anvil Rocket Launcher',.46,'explosive',['anvil']),
-],['epic-docs-weapons','fn-wiki-items']);
-
-const poi=(id:string,name:string,familiarity:number,chapters:number[],aliases:AliasSeed[]=[]):Row=>[id,name,familiarity,{chapters,namedPoi:true},aliases];
-const locations=group('location',[
- poi('tilted','Tilted Towers',.99,[1,2,3,4],['tilted']),poi('pleasant','Pleasant Park',.96,[1,2],['pleasant','PP']),poi('retail','Retail Row',.88,[1,2],['retail']),poi('salty','Salty Springs',.91,[1,2],['salty']),poi('risky','Risky Reels',.72,[1,2,3],['risky']),
- poi('lonely','Lonely Lodge',.5,[1],['lonely']),poi('haunted','Haunted Hills',.53,[1],['haunted']),poi('junk','Junk Junction',.45,[1],['junk']),poi('snobby','Snobby Shores',.49,[1],['snobby']),poi('wailing','Wailing Woods',.67,[1],['wailing']),
- poi('greasy','Greasy Grove',.83,[1,3],['greasy']),poi('dusty-depot','Dusty Depot',.82,[1],['dusty']),poi('dusty-divot','Dusty Divot',.78,[1],['divot']),poi('loot-lake','Loot Lake',.89,[1],['loot']),poi('fatal','Fatal Fields',.75,[1],['fatal']),
- poi('flush','Flush Factory',.62,[1,2],['flush']),poi('tomato','Tomato Town',.7,[1],['tomato']),poi('moisty','Moisty Mire',.58,[1],['moisty']),poi('shifty','Shifty Shafts',.7,[1,3],['shifty']),poi('lucky','Lucky Landing',.62,[1],['lucky']),
- poi('paradise','Paradise Palms',.72,[1],['paradise']),poi('lazy-links','Lazy Links',.64,[1],['links']),poi('happy','Happy Hamlet',.57,[1],['happy']),poi('polar','Polar Peak',.65,[1],['polar']),poi('agency','The Agency',.93,[2],['agency']),
- poi('misty','Misty Meadows',.76,[2],['misty']),poi('lazy-lake','Lazy Lake',.78,[2]),poi('holly','Holly Hedges',.65,[2],['holly']),poi('craggy','Craggy Cliffs',.58,[2],['craggy']),poi('steamy','Steamy Stacks',.67,[2],['steamy']),
- poi('slurpy','Slurpy Swamp',.72,[2],['slurpy']),poi('dirty','Dirty Docks',.57,[2],['dirty']),poi('sweaty','Sweaty Sands',.72,[2],['sweaty']),poi('frenzy-farm','Frenzy Farm',.7,[2],['frenzy farm']),poi('weeping','Weeping Woods',.68,[2],['weeping']),
- poi('grotto','The Grotto',.86,[2],['grotto']),poi('rig','The Rig',.73,[2],['rig']),poi('yacht','The Yacht',.78,[2],['yacht']),poi('catty','Catty Corner',.68,[2],['catty']),poi('coral','Coral Castle',.67,[2],['coral']),
-],['epic-map','fn-wiki']);
-
-const collab=(id:string,name:string,familiarity:number,franchiseGroup:string,aliases:AliasSeed[]=[]):Row=>[id,name,familiarity,{franchiseGroup,hasOutfit:true},aliases];
-const collaborations=group('collaboration',[
- collab('iron-man','Iron Man',.99,'Marvel'),collab('thor','Thor',.97,'Marvel'),collab('groot','Groot',.9,'Marvel'),collab('storm','Storm',.8,'Marvel'),collab('mystique','Mystique',.78,'Marvel'),collab('doctor-doom','Doctor Doom',.9,'Marvel'),collab('wolverine','Wolverine',.98,'Marvel'),collab('spider-man','Spider-Man',.99,'Marvel',['spiderman']),collab('deadpool','Deadpool',.99,'Marvel'),collab('black-widow','Black Widow',.92,'Marvel'),collab('star-lord','Star-Lord',.82,'Marvel',['starlord']),collab('venom','Venom',.95,'Marvel'),
- collab('darth-vader','Darth Vader',.99,'Star Wars'),collab('luke','Luke Skywalker',.96,'Star Wars'),collab('leia','Leia Organa',.78,'Star Wars',['Princess Leia']),collab('han','Han Solo',.88,'Star Wars'),collab('ahsoka','Ahsoka Tano',.86,'Star Wars'),collab('boba','Boba Fett',.9,'Star Wars'),collab('mando','The Mandalorian',.98,'Star Wars',['Mando']),collab('kylo','Kylo Ren',.9,'Star Wars'),collab('rey','Rey',.9,'Star Wars'),collab('finn','Finn',.72,'Star Wars'),
- collab('naruto','Naruto Uzumaki',.99,'Anime',['Naruto']),collab('goku','Son Goku',.99,'Anime',['Goku']),collab('vegeta','Vegeta',.96,'Anime'),collab('all-might','All Might',.82,'Anime'),collab('deku','Izuku Midoriya',.76,'Anime',['Deku']),collab('eren','Eren Jaeger',.85,'Anime',['Eren']),collab('gojo','Satoru Gojo',.9,'Anime',['Gojo']),collab('itadori','Yuji Itadori',.78,'Anime',['Itadori']),collab('sakura','Sakura Haruno',.76,'Anime',['Sakura']),
- collab('master-chief','Master Chief',.97,'Video game',['Chief']),collab('kratos','Kratos',.99,'Video game'),collab('lara','Lara Croft',.9,'Video game',['Lara']),collab('geralt','Geralt of Rivia',.88,'Video game',['Geralt']),collab('doom-slayer','Doom Slayer',.9,'Video game',['Doom Guy']),collab('ezio','Ezio Auditore',.66,'Video game',['Ezio']),collab('chun-li','Chun-Li',.94,'Video game',['Chun Li']),collab('ryu','Ryu',.87,'Video game'),collab('jill','Jill Valentine',.72,'Video game',['Jill']),collab('leon','Leon S. Kennedy',.78,'Video game',['Leon Kennedy','Leon']),collab('aloy','Aloy',.72,'Video game'),collab('ciri','Ciri',.75,'Video game'),
-]);
-
-const item=(id:string,name:string,familiarity:number,itemClasses:string[],aliases:AliasSeed[]=[]):Row=>[id,name,familiarity,{itemClasses},aliases];
-const items=group('item',[
- item('bandage','Bandage',.98,['health'],['bandages']),item('med-kit','Med Kit',.99,['health'],['medkit']),item('med-mist','Med-Mist',.82,['health'],['med mist']),item('flopper','Flopper',.88,['health']),item('guzzle','Guzzle Juice',.6,['health'],['guzzle']),item('bandage-bazooka','Bandage Bazooka',.7,['health'],['bandage gun']),item('apple','Apple',.8,['health']),item('banana','Banana',.76,['health']),item('cabbage','Cabbage',.58,['health']),item('meat','Meat',.62,['health']),
- item('mini','Small Shield Potion',.99,['shield'],['mini','minis','mini shield']),item('big-pot','Shield Potion',.99,['shield'],['big pot','big shield']),item('shield-keg','Shield Keg',.82,['shield'],['keg']),item('shield-fish','Shield Fish',.72,['shield']),item('shield-mushroom','Shield Mushroom',.67,['shield'],['mushroom']),item('fizz','FlowBerry Fizz',.7,['shield'],['fizz']),
- item('slurp','Slurp Juice',.93,['health','shield'],['slurp']),item('chug-jug','Chug Jug',.98,['health','shield'],['chug']),item('chug-splash','Chug Splash',.96,['health','shield'],['splashes','splash']),item('chug-cannon','Chug Cannon',.8,['health','shield'],['chug gun']),item('slurpfish','Slurpfish',.76,['health','shield'],['slurp fish']),item('pizza','Pizza Slice',.68,['health','shield'],['pizza']),item('coconut','Coconut',.57,['health','shield']),item('slap','Slap Juice',.74,['health','shield'],['slap']),
- item('port-a-fort','Port-A-Fort',.94,['utility'],['porta fort','portafort']),item('bush','Bush',.78,['utility']),item('boogie','Boogie Bomb',.95,['utility'],['boogie']),item('shockwave','Shockwave Grenade',.91,['utility'],['shockwave']),item('impulse','Impulse Grenade',.88,['utility'],['impulse']),item('rift-to-go','Rift-To-Go',.86,['utility'],['portable rift']),item('grappler','Grappler',.9,['utility'],['grapple gun']),item('crash-pad','Crash Pad',.78,['utility'],['crash pads']),
-],['fn-wiki-items','epic-og-s3']);
-
-const vehicles=group('vehicle',[
- ['shopping-cart','Shopping Cart',.91,{isVehicle:true},['cart']],['atk','All Terrain Kart',.87,{isVehicle:true},['ATK','golf cart']],['quadcrasher','Quadcrasher',.88,{isVehicle:true},['quad']],['driftboard','Driftboard',.82,{isVehicle:true},['hoverboard']],['stormwing','X-4 Stormwing',.82,{isVehicle:true},['plane','stormwing','X4']],
- ['baller','The Baller',.9,{isVehicle:true},['baller']],['brute','B.R.U.T.E.',.91,{isVehicle:true},['BRUTE','mech']],['motorboat','Motorboat',.9,{isVehicle:true},['boat']],['whiplash','Whiplash',.82,{isVehicle:true},['sports car']],['bear','Bear',.56,{isVehicle:true},['truck','pickup truck']],
- ['mudflap','Mudflap',.48,{isVehicle:true},['semi truck']],['choppa','Choppa',.9,{isVehicle:true},['helicopter','heli']],['saucer','Saucer',.82,{isVehicle:true},['UFO']],['tank','Titan Tank',.8,{isVehicle:true},['tank']],['battle-bus','Armored Battle Bus',.76,{isVehicle:true},['battle bus']],
- ['octane','Octane',.74,{isVehicle:true},['rocket league car']],['dirt-bike','Trail Thrasher',.64,{isVehicle:true},['dirt bike']],['motorcycle','Victory Crown Rogue',.43,{isVehicle:true},['motorcycle','bike']],['nitro-drifter','Nitro Drifter',.55,{isVehicle:true},['drifter']],['nitro-fang','Nitro Fang',.46,{isVehicle:true},[]],
-],['fn-wiki-vehicles']);
-
-const events=group('event',[
- ['blast-off','Blast Off',.76,{isLiveEvent:true},['Rocket Launch','Rocket Event']],['butterfly','Butterfly Event',.7,{isLiveEvent:true},['Butterfly']],['ice-storm','Ice Storm',.68,{isLiveEvent:true},[]],['unvaulting','The Unvaulting',.8,{isLiveEvent:true},['Unvaulting','Vault Event']],['final-showdown','The Final Showdown',.86,{isLiveEvent:true},['Monster vs Robot','Mecha vs Monster']],
- ['the-end-1','The End',.96,{isLiveEvent:true},['Black Hole Event','Chapter 1 End']],['device','The Device',.88,{isLiveEvent:true},['Doomsday Event','Device Event']],['galactus','Devourer of Worlds',.88,{isLiveEvent:true},['Galactus Event']],['zero-crisis','Zero Crisis Finale',.7,{isLiveEvent:true},['Zero Crisis']],['sky-fire','Operation: Sky Fire',.77,{isLiveEvent:true},['Sky Fire']],
- ['the-end-2','The End (Chapter 2)',.88,{isLiveEvent:true},['Chapter 2 End','Flip Event']],['collision','Collision',.82,{isLiveEvent:true},['Collider Event']],['fracture','Fracture',.64,{isLiveEvent:true},[]],['big-bang','The Big Bang',.83,{isLiveEvent:true},['Big Bang Event']],
-]);
-
-export const entities:FortniteEntity[]=[...skins,...weapons,...locations,...collaborations,...items,...vehicles,...events];
+import type { EntityType, FortniteEntity } from '../domain/types';
+import { applyClassificationReviews } from './catalog/classification-reviews';
+import { applyClassicHistory } from './catalog/classic-history';
+import { applyReviewedHistory } from './catalog/reviewed';
+import { attachHistorySeeds } from './catalog/history-seeds';
+import { historicalCatalog } from './catalog';
+import { enrichLegacyEntities } from './catalog/legacy';
+import { skins } from './catalog/base-skins';
+import { weapons } from './catalog/base-weapons';
+import { locations } from './catalog/base-locations';
+import { collaborations } from './catalog/base-collaborations';
+import { items } from './catalog/base-items';
+import { vehicles } from './catalog/base-vehicles';
+import { events } from './catalog/base-events';
+const legacyEntities:FortniteEntity[]=[...skins,...weapons,...locations,...collaborations,...items,...vehicles,...events];
+export const entities:FortniteEntity[]=applyClassificationReviews(applyClassicHistory(applyReviewedHistory(attachHistorySeeds(enrichLegacyEntities(legacyEntities, historicalCatalog)))));
 export const entitiesById=new Map(entities.map((entity)=>[entity.id,entity]));
-export const entitiesByType=(type:EntityType)=>entities.filter((entity)=>entity.type===type);
+const byType = new Map<EntityType, FortniteEntity[]>();
+for (const entity of entities) byType.set(entity.type, [...(byType.get(entity.type) ?? []), entity]);
+export const entitiesByType=(type:EntityType)=>byType.get(type) ?? [];

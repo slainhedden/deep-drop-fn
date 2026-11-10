@@ -77,21 +77,21 @@ function DropScreen({stats,onStart,onPreview}:{stats:PlayerStats;onStart:(mode:M
  const dailyDone=stats.completedDailyDates.includes(day());
  const preview=generateGame(dailySeed(),7);
  const counts=preview.reduce<Record<string,number>>((all,q)=>({...all,[q.category]:(all[q.category]??0)+1}),{});
- const icons:Record<string,React.ReactNode>={Weapons:<Zap/>,Locations:<MapPin/>,Skins:<UserRound/>,Events:<Star/>,Items:<Package/>,Vehicles:<Swords/>,Crossovers:<Star/>};
+ const icons:Record<string,React.ReactNode>={Weapons:<Zap/>,Locations:<MapPin/>,Skins:<UserRound/>,Events:<Star/>,Items:<Package/>,Vehicles:<Swords/>,Crossovers:<Star/>,Bosses:<UserRound/>,NPCs:<UserRound/>};
  return <section className="drop-screen scene"><div className="daily-title"><CalendarDays/><div><h1>DAILY DROP #{String(dropNumber()).padStart(3,'0')}</h1><p>Everyone gets the same seven questions.</p></div></div>
   <div className="topic-card"><h2>Today’s Topics</h2>{Object.entries(counts).map(([name,count])=><div className="topic" key={name}><span>{icons[name]}</span><b>{name}</b><em>{count}</em></div>)}<div className="reset"><Clock3/>Resets at <b>00:00 UTC</b></div></div>
   {!dailyDone?<button className="lime-button" onClick={()=>onStart('daily')}>START GAME <ChevronRight/></button>:<><div className="completed"><Check/>Today’s ranked drop is complete</div><button className="lime-button" onClick={()=>onStart('practice')}>PRACTICE AGAIN <ChevronRight/></button></>}
   <button className="preview-drop" onClick={onPreview}><Zap/> Preview Chapter 1 OG reveal</button>
  </section>}
 
-function GameScreen({question,round,total,seconds,score,answer,setAnswer,locked,onSubmit,current,onNext,inputRef}:{question:GeneratedQuestion;round:number;total:number;seconds:number;score:number;answer:string;setAnswer:(value:string)=>void;locked:boolean;onSubmit:()=>void;current?:RoundResult;onNext:()=>void;inputRef:React.RefObject<HTMLInputElement|null>}){
- const suggestions=useMemo(()=>suggestionsFor(answer,question.answerType,3),[answer,question.answerType]);
+export function GameScreen({question,round,total,seconds,score,answer,setAnswer,locked,onSubmit,current,onNext,inputRef}:{question:GeneratedQuestion;round:number;total:number;seconds:number;score:number;answer:string;setAnswer:(value:string)=>void;locked:boolean;onSubmit:()=>void;current?:RoundResult;onNext:()=>void;inputRef:React.RefObject<HTMLInputElement|null>}){
+ const suggestions=useMemo(()=>suggestionsFor(answer,question,6),[answer,question]);
  if(locked&&current)return <Feedback round={current} onNext={onNext} last={round+1===total}/>;
  return <section className="game-screen scene"><div className={`clock ${seconds<=5?'urgent':''}`}><Clock3/>00:{String(seconds).padStart(2,'0')}</div>
-  <div className="question-card"><span>{question.category.toUpperCase()}</span><h1>{question.prompt}</h1><small>{question.validAnswerIds.length} verified answers</small></div>
+  <div className="question-card"><span>{question.category.toUpperCase()}</span><h1>{question.prompt}</h1><small>{question.validAnswerIds.length} eligible answers</small></div>
   <form onSubmit={event=>{event.preventDefault();if(answer.trim())onSubmit()}} className="game-form"><label htmlFor="answer">YOUR ANSWER</label><input ref={inputRef} id="answer" value={answer} onChange={e=>setAnswer(e.target.value)} placeholder="Type a name or nickname…" autoComplete="off"/>
    {suggestions.length>0&&<div className="suggestions">{suggestions.map(item=><button type="button" key={item.id} onClick={()=>setAnswer(item.name)}>{item.name}</button>)}</div>}
-   <small>Slang and small typos count. Suggestions search the full catalog.</small><button className="lime-button" disabled={!answer.trim()}>SUBMIT <ChevronRight/></button>
+   <small>Slang and small typos count. Suggestions match this question.</small><button className="lime-button" disabled={!answer.trim()}>SUBMIT <ChevronRight/></button>
   </form><div className="score-corner">SCORE <b>{fmt(score)}</b></div>
  </section>}
 
@@ -99,7 +99,7 @@ function Feedback({round,onNext,last}:{round:RoundResult;onNext:()=>void;last:bo
  <span className="reveal-label">NO POINTS</span><h1>{a.timedOut?'TIME’S UP':a.submitted||'NO ANSWER'}</h1>
  <div className="reveal-art"><Shield/><i/><i/></div>
  <div className="big-points zero">+0 <small>POINTS</small></div><p>{a.explanation}</p>
- <div className="verified-box"><UserRound/>1 of {round.question.validAnswerIds.length} verified answers in this prompt</div><button className="lime-button" onClick={onNext}>{last?'VIEW RESULTS':'NEXT QUESTION'} <ChevronRight/></button>
+ <div className="verified-box"><UserRound/>1 of {round.question.validAnswerIds.length} eligible answers in this prompt</div><button className="lime-button" onClick={onNext}>{last?'VIEW RESULTS':'NEXT QUESTION'} <ChevronRight/></button>
  </section>}
 
 function Results({results,score,onAgain,onLeaderboard}:{results:RoundResult[];score:number;onAgain:()=>void;onLeaderboard:()=>void}){const correct=results.filter(r=>r.result.correct);const best=[...correct].sort((a,b)=>b.result.points-a.result.points)[0];return <section className="results scene"><h2>DAILY DROP #{String(dropNumber()).padStart(3,'0')}</h2><span>Results</span><div className="score-burst"><small>TOTAL SCORE</small><strong>{fmt(score)}</strong></div><div className="rank-line"><Trophy/>Your score is saved on this device</div><div className="result-grid"><div><Target/><b>{correct.length}/{results.length}</b><small>Correct</small></div><div><BarChart3/><b>{correct.length?Math.round(score/correct.length):0}</b><small>Avg points</small></div></div><div className="best-answer"><Zap/><span><small>BEST ANSWER</small><b>{best?.result.canonicalAnswer??'—'}</b></span><strong>+{best?.result.points??0}</strong></div><button className="lime-button" onClick={onLeaderboard}>VIEW LEADERBOARD</button><button className="ghost-button" onClick={onAgain}>PLAY AGAIN <ChevronRight/></button></section>}

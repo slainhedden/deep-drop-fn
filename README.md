@@ -4,7 +4,7 @@ An unofficial, fan-made Fortnite rarity trivia game. Players name one valid answ
 
 ## Run it
 
-Requires Node 20+.
+Requires Node 20.19+ or 22.12+; this environment uses Node 24.
 
 ```bash
 npm install
@@ -85,3 +85,13 @@ The engine includes Bayesian smoothing for observed counts. A production service
 - This project contains no Epic artwork and makes no official-affiliation claim.
 
 Fortnite and Epic Games are trademarks of Epic Games, Inc. This project is not endorsed by Epic Games.
+
+## Historical expansion status
+
+The Phase 2 catalog includes reviewed release and launch questions alongside a pending research queue. Unverified historical claims stay out of gameplay until source and coverage review. See [historical data status and verification workflow](docs/HISTORICAL_DATA.md) for catalog counts, disabled families, chronology semantics, research blockers and audit details.
+
+The [historical activation continuation](docs/HISTORICAL_ACTIVATION.md) records the latest review pass: 38 enabled templates, 162 playable variants, 495 playable answers, source coverage and outstanding verification gaps.
+
+## Answer-bank diagnostics and deployment
+
+Broad classifications now use field-level eligibility, and autocomplete searches only the current question’s accepted bank. See [answer-bank and deployment instructions](docs/ANSWER_BANK_AND_DEPLOYMENT.md) for counts, the developer inspector, version diagnostics and redeployment steps. Use `npm run package:site` to prepare the latest static and source archives.

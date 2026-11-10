@@ -1,13 +1,12 @@
 import type { AnswerResult, GeneratedQuestion } from '../domain/types';
-import { entitiesById } from '../data/entities';
+import { answerCandidates } from './candidates';
 import { templates } from '../data/templates';
-import { normalizeAnswer } from './normalize';
 import { estimatedFrequency, rarityTier, scoreFrequency } from './scoring';
 import { resolveAnswer } from './resolve';
 
 export function validateAnswer(question: GeneratedQuestion, submitted: string, timedOut = false): AnswerResult {
   if (timedOut || !submitted.trim()) return { submitted, correct:false, timedOut, points:0, explanation:timedOut ? 'Time expired before an answer was locked in.' : 'No answer was submitted.' };
-  const valid = question.validAnswerIds.map((id)=>entitiesById.get(id)!).filter(Boolean);
+  const valid = answerCandidates(question);
   const resolution = resolveAnswer(submitted,valid);
   const answer = resolution.entity;
   if (!answer) return { submitted, correct:false, timedOut:false, points:0, explanation:'That answer does not match this question’s verified answer set.' };

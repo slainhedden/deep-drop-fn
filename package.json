@@ -5,10 +5,13 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host 0.0.0.0",
-    "build": "tsc -b && vite build",
+    "build": "node scripts/build-info.mjs && tsc -b && vite build",
     "preview": "vite preview --host 0.0.0.0",
     "test": "vitest run",
-    "audit": "vitest run src/engine/audit.test.ts"
+    "audit": "vitest run src/engine/audit.test.ts --reporter=verbose --silent=false",
+    "inspect:answers": "node scripts/inspect-answer-bank.mjs",
+    "diagnostics": "node scripts/build-info.mjs --print",
+    "package:site": "node scripts/package-site.mjs"
   },
   "dependencies": {
     "@vitejs/plugin-react": "latest",
@@ -19,6 +22,7 @@
   },
   "devDependencies": {
     "@testing-library/react": "latest",
+    "@types/node": "^24.19.2",
     "@types/react": "latest",
     "@types/react-dom": "latest",
     "jsdom": "latest",

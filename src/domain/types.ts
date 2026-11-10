@@ -1,13 +1,15 @@
-export type EntityType = 'skin' | 'weapon' | 'location' | 'collaboration' | 'item' | 'vehicle' | 'event';
-export type Category = 'Skins' | 'Weapons' | 'Locations' | 'Crossovers' | 'Items' | 'Vehicles' | 'Events';
+export type EntityType = 'skin' | 'weapon' | 'location' | 'collaboration' | 'item' | 'vehicle' | 'event' | 'boss' | 'npc';
+export type Category = 'Skins' | 'Weapons' | 'Locations' | 'Crossovers' | 'Items' | 'Vehicles' | 'Events' | 'Bosses' | 'NPCs';
 export type Difficulty = 'easy' | 'medium' | 'hard' | 'expert';
-export type Operator = 'eq' | 'includes' | 'contains';
+export type Operator = 'eq' | 'includes' | 'contains' | 'introducedOnOrAfter' | 'introducedOnOrBefore' | 'availableIn' | 'appearedInChapter' | 'historyChange' | 'hasRelationship' | 'historyFlag' | 'chapterCountAtLeast' | 'introducedInChapter' | 'changeInSeason' | 'relatedTo';
 
 export interface SourceRecord {
   id: string;
   label: string;
   url: string;
-  verifiedOn: string;
+  verifiedOn?: string;
+  status?: 'verified' | 'pending';
+  notes?: string;
 }
 
 export interface FortniteEntity {
@@ -18,7 +20,50 @@ export interface FortniteEntity {
   familiarity: number;
   facts: Record<string, string | number | boolean | string[] | number[] | undefined>;
   sourceIds: string[];
+  factEvidence?: Record<string, HistoricalEvidence>;
   dataVersion: string;
+  history?: EntityHistory;
+  origin?: 'legacy' | 'expansion';
+  verification?: 'legacy' | 'pending' | 'verified';
+}
+
+export type SeasonId = string;
+export type HistoryChangeKind = 'removed' | 'vaulted' | 'reintroduced' | 'unvaulted' | 'replaced' | 'renamed' | 'destroyed' | 'transformed';
+export interface HistoricalEvidence {
+  sourceIds: string[];
+  status: 'verified' | 'pending';
+  note?: string;
+}
+export interface AppearancePeriod extends HistoricalEvidence {
+  from: SeasonId;
+  through: SeasonId;
+  // Season-level presence does not assert uninterrupted availability within a season.
+  namedPoi?: boolean;
+}
+export interface HistoricalChange extends HistoricalEvidence {
+  kind: HistoryChangeKind;
+  season: SeasonId;
+  eventId?: string;
+  relatedEntityId?: string;
+}
+export interface HistoricalRelationship extends HistoricalEvidence {
+  kind: 'boss' | 'mythic' | 'location' | 'participant' | 'successor';
+  entityId: string;
+  variant?: 'mythic' | 'exotic';
+  season: SeasonId;
+}
+export interface AvailabilityObservation extends HistoricalEvidence {
+ season:SeasonId; update:string; state:'present'|'absent'; mode:'core_br';
+}
+export interface EntityHistory {
+  observations?:AvailabilityObservation[];
+  introduction?: HistoricalEvidence & { season: SeasonId; timing?: 'launch' | 'midseason' };
+  appearances: AppearancePeriod[];
+  changes: HistoricalChange[];
+  relationships: HistoricalRelationship[];
+  // Flags apply only to a documented scope; missing values mean unknown.
+  flags?: Record<string, HistoricalEvidence & { value: string | number | boolean }>;
+  coverageNote?: string;
 }
 
 export interface EntityAlias {
@@ -49,6 +94,11 @@ export interface QuestionTemplate {
   explanation: (answer: FortniteEntity, parameters: Record<string, string | number>) => string;
   advanced?: boolean;
   minAnswers?: number;
+  family?: string;
+  status?: 'enabled' | 'pending';
+  scopeNote?: string;
+  coverage?: {sourceIds:string[]; reviewedOn:string; note:string; parameters?:Record<string,string|number>[]};
+  diversityGroup?:string;
 }
 
 export interface GeneratedQuestion {
