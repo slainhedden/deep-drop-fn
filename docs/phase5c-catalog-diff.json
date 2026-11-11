@@ -1,0 +1,3174 @@
+{
+  "reviewedOn": "2026-11-11",
+  "sources": [
+    {
+      "id": "p5c-utility-items",
+      "url": "https://fortnite.weirdgloop.org/w/Utility_Items",
+      "revision": 1322177,
+      "sha256": "7ae22d3154daa4767663da6f9af37dd48363f4f00764d0bff449277bc16d9556"
+    },
+    {
+      "id": "p5c-consumables",
+      "url": "https://fortnite.weirdgloop.org/w/Consumables",
+      "revision": 1327831,
+      "sha256": "2b0b4234f9b761a69bb539ef0f195ffd85b4b2fa55c0149212414edaf6184d5e"
+    },
+    {
+      "id": "p5c-traps",
+      "url": "https://fortnite.weirdgloop.org/w/Traps",
+      "revision": 1322186,
+      "sha256": "de2f6bace3b877c5c99122e4bac204f703323becafb159ea1aa5626506c627ca"
+    }
+  ],
+  "policy": "Candidates only. Presence in an external index does not verify classification, mode, identity, or availability. Review canonical aliases, variant identity and source profile before admission.",
+  "rows": [
+    {
+      "name": "Smoke Grenade",
+      "seasonLabel": "Season 1",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Boogie Bomb",
+      "seasonLabel": "Season 2",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Impulse Grenade",
+      "seasonLabel": "Season 2",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Port-A-Fort",
+      "seasonLabel": "Season 3",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Stink Bomb",
+      "seasonLabel": "Season 4",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Shockwave Grenade",
+      "seasonLabel": "Season 4",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Jetpack",
+      "seasonLabel": "Season 4",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Rift-To-Go",
+      "seasonLabel": "Season 5",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Port-A-Fortress",
+      "seasonLabel": "Season 5",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Balloon",
+      "seasonLabel": "Season 6",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Chiller Grenade",
+      "seasonLabel": "Season 7",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Boom Box",
+      "seasonLabel": "Season 7",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Presents!",
+      "seasonLabel": "Season 7",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Shadow Bomb",
+      "seasonLabel": "Season 8",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Buried Treasure",
+      "seasonLabel": "Season 8",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Storm Flip",
+      "seasonLabel": "Season 9",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Chug Splash",
+      "seasonLabel": "Season 9",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Birthday Presents!",
+      "seasonLabel": "Season 9",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Junk Rift",
+      "seasonLabel": "Season X",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Shield Bubble",
+      "seasonLabel": "Season X",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Zapper Trap",
+      "seasonLabel": "Season X",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Spiky Stadium",
+      "seasonLabel": "Season 5",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Port-A-Challenge Build 1",
+      "seasonLabel": "Season 6",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Port-A-Challenge Build 2",
+      "seasonLabel": "Season 6",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Port-A-Challenge Build 3",
+      "seasonLabel": "Season 6",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Port-A-Challenge Build 4",
+      "seasonLabel": "Season 6",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Port-A-Challenge Build 1",
+      "seasonLabel": "Season 6",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Port-A-Challenge Build 2",
+      "seasonLabel": "Season 6",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Port-A-Challenge Build 3",
+      "seasonLabel": "Season 6",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Port-A-Challenge Build 4",
+      "seasonLabel": "Season 6",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Port-A-Challenge Build 1",
+      "seasonLabel": "Season 6",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Port-A-Challenge Build 2",
+      "seasonLabel": "Season 6",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Port-A-Challenge Build 3",
+      "seasonLabel": "Season 6",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Port-A-Challenge Build 4",
+      "seasonLabel": "Season 6",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Port-A-Iron Clad",
+      "seasonLabel": "Season 6",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Port-A-PirateShip",
+      "seasonLabel": "Season 6",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Rusty Can",
+      "seasonLabel": "Chapter 2: Season 1",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Mythic Goldfish",
+      "seasonLabel": "Chapter 2: Season 1",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Crash Pad",
+      "seasonLabel": "Chapter 2: Season 2",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Flare Gun",
+      "seasonLabel": "Chapter 2: Season 3",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Holiday Presents!",
+      "seasonLabel": "Chapter 2: Season 5",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Sneaky Snowmando",
+      "seasonLabel": "Chapter 2: Season 5",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Recon Scanner",
+      "seasonLabel": "Chapter 2: Season 7",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Alien Nanites",
+      "seasonLabel": "Chapter 2: Season 7",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Chili Chug Splash",
+      "seasonLabel": "Chapter 2: Season 8",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Icy Grappler",
+      "seasonLabel": "Chapter 2: Season 8",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Burger",
+      "seasonLabel": "Chapter 2: Season 2",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Tomato",
+      "seasonLabel": "Chapter 2: Season 2",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Orange Paint Grenade",
+      "seasonLabel": "Chapter 2: Season 2",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Purple Paint Grenade",
+      "seasonLabel": "Chapter 2: Season 2",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Stink Bomb",
+      "seasonLabel": "Chapter 2: Season 2",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Shield Bubble",
+      "seasonLabel": "Chapter 2: Season 2",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Chug Splash",
+      "seasonLabel": "Chapter 2: Season 2",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Med-Mist",
+      "seasonLabel": "Chapter 3: Season 1",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Guzzle Juice",
+      "seasonLabel": "Chapter 3: Season 1",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Tent",
+      "seasonLabel": "Chapter 3: Season 1",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Pizza Party",
+      "seasonLabel": "Chapter 3: Season 1",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Pizza Slice",
+      "seasonLabel": "Chapter 3: Season 1",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Shield Keg",
+      "seasonLabel": "Chapter 3: Season 1",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Drake's Map",
+      "seasonLabel": "Chapter 3: Season 1",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Repair Torch",
+      "seasonLabel": "Chapter 3: Season 2",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Reality Seed",
+      "seasonLabel": "Chapter 3: Season 3",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Grapple Glove",
+      "seasonLabel": "Chapter 3: Season 3",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Firework Flare Gun",
+      "seasonLabel": "Chapter 3: Season 3",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Launch Pad",
+      "seasonLabel": "Chapter 3: Season 4",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Port-A-Bunker",
+      "seasonLabel": "Chapter 3: Season 4",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Junk Rift",
+      "seasonLabel": "Chapter 3: Season 4",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Dial-A-Drop",
+      "seasonLabel": "Chapter 3: Season 4",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "SypherPK Trap Tower",
+      "seasonLabel": "Chapter 3: Season 4",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Guardian Shield",
+      "seasonLabel": "Chapter 4: Season 1",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Big Bush Bomb",
+      "seasonLabel": "Chapter 4: Season 1",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Falcon Scout",
+      "seasonLabel": "Chapter 4: Season 1",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Shockwave Hammer",
+      "seasonLabel": "Chapter 4: Season 1",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "The Ageless Champion's Shockwave Hammer",
+      "seasonLabel": "Chapter 4: Season 1",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "ODM Gear",
+      "seasonLabel": "Chapter 4: Season 2",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Kinetic Boomerang",
+      "seasonLabel": "Chapter 4: Season 3",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Slap Splash",
+      "seasonLabel": "Chapter 4: Season 3",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Super Slap Splash",
+      "seasonLabel": "Chapter 4: Season 3",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Cloak Gauntlets",
+      "seasonLabel": "Chapter 4: Season 3",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Wildguard Relik's Cloak Gauntlets",
+      "seasonLabel": "Chapter 4: Season 3",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Straw Doll Technique",
+      "seasonLabel": "Chapter 4: Season 3",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Crash Pad Jr.",
+      "seasonLabel": "Chapter 4: Season 4",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Rocket Ram",
+      "seasonLabel": "Chapter 4: Season 4",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Todoroki's Ice Wall",
+      "seasonLabel": "Chapter 4: Season 4",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Rift-To-Go",
+      "seasonLabel": "Chapter 4: Season OG",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Patchwork Tool",
+      "seasonLabel": "Chapter 4: Season OG",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "Creative/UEFN only",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "TMNT Pizza Party",
+      "seasonLabel": "Chapter 5: Season 1",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Wings of Icarus",
+      "seasonLabel": "Chapter 5: Season 2",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Shield Bubble Jr.",
+      "seasonLabel": "Chapter 5: Season 2",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Banana of the Gods",
+      "seasonLabel": "Chapter 5: Season 2",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Waterbending",
+      "seasonLabel": "Chapter 5: Season 2",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Earthbending",
+      "seasonLabel": "Chapter 5: Season 2",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Firebending",
+      "seasonLabel": "Chapter 5: Season 2",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Airbending",
+      "seasonLabel": "Chapter 5: Season 2",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Nitro Fists",
+      "seasonLabel": "Chapter 5: Season 3",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Megalo Don's Nitro Fists",
+      "seasonLabel": "Chapter 5: Season 3",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Magneto Power",
+      "seasonLabel": "Chapter 5: Season 3",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Ship In a Bottle",
+      "seasonLabel": "Chapter 5: Season 3",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Captain America's Shield",
+      "seasonLabel": "Chapter 5: Season 4",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Iron Man's Flight Kit",
+      "seasonLabel": "Chapter 5: Season 4",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Double G Bomb",
+      "seasonLabel": "Chapter 2 Remix",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Ice Spice's Grappler",
+      "seasonLabel": "Chapter 2 Remix",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Shockwave Grenade",
+      "seasonLabel": "Chapter 5: Season 4",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Typhoon Blade",
+      "seasonLabel": "Chapter 6: Season 1",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Blizzard Grenade",
+      "seasonLabel": "Chapter 6: Season 1",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Icy Feet",
+      "seasonLabel": "Chapter 6: Season 1",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Port-A-Cover",
+      "seasonLabel": "Chapter 6: Season 2",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Pulse Scanner",
+      "seasonLabel": "Chapter 6: Season 2",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Rocket Drill",
+      "seasonLabel": "Chapter 6: Season 2",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Thermal Imploder",
+      "seasonLabel": "Chapter 6: Mini Season 1",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Krypto Treat",
+      "seasonLabel": "Chapter 6: Season 3",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Wingshot Grappler",
+      "seasonLabel": "Chapter 6: Season 3",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Bass Boost",
+      "seasonLabel": "Chapter 6: Season 3",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Myst Form",
+      "seasonLabel": "Chapter 6: Season 3",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Storm Beast's Pom Poms",
+      "seasonLabel": "Chapter 6: Season 3",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Surf Cube",
+      "seasonLabel": "Chapter 6: Season 3",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Lightrider's Surf Cube",
+      "seasonLabel": "Chapter 6: Season 3",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Tracking Visor",
+      "seasonLabel": "Chapter 6: Season 3",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Super Launch Pad",
+      "seasonLabel": "Chapter 6: Season 4",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Zoey's Bubble Shield",
+      "seasonLabel": "Chapter 6: Season 4",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Big Bush Bomb",
+      "seasonLabel": "Chapter 6: Mini Season 2",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Chug Splash",
+      "seasonLabel": "Chapter 6: Mini Season 2",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Launch Pad",
+      "seasonLabel": "OG Chapter 1: Season 1",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Smoke Grenade",
+      "seasonLabel": "OG Chapter 1: Season 1",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Rift Point Device",
+      "seasonLabel": "Chapter 6: Season 1",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Boogie Bomb",
+      "seasonLabel": "OG Chapter 1: Season 2",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Impulse Grenade",
+      "seasonLabel": "OG Chapter 1: Season 2",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Port-A-Fort",
+      "seasonLabel": "OG Chapter 1: Season 3",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Jetpack",
+      "seasonLabel": "OG Chapter 1: Season 3",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Stink Bomb",
+      "seasonLabel": "OG Chapter 1: Season 4",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Ddakji (Blue)",
+      "seasonLabel": "Chapter 6: Season 3",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "Creative/UEFN only",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Ddakji (Red)",
+      "seasonLabel": "Chapter 6: Season 3",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "Creative/UEFN only",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Flying Stone",
+      "seasonLabel": "Chapter 6: Season 3",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "Creative/UEFN only",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Blitz Boss Ninja's More Movement Bomb",
+      "seasonLabel": "Chapter 6: Season 3",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Blitz Chains of Hades",
+      "seasonLabel": "Chapter 6: Season 3",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Blitz Rocket Drill",
+      "seasonLabel": "Chapter 6: Season 3",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Blitz Rocket Ram",
+      "seasonLabel": "Chapter 6: Season 3",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Balloons",
+      "seasonLabel": "OG Chapter 1: Season 5",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Rift-To-Go",
+      "seasonLabel": "OG Chapter 1: Season 5",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Shockwave Grenade",
+      "seasonLabel": "OG Chapter 1: Season 5",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Port-A-Fortress",
+      "seasonLabel": "OG Chapter 1: Season 5",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Birthday Presents!",
+      "seasonLabel": "OG Chapter 1: Season 5",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Balloon Boom Box",
+      "seasonLabel": "Chapter 6: Mini Season 2",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Thermal Imploder",
+      "seasonLabel": "Chapter 6: Mini Season 1",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Beach Brutus' Kit",
+      "seasonLabel": "Chapter 7: Season 1",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Human Bill's Kit",
+      "seasonLabel": "Chapter 7: Season 1",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Hush's Kit",
+      "seasonLabel": "Chapter 7: Season 1",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Yule Trooper's Kit",
+      "seasonLabel": "Chapter 7: Season 1",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "The Perfect Gift",
+      "seasonLabel": "Chapter 7: Season 1",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Cheesy Poofs",
+      "seasonLabel": "Chapter 7: Season 1",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Stick of Truth",
+      "seasonLabel": "Chapter 7: Season 1",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Bigfoot's Kit",
+      "seasonLabel": "Chapter 7: Season 1",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Brick-A-Bunker",
+      "seasonLabel": "Chapter 7: Season 2",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Overdrive Grenade",
+      "seasonLabel": "Chapter 7: Season 2",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Skyline Deployer",
+      "seasonLabel": "Chapter 7: Season 2",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Seven Power Gloves",
+      "seasonLabel": "Chapter 7: Season 2",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Foundation's Power Gloves",
+      "seasonLabel": "Chapter 7: Season 2",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Slapperoni Pizza",
+      "seasonLabel": "Chapter 7: Season 2",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Pocket Shield Bubble",
+      "seasonLabel": "Chapter 7: Season 2",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Pocket Shockwave Grenade",
+      "seasonLabel": "Chapter 7: Season 2",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Pocket Crash Pad Jr.",
+      "seasonLabel": "Chapter 7: Season 2",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Smoke Cloud",
+      "seasonLabel": "Chapter 7: Season 2",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Shrub Bomb",
+      "seasonLabel": "Chapter 7: Season 2",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Caduceus Staff",
+      "seasonLabel": "Chapter 7: Season 2",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Seven Sliders",
+      "seasonLabel": "Chapter 7: Season 3",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Limitless Seven Sliders",
+      "seasonLabel": "Chapter 7: Season 3",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Portable Extractor",
+      "seasonLabel": "Chapter 7: Season 3",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Sprite Locator",
+      "seasonLabel": "Chapter 7: Season 3",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Extraction Site Booster",
+      "seasonLabel": "Chapter 7: Season 3",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Lucky Locator",
+      "seasonLabel": "Chapter 7: Season 3",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Pocket Crash Pad Jr.",
+      "seasonLabel": "Chapter 7: Season 3",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Pocket Port-A-Cover",
+      "seasonLabel": "Chapter 7: Season 3",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Friend Zone Bubble",
+      "seasonLabel": "Chapter 7: Season 3",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Batman Grapnel Gun",
+      "seasonLabel": "Chapter 7: Season 3",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Sonic Power Sneakers",
+      "seasonLabel": "Chapter 7: Season 4",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Tetris Rift",
+      "seasonLabel": "Chapter 7: Season 4",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Pocket Rift",
+      "seasonLabel": "Chapter 7: Season 4",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Shield Keg",
+      "seasonLabel": "Chapter 7: Season 4",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Pocket Shield Bubble Jr.",
+      "seasonLabel": "Chapter 7: Season 4",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Kingdom Key",
+      "seasonLabel": "Chapter 7: Season 4",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Sprite Treasure Map",
+      "seasonLabel": "Treasure Hunters",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Flame-Flame Fruit",
+      "seasonLabel": "Treasure Hunters",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Zoro's Three Sword Style",
+      "seasonLabel": "Treasure Hunters",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Updoot",
+      "seasonLabel": "Chapter 7: Season 1",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Chiller Grenade",
+      "seasonLabel": "OG Chapter 1: Season 7",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Boom Box",
+      "seasonLabel": "OG Chapter 1: Season 7",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Presents!",
+      "seasonLabel": "OG Chapter 1: Season 7",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Sneaky Snowman",
+      "seasonLabel": "OG Chapter 1: Season 7",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Enhanced Mandalorian Jetpack",
+      "seasonLabel": "Chapter 7: Season 2",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "Creative/UEFN only",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Orbliterator",
+      "seasonLabel": "Chapter 7: Season 2",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Shadow Bomb",
+      "seasonLabel": "OG Chapter 1: Season 8",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Captain America's Shield",
+      "seasonLabel": "OG Chapter 1: Season 8",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Iron Man's Flight Kit",
+      "seasonLabel": "OG Chapter 1: Season 8",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Chug Splash",
+      "seasonLabel": "OG Chapter 1: Season 9",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Storm Flip",
+      "seasonLabel": "OG Chapter 1: Season 9",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Junk Rift",
+      "seasonLabel": "OG Chapter 1: Season X",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Zapper Trap",
+      "seasonLabel": "OG Chapter 1: Season X",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Shield Bubble",
+      "seasonLabel": "OG Chapter 1: Season X",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Legacy Bandage",
+      "seasonLabel": "Pre-Season",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Legacy Med Kit",
+      "seasonLabel": "Pre-Season",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Legacy Shield Potion",
+      "seasonLabel": "Pre-Season",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Bush",
+      "seasonLabel": "Season 1",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Slurp Juice",
+      "seasonLabel": "Season 1",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Legacy Small Shield Potion",
+      "seasonLabel": "Season 2",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Legacy Chug Jug",
+      "seasonLabel": "Season 2",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Grappler",
+      "seasonLabel": "Season 5",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Sneaky Snowman",
+      "seasonLabel": "Season 7",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Gliders",
+      "seasonLabel": "Season 7",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Buried Treasure",
+      "seasonLabel": "Season 8",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Air Strike",
+      "seasonLabel": "Season 9",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Bandage Bazooka",
+      "seasonLabel": "Chapter 2: Season 1",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Fishing Rod",
+      "seasonLabel": "Chapter 2: Season 1",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Small Fry",
+      "seasonLabel": "Chapter 2: Season 1",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Flopper",
+      "seasonLabel": "Chapter 2: Season 1",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Slurpfish",
+      "seasonLabel": "Chapter 2: Season 1",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Harpoon Gun",
+      "seasonLabel": "Chapter 2: Season 1",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Lump Of Coal",
+      "seasonLabel": "Chapter 2: Season 1",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Creepin' Cardboard",
+      "seasonLabel": "Chapter 2: Season 2",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Skye's Grappler",
+      "seasonLabel": "Chapter 2: Season 2",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Decoy",
+      "seasonLabel": "Chapter 2: Season 2",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Jules' Glider Gun",
+      "seasonLabel": "Chapter 2: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Ocean's Bottomless Chug Jug",
+      "seasonLabel": "Chapter 2: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Apple",
+      "seasonLabel": "Chapter 2: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Pepper",
+      "seasonLabel": "Chapter 2: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Banana",
+      "seasonLabel": "Chapter 2: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Cabbage",
+      "seasonLabel": "Chapter 2: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Coconut",
+      "seasonLabel": "Chapter 2: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Corn",
+      "seasonLabel": "Chapter 2: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Shield Mushroom",
+      "seasonLabel": "Chapter 2: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Slurp Mushroom",
+      "seasonLabel": "Chapter 2: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Upgrade Bench",
+      "seasonLabel": "Chapter 2: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Jellyfish",
+      "seasonLabel": "Chapter 2: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Shield Fish",
+      "seasonLabel": "Chapter 2: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Spicy Fish",
+      "seasonLabel": "Chapter 2: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Hop Flopper",
+      "seasonLabel": "Chapter 2: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Thermal Fish",
+      "seasonLabel": "Chapter 2: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Midas Flopper",
+      "seasonLabel": "Chapter 2: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Vendetta Flopper",
+      "seasonLabel": "Chapter 2: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Pro Fishing Rod",
+      "seasonLabel": "Chapter 2: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Thor's Mjolnir Strike",
+      "seasonLabel": "Chapter 2: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Storm's Whirlwind Blast",
+      "seasonLabel": "Chapter 2: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Candy Corn",
+      "seasonLabel": "Chapter 2: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Hop Drop",
+      "seasonLabel": "Chapter 2: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Jelly Bean",
+      "seasonLabel": "Chapter 2: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Pepper Mint",
+      "seasonLabel": "Chapter 2: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Thermal Taffy",
+      "seasonLabel": "Chapter 2: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Zero Point Fish",
+      "seasonLabel": "Chapter 2: Season 5",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Rift Fish",
+      "seasonLabel": "Chapter 2: Season 5",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Snowy Flopper",
+      "seasonLabel": "Chapter 2: Season 5",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Chug Cannon",
+      "seasonLabel": "Chapter 2: Season 5",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Meat",
+      "seasonLabel": "Chapter 2: Season 6",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Stink Fish",
+      "seasonLabel": "Chapter 2: Season 6",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Vehicle Mod: Off-Road Tires",
+      "seasonLabel": "Chapter 2: Season 6",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Bouncy Egg",
+      "seasonLabel": "Chapter 2: Season 6",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Shadow Flopper",
+      "seasonLabel": "Chapter 2: Season 8",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Zero Point Pretzel",
+      "seasonLabel": "Chapter 2: Season 8",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Enemy Bot Grenade",
+      "seasonLabel": "Chapter 2: Season 1",
+      "sourceId": "p5c-consumables",
+      "exclusion": "separate mode",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Friendly Bot Grenade",
+      "seasonLabel": "Chapter 2: Season 1",
+      "sourceId": "p5c-consumables",
+      "exclusion": "separate mode",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Bandage Bazooka",
+      "seasonLabel": "Chapter 2: Season 2",
+      "sourceId": "p5c-consumables",
+      "exclusion": "separate mode",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Grappler",
+      "seasonLabel": "Chapter 2: Season 2",
+      "sourceId": "p5c-consumables",
+      "exclusion": "separate mode",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Bandage Bazooka",
+      "seasonLabel": "Chapter 2: Season 5",
+      "sourceId": "p5c-consumables",
+      "exclusion": "separate mode",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Revive Grenade",
+      "seasonLabel": "Chapter 2: Season 5",
+      "sourceId": "p5c-consumables",
+      "exclusion": "separate mode",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Creative Fishing Rod",
+      "seasonLabel": "Chapter 2: Season 7",
+      "sourceId": "p5c-consumables",
+      "exclusion": "Creative/UEFN only",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Creative Pro Fishing Rod",
+      "seasonLabel": "Chapter 2: Season 7",
+      "sourceId": "p5c-consumables",
+      "exclusion": "Creative/UEFN only",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Klomberry",
+      "seasonLabel": "Chapter 3: Season 1",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Vehicle Mod: Cow Catcher",
+      "seasonLabel": "Chapter 3: Season 2",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Ripsaw Launcher",
+      "seasonLabel": "Chapter 3: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Icecream Cone",
+      "seasonLabel": "Chapter 3: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Spicy Icecream Cone",
+      "seasonLabel": "Chapter 3: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Frozen Icecream Cone",
+      "seasonLabel": "Chapter 3: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Guzzling Icecream Cone",
+      "seasonLabel": "Chapter 3: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Lil'Whip's Special Serve",
+      "seasonLabel": "Chapter 3: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Chrome Splash",
+      "seasonLabel": "Chapter 3: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Grapple Glider",
+      "seasonLabel": "Chapter 3: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Grapple Glider",
+      "seasonLabel": "Chapter 3: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": "separate mode",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Slap Berry",
+      "seasonLabel": "Chapter 4: Season 1",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Slap Juice",
+      "seasonLabel": "Chapter 4: Season 1",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Heal Egg",
+      "seasonLabel": "Chapter 4: Season 2",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Hop Egg",
+      "seasonLabel": "Chapter 4: Season 2",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Wildwasp Jar",
+      "seasonLabel": "Chapter 4: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Business Turret",
+      "seasonLabel": "Chapter 4: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Bush",
+      "seasonLabel": "Chapter 4: Season OG",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Bandage",
+      "seasonLabel": "Chapter 5: Season 1",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Small Shield Potion",
+      "seasonLabel": "Chapter 5: Season 1",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Shield Potion",
+      "seasonLabel": "Chapter 5: Season 1",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Med Kit",
+      "seasonLabel": "Chapter 5: Season 1",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "FlowBerry",
+      "seasonLabel": "Chapter 5: Season 1",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Cluster Clinger",
+      "seasonLabel": "Chapter 5: Season 1",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "FlowBerry Fizz",
+      "seasonLabel": "Chapter 5: Season 1",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Thunderbolt of Zeus",
+      "seasonLabel": "Chapter 5: Season 2",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Nuka-Cola",
+      "seasonLabel": "Chapter 5: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Bandage Bazooka",
+      "seasonLabel": "Chapter 2 Remix",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Slurp Juice",
+      "seasonLabel": "Chapter 2 Remix",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Chug Jug",
+      "seasonLabel": "Chapter 2 Remix",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Juice's Chug Cannon",
+      "seasonLabel": "Chapter 2 Remix",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Zeus' Lightning Bolt",
+      "seasonLabel": "Chapter 5: Season 2",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Godzilla's Fragment",
+      "seasonLabel": "Chapter 6: Season 1",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Chug Jug",
+      "seasonLabel": "Chapter 6: Season 2",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Thermite",
+      "seasonLabel": "Chapter 6: Season 2",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Gold Splash",
+      "seasonLabel": "Chapter 6: Season 2",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Med-Mist Smoke Grenade",
+      "seasonLabel": "Chapter 6: Season 2",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Lawless Slap Cannon",
+      "seasonLabel": "Chapter 6: Season 2",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Lawless Slap Jug",
+      "seasonLabel": "Chapter 6: Season 2",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Exotic SlapBerry Fizz",
+      "seasonLabel": "Chapter 6: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Precision Air Strike",
+      "seasonLabel": "Chapter 6: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Mira's X-tra Spicy Ramyeon",
+      "seasonLabel": "Chapter 6: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Scooby Snacks",
+      "seasonLabel": "Chapter 6: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Krusty Burger",
+      "seasonLabel": "Chapter 6: Mini Season 2",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Super Squishee",
+      "seasonLabel": "Chapter 6: Mini Season 2",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Blinky Fish",
+      "seasonLabel": "Chapter 6: Mini Season 2",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Chug Jug",
+      "seasonLabel": "Chapter 6: Mini Season 2",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Tomato",
+      "seasonLabel": "Chapter 6: Mini Season 2",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Tomato (???)",
+      "seasonLabel": "Chapter 6: Mini Season 2",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Bandage",
+      "seasonLabel": "OG Chapter 1: Season 1",
+      "sourceId": "p5c-consumables",
+      "exclusion": "separate mode",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Shield Potion",
+      "seasonLabel": "OG Chapter 1: Season 1",
+      "sourceId": "p5c-consumables",
+      "exclusion": "separate mode",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Bush",
+      "seasonLabel": "OG Chapter 1: Season 1",
+      "sourceId": "p5c-consumables",
+      "exclusion": "separate mode",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Slurp Juice",
+      "seasonLabel": "OG Chapter 1: Season 1",
+      "sourceId": "p5c-consumables",
+      "exclusion": "separate mode",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Med Kit",
+      "seasonLabel": "OG Chapter 1: Season 1",
+      "sourceId": "p5c-consumables",
+      "exclusion": "separate mode",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Instant Shield",
+      "seasonLabel": "Chapter 6: Season 1",
+      "sourceId": "p5c-consumables",
+      "exclusion": "separate mode",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Small Shield Potion",
+      "seasonLabel": "OG Chapter 1: Season 2",
+      "sourceId": "p5c-consumables",
+      "exclusion": "separate mode",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Chug Jug",
+      "seasonLabel": "OG Chapter 1: Season 2",
+      "sourceId": "p5c-consumables",
+      "exclusion": "separate mode",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Overdrive",
+      "seasonLabel": "Chapter 6: Season 2",
+      "sourceId": "p5c-consumables",
+      "exclusion": "separate mode",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Med-Mist Smoke Grenade",
+      "seasonLabel": "Chapter 6: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": "separate mode",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Squid Game Disguises",
+      "seasonLabel": "Chapter 6: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": "Creative/UEFN only",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Grappler",
+      "seasonLabel": "OG Chapter 1: Season 5",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "FlowBerry Mist Grenade",
+      "seasonLabel": "Chapter 7: Season 1",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Sneaky Snowman",
+      "seasonLabel": "Chapter 7: Season 1",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Stealth Splash",
+      "seasonLabel": "Chapter 7: Season 1",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Pocket Med-Mist Smoke",
+      "seasonLabel": "Chapter 7: Season 2",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Enhanced Harpoon Gun",
+      "seasonLabel": "Chapter 7: Season 2",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Slapperoni Slice",
+      "seasonLabel": "Chapter 7: Season 2",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Golden Firework",
+      "seasonLabel": "Chapter 7: Season 2",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Pocket Spicy IceCream",
+      "seasonLabel": "Chapter 7: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Water Sprite",
+      "seasonLabel": "Chapter 7: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Earth Sprite",
+      "seasonLabel": "Chapter 7: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Fire Sprite",
+      "seasonLabel": "Chapter 7: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Demon Sprite",
+      "seasonLabel": "Chapter 7: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Ghost Sprite",
+      "seasonLabel": "Chapter 7: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Duck Sprite",
+      "seasonLabel": "Chapter 7: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "King Sprite",
+      "seasonLabel": "Chapter 7: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Dream Sprite",
+      "seasonLabel": "Chapter 7: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Punk Sprite",
+      "seasonLabel": "Chapter 7: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Zero Point Sprite",
+      "seasonLabel": "Chapter 7: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Burnt Peanut",
+      "seasonLabel": "Chapter 7: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Shock Rock",
+      "seasonLabel": "Chapter 7: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Quack Snacks",
+      "seasonLabel": "Chapter 7: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Fishy Sprite",
+      "seasonLabel": "Chapter 7: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Aura Sprite",
+      "seasonLabel": "Chapter 7: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Striker Sprite",
+      "seasonLabel": "Chapter 7: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Boss Sprite",
+      "seasonLabel": "Chapter 7: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Grim Sprite",
+      "seasonLabel": "Chapter 7: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Air Sprite",
+      "seasonLabel": "Chapter 7: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Seven Sprite",
+      "seasonLabel": "Chapter 7: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Batman Sprite",
+      "seasonLabel": "Chapter 7: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Vini Jr. Sprite",
+      "seasonLabel": "Chapter 7: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Pollo Sprite",
+      "seasonLabel": "Chapter 7: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Portable Extractor",
+      "seasonLabel": "Chapter 7: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Lootin' Llama Sprite",
+      "seasonLabel": "Chapter 7: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Peeky Peely Sprite",
+      "seasonLabel": "Chapter 7: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "John Wick Sprite",
+      "seasonLabel": "Chapter 7: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Ironmouse Sprite",
+      "seasonLabel": "Chapter 7: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Golden Apple",
+      "seasonLabel": "Chapter 7: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "8-Bit Sprite",
+      "seasonLabel": "Chapter 7: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Adventure Sprite",
+      "seasonLabel": "Chapter 7: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Jonesy Sprite",
+      "seasonLabel": "Chapter 7: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Bush Sprite",
+      "seasonLabel": "Chapter 7: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Shadow Sprite",
+      "seasonLabel": "Chapter 7: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Sonic Sprite",
+      "seasonLabel": "Chapter 7: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Tails Sprite",
+      "seasonLabel": "Chapter 7: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Jackrabbit Sprite",
+      "seasonLabel": "Chapter 7: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Killswitch Sprite",
+      "seasonLabel": "Chapter 7: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Crown Sprite",
+      "seasonLabel": "Chapter 7: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Klombo Sprite",
+      "seasonLabel": "Chapter 7: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Storm Scout Sprite",
+      "seasonLabel": "Chapter 7: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Mega Man Sprite",
+      "seasonLabel": "Chapter 7: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Onigiri Sprite",
+      "seasonLabel": "Chapter 7: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Overshield Sprite",
+      "seasonLabel": "Chapter 7: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "X-Ray Sprite",
+      "seasonLabel": "Chapter 7: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Pond Sprite",
+      "seasonLabel": "Chapter 7: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Sea Salt Ice Cream",
+      "seasonLabel": "Chapter 7: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Blinky Sprite",
+      "seasonLabel": "Chapter 7: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Crash Bandicoot Sprite",
+      "seasonLabel": "Chapter 7: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Birthday Sprite",
+      "seasonLabel": "Chapter 7: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Morgana Sprite",
+      "seasonLabel": "Chapter 7: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Slap Candy Corn",
+      "seasonLabel": "Chapter 7: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Golden Truffle",
+      "seasonLabel": "Chapter 7: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Dumpster Dive Sprite",
+      "seasonLabel": "Chapter 7: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "The Deer Sprite",
+      "seasonLabel": "Chapter 7: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Vampire Sprite",
+      "seasonLabel": "Chapter 7: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Spooky Dash Sprite",
+      "seasonLabel": "Chapter 7: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Honey Sprite",
+      "seasonLabel": "Chapter 7: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "One Wish Willow Sprite",
+      "seasonLabel": "Chapter 7: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Meat on a Stick",
+      "seasonLabel": "Treasure Hunters",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Nami's Tangerine",
+      "seasonLabel": "Treasure Hunters",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Pocket Slap Berry",
+      "seasonLabel": "Treasure Hunters",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Golden Firework",
+      "seasonLabel": "Treasure Hunters",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Halfpeel'd",
+      "seasonLabel": "Treasure Hunters",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Re-Pete",
+      "seasonLabel": "Treasure Hunters",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Barry O'Fish",
+      "seasonLabel": "Treasure Hunters",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Wayfinder",
+      "seasonLabel": "Treasure Hunters",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Chester",
+      "seasonLabel": "Treasure Hunters",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Exmarks",
+      "seasonLabel": "Treasure Hunters",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Kelper",
+      "seasonLabel": "Treasure Hunters",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Lil' Squibbly",
+      "seasonLabel": "Treasure Hunters",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Lil' Flacko",
+      "seasonLabel": "Treasure Hunters",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Transponder Snail",
+      "seasonLabel": "Treasure Hunters",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Plundarrgh",
+      "seasonLabel": "Treasure Hunters",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Sweet Dreams",
+      "seasonLabel": "Treasure Hunters",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Lil' Uzi Vert Jr.",
+      "seasonLabel": "Treasure Hunters",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Gliders",
+      "seasonLabel": "OG Chapter 1: Season 7",
+      "sourceId": "p5c-consumables",
+      "exclusion": "separate mode",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Spicy Slapperoni Slice",
+      "seasonLabel": "Chapter 7: Season 2",
+      "sourceId": "p5c-consumables",
+      "exclusion": "separate mode",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Force Mind Trick",
+      "seasonLabel": "Chapter 7: Season 2",
+      "sourceId": "p5c-consumables",
+      "exclusion": "Creative/UEFN only",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Force Barrier",
+      "seasonLabel": "Chapter 7: Season 2",
+      "sourceId": "p5c-consumables",
+      "exclusion": "Creative/UEFN only",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Star Wars Disguises",
+      "seasonLabel": "Chapter 7: Season 2",
+      "sourceId": "p5c-consumables",
+      "exclusion": "Creative/UEFN only",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Imperial Air Strike",
+      "seasonLabel": "Chapter 7: Season 2",
+      "sourceId": "p5c-consumables",
+      "exclusion": "Creative/UEFN only",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Rebel Air Strike",
+      "seasonLabel": "Chapter 7: Season 2",
+      "sourceId": "p5c-consumables",
+      "exclusion": "Creative/UEFN only",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Buried Treasure",
+      "seasonLabel": "OG Chapter 1: Season 8",
+      "sourceId": "p5c-consumables",
+      "exclusion": "separate mode",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Air Strike",
+      "seasonLabel": "OG Chapter 1: Season 9",
+      "sourceId": "p5c-consumables",
+      "exclusion": "separate mode",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Batman Grapnel Gun",
+      "seasonLabel": "OG Chapter 1: Season X",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Explosive Batarang",
+      "seasonLabel": "OG Chapter 1: Season X",
+      "sourceId": "p5c-consumables",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Wall Dynamo",
+      "seasonLabel": "Pre-Season",
+      "sourceId": "p5c-traps",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Ceiling Zapper",
+      "seasonLabel": "Pre-Season",
+      "sourceId": "p5c-traps",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Jump Pad (Directional)",
+      "seasonLabel": "Pre-Season",
+      "sourceId": "p5c-traps",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Jump Pad (Up)",
+      "seasonLabel": "Pre-Season",
+      "sourceId": "p5c-traps",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Damage Trap",
+      "seasonLabel": "Pre-Season",
+      "sourceId": "p5c-traps",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Launch Pad",
+      "seasonLabel": "Season 1",
+      "sourceId": "p5c-traps",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Cozy Campfire",
+      "seasonLabel": "Season 2",
+      "sourceId": "p5c-traps",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Bouncer",
+      "seasonLabel": "Season 4",
+      "sourceId": "p5c-traps",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Chiller",
+      "seasonLabel": "Season 6",
+      "sourceId": "p5c-traps",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Mounted Turret",
+      "seasonLabel": "Season 6",
+      "sourceId": "p5c-traps",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Poison Dart Trap",
+      "seasonLabel": "Season 8",
+      "sourceId": "p5c-traps",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Speed Boost",
+      "seasonLabel": "Season 7",
+      "sourceId": "p5c-traps",
+      "exclusion": "Creative/UEFN only",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Ice Block",
+      "seasonLabel": "Season 7",
+      "sourceId": "p5c-traps",
+      "exclusion": "Creative/UEFN only",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Half Damage Rail",
+      "seasonLabel": "Season 7",
+      "sourceId": "p5c-traps",
+      "exclusion": "Creative/UEFN only",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Full Damage Rail",
+      "seasonLabel": "Season 7",
+      "sourceId": "p5c-traps",
+      "exclusion": "Creative/UEFN only",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Fire Trap",
+      "seasonLabel": "Chapter 2: Season 4",
+      "sourceId": "p5c-traps",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Armored Wall",
+      "seasonLabel": "Chapter 2: Season 8",
+      "sourceId": "p5c-traps",
+      "exclusion": null,
+      "decision": "already-cataloged"
+    },
+    {
+      "name": "Wall Dynamo",
+      "seasonLabel": "OG Chapter 1: Season 1",
+      "sourceId": "p5c-traps",
+      "exclusion": "separate mode",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Ceiling Zapper",
+      "seasonLabel": "OG Chapter 1: Season 1",
+      "sourceId": "p5c-traps",
+      "exclusion": "separate mode",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Jump Pad (Directional)",
+      "seasonLabel": "OG Chapter 1: Season 1",
+      "sourceId": "p5c-traps",
+      "exclusion": "separate mode",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Jump Pad (Up)",
+      "seasonLabel": "OG Chapter 1: Season 1",
+      "sourceId": "p5c-traps",
+      "exclusion": "separate mode",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Damage Trap",
+      "seasonLabel": "OG Chapter 1: Season 1",
+      "sourceId": "p5c-traps",
+      "exclusion": "separate mode",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Launch Pad",
+      "seasonLabel": "OG Chapter 1: Season 1",
+      "sourceId": "p5c-traps",
+      "exclusion": "separate mode",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Cozy Campfire",
+      "seasonLabel": "OG Chapter 1: Season 2",
+      "sourceId": "p5c-traps",
+      "exclusion": "separate mode",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Bouncer",
+      "seasonLabel": "OG Chapter 1: Season 4",
+      "sourceId": "p5c-traps",
+      "exclusion": "separate mode",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Super Launch Pad",
+      "seasonLabel": "Chapter 6: Season 4",
+      "sourceId": "p5c-traps",
+      "exclusion": "Creative/UEFN only",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Chiller",
+      "seasonLabel": "OG Chapter 1: Season 6",
+      "sourceId": "p5c-traps",
+      "exclusion": "separate mode",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Mounted Turret",
+      "seasonLabel": "OG Chapter 1: Season 6",
+      "sourceId": "p5c-traps",
+      "exclusion": "separate mode",
+      "decision": "excluded-mode"
+    },
+    {
+      "name": "Poison Dart Trap",
+      "seasonLabel": "OG Chapter 1: Season 6",
+      "sourceId": "p5c-traps",
+      "exclusion": "separate mode",
+      "decision": "excluded-mode"
+    }
+  ],
+  "counts": {
+    "already-cataloged": 344,
+    "excluded-mode": 105,
+    "pending-human-review": 0
+  }
+}

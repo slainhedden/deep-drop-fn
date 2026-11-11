@@ -1,3 +1,4 @@
+import {eraPreferenceCost} from './eras';
 import {independentDailyPool,isCosmeticQuestion,semanticOverlap} from './daily-pool';
 import { naturalWording } from '../data/update-registry';
 import { normalizeAnswer } from './normalize';
@@ -34,8 +35,9 @@ export function buildQuestion(template: QuestionTemplate, parameters: Record<str
   if ('from' in parameters && 'through' in parameters && compareSeasons(String(parameters.from), String(parameters.through)) > 0) return null;
   const predicates = template.predicates(parameters);
   let answers = uniqueEntities((template.answerTypes??[template.answerType]).flatMap(entitiesByType).filter((entity) => matchesAll(entity, predicates)));
-  // Cross-category cosmetic names are one typed answer to a broad prompt, not extra chances.
-  const displayed=new Set<string>();answers=answers.filter(e=>{if(!canonicalName(e))return false;const key=e.facts.isCosmetic===true?canonicalName(e):e.id;if(displayed.has(key))return false;displayed.add(key);return true;});
+  // Identical display names across types are one answer to a broad prompt.
+  // Preserve typed catalog IDs while keeping full-name validation unambiguous.
+  const displayed=new Set<string>();answers=answers.filter(e=>{if(!canonicalName(e))return false;const key=canonicalName(e);if(displayed.has(key))return false;displayed.add(key);return true;});
   const minimum = Math.max(options.expert?5:10, template.minAnswers ?? 0);
   const verified=answers.filter(e=>predicates.every(p=>assessPredicate(e,p).verification==='verified')).length;
   if(verified<minimum)return null;
@@ -178,7 +180,7 @@ function historicalDaily(date:string):GeneratedQuestion[]{
     const groupCount=selected.filter(p=>questionKnowledgeGroup(p)===group).length;
     const cosmeticCount=selected.filter(p=>p.category==='Cosmetics'||p.category==='Skins').length;
     // Exact cooldown wins whenever the content supports it. Scarce pools relax to oldest-first.
-    const cost=(age<14?(14-age)*10000:0)+(familyAge<4?(4-familyAge)*100:0)+groupCount*2000+
+    const cost=eraPreferenceCost(selected,q)+(age<14?(14-age)*10000:0)+(familyAge<3?(3-familyAge)*1000:familyAge<4?100:0)+groupCount*2000+
      ((q.category==='Cosmetics'||q.category==='Skins')&&cosmeticCount>=3?4000:0)+
      (selected.filter(p=>questionQuality(p).fieldVerifiedAnswers>=20).length<5&&questionQuality(q).fieldVerifiedAnswers<20?3000:0);
     if(cost<bestCost){best=q;bestCost=cost;}

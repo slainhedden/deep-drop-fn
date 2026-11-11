@@ -1,0 +1,6753 @@
+{
+  "reviewedOn": "2026-11-11",
+  "sources": [
+    {
+      "id": "p5c-limited-time-modes",
+      "url": "https://fortnite.weirdgloop.org/w/Limited_Time_Modes",
+      "revision": 1279466,
+      "sha256": "29c7111257374fad65b1a7abac251296e135d28de10b529485525b1c9e73bc17"
+    },
+    {
+      "id": "p5c-horde-rush",
+      "url": "https://fortnite.weirdgloop.org/w/Horde_Rush",
+      "revision": 1281242,
+      "sha256": "28039f57fdb42b78b56b01c96838e3e4e28066a8aa9f037ae90b794d0c8d7559"
+    },
+    {
+      "id": "p5c-delulu",
+      "url": "https://fortnite.weirdgloop.org/w/Delulu",
+      "revision": 1314500,
+      "sha256": "2cf5ae666d1459c6fffbd71b98e2ef079ee1847da48023151a300dae94fd3e85"
+    },
+    {
+      "id": "p5c-late-game-arena",
+      "url": "https://fortnite.weirdgloop.org/w/Late_Game_Arena",
+      "revision": 770026,
+      "sha256": "ebbe15db76d529adacbbf11e66009ad3dfa497f5e2cfce8abd00cd96fd1ecd01"
+    },
+    {
+      "id": "p5c-fall-guys-crown-jam",
+      "url": "https://fortnite.weirdgloop.org/w/Fall_Guys_Crown_Jam",
+      "revision": 1190519,
+      "sha256": "582fcae5d834eb2c70b51a0619c1046f5d73fb29edce7a374d72c1dcb1476e3e"
+    },
+    {
+      "id": "p5c-the-combine",
+      "url": "https://fortnite.weirdgloop.org/w/The_Combine",
+      "revision": 945452,
+      "sha256": "3b6e2a5bca728f3bdb82bd61c165c7404d5673c905705fea6627d2b20c2500ce"
+    },
+    {
+      "id": "p5c-demon-rush",
+      "url": "https://fortnite.weirdgloop.org/w/Demon_Rush",
+      "revision": 1281242,
+      "sha256": "2200d8d107bc3db4362eb0c38412b51a41ede39578f0c4f2e2189eaf5c27e426"
+    },
+    {
+      "id": "p5c-impossible-escape",
+      "url": "https://fortnite.weirdgloop.org/w/Impossible_Escape!",
+      "revision": 1177646,
+      "sha256": "fd300e1c25a958647234d27e62d60135545e7c63dd138f564032f4633a4d7ed7"
+    },
+    {
+      "id": "p5c-storm-king",
+      "url": "https://fortnite.weirdgloop.org/w/Storm_King",
+      "revision": 1198341,
+      "sha256": "1bc03f42ba0e64b8dd9f05a75a1e4d4bcd7c457a6f4bd31e552a48dff96837ef"
+    },
+    {
+      "id": "p5c-barebones",
+      "url": "https://fortnite.weirdgloop.org/w/Barebones",
+      "revision": 942842,
+      "sha256": "7c66ea3b79abd127722f7b498d7a051e0755a31f6660274cbe2d133259e51de8"
+    },
+    {
+      "id": "p5c-blitz-limited-time-mode",
+      "url": "https://fortnite.weirdgloop.org/w/Blitz_Limited_Time_Mode",
+      "revision": 942844,
+      "sha256": "31d3b87d8cfd18a4421cafc45f3bc66b9978c5f3b898a923e8ebd223f669a0aa"
+    },
+    {
+      "id": "p5c-classic-loot",
+      "url": "https://fortnite.weirdgloop.org/w/Classic_Loot",
+      "revision": 949980,
+      "sha256": "9f0ca5007c1379930a2d36f3e239d925e967e3fe12f224c95050bd40bbdf828a"
+    },
+    {
+      "id": "p5c-close-encounters-limited-time-mode",
+      "url": "https://fortnite.weirdgloop.org/w/Close_Encounters_Limited_Time_Mode",
+      "revision": 1177461,
+      "sha256": "094d598ea724ba4540e36a065e0342334a22d7d5baf8d6c46f836a34a591bd34"
+    },
+    {
+      "id": "p5c-floor-is-lava-ltm",
+      "url": "https://fortnite.weirdgloop.org/w/Floor_is_Lava_(LTM)",
+      "revision": 905792,
+      "sha256": "7013a74837f266a17598ef551556b3aac5c95a6a3499359f93dca2d6889a6225"
+    },
+    {
+      "id": "p5c-fly-explosives",
+      "url": "https://fortnite.weirdgloop.org/w/Fly_Explosives",
+      "revision": 697030,
+      "sha256": "6f0e7c07e6c26fba31399ad0523000bcb77a70f1b5f738a15fa79d0531b72072"
+    },
+    {
+      "id": "p5c-fog-of-war-ltm",
+      "url": "https://fortnite.weirdgloop.org/w/Fog_Of_War_(LTM)",
+      "revision": 905793,
+      "sha256": "42443213190f8b98bf207ab259280faa0087ac4e014879c4a4af6b248b843934"
+    },
+    {
+      "id": "p5c-getaway-limited-time-mode",
+      "url": "https://fortnite.weirdgloop.org/w/Getaway_Limited_Time_Mode",
+      "revision": 1177481,
+      "sha256": "1b687b9749d3729a63e4d33fd0c1d6b6daf5f1e3d28e9d37017e091223526d90"
+    },
+    {
+      "id": "p5c-ground-game",
+      "url": "https://fortnite.weirdgloop.org/w/Ground_Game",
+      "revision": 769975,
+      "sha256": "31487b4a297653b69fcb64f7277f1baafa5bfc3d0ca5c52fff6eac7626e1a7e9"
+    },
+    {
+      "id": "p5c-high-explosives-limited-time-mode",
+      "url": "https://fortnite.weirdgloop.org/w/High_Explosives_Limited_Time_Mode",
+      "revision": 951298,
+      "sha256": "0eca678aaa3d99a9d07f4713fc5b017de9881420512637b3ea4f53e0a1e7e09f"
+    },
+    {
+      "id": "p5c-infinity-gauntlet-limited-time-mashup",
+      "url": "https://fortnite.weirdgloop.org/w/Infinity_Gauntlet_Limited_Time_Mashup",
+      "revision": 979242,
+      "sha256": "d80ac47ad40ae71be38d82ded2ebee21ed023967e9154af0d835bbb185557345"
+    },
+    {
+      "id": "p5c-love-shot",
+      "url": "https://fortnite.weirdgloop.org/w/Love_Shot",
+      "revision": 820825,
+      "sha256": "ca9a1b7311899edab34a31cb19ecbd666b2eec2419b9be071b8a025153679e16"
+    },
+    {
+      "id": "p5c-midas-presents-the-floor-is-lava",
+      "url": "https://fortnite.weirdgloop.org/w/Midas_Presents:_The_Floor_is_Lava",
+      "revision": 951287,
+      "sha256": "db545b896e2d27df51f3e4c9080ff900569715914e28a9ac70ffff3127658be4"
+    },
+    {
+      "id": "p5c-one-shot-ltm",
+      "url": "https://fortnite.weirdgloop.org/w/One_Shot_(LTM)",
+      "revision": 942835,
+      "sha256": "a17844d2d7fba4d3edf54794f8addf80cbb36e68f1878cfea486e50c2ac1e109"
+    },
+    {
+      "id": "p5c-pickaxe-frenzy",
+      "url": "https://fortnite.weirdgloop.org/w/Pickaxe_Frenzy",
+      "revision": 945081,
+      "sha256": "bd9d32e6dd5851a8cfe336c46b1867551820e75404693269944bb509005d7f29"
+    },
+    {
+      "id": "p5c-quints",
+      "url": "https://fortnite.weirdgloop.org/w/Quints",
+      "revision": 1176463,
+      "sha256": "7c01037b0a14afa993b792080e2787ef19978a40198cde445b9fa1c26462c9dd"
+    },
+    {
+      "id": "p5c-ship-it-express",
+      "url": "https://fortnite.weirdgloop.org/w/Ship_It!_Express",
+      "revision": 944253,
+      "sha256": "ca7a9463a53af0725bd0a4eedf3ae11f748dc9cc40bd0010e9e6f98ccdd671c1"
+    },
+    {
+      "id": "p5c-score-royale-limited-time-mode",
+      "url": "https://fortnite.weirdgloop.org/w/Score_Royale_Limited_Time_Mode",
+      "revision": 944258,
+      "sha256": "07a568ef9c20eb26ec414fce776327335f5686d3c89734a892e853298679f3a7"
+    },
+    {
+      "id": "p5c-slide-limited-time-modes",
+      "url": "https://fortnite.weirdgloop.org/w/Slide_Limited_Time_Modes",
+      "revision": 944243,
+      "sha256": "dad474e4148f0a7d88bbe462db1e2cddf8da8b982fe69ed1f4a6d01dff26cb02"
+    },
+    {
+      "id": "p5c-soaring-solos-limited-time-mode",
+      "url": "https://fortnite.weirdgloop.org/w/Soaring_Solos_Limited_Time_Mode",
+      "revision": 944237,
+      "sha256": "43961d91aa366ccef23f3edb42077670c9db25a3075c11523a499d326c4ca9c3"
+    },
+    {
+      "id": "p5c-solid-gold",
+      "url": "https://fortnite.weirdgloop.org/w/Solid_Gold",
+      "revision": 1177479,
+      "sha256": "12959e99183f1834d0f5718dece7e6b4319e439685401b1ea49aae3d67f2451b"
+    },
+    {
+      "id": "p5c-solid-gold-v2-ltm",
+      "url": "https://fortnite.weirdgloop.org/w/Solid_Gold_V2_(LTM)",
+      "revision": 944236,
+      "sha256": "fcbc0c2d3ac353a2484f764fcdddf174365ef509aca5b2eae51b0eb47ce60a05"
+    },
+    {
+      "id": "p5c-sniper-shootout-limited-time-mode",
+      "url": "https://fortnite.weirdgloop.org/w/Sniper_Shootout_Limited_Time_Mode",
+      "revision": 944241,
+      "sha256": "136208e1d79cf41d32c787c03541869e71c835070e2cabe71103a6472009adf4"
+    },
+    {
+      "id": "p5c-splashdown-ltm",
+      "url": "https://fortnite.weirdgloop.org/w/Splashdown_(LTM)",
+      "revision": 891481,
+      "sha256": "13f3153749a5581b4109ea5d11ce80c68ad15fd193df96a19d3a19ddddd552b6"
+    },
+    {
+      "id": "p5c-steady-storm",
+      "url": "https://fortnite.weirdgloop.org/w/Steady_Storm",
+      "revision": 944233,
+      "sha256": "6d27502c6cf2a3bf613f05c1a1a0e221a99befbc59e26f820a783a272e5efb93"
+    },
+    {
+      "id": "p5c-strategic-structures",
+      "url": "https://fortnite.weirdgloop.org/w/Strategic_Structures",
+      "revision": 944232,
+      "sha256": "0a2737de84b9501e1a4585b58ef60de5a161fa7cf64702962b0413bbaf7d279b"
+    },
+    {
+      "id": "p5c-sword-fight-ltm",
+      "url": "https://fortnite.weirdgloop.org/w/Sword_Fight_LTM",
+      "revision": 942837,
+      "sha256": "aa98a9fb4a18dcff5860766371a782cbf99ae083c06c4861dc5bf8139ccf2f0a"
+    },
+    {
+      "id": "p5c-siphon-ltm",
+      "url": "https://fortnite.weirdgloop.org/w/Siphon_(LTM)",
+      "revision": 1314366,
+      "sha256": "4309aa2c13777eb183289d51208c0ac3f8e100cb9746dcdcda697c166d636981"
+    },
+    {
+      "id": "p5c-tank-battle-limited-time-mode",
+      "url": "https://fortnite.weirdgloop.org/w/Tank_Battle_(Limited_Time_Mode)",
+      "revision": 944228,
+      "sha256": "5f198cadba3c05cffb7ae8408f0ca2b64f1c03edab2deb5d901c4e8eabed7986"
+    },
+    {
+      "id": "p5c-team-brawl",
+      "url": "https://fortnite.weirdgloop.org/w/Team_Brawl",
+      "revision": 944227,
+      "sha256": "24a1732824d9471b40fc1106fb87f2f2b5c61654dc8082639ec8a7ae2cdd71af"
+    },
+    {
+      "id": "p5c-team-up-aloy-26-lara",
+      "url": "https://fortnite.weirdgloop.org/w/Team_Up!_Aloy_%26_Lara",
+      "revision": 944224,
+      "sha256": "eb1244083ad40f0d052f86efe19085c78b5032a2053cdde299551784ba0d3a4b"
+    },
+    {
+      "id": "p5c-the-floor-restores",
+      "url": "https://fortnite.weirdgloop.org/w/The_Floor_Restores",
+      "revision": 944218,
+      "sha256": "6775038223d56b11e496d4891118494a37ebf872fa18f76b768efec169333c99"
+    },
+    {
+      "id": "p5c-catch",
+      "url": "https://fortnite.weirdgloop.org/w/Catch!",
+      "revision": 943936,
+      "sha256": "67ff432586ea64f4674ae90f026f297bb8e7ee82835810de07d2132a7e6602fe"
+    },
+    {
+      "id": "p5c-unvaulted-ltm",
+      "url": "https://fortnite.weirdgloop.org/w/Unvaulted_(LTM)",
+      "revision": 1233998,
+      "sha256": "f28dc5cee8662ea557261d72c4f0474dd3b10eac1cec2bba492a7a4f0819ffa4"
+    },
+    {
+      "id": "p5c-wild-west-ltm",
+      "url": "https://fortnite.weirdgloop.org/w/Wild_West_(LTM)",
+      "revision": 942853,
+      "sha256": "11aaea5aede731e156e0dadea6f6332bc1f3b51ab0279bfc6ca17c2c209558e0"
+    },
+    {
+      "id": "p5c-50v50",
+      "url": "https://fortnite.weirdgloop.org/w/50v50",
+      "revision": 930264,
+      "sha256": "cc5b6229f2a6d8d709718c410233763eda37b152e50eb57a3f9f2f818702fbb0"
+    },
+    {
+      "id": "p5c-big-battle",
+      "url": "https://fortnite.weirdgloop.org/w/Big_Battle",
+      "revision": 770035,
+      "sha256": "b0a2170b3a99cc2ca5dfeef728d10e55e42fdc1e61ab3188d1b29ceb7ba5a2bb"
+    },
+    {
+      "id": "p5c-nfl-rumble",
+      "url": "https://fortnite.weirdgloop.org/w/NFL_Rumble",
+      "revision": 945455,
+      "sha256": "c0a69845e443fbe2057eb0e3b6c91ecaf3971b883566d5e2f1aa868fd6987189"
+    },
+    {
+      "id": "p5c-teams-of-33",
+      "url": "https://fortnite.weirdgloop.org/w/Teams_of_33",
+      "revision": 944221,
+      "sha256": "f319939b3f8a5f72fd3d1d5fa15ef410b46a263f3522b7621fdd69d877233f68"
+    },
+    {
+      "id": "p5c-teams-of-20-limited-time-mode",
+      "url": "https://fortnite.weirdgloop.org/w/Teams_of_20_Limited_Time_Mode",
+      "revision": 944223,
+      "sha256": "7d7b8b6369f0c8c2ee6c93dea5ef34ada9295ecfe94c221786b511b037ff2fa1"
+    },
+    {
+      "id": "p5c-teams-of-12",
+      "url": "https://fortnite.weirdgloop.org/w/Teams_of_12",
+      "revision": 944222,
+      "sha256": "997712b50137938dc7df863e1a1879560871b02bc34ebea3a8c00b6503daad45"
+    },
+    {
+      "id": "p5c-team-rumble-lava",
+      "url": "https://fortnite.weirdgloop.org/w/Team_Rumble:_Lava",
+      "revision": 944226,
+      "sha256": "4b560f08f02b35d1124d62d07a6bff4940af573cfef48e4839a7ba7336ba3915"
+    },
+    {
+      "id": "p5c-team-terror",
+      "url": "https://fortnite.weirdgloop.org/w/Team_Terror",
+      "revision": 945444,
+      "sha256": "1a2a049d765ba6a7238b53cbe16c930a1e42214e3e4de19cfdcf0ac19c63bed0"
+    },
+    {
+      "id": "p5c-air-royale",
+      "url": "https://fortnite.weirdgloop.org/w/Air_Royale",
+      "revision": 1178931,
+      "sha256": "8c57fffbb6a636f7ec0bebacd5b82a1a7249ade18d23e24ad4a96fe7c4f6120e"
+    },
+    {
+      "id": "p5c-arsenal",
+      "url": "https://fortnite.weirdgloop.org/w/Arsenal",
+      "revision": 1008378,
+      "sha256": "99e7c8852ba825f353eb966e9dee60a05f73b3b6b261b9cb50e325049210edd1"
+    },
+    {
+      "id": "p5c-bodyguard",
+      "url": "https://fortnite.weirdgloop.org/w/Bodyguard",
+      "revision": 1159972,
+      "sha256": "50bfaf39a4df48c0cf767f5b4c359876cef6c5608ad87eb20877746dc466a498"
+    },
+    {
+      "id": "p5c-bounty",
+      "url": "https://fortnite.weirdgloop.org/w/Bounty",
+      "revision": 930934,
+      "sha256": "7e610f1af2cd76e57f25b20cc67300f9208370346c3668d63f8da6d9c46d9c53"
+    },
+    {
+      "id": "p5c-comeback",
+      "url": "https://fortnite.weirdgloop.org/w/Comeback",
+      "revision": 192946,
+      "sha256": "7505e3f88881facfa37416d51fbd4cb1e62ab0073faef34bc0b20df693dce806"
+    },
+    {
+      "id": "p5c-day-of-doom",
+      "url": "https://fortnite.weirdgloop.org/w/Day_of_Doom",
+      "revision": 1150381,
+      "sha256": "f99ca37cd0eb4b3759025e076a592beb0455dafc38019bf722d12332a9feb303"
+    },
+    {
+      "id": "p5c-disco-domination-ltm",
+      "url": "https://fortnite.weirdgloop.org/w/Disco_Domination_LTM",
+      "revision": 1038696,
+      "sha256": "acb9f96e64484c791f3235f09ddd93bd2dcbf03e21e256752ebf410b618e5f2e"
+    },
+    {
+      "id": "p5c-endgame-limited-time-mode",
+      "url": "https://fortnite.weirdgloop.org/w/Endgame_Limited_Time_Mode",
+      "revision": 1178797,
+      "sha256": "d645c939d5901d594d98bc6b706b53f31ab00de1623b69a490c0643c4431fa7e"
+    },
+    {
+      "id": "p5c-food-fight-ltm",
+      "url": "https://fortnite.weirdgloop.org/w/Food_Fight_(LTM)",
+      "revision": 1178551,
+      "sha256": "1f3c28438a35be341a127522730537cc684eeae0e927ee151f0d34bf7aec950b"
+    },
+    {
+      "id": "p5c-food-fight-deep-fried",
+      "url": "https://fortnite.weirdgloop.org/w/Food_Fight:_Deep_Fried",
+      "revision": 905794,
+      "sha256": "a8f718dfaec9fc115dadacb34f0e6f70687e62bfe3fd7b99bdf98ccddddea41a"
+    },
+    {
+      "id": "p5c-knockout-shuffle",
+      "url": "https://fortnite.weirdgloop.org/w/Knockout:_Shuffle",
+      "revision": 949982,
+      "sha256": "cd8d8cde2f7f2c947e89f0279ee9239d6ee9558688fc9fd54a3f41e722dabaa1"
+    },
+    {
+      "id": "p5c-marvel-knockout",
+      "url": "https://fortnite.weirdgloop.org/w/Marvel_Knockout",
+      "revision": 1180649,
+      "sha256": "5245c7a836986a30289bb8ab569af417eebf81fe9aefdc61b5f389912b682027"
+    },
+    {
+      "id": "p5c-marvel-standoff",
+      "url": "https://fortnite.weirdgloop.org/w/Marvel_Standoff",
+      "revision": 1196527,
+      "sha256": "b253b53ff49c824bb5a7b28e4e5d01a70c8cbe1f5da9619d4509b82e70c42784"
+    },
+    {
+      "id": "p5c-marvel-takeover",
+      "url": "https://fortnite.weirdgloop.org/w/Marvel_Takeover",
+      "revision": 1196529,
+      "sha256": "ae45291059b2f43159f9bcf58fc98e8d119cddfadf576b29fb753af4ff14e4ee"
+    },
+    {
+      "id": "p5c-operation-dropzone",
+      "url": "https://fortnite.weirdgloop.org/w/Operation:_Dropzone",
+      "revision": 945619,
+      "sha256": "4e0a4c468c28fb19bb2fc45e1b3ddd316ad154faea39fab9a873c68ab915c07b"
+    },
+    {
+      "id": "p5c-operation-infiltration",
+      "url": "https://fortnite.weirdgloop.org/w/Operation:_Infiltration",
+      "revision": 942833,
+      "sha256": "605338e09317d1b1656cf759e78e1719e6086719e4ae8a6f96de5680993637bd"
+    },
+    {
+      "id": "p5c-operation-knockout",
+      "url": "https://fortnite.weirdgloop.org/w/Operation:_Knockout",
+      "revision": 945618,
+      "sha256": "90aed531a236beb2fa3071b87c93e67e0a986110dc819c6172b603f32f3cd63c"
+    },
+    {
+      "id": "p5c-operation-payload",
+      "url": "https://fortnite.weirdgloop.org/w/Operation:_Payload",
+      "revision": 967788,
+      "sha256": "bb9ed0bb1cb43c75fc5a85626b7bfcad58ace46829af9dcb434830141ff07ae4"
+    },
+    {
+      "id": "p5c-shockwave-ltm",
+      "url": "https://fortnite.weirdgloop.org/w/Shockwave_(LTM)",
+      "revision": 944370,
+      "sha256": "f64b4ca1428a25f9faa56b22fe4e2cd5264020d709fe5da96d057bb96cdce471"
+    },
+    {
+      "id": "p5c-tilted-taxis",
+      "url": "https://fortnite.weirdgloop.org/w/Tilted_Taxis",
+      "revision": 942856,
+      "sha256": "991edc72a376ebb177a38c857809e1471e6c0c9e63704a04f9a23831403ad460"
+    },
+    {
+      "id": "p5c-bugha-27s-late-game",
+      "url": "https://fortnite.weirdgloop.org/w/Bugha%27s_Late_Game",
+      "revision": 770025,
+      "sha256": "bfcff9cfde6d4579186d41695e876a9ae51c683747ef353f0fb682448978e0de"
+    },
+    {
+      "id": "p5c-live-events",
+      "url": "https://fortnite.weirdgloop.org/w/Live_Events",
+      "revision": 1294179,
+      "sha256": "91e6d5ad36463a83d07d21ed13f0c3c5c936f43cf6410c3163f648602423d26b"
+    },
+    {
+      "id": "p5c-wildlife",
+      "url": "https://fortnite.weirdgloop.org/w/Wildlife",
+      "revision": 1151222,
+      "sha256": "7d4cb74e85b09e99da6db0314c844d2e223623d20fd1105340128c5b971aa1cb"
+    },
+    {
+      "id": "p5c-sprites",
+      "url": "https://fortnite.weirdgloop.org/w/Sprites",
+      "revision": 1328249,
+      "sha256": "03da472423ac93ffc0b2513811c9a2e0fe6eba79238a0977bbca0b033bfbc2f2"
+    },
+    {
+      "id": "p5c-firefly-jar",
+      "url": "https://fortnite.weirdgloop.org/w/Firefly_Jar",
+      "revision": 930891,
+      "sha256": "325dfdb351d946e2a431b0b2d4e2ec0fe6253751ec5bec728c96e315209d3612"
+    },
+    {
+      "id": "p5c-supply-llama",
+      "url": "https://fortnite.weirdgloop.org/w/Supply_Llama",
+      "revision": 1308466,
+      "sha256": "014bd522897037eb817c5ee9dc0c6f21ce89b9815b7c32e8231d00c3d8c1f355"
+    },
+    {
+      "id": "p5c-explosive-batarang",
+      "url": "https://fortnite.weirdgloop.org/w/Explosive_Batarang",
+      "revision": 1237249,
+      "sha256": "4b0d8114e7f6582a234bb2cf1a903a560d27baac5f009ab12870f1fdf04cf8d0"
+    },
+    {
+      "id": "p5c-overdrive-grenade",
+      "url": "https://fortnite.weirdgloop.org/w/Overdrive_Grenade",
+      "revision": 1322714,
+      "sha256": "ec3b53383acff4117524cab03341f2a7cedf96457b424d375d95ef4cf5c5be6d"
+    },
+    {
+      "id": "p5c-utility-items",
+      "url": "https://fortnite.weirdgloop.org/w/Utility_Items",
+      "revision": 1322177,
+      "sha256": "7ae22d3154daa4767663da6f9af37dd48363f4f00764d0bff449277bc16d9556"
+    },
+    {
+      "id": "p5c-consumables",
+      "url": "https://fortnite.weirdgloop.org/w/Consumables",
+      "revision": 1327831,
+      "sha256": "2b0b4234f9b761a69bb539ef0f195ffd85b4b2fa55c0149212414edaf6184d5e"
+    },
+    {
+      "id": "p5c-traps",
+      "url": "https://fortnite.weirdgloop.org/w/Traps",
+      "revision": 1322186,
+      "sha256": "de2f6bace3b877c5c99122e4bac204f703323becafb159ea1aa5626506c627ca"
+    },
+    {
+      "id": "p5c-named-locations",
+      "url": "https://fortnite.weirdgloop.org/w/Named_Locations",
+      "revision": 1327936,
+      "sha256": "520a682be3ce9dc6bdcd0be9c84b722b39ac8c4e750580afe81af0c08b0a023c"
+    },
+    {
+      "id": "p5c-landmarks",
+      "url": "https://fortnite.weirdgloop.org/w/Landmarks",
+      "revision": 1322618,
+      "sha256": "969581af1ed343c1dc2e808ac6f1ddf987c741b3e750da9f4c37917889c1bd9e"
+    },
+    {
+      "id": "p5c-category-companies",
+      "url": "https://fortnite.weirdgloop.org/w/Category:Companies",
+      "revision": 811008,
+      "sha256": "eb1cf06ffd8df5e3df1b4cdfc12bc4c7f2e6f7a3d923ec5f1fc1b5fe81811d6c"
+    },
+    {
+      "id": "p5c-a-lot-o-27-auto",
+      "url": "https://fortnite.weirdgloop.org/w/A_Lot_O%27_Auto",
+      "revision": 584093,
+      "sha256": "99731b18df0edce1fba5434ae4ecc9c1eb25d15b1465a21a61f85f46302e4bd8"
+    },
+    {
+      "id": "p5c-barrel-restaurant",
+      "url": "https://fortnite.weirdgloop.org/w/Barrel_Restaurant",
+      "revision": 1090264,
+      "sha256": "885eb8b0e637e52ef3ab4243eda61865578ef4500890142500c02f15e118ca0e"
+    },
+    {
+      "id": "p5c-big-shots",
+      "url": "https://fortnite.weirdgloop.org/w/Big_Shots",
+      "revision": 1321185,
+      "sha256": "e0800cad884203ccd383a1c5ecbf05c0691a384ec285c8b71674090b515aa44a"
+    },
+    {
+      "id": "p5c-bobom-milk-tea",
+      "url": "https://fortnite.weirdgloop.org/w/Bobom_Milk_Tea",
+      "revision": 1090268,
+      "sha256": "2ea667b5b73b3a0aa49b289659b400b90cf39219e9255849eb09f59ae9898dcc"
+    },
+    {
+      "id": "p5c-burd-company",
+      "url": "https://fortnite.weirdgloop.org/w/BURD_(Company)",
+      "revision": 1090260,
+      "sha256": "4e0b7f6217459115f7ea87f8de0aa8a89019c8096d693a1ba70533a8f5d54c20"
+    },
+    {
+      "id": "p5c-cap-27n-carp",
+      "url": "https://fortnite.weirdgloop.org/w/Cap%27n_Carp",
+      "revision": 1132056,
+      "sha256": "69b85a45d383ae7564b151c8ccc582fdbb056eb4765d11617978f3cbfee034cf"
+    },
+    {
+      "id": "p5c-cuddle-buns",
+      "url": "https://fortnite.weirdgloop.org/w/Cuddle_Buns",
+      "revision": 942280,
+      "sha256": "436f0f47cf2504a4f96cd78b47dfafe0054deb032cb65f4523dcc1707e037ed8"
+    },
+    {
+      "id": "p5c-dodgy-brothers",
+      "url": "https://fortnite.weirdgloop.org/w/Dodgy_Brothers",
+      "revision": 299830,
+      "sha256": "d1e1d27acde5c7a2e0da8800b6f983114bdcce0015cf758b08297daf89ec1d7e"
+    },
+    {
+      "id": "p5c-double-plump-buffet",
+      "url": "https://fortnite.weirdgloop.org/w/Double_Plump_Buffet",
+      "revision": 312514,
+      "sha256": "3d7a7dfc42e1859bc8b19d64f206737104b835dcf0bf0d3ceffca2838427d026"
+    },
+    {
+      "id": "p5c-dumpling",
+      "url": "https://fortnite.weirdgloop.org/w/Dumpling",
+      "revision": 1133201,
+      "sha256": "990e9582905edb296779fb304fad90ab9f7f9cafa89cda04e9dc6e4c067166f9"
+    },
+    {
+      "id": "p5c-durrr-burger",
+      "url": "https://fortnite.weirdgloop.org/w/Durrr_Burger",
+      "revision": 1255711,
+      "sha256": "13eea81e37cf8bc94d046e3322005cbfc3ff26e12279920496ce777820611f7c"
+    },
+    {
+      "id": "p5c-durrr-sushi",
+      "url": "https://fortnite.weirdgloop.org/w/Durrr_Sushi",
+      "revision": 1090717,
+      "sha256": "53dd7a53879aaf661908c2e04f7e7a92fa679d6444ece5c48ff279030762f4a8"
+    },
+    {
+      "id": "p5c-farmers-market",
+      "url": "https://fortnite.weirdgloop.org/w/Farmers_Market",
+      "revision": 364584,
+      "sha256": "af3d0586d504b34a4392e685ce6e6f4e72c41bd0549d8cd099c0ed2479a62aa2"
+    },
+    {
+      "id": "p5c-flush-factory-outlet",
+      "url": "https://fortnite.weirdgloop.org/w/Flush_Factory_Outlet",
+      "revision": 312515,
+      "sha256": "7f07bc26b8cb65fcb032510b63c87ecbe865a2c642e4249541e6d15e8ed1710b"
+    },
+    {
+      "id": "p5c-fork-knife",
+      "url": "https://fortnite.weirdgloop.org/w/Fork_Knife",
+      "revision": 1255800,
+      "sha256": "c538f12a4af78fb2acfbc6e7c48ef80d12de85cccfbdce1059887f8c5c6acb17"
+    },
+    {
+      "id": "p5c-garden-center",
+      "url": "https://fortnite.weirdgloop.org/w/Garden_Center",
+      "revision": 298382,
+      "sha256": "3d7d8e41e4ba03de0e316240a06df61d976e1b3c52e0806cb20527e121c9893d"
+    },
+    {
+      "id": "p5c-gas",
+      "url": "https://fortnite.weirdgloop.org/w/GAS",
+      "revision": 831986,
+      "sha256": "795137ab8053069b336847ea4b7b24393c9667f2c7559fd7a8aab8de8bdc98c3"
+    },
+    {
+      "id": "p5c-hey-boo",
+      "url": "https://fortnite.weirdgloop.org/w/Hey_Boo!",
+      "revision": 773621,
+      "sha256": "9a2680b27bbf1687389bcfa3515bb89f532da0c0d1340ef34bcb6dd71447777c"
+    },
+    {
+      "id": "p5c-joel-27s-pub",
+      "url": "https://fortnite.weirdgloop.org/w/Joel%27s_Pub",
+      "revision": 1123589,
+      "sha256": "488f7acf1044a0e2be621318643b3c4a31183737db9f0656c8aa8b0783a6c3b8"
+    },
+    {
+      "id": "p5c-junk-4-cash-pawn-shop",
+      "url": "https://fortnite.weirdgloop.org/w/Junk_4_Cash_Pawn_Shop",
+      "revision": 312517,
+      "sha256": "ee3ba2321c57e18895a1e3dee9e248647edaaead0bd8b7a8bcab63838c498380"
+    },
+    {
+      "id": "p5c-just-build",
+      "url": "https://fortnite.weirdgloop.org/w/Just_Build",
+      "revision": 306090,
+      "sha256": "82bef6374416700388d0a1354367cf85407b762c89458ac4a1f3ac471712f44c"
+    },
+    {
+      "id": "p5c-knepley-27s-pawn-shop",
+      "url": "https://fortnite.weirdgloop.org/w/Knepley%27s_Pawn_Shop",
+      "revision": 478879,
+      "sha256": "19bac0621283cc77e05207f9db2f92a1d710778599f78a6a2c8485c6a1ac6f03"
+    },
+    {
+      "id": "p5c-madbuns",
+      "url": "https://fortnite.weirdgloop.org/w/Madbuns",
+      "revision": 1090724,
+      "sha256": "7af777379943b84224ff74794c39742323b12b94faf47021fdd1535c17783cf8"
+    },
+    {
+      "id": "p5c-mcguffin-27s",
+      "url": "https://fortnite.weirdgloop.org/w/McGuffin%27s",
+      "revision": 683163,
+      "sha256": "582503af7e3adfdca4e83c04655ed24d17346e13c9eeab747e78f305f467611e"
+    },
+    {
+      "id": "p5c-mmmmm",
+      "url": "https://fortnite.weirdgloop.org/w/Mmmmm!",
+      "revision": 1090725,
+      "sha256": "09b251e616970f005514d12d433c7ec1e11ebc530300cffcc6ed095f2cb29ae4"
+    },
+    {
+      "id": "p5c-noms",
+      "url": "https://fortnite.weirdgloop.org/w/Noms",
+      "revision": 1250808,
+      "sha256": "9349a4dd5bd0be526420779acacf3e7471d8a77321ed1d6832b496c72ec21caa"
+    },
+    {
+      "id": "p5c-nugget-hut",
+      "url": "https://fortnite.weirdgloop.org/w/Nugget_Hut",
+      "revision": 1090272,
+      "sha256": "4b7492b4b89eebe7ccbcee3299eb88a9e3721be8c70cb6eab08798718b93351c"
+    },
+    {
+      "id": "p5c-oink",
+      "url": "https://fortnite.weirdgloop.org/w/Oink!",
+      "revision": 1090273,
+      "sha256": "d6d70f2c3e27468813f657534637aa2884205b0ac4920829061e19a32de3904e"
+    },
+    {
+      "id": "p5c-outdoor-equipment-store",
+      "url": "https://fortnite.weirdgloop.org/w/Outdoor_Equipment_Store",
+      "revision": 1104458,
+      "sha256": "e19fbdfaf2e32e414d8e3c3b8eaa413c0cdd729a0e89efef41a459fd164f7c6b"
+    },
+    {
+      "id": "p5c-pass-27n-27-gas",
+      "url": "https://fortnite.weirdgloop.org/w/Pass_%27N%27_Gas",
+      "revision": 1248817,
+      "sha256": "2bd3c7b619227946a81df673a14a8adfee7b7865c44c4b885eaffeb290874f10"
+    },
+    {
+      "id": "p5c-pea-bois",
+      "url": "https://fortnite.weirdgloop.org/w/Pea_Bois",
+      "revision": 820993,
+      "sha256": "282295eb66fc8dedc9b844d78211f082647fc7c23bedf21726e62404f042b3f9"
+    },
+    {
+      "id": "p5c-peely-27s-banana-stand",
+      "url": "https://fortnite.weirdgloop.org/w/Peely%27s_Banana_Stand",
+      "revision": 1090275,
+      "sha256": "52038160f7999b4dc8282985551fe01de14a407df1d702dcedd85b2b6a2a1613"
+    },
+    {
+      "id": "p5c-puppuccino",
+      "url": "https://fortnite.weirdgloop.org/w/Puppuccino",
+      "revision": 1158074,
+      "sha256": "81c7cb1803a3b071843ea503652f0dba8efdb66d95c13cadc8a36ea0e1683c59"
+    },
+    {
+      "id": "p5c-saucy-sausage",
+      "url": "https://fortnite.weirdgloop.org/w/Saucy_Sausage",
+      "revision": 1090261,
+      "sha256": "7cefc5ee5d68ce407ce49794a28c6042f982c303cb6dcc01d01c28be6c2f5610"
+    },
+    {
+      "id": "p5c-scoops-ahoy",
+      "url": "https://fortnite.weirdgloop.org/w/Scoops_Ahoy",
+      "revision": 1154413,
+      "sha256": "231d7e8fa760d8b37f0c9ea21644efe5c0ed2d1cdcdadc7cde28a47475baa640"
+    },
+    {
+      "id": "p5c-sew-what",
+      "url": "https://fortnite.weirdgloop.org/w/Sew_What",
+      "revision": 312521,
+      "sha256": "a284ad438a17694bc03fa24d75dc05c191693cd8a0d4690006acc510cf078e28"
+    },
+    {
+      "id": "p5c-shakes-26-burgers",
+      "url": "https://fortnite.weirdgloop.org/w/Shakes_%26_Burgers",
+      "revision": 1090713,
+      "sha256": "a70ad5db75630daee88513ea31b6a2ac9c4c79e010420a6ed8e59178a82ea92e"
+    },
+    {
+      "id": "p5c-shoulderpadz",
+      "url": "https://fortnite.weirdgloop.org/w/ShoulderPadz",
+      "revision": 312522,
+      "sha256": "a37c8c10184985f099e7409bf86226d5059d25cb136d02e718ea49e7db323443"
+    },
+    {
+      "id": "p5c-snow-cones",
+      "url": "https://fortnite.weirdgloop.org/w/Snow_Cones",
+      "revision": 1090714,
+      "sha256": "d9f0fff0d087ea00791c170a4a389e699b24b25cc29aa68250f91b124f7b7981"
+    },
+    {
+      "id": "p5c-sofdeez",
+      "url": "https://fortnite.weirdgloop.org/w/SoFDeeZ",
+      "revision": 1090715,
+      "sha256": "90106188297aa5146e3c3d7e71a874f455979054e59dac6d94b6c6dcd5ac9ef6"
+    },
+    {
+      "id": "p5c-spillexx",
+      "url": "https://fortnite.weirdgloop.org/w/Spillexx",
+      "revision": 1090716,
+      "sha256": "0e40d9a864738af7acaa82b18330355e7c74e6a49cfd430755365a204bc0ae9b"
+    },
+    {
+      "id": "p5c-station-99",
+      "url": "https://fortnite.weirdgloop.org/w/Station_99",
+      "revision": 330040,
+      "sha256": "86edd1a9f7fea97f4d9cff722c268d4f339a473e935eec59764e7eaa89fb2e28"
+    },
+    {
+      "id": "p5c-sticks",
+      "url": "https://fortnite.weirdgloop.org/w/Sticks",
+      "revision": 1118082,
+      "sha256": "9fc59730839bafc97a38cefe310475b3772f32183d7f7639c56da69508554339"
+    },
+    {
+      "id": "p5c-tacos",
+      "url": "https://fortnite.weirdgloop.org/w/Tacos",
+      "revision": 1090259,
+      "sha256": "ef8441327446d74354e2b2bb6884da38490ab54d8d54f4f20352293555e943fd"
+    },
+    {
+      "id": "p5c-the-gilded-lady",
+      "url": "https://fortnite.weirdgloop.org/w/The_Gilded_Lady",
+      "revision": 307282,
+      "sha256": "3a5a6313163ac8e2e35de55d7f7a5f14bb99ebd72f2e5e024a4f9bf5a12eccd5"
+    },
+    {
+      "id": "p5c-the-thousand-faces",
+      "url": "https://fortnite.weirdgloop.org/w/The_Thousand_Faces",
+      "revision": 1186447,
+      "sha256": "3210f85133e7541a042dbd34b691fc2575d712f0f9d476c8da472d74773d1fda"
+    },
+    {
+      "id": "p5c-totally-tunage",
+      "url": "https://fortnite.weirdgloop.org/w/Totally_Tunage",
+      "revision": 312523,
+      "sha256": "bc04a160e543e2dea59ae952fcd4b0fc4cc5232b4b36f9c2bbb51a4c94c9cadc"
+    },
+    {
+      "id": "p5c-toys-store",
+      "url": "https://fortnite.weirdgloop.org/w/Toys_(Store)",
+      "revision": 719669,
+      "sha256": "de9936ea38996ce7f7e5650b8dc6d16be8dc24e455d50a0465bdf48d69642fb6"
+    },
+    {
+      "id": "p5c-truck-27n-27-oasis",
+      "url": "https://fortnite.weirdgloop.org/w/Truck_%27N%27_Oasis",
+      "revision": 1147114,
+      "sha256": "a254297954954d84ae129b169dad0564874f6d56b5dc33edf84bba6a2999c11d"
+    },
+    {
+      "id": "p5c-uncle-pete-27s-pizza-pit",
+      "url": "https://fortnite.weirdgloop.org/w/Uncle_Pete%27s_Pizza_Pit",
+      "revision": 1255799,
+      "sha256": "f45b344a3177aedd3a1d376ecbf33ef4c6b81ab69ad0d5f83f7bb6ad882510cd"
+    },
+    {
+      "id": "p5c-unnamed-bakery",
+      "url": "https://fortnite.weirdgloop.org/w/Unnamed_Bakery",
+      "revision": 1247530,
+      "sha256": "e4935d7c4ebdd5907348f1f6de380de02842daf193e67425bb3e22a572ce81d7"
+    },
+    {
+      "id": "p5c-unnamed-cafe",
+      "url": "https://fortnite.weirdgloop.org/w/Unnamed_Cafe",
+      "revision": 1247531,
+      "sha256": "b3cd46defba23f69a5bae6e741ea3bba9a5365de7890fe8ce6627fb0ab49ee4e"
+    },
+    {
+      "id": "p5c-unnamed-car-dealership",
+      "url": "https://fortnite.weirdgloop.org/w/Unnamed_Car_Dealership",
+      "revision": 339105,
+      "sha256": "952a9e13812b877dffbc8583760139b2fccd875bed178c3992111db0de20d955"
+    },
+    {
+      "id": "p5c-containers",
+      "url": "https://fortnite.weirdgloop.org/w/Containers",
+      "revision": 1328191,
+      "sha256": "39c80eb0be1308ca1fc8eb69e90bd1689606cb3790712fa78da64ad30f57398f"
+    },
+    {
+      "id": "p5c-epic-showdown",
+      "url": "https://www.fortnite.com/news/showdown-in-the-new-fortnite-battle-royale-season",
+      "revision": null,
+      "sha256": "9690109493cbeee9e18eae449343845992e30805611e84a2970fb2d0f93d74b3"
+    }
+  ],
+  "modes": [
+    {
+      "name": "Horde Rush",
+      "title": "Horde_Rush",
+      "group": "Current",
+      "sourceId": "p5c-limited-time-modes",
+      "profileAvailable": true
+    },
+    {
+      "name": "Delulu",
+      "title": "Delulu",
+      "group": "Former",
+      "sourceId": "p5c-limited-time-modes",
+      "profileAvailable": true
+    },
+    {
+      "name": "Late Game Arena",
+      "title": "Late_Game_Arena",
+      "group": "Former",
+      "sourceId": "p5c-limited-time-modes",
+      "profileAvailable": true
+    },
+    {
+      "name": "Crown Jam",
+      "title": "Fall_Guys_Crown_Jam",
+      "group": "PvP",
+      "sourceId": "p5c-limited-time-modes",
+      "profileAvailable": true
+    },
+    {
+      "name": "The Combine",
+      "title": "The_Combine",
+      "group": "PvP",
+      "sourceId": "p5c-limited-time-modes",
+      "profileAvailable": true
+    },
+    {
+      "name": "Demon Rush",
+      "title": "Demon_Rush",
+      "group": "CO-OP",
+      "sourceId": "p5c-limited-time-modes",
+      "profileAvailable": true
+    },
+    {
+      "name": "Impossible Escape!",
+      "title": "Impossible_Escape!",
+      "group": "CO-OP",
+      "sourceId": "p5c-limited-time-modes",
+      "profileAvailable": true
+    },
+    {
+      "name": "Storm King",
+      "title": "Storm_King",
+      "group": "CO-OP",
+      "sourceId": "p5c-limited-time-modes",
+      "profileAvailable": true
+    },
+    {
+      "name": "Barebones",
+      "title": "Barebones",
+      "group": "Classic Modes",
+      "sourceId": "p5c-limited-time-modes",
+      "profileAvailable": true
+    },
+    {
+      "name": "Builders Paradise",
+      "title": "Builders_Paradise",
+      "group": "Classic Modes",
+      "sourceId": "p5c-limited-time-modes",
+      "profileAvailable": false
+    },
+    {
+      "name": "Blitz",
+      "title": "Blitz_Limited_Time_Mode",
+      "group": "Classic Modes",
+      "sourceId": "p5c-limited-time-modes",
+      "profileAvailable": true
+    },
+    {
+      "name": "Classic Loot",
+      "title": "Classic_Loot",
+      "group": "Classic Modes",
+      "sourceId": "p5c-limited-time-modes",
+      "profileAvailable": true
+    },
+    {
+      "name": "Close Encounters",
+      "title": "Close_Encounters_Limited_Time_Mode",
+      "group": "Classic Modes",
+      "sourceId": "p5c-limited-time-modes",
+      "profileAvailable": true
+    },
+    {
+      "name": "Floor is Lava",
+      "title": "Floor_is_Lava_(LTM)",
+      "group": "Classic Modes",
+      "sourceId": "p5c-limited-time-modes",
+      "profileAvailable": true
+    },
+    {
+      "name": "Fly Explosives",
+      "title": "Fly_Explosives",
+      "group": "Classic Modes",
+      "sourceId": "p5c-limited-time-modes",
+      "profileAvailable": true
+    },
+    {
+      "name": "Fog Of War/Sneaky Silencers",
+      "title": "Fog_Of_War_(LTM)",
+      "group": "Classic Modes",
+      "sourceId": "p5c-limited-time-modes",
+      "profileAvailable": true
+    },
+    {
+      "name": "Getaway",
+      "title": "Getaway_Limited_Time_Mode",
+      "group": "Classic Modes",
+      "sourceId": "p5c-limited-time-modes",
+      "profileAvailable": true
+    },
+    {
+      "name": "Ground Game",
+      "title": "Ground_Game",
+      "group": "Classic Modes",
+      "sourceId": "p5c-limited-time-modes",
+      "profileAvailable": true
+    },
+    {
+      "name": "Headshots",
+      "title": "Headshots",
+      "group": "Classic Modes",
+      "sourceId": "p5c-limited-time-modes",
+      "profileAvailable": false
+    },
+    {
+      "name": "High Explosives",
+      "title": "High_Explosives_Limited_Time_Mode",
+      "group": "Classic Modes",
+      "sourceId": "p5c-limited-time-modes",
+      "profileAvailable": true
+    },
+    {
+      "name": "Infinity Gauntlet",
+      "title": "Infinity_Gauntlet_Limited_Time_Mashup",
+      "group": "Classic Modes",
+      "sourceId": "p5c-limited-time-modes",
+      "profileAvailable": true
+    },
+    {
+      "name": "Leave None Behind",
+      "title": "Leave_None_Behind",
+      "group": "Classic Modes",
+      "sourceId": "p5c-limited-time-modes",
+      "profileAvailable": false
+    },
+    {
+      "name": "Loadout Swap",
+      "title": "Loadout_Swap",
+      "group": "Classic Modes",
+      "sourceId": "p5c-limited-time-modes",
+      "profileAvailable": false
+    },
+    {
+      "name": "Love Shot",
+      "title": "Love_Shot",
+      "group": "Classic Modes",
+      "sourceId": "p5c-limited-time-modes",
+      "profileAvailable": true
+    },
+    {
+      "name": "Midas Presents: The Floor is Lava",
+      "title": "Midas_Presents:_The_Floor_is_Lava",
+      "group": "Classic Modes",
+      "sourceId": "p5c-limited-time-modes",
+      "profileAvailable": true
+    },
+    {
+      "name": "One Shot",
+      "title": "One_Shot_(LTM)",
+      "group": "Classic Modes",
+      "sourceId": "p5c-limited-time-modes",
+      "profileAvailable": true
+    },
+    {
+      "name": "Pickaxe Frenzy",
+      "title": "Pickaxe_Frenzy",
+      "group": "Classic Modes",
+      "sourceId": "p5c-limited-time-modes",
+      "profileAvailable": true
+    },
+    {
+      "name": "Quints",
+      "title": "Quints",
+      "group": "Classic Modes",
+      "sourceId": "p5c-limited-time-modes",
+      "profileAvailable": true
+    },
+    {
+      "name": "Rumble",
+      "title": "Rumble",
+      "group": "Classic Modes",
+      "sourceId": "p5c-limited-time-modes",
+      "profileAvailable": false
+    },
+    {
+      "name": "Power Up",
+      "title": "Power_Up",
+      "group": "Classic Modes",
+      "sourceId": "p5c-limited-time-modes",
+      "profileAvailable": false
+    },
+    {
+      "name": "Ship It! Express",
+      "title": "Ship_It!_Express",
+      "group": "Classic Modes",
+      "sourceId": "p5c-limited-time-modes",
+      "profileAvailable": true
+    },
+    {
+      "name": "Score Royale",
+      "title": "Score_Royale_Limited_Time_Mode",
+      "group": "Classic Modes",
+      "sourceId": "p5c-limited-time-modes",
+      "profileAvailable": true
+    },
+    {
+      "name": "Slide",
+      "title": "Slide_Limited_Time_Modes",
+      "group": "Classic Modes",
+      "sourceId": "p5c-limited-time-modes",
+      "profileAvailable": true
+    },
+    {
+      "name": "Soaring Solos",
+      "title": "Soaring_Solos_Limited_Time_Mode",
+      "group": "Classic Modes",
+      "sourceId": "p5c-limited-time-modes",
+      "profileAvailable": true
+    },
+    {
+      "name": "Solid Gold",
+      "title": "Solid_Gold",
+      "group": "Classic Modes",
+      "sourceId": "p5c-limited-time-modes",
+      "profileAvailable": true
+    },
+    {
+      "name": "Solid Gold V2",
+      "title": "Solid_Gold_V2_(LTM)",
+      "group": "Classic Modes",
+      "sourceId": "p5c-limited-time-modes",
+      "profileAvailable": true
+    },
+    {
+      "name": "Sniper Shootout",
+      "title": "Sniper_Shootout_Limited_Time_Mode",
+      "group": "Classic Modes",
+      "sourceId": "p5c-limited-time-modes",
+      "profileAvailable": true
+    },
+    {
+      "name": "Splashdown",
+      "title": "Splashdown_(LTM)",
+      "group": "Classic Modes",
+      "sourceId": "p5c-limited-time-modes",
+      "profileAvailable": true
+    },
+    {
+      "name": "Steady Storm",
+      "title": "Steady_Storm",
+      "group": "Classic Modes",
+      "sourceId": "p5c-limited-time-modes",
+      "profileAvailable": true
+    },
+    {
+      "name": "Storm Chasers Surfin'",
+      "title": "Storm_Chasers_Surfin%27",
+      "group": "Classic Modes",
+      "sourceId": "p5c-limited-time-modes",
+      "profileAvailable": false
+    },
+    {
+      "name": "Strategic Structures",
+      "title": "Strategic_Structures",
+      "group": "Classic Modes",
+      "sourceId": "p5c-limited-time-modes",
+      "profileAvailable": true
+    },
+    {
+      "name": "Sword Fight",
+      "title": "Sword_Fight_LTM",
+      "group": "Classic Modes",
+      "sourceId": "p5c-limited-time-modes",
+      "profileAvailable": true
+    },
+    {
+      "name": "Siphon",
+      "title": "Siphon_(LTM)",
+      "group": "Classic Modes",
+      "sourceId": "p5c-limited-time-modes",
+      "profileAvailable": true
+    },
+    {
+      "name": "Tank Battle",
+      "title": "Tank_Battle_(Limited_Time_Mode)",
+      "group": "Classic Modes",
+      "sourceId": "p5c-limited-time-modes",
+      "profileAvailable": true
+    },
+    {
+      "name": "Team Brawl",
+      "title": "Team_Brawl",
+      "group": "Classic Modes",
+      "sourceId": "p5c-limited-time-modes",
+      "profileAvailable": true
+    },
+    {
+      "name": "Team Up! Aloy & Lara",
+      "title": "Team_Up!_Aloy_%26_Lara",
+      "group": "Classic Modes",
+      "sourceId": "p5c-limited-time-modes",
+      "profileAvailable": true
+    },
+    {
+      "name": "The Floor Restores",
+      "title": "The_Floor_Restores",
+      "group": "Classic Modes",
+      "sourceId": "p5c-limited-time-modes",
+      "profileAvailable": true
+    },
+    {
+      "name": "Throwdown",
+      "title": "Catch!",
+      "group": "Classic Modes",
+      "sourceId": "p5c-limited-time-modes",
+      "profileAvailable": true
+    },
+    {
+      "name": "Unvaulted",
+      "title": "Unvaulted_(LTM)",
+      "group": "Classic Modes",
+      "sourceId": "p5c-limited-time-modes",
+      "profileAvailable": true
+    },
+    {
+      "name": "Use with Care",
+      "title": "Use_with_Care",
+      "group": "Classic Modes",
+      "sourceId": "p5c-limited-time-modes",
+      "profileAvailable": false
+    },
+    {
+      "name": "Wild West",
+      "title": "Wild_West_(LTM)",
+      "group": "Classic Modes",
+      "sourceId": "p5c-limited-time-modes",
+      "profileAvailable": true
+    },
+    {
+      "name": "50v50",
+      "title": "50v50",
+      "group": "Large-Team Modes",
+      "sourceId": "p5c-limited-time-modes",
+      "profileAvailable": true
+    },
+    {
+      "name": "Big Battle",
+      "title": "Big_Battle",
+      "group": "Large-Team Modes",
+      "sourceId": "p5c-limited-time-modes",
+      "profileAvailable": true
+    },
+    {
+      "name": "NFL Rumble",
+      "title": "NFL_Rumble",
+      "group": "Large-Team Modes",
+      "sourceId": "p5c-limited-time-modes",
+      "profileAvailable": true
+    },
+    {
+      "name": "Soaring 50s",
+      "title": "50v50",
+      "group": "Large-Team Modes",
+      "sourceId": "p5c-limited-time-modes",
+      "profileAvailable": true
+    },
+    {
+      "name": "Solid Gold: 50v50",
+      "title": "50v50",
+      "group": "Large-Team Modes",
+      "sourceId": "p5c-limited-time-modes",
+      "profileAvailable": true
+    },
+    {
+      "name": "Teams of 33",
+      "title": "Teams_of_33",
+      "group": "Large-Team Modes",
+      "sourceId": "p5c-limited-time-modes",
+      "profileAvailable": true
+    },
+    {
+      "name": "Teams of 20",
+      "title": "Teams_of_20_Limited_Time_Mode",
+      "group": "Large-Team Modes",
+      "sourceId": "p5c-limited-time-modes",
+      "profileAvailable": true
+    },
+    {
+      "name": "Teams of 12",
+      "title": "Teams_of_12",
+      "group": "Large-Team Modes",
+      "sourceId": "p5c-limited-time-modes",
+      "profileAvailable": true
+    },
+    {
+      "name": "Team Rumble Lava",
+      "title": "Team_Rumble:_Lava",
+      "group": "Large-Team Modes",
+      "sourceId": "p5c-limited-time-modes",
+      "profileAvailable": true
+    },
+    {
+      "name": "Team Terror",
+      "title": "Team_Terror",
+      "group": "Large-Team Modes",
+      "sourceId": "p5c-limited-time-modes",
+      "profileAvailable": true
+    },
+    {
+      "name": "Air Royale",
+      "title": "Air_Royale",
+      "group": "Special Modes",
+      "sourceId": "p5c-limited-time-modes",
+      "profileAvailable": true
+    },
+    {
+      "name": "Arsenal",
+      "title": "Arsenal",
+      "group": "Special Modes",
+      "sourceId": "p5c-limited-time-modes",
+      "profileAvailable": true
+    },
+    {
+      "name": "Bodyguard",
+      "title": "Bodyguard",
+      "group": "Special Modes",
+      "sourceId": "p5c-limited-time-modes",
+      "profileAvailable": true
+    },
+    {
+      "name": "Bounty / Wick's Bounty / Mando's Bounty",
+      "title": "Bounty",
+      "group": "Special Modes",
+      "sourceId": "p5c-limited-time-modes",
+      "profileAvailable": true
+    },
+    {
+      "name": "Comeback",
+      "title": "Comeback",
+      "group": "Special Modes",
+      "sourceId": "p5c-limited-time-modes",
+      "profileAvailable": true
+    },
+    {
+      "name": "Day of Doom",
+      "title": "Day_of_Doom",
+      "group": "Special Modes",
+      "sourceId": "p5c-limited-time-modes",
+      "profileAvailable": true
+    },
+    {
+      "name": "Disco Domination",
+      "title": "Disco_Domination_LTM",
+      "group": "Special Modes",
+      "sourceId": "p5c-limited-time-modes",
+      "profileAvailable": true
+    },
+    {
+      "name": "Endgame",
+      "title": "Endgame_Limited_Time_Mode",
+      "group": "Special Modes",
+      "sourceId": "p5c-limited-time-modes",
+      "profileAvailable": true
+    },
+    {
+      "name": "Food Fight",
+      "title": "Food_Fight_(LTM)",
+      "group": "Special Modes",
+      "sourceId": "p5c-limited-time-modes",
+      "profileAvailable": true
+    },
+    {
+      "name": "Food Fight: Deep Fried",
+      "title": "Food_Fight:_Deep_Fried",
+      "group": "Special Modes",
+      "sourceId": "p5c-limited-time-modes",
+      "profileAvailable": true
+    },
+    {
+      "name": "Knockout: Shuffle",
+      "title": "Knockout:_Shuffle",
+      "group": "Special Modes",
+      "sourceId": "p5c-limited-time-modes",
+      "profileAvailable": true
+    },
+    {
+      "name": "Marvel Knockout",
+      "title": "Marvel_Knockout",
+      "group": "Special Modes",
+      "sourceId": "p5c-limited-time-modes",
+      "profileAvailable": true
+    },
+    {
+      "name": "Marvel Standoff",
+      "title": "Marvel_Standoff",
+      "group": "Special Modes",
+      "sourceId": "p5c-limited-time-modes",
+      "profileAvailable": true
+    },
+    {
+      "name": "Marvel Takeover",
+      "title": "Marvel_Takeover",
+      "group": "Special Modes",
+      "sourceId": "p5c-limited-time-modes",
+      "profileAvailable": true
+    },
+    {
+      "name": "Operation: Dropzone",
+      "title": "Operation:_Dropzone",
+      "group": "Special Modes",
+      "sourceId": "p5c-limited-time-modes",
+      "profileAvailable": true
+    },
+    {
+      "name": "Operation: Infiltration",
+      "title": "Operation:_Infiltration",
+      "group": "Special Modes",
+      "sourceId": "p5c-limited-time-modes",
+      "profileAvailable": true
+    },
+    {
+      "name": "Operation: Knockout",
+      "title": "Operation:_Knockout",
+      "group": "Special Modes",
+      "sourceId": "p5c-limited-time-modes",
+      "profileAvailable": true
+    },
+    {
+      "name": "Operation: Payload",
+      "title": "Operation:_Payload",
+      "group": "Special Modes",
+      "sourceId": "p5c-limited-time-modes",
+      "profileAvailable": true
+    },
+    {
+      "name": "Shockwave",
+      "title": "Shockwave_(LTM)",
+      "group": "Special Modes",
+      "sourceId": "p5c-limited-time-modes",
+      "profileAvailable": true
+    },
+    {
+      "name": "Tilted Taxis",
+      "title": "Tilted_Taxis",
+      "group": "Special Modes",
+      "sourceId": "p5c-limited-time-modes",
+      "profileAvailable": true
+    },
+    {
+      "name": "Bugha's Late Game",
+      "title": "Bugha%27s_Late_Game",
+      "group": "Icon Modes",
+      "sourceId": "p5c-limited-time-modes",
+      "profileAvailable": true
+    }
+  ],
+  "modeProfiles": [
+    {
+      "name": "Horde Rush",
+      "sourceId": "p5c-horde-rush",
+      "releaseDateLabel": "June 13th 2019"
+    },
+    {
+      "name": "Delulu",
+      "sourceId": "p5c-delulu",
+      "releaseDateLabel": "[[Update v37.30|September 19th 2025]]"
+    },
+    {
+      "name": "Late Game Arena",
+      "sourceId": "p5c-late-game-arena",
+      "releaseDateLabel": "[[Update v17.40]]"
+    },
+    {
+      "name": "Crown Jam",
+      "sourceId": "p5c-fall-guys-crown-jam",
+      "releaseDateLabel": "[[Update v39.30|January 23rd 2026]]"
+    },
+    {
+      "name": "The Combine",
+      "sourceId": "p5c-the-combine",
+      "releaseDateLabel": "September 24th 2019"
+    },
+    {
+      "name": "Demon Rush",
+      "sourceId": "p5c-demon-rush",
+      "releaseDateLabel": "June 13th 2019"
+    },
+    {
+      "name": "Impossible Escape!",
+      "sourceId": "p5c-impossible-escape",
+      "releaseDateLabel": "05/18/2021"
+    },
+    {
+      "name": "Storm King",
+      "sourceId": "p5c-storm-king",
+      "releaseDateLabel": "[[Update v7.00]]"
+    },
+    {
+      "name": "Barebones",
+      "sourceId": "p5c-barebones",
+      "releaseDateLabel": "December 21st 2018"
+    },
+    {
+      "name": "Blitz",
+      "sourceId": "p5c-blitz-limited-time-mode",
+      "releaseDateLabel": "March 19th 2018"
+    },
+    {
+      "name": "Classic Loot",
+      "sourceId": "p5c-classic-loot",
+      "releaseDateLabel": "3/8/2021"
+    },
+    {
+      "name": "Close Encounters",
+      "sourceId": "p5c-close-encounters-limited-time-mode",
+      "releaseDateLabel": "May 25, 2018"
+    },
+    {
+      "name": "Floor is Lava",
+      "sourceId": "p5c-floor-is-lava-ltm",
+      "releaseDateLabel": "Update v8.20"
+    },
+    {
+      "name": "Fog Of War/Sneaky Silencers",
+      "sourceId": "p5c-fog-of-war-ltm",
+      "releaseDateLabel": "01/5/2018"
+    },
+    {
+      "name": "Getaway",
+      "sourceId": "p5c-getaway-limited-time-mode",
+      "releaseDateLabel": "September 6th 2018"
+    },
+    {
+      "name": "Ground Game",
+      "sourceId": "p5c-ground-game",
+      "releaseDateLabel": "12/27/2018"
+    },
+    {
+      "name": "High Explosives",
+      "sourceId": "p5c-high-explosives-limited-time-mode",
+      "releaseDateLabel": "December 29th 2017"
+    },
+    {
+      "name": "Infinity Gauntlet",
+      "sourceId": "p5c-infinity-gauntlet-limited-time-mashup",
+      "releaseDateLabel": "May 8, 2018"
+    },
+    {
+      "name": "Midas Presents: The Floor is Lava",
+      "sourceId": "p5c-midas-presents-the-floor-is-lava",
+      "releaseDateLabel": "March 20th 2024"
+    },
+    {
+      "name": "Pickaxe Frenzy",
+      "sourceId": "p5c-pickaxe-frenzy",
+      "releaseDateLabel": "November 14th 2020"
+    },
+    {
+      "name": "Quints",
+      "sourceId": "p5c-quints",
+      "releaseDateLabel": "[[Update v39.20|January 9th 2026]]"
+    },
+    {
+      "name": "Ship It! Express",
+      "sourceId": "p5c-ship-it-express",
+      "releaseDateLabel": "December 14th 2023"
+    },
+    {
+      "name": "Score Royale",
+      "sourceId": "p5c-score-royale-limited-time-mode",
+      "releaseDateLabel": "[[Update v5.30]]"
+    },
+    {
+      "name": "Slide",
+      "sourceId": "p5c-slide-limited-time-modes",
+      "releaseDateLabel": "December 22nd 2018"
+    },
+    {
+      "name": "Soaring Solos",
+      "sourceId": "p5c-soaring-solos-limited-time-mode",
+      "releaseDateLabel": "August 18th 2018"
+    },
+    {
+      "name": "Solid Gold",
+      "sourceId": "p5c-solid-gold",
+      "releaseDateLabel": "Febuary 27, 2018"
+    },
+    {
+      "name": "Sniper Shootout",
+      "sourceId": "p5c-sniper-shootout-limited-time-mode",
+      "releaseDateLabel": "January 29th 2019"
+    },
+    {
+      "name": "Splashdown",
+      "sourceId": "p5c-splashdown-ltm",
+      "releaseDateLabel": "[[14 Days of Summer]]"
+    },
+    {
+      "name": "Steady Storm",
+      "sourceId": "p5c-steady-storm",
+      "releaseDateLabel": "August 16th 2019"
+    },
+    {
+      "name": "Strategic Structures",
+      "sourceId": "p5c-strategic-structures",
+      "releaseDateLabel": "July 15th 2019"
+    },
+    {
+      "name": "Sword Fight",
+      "sourceId": "p5c-sword-fight-ltm",
+      "releaseDateLabel": "February 15th 2019"
+    },
+    {
+      "name": "Siphon",
+      "sourceId": "p5c-siphon-ltm",
+      "releaseDateLabel": "December 20th 2018"
+    },
+    {
+      "name": "Tank Battle",
+      "sourceId": "p5c-tank-battle-limited-time-mode",
+      "releaseDateLabel": "August 17th 2020"
+    },
+    {
+      "name": "Team Brawl",
+      "sourceId": "p5c-team-brawl",
+      "releaseDateLabel": "August 5th 2021"
+    },
+    {
+      "name": "Team Up! Aloy & Lara",
+      "sourceId": "p5c-team-up-aloy-26-lara",
+      "releaseDateLabel": "April 23rd 2021"
+    },
+    {
+      "name": "The Floor Restores",
+      "sourceId": "p5c-the-floor-restores",
+      "releaseDateLabel": "April 30th 2021"
+    },
+    {
+      "name": "Throwdown",
+      "sourceId": "p5c-catch",
+      "releaseDateLabel": "Update v7.40"
+    },
+    {
+      "name": "Unvaulted",
+      "sourceId": "p5c-unvaulted-ltm",
+      "releaseDateLabel": "December 19, 2018"
+    },
+    {
+      "name": "Wild West",
+      "sourceId": "p5c-wild-west-ltm",
+      "releaseDateLabel": "[[Update v6.30]]"
+    },
+    {
+      "name": "50v50",
+      "sourceId": "p5c-50v50",
+      "releaseDateLabel": "December 8th 2017"
+    },
+    {
+      "name": "Big Battle",
+      "sourceId": "p5c-big-battle",
+      "releaseDateLabel": "11/15/2022"
+    },
+    {
+      "name": "NFL Rumble",
+      "sourceId": "p5c-nfl-rumble",
+      "releaseDateLabel": "February 3rd 2019"
+    },
+    {
+      "name": "Soaring 50s",
+      "sourceId": "p5c-50v50",
+      "releaseDateLabel": "December 8th 2017"
+    },
+    {
+      "name": "Solid Gold: 50v50",
+      "sourceId": "p5c-50v50",
+      "releaseDateLabel": "December 8th 2017"
+    },
+    {
+      "name": "Teams of 33",
+      "sourceId": "p5c-teams-of-33",
+      "releaseDateLabel": "December 19th 2018"
+    },
+    {
+      "name": "Teams of 20",
+      "sourceId": "p5c-teams-of-20-limited-time-mode",
+      "releaseDateLabel": "March 18th 2018"
+    },
+    {
+      "name": "Team Rumble Lava",
+      "sourceId": "p5c-team-rumble-lava",
+      "releaseDateLabel": "July 5th 2019"
+    },
+    {
+      "name": "Team Terror",
+      "sourceId": "p5c-team-terror",
+      "releaseDateLabel": "[[Update v6.22]]"
+    },
+    {
+      "name": "Air Royale",
+      "sourceId": "p5c-air-royale",
+      "releaseDateLabel": "April 17th 2019"
+    },
+    {
+      "name": "Arsenal",
+      "sourceId": "p5c-arsenal",
+      "releaseDateLabel": "2/27/2019"
+    },
+    {
+      "name": "Bodyguard",
+      "sourceId": "p5c-bodyguard",
+      "releaseDateLabel": "March 12th 2021"
+    },
+    {
+      "name": "Comeback",
+      "sourceId": "p5c-comeback",
+      "releaseDateLabel": "2/26/21"
+    },
+    {
+      "name": "Day of Doom",
+      "sourceId": "p5c-day-of-doom",
+      "releaseDateLabel": "September 17th 2024"
+    },
+    {
+      "name": "Disco Domination",
+      "sourceId": "p5c-disco-domination-ltm",
+      "releaseDateLabel": "10th October 2018"
+    },
+    {
+      "name": "Endgame",
+      "sourceId": "p5c-endgame-limited-time-mode",
+      "releaseDateLabel": "[[Update v8.50|April 25th 2019]] <small>(Ch. 1)</small><br>[[Update v40.10|April 3rd 2026]] <small>(OG)</small>"
+    },
+    {
+      "name": "Food Fight",
+      "sourceId": "p5c-food-fight-ltm",
+      "releaseDateLabel": "Update v6.30"
+    },
+    {
+      "name": "Food Fight: Deep Fried",
+      "sourceId": "p5c-food-fight-deep-fried",
+      "releaseDateLabel": "[[Update v8.40]]"
+    },
+    {
+      "name": "Knockout: Shuffle",
+      "sourceId": "p5c-knockout-shuffle",
+      "releaseDateLabel": "August 11th 2020"
+    },
+    {
+      "name": "Operation: Knockout",
+      "sourceId": "p5c-operation-knockout",
+      "releaseDateLabel": "3/24/2020"
+    },
+    {
+      "name": "Tilted Taxis",
+      "sourceId": "p5c-tilted-taxis",
+      "releaseDateLabel": "September 1st 2020"
+    },
+    {
+      "name": "Bugha's Late Game",
+      "sourceId": "p5c-bugha-27s-late-game",
+      "releaseDateLabel": "7/19/2021"
+    }
+  ],
+  "events": [
+    {
+      "name": "Rocket Launch",
+      "chapter": 1,
+      "season": "C1S4",
+      "kind": "Story Moment",
+      "locations": [
+        "Villain Lair"
+      ],
+      "sourceId": "p5c-live-events"
+    },
+    {
+      "name": "Rocket Launch Aftermath Rift",
+      "chapter": 1,
+      "season": "C1S4",
+      "kind": "Story Moment",
+      "locations": [
+        "Motel",
+        "Lonely Lodge",
+        "Tomato Town",
+        "Greasy Grove",
+        "Moisty Mire",
+        "Retail Row"
+      ],
+      "sourceId": "p5c-live-events"
+    },
+    {
+      "name": "Crack Closure",
+      "chapter": 1,
+      "season": "C1S5",
+      "kind": "Story Moment",
+      "locations": [
+        "Paradise Palms"
+      ],
+      "sourceId": "p5c-live-events"
+    },
+    {
+      "name": "The Cube Sinking",
+      "chapter": 1,
+      "season": "C1S5",
+      "kind": "Story Moment",
+      "locations": [
+        "Loot Lake"
+      ],
+      "sourceId": "p5c-live-events"
+    },
+    {
+      "name": "Butterfly Event",
+      "chapter": 1,
+      "season": "C1S6",
+      "kind": "Major",
+      "locations": [
+        "Leaky Lake"
+      ],
+      "sourceId": "p5c-live-events"
+    },
+    {
+      "name": "Ice Hatch Excavation",
+      "chapter": 1,
+      "season": "C1S7",
+      "kind": "Story Moment",
+      "locations": [
+        "Bunker Island"
+      ],
+      "sourceId": "p5c-live-events"
+    },
+    {
+      "name": "New Year 2019",
+      "chapter": 1,
+      "season": "C1S7",
+      "kind": "New Year's",
+      "locations": [
+        "Athena"
+      ],
+      "sourceId": "p5c-live-events"
+    },
+    {
+      "name": "Ice Storm",
+      "chapter": 1,
+      "season": "C1S7",
+      "kind": "Story Moment",
+      "locations": [
+        "Polar Peak"
+      ],
+      "sourceId": "p5c-live-events"
+    },
+    {
+      "name": "Showtime",
+      "chapter": 1,
+      "season": "C1S7",
+      "kind": "Concert",
+      "locations": [
+        "Pleasant Park"
+      ],
+      "sourceId": "p5c-live-events"
+    },
+    {
+      "name": "Earthquakes",
+      "chapter": 1,
+      "season": "C1S7",
+      "kind": "Story Moment",
+      "locations": [
+        "Tomato Temple",
+        "The Block",
+        "Dusty Diner",
+        "Salty Springs",
+        "Loot Lake",
+        "Lazy Links",
+        "Retail Row",
+        "Pleasant Park",
+        "Tilted Towers",
+        "Wailing Woods"
+      ],
+      "sourceId": "p5c-live-events"
+    },
+    {
+      "name": "Volcanic Excavation",
+      "chapter": 1,
+      "season": "C1S8",
+      "kind": "Story Moment",
+      "locations": [
+        "Digsite Alpha",
+        "Digsite Beta",
+        "Digsite Gamma"
+      ],
+      "sourceId": "p5c-live-events"
+    },
+    {
+      "name": "Vault Runes",
+      "chapter": 1,
+      "season": "C1S8",
+      "kind": "Story Moment",
+      "locations": [
+        "Loot Lake",
+        "Volcano",
+        "Lucky Landing"
+      ],
+      "sourceId": "p5c-live-events"
+    },
+    {
+      "name": "The Unvaulting Event",
+      "chapter": 1,
+      "season": "C1S8",
+      "kind": "Major",
+      "locations": [
+        "The Vault"
+      ],
+      "sourceId": "p5c-live-events"
+    },
+    {
+      "name": "The Final Showdown",
+      "chapter": 1,
+      "season": "C1S9",
+      "kind": "Major",
+      "locations": [
+        "Pressure Plant",
+        "Loot Lake",
+        "Neo Tilted"
+      ],
+      "sourceId": "p5c-live-events"
+    },
+    {
+      "name": "Zero Point Destabilization",
+      "chapter": 1,
+      "season": "C1S9",
+      "kind": "Story Moment",
+      "locations": [
+        "Loot Lake"
+      ],
+      "sourceId": "p5c-live-events"
+    },
+    {
+      "name": "THE END",
+      "chapter": 1,
+      "season": "C1SX",
+      "kind": "Chapter Finale",
+      "locations": [
+        "Dusty Depot"
+      ],
+      "sourceId": "p5c-live-events"
+    },
+    {
+      "name": "Live At Risky",
+      "chapter": 2,
+      "season": "C2S1",
+      "kind": "Promotional",
+      "locations": [
+        "Risky Reels"
+      ],
+      "sourceId": "p5c-live-events"
+    },
+    {
+      "name": "New Year 2020",
+      "chapter": 2,
+      "season": "C2S1",
+      "kind": "New Year's",
+      "locations": [
+        "Apollo"
+      ],
+      "sourceId": "p5c-live-events"
+    },
+    {
+      "name": "Travis Scott's Astronomical",
+      "chapter": 2,
+      "season": "C2S2",
+      "kind": "Concert",
+      "locations": [
+        "Sweaty Sands"
+      ],
+      "sourceId": "p5c-live-events"
+    },
+    {
+      "name": "The Device",
+      "chapter": 2,
+      "season": "C2S2",
+      "kind": "Major",
+      "locations": [
+        "The Agency"
+      ],
+      "sourceId": "p5c-live-events"
+    },
+    {
+      "name": "The Devourer of Worlds",
+      "chapter": 2,
+      "season": "C2S4",
+      "kind": "Major",
+      "locations": [
+        "Helicarrier 64"
+      ],
+      "sourceId": "p5c-live-events"
+    },
+    {
+      "name": "New Year 2021",
+      "chapter": 2,
+      "season": "C2S5",
+      "kind": "New Year's",
+      "locations": [
+        "Apollo"
+      ],
+      "sourceId": "p5c-live-events"
+    },
+    {
+      "name": "Zero Point Destabilization",
+      "chapter": 2,
+      "season": "C2S5",
+      "kind": "Story Moment",
+      "locations": [
+        "Zero Point"
+      ],
+      "sourceId": "p5c-live-events"
+    },
+    {
+      "name": "Zero Crisis",
+      "chapter": 2,
+      "season": "C2S6",
+      "kind": "Major",
+      "locations": [
+        "Zero Point"
+      ],
+      "sourceId": "p5c-live-events"
+    },
+    {
+      "name": "Slurpy Swamp Abduction",
+      "chapter": 2,
+      "season": "C2S7",
+      "kind": "Story Moment",
+      "locations": [
+        "The Mothership",
+        "Slurpy Swamp"
+      ],
+      "sourceId": "p5c-live-events"
+    },
+    {
+      "name": "Rift Tour",
+      "chapter": 2,
+      "season": "C2S7",
+      "kind": "Concert",
+      "locations": [
+        "The Aftermath"
+      ],
+      "sourceId": "p5c-live-events"
+    },
+    {
+      "name": "Coral Castle Abduction",
+      "chapter": 2,
+      "season": "C2S7",
+      "kind": "Story Moment",
+      "locations": [
+        "The Mothership",
+        "Coral Castle"
+      ],
+      "sourceId": "p5c-live-events"
+    },
+    {
+      "name": "Corny Complex Abduction",
+      "chapter": 2,
+      "season": "C2S7",
+      "kind": "Story Moment",
+      "locations": [
+        "The Mothership",
+        "Corny Complex"
+      ],
+      "sourceId": "p5c-live-events"
+    },
+    {
+      "name": "Operation: Sky Fire",
+      "chapter": 2,
+      "season": "C2S7",
+      "kind": "Major",
+      "locations": [
+        "Corny Complex"
+      ],
+      "sourceId": "p5c-live-events"
+    },
+    {
+      "name": "Birth of Corruption Cubes",
+      "chapter": 2,
+      "season": "C2S8",
+      "kind": "Story Moment",
+      "locations": [
+        "Shattered Saucer",
+        "Smashed Stronghold",
+        "Destroyed Dish",
+        "Levelled Lake",
+        "Wasted Woods"
+      ],
+      "sourceId": "p5c-live-events"
+    },
+    {
+      "name": "THE END",
+      "chapter": 2,
+      "season": "C2S8",
+      "kind": "Chapter Finale",
+      "locations": [
+        "Guava Fort"
+      ],
+      "sourceId": "p5c-live-events"
+    },
+    {
+      "name": "A New Day",
+      "chapter": 3,
+      "season": "C3S1",
+      "kind": "Story Moment",
+      "locations": [
+        "Looper Landing"
+      ],
+      "sourceId": "p5c-live-events"
+    },
+    {
+      "name": "New Year 2022",
+      "chapter": 3,
+      "season": "C3S1",
+      "kind": "New Year's",
+      "locations": [
+        "Artemis"
+      ],
+      "sourceId": "p5c-live-events"
+    },
+    {
+      "name": "Earthquakes",
+      "chapter": 3,
+      "season": "C3S1",
+      "kind": "Story Moment",
+      "locations": [
+        "Artemis"
+      ],
+      "sourceId": "p5c-live-events"
+    },
+    {
+      "name": "Collider Energy Pulses",
+      "chapter": 3,
+      "season": "C3S2",
+      "kind": "Story Moment",
+      "locations": [
+        "The Collider"
+      ],
+      "sourceId": "p5c-live-events"
+    },
+    {
+      "name": "Collision",
+      "chapter": 3,
+      "season": "C3S2",
+      "kind": "Major",
+      "locations": [
+        "The Ice Moon",
+        "The Collider"
+      ],
+      "sourceId": "p5c-live-events"
+    },
+    {
+      "name": "Henchbros Excavation",
+      "chapter": 3,
+      "season": "C3S3",
+      "kind": "Story Moment",
+      "locations": [
+        "Hench Hut"
+      ],
+      "sourceId": "p5c-live-events"
+    },
+    {
+      "name": "FRACTURE",
+      "chapter": 3,
+      "season": "C3S4",
+      "kind": "Chapter Finale",
+      "locations": [
+        "Reality Tree"
+      ],
+      "sourceId": "p5c-live-events"
+    },
+    {
+      "name": "New Year 2023",
+      "chapter": 4,
+      "season": "C4S1",
+      "kind": "New Year's",
+      "locations": [
+        "Asteria"
+      ],
+      "sourceId": "p5c-live-events"
+    },
+    {
+      "name": "Earthquakes",
+      "chapter": 4,
+      "season": "C4S2",
+      "kind": "Story Moment",
+      "locations": [
+        "Asteria"
+      ],
+      "sourceId": "p5c-live-events"
+    },
+    {
+      "name": "THE BIG BANG",
+      "chapter": 4,
+      "season": "OG2023",
+      "kind": "Chapter Finale , Concert",
+      "locations": [
+        "Dusty Divot"
+      ],
+      "sourceId": "p5c-live-events"
+    },
+    {
+      "name": "New Year 2024",
+      "chapter": 5,
+      "season": "C5S1",
+      "kind": "New Year's",
+      "locations": [
+        "Helios"
+      ],
+      "sourceId": "p5c-live-events"
+    },
+    {
+      "name": "Pandora's Box Emergence",
+      "chapter": 5,
+      "season": "C5S1",
+      "kind": "Story Moment",
+      "locations": [
+        "Ruined Reels"
+      ],
+      "sourceId": "p5c-live-events"
+    },
+    {
+      "name": "Pandora's Box Opening",
+      "chapter": 5,
+      "season": "C5S1",
+      "kind": "Story Moment",
+      "locations": [
+        "Ruined Reels"
+      ],
+      "sourceId": "p5c-live-events"
+    },
+    {
+      "name": "Zeus' Lightning Strikes",
+      "chapter": 5,
+      "season": "C5S2",
+      "kind": "Story Moment",
+      "locations": [
+        "Mount Olympus"
+      ],
+      "sourceId": "p5c-live-events"
+    },
+    {
+      "name": "Sandstorm",
+      "chapter": 5,
+      "season": "C5S2",
+      "kind": "Story Moment",
+      "locations": [
+        "Mount Olympus"
+      ],
+      "sourceId": "p5c-live-events"
+    },
+    {
+      "name": "Refinery Event",
+      "chapter": 5,
+      "season": "C5S3",
+      "kind": "Story Moment",
+      "locations": [
+        "Brutal Beachhead",
+        "Redline Rig"
+      ],
+      "sourceId": "p5c-live-events"
+    },
+    {
+      "name": "Absolute Doom",
+      "chapter": 5,
+      "season": "C5S4",
+      "kind": "Story Moment",
+      "locations": [
+        "Reckless Railways"
+      ],
+      "sourceId": "p5c-live-events"
+    },
+    {
+      "name": "Remix: The Prelude",
+      "chapter": 5,
+      "season": "C5S4",
+      "kind": "Concert",
+      "locations": [
+        "Restored Reels"
+      ],
+      "sourceId": "p5c-live-events"
+    },
+    {
+      "name": "REMIX: THE FINALE",
+      "chapter": 5,
+      "season": "REMIX2024",
+      "kind": "Chapter Finale , Concert",
+      "locations": [
+        "The Doggpound"
+      ],
+      "sourceId": "p5c-live-events"
+    },
+    {
+      "name": "Defrosting",
+      "chapter": 6,
+      "season": "C6S1",
+      "kind": "Concert",
+      "locations": [
+        "Brutal Boxcars"
+      ],
+      "sourceId": "p5c-live-events"
+    },
+    {
+      "name": "New Year 2025",
+      "chapter": 6,
+      "season": "C6S1",
+      "kind": "New Year's",
+      "locations": [
+        "Oninoshima"
+      ],
+      "sourceId": "p5c-live-events"
+    },
+    {
+      "name": "The Confrontation",
+      "chapter": 6,
+      "season": "C6S1",
+      "kind": "Story Moment",
+      "locations": [
+        "Warrior's Watch"
+      ],
+      "sourceId": "p5c-live-events"
+    },
+    {
+      "name": "Daigo's Fate",
+      "chapter": 6,
+      "season": "C6S2",
+      "kind": "Story Moment",
+      "locations": [
+        "Magic Mosses"
+      ],
+      "sourceId": "p5c-live-events"
+    },
+    {
+      "name": "Death Star Sabotage",
+      "chapter": 6,
+      "season": "C6GALACTIC2025",
+      "kind": "Major",
+      "locations": [
+        "Death Star"
+      ],
+      "sourceId": "p5c-live-events"
+    },
+    {
+      "name": "Super Showdown",
+      "chapter": 6,
+      "season": "C6S3",
+      "kind": "Major",
+      "locations": [
+        "Demon's Domain"
+      ],
+      "sourceId": "p5c-live-events"
+    },
+    {
+      "name": "Daft Punk Experience",
+      "chapter": 6,
+      "season": "C6S4",
+      "kind": "Promotional",
+      "locations": [
+        "The Monolith"
+      ],
+      "sourceId": "p5c-live-events"
+    },
+    {
+      "name": "Welcome, Our Alien Overlords",
+      "chapter": 6,
+      "season": "C6S4",
+      "kind": "Story Moment",
+      "locations": [
+        "Bart's Treehouse"
+      ],
+      "sourceId": "p5c-live-events"
+    },
+    {
+      "name": "ZERO HOUR",
+      "chapter": 6,
+      "season": "C6SIMPSONS2025",
+      "kind": "Chapter Finale",
+      "locations": [
+        "Springfield Town Square",
+        "Oninoshima"
+      ],
+      "sourceId": "p5c-live-events"
+    },
+    {
+      "name": "Yuki's Revenge",
+      "chapter": 7,
+      "season": "C7S1",
+      "kind": "Promotional",
+      "locations": [
+        "Battlewood Boulevard"
+      ],
+      "sourceId": "p5c-live-events"
+    },
+    {
+      "name": "New Year 2026",
+      "chapter": 7,
+      "season": "C7S1",
+      "kind": "New Year's",
+      "locations": [
+        "Golden Coast"
+      ],
+      "sourceId": "p5c-live-events"
+    },
+    {
+      "name": "The Reassembly Events",
+      "chapter": 7,
+      "season": "C7S1",
+      "kind": "Story Moment",
+      "locations": [
+        "Lethal Labs"
+      ],
+      "sourceId": "p5c-live-events"
+    },
+    {
+      "name": "Rocket Landing",
+      "chapter": 7,
+      "season": "C7S1",
+      "kind": "Story Moment",
+      "locations": [
+        "Classified Canyon"
+      ],
+      "sourceId": "p5c-live-events"
+    },
+    {
+      "name": "Final Wave",
+      "chapter": 7,
+      "season": "C7S1",
+      "kind": "Story Moment",
+      "locations": [
+        "Lethal Labs"
+      ],
+      "sourceId": "p5c-live-events"
+    },
+    {
+      "name": "Shattered",
+      "chapter": 7,
+      "season": "C7S2",
+      "kind": "Major",
+      "locations": [
+        "Dark Dominion"
+      ],
+      "sourceId": "p5c-live-events"
+    },
+    {
+      "name": "Unstable",
+      "chapter": 7,
+      "season": "C7S3",
+      "kind": "Story Moment",
+      "locations": [
+        "The Stabilizer"
+      ],
+      "sourceId": "p5c-live-events"
+    },
+    {
+      "name": "The Chest",
+      "chapter": 7,
+      "season": "C7S4",
+      "kind": "Story Moment",
+      "locations": [
+        "The Treasure Chest"
+      ],
+      "sourceId": "p5c-live-events"
+    }
+  ],
+  "wildlife": [
+    {
+      "name": "Sprites",
+      "sourceId": "p5c-wildlife",
+      "tameable": false,
+      "rideable": false,
+      "hostile": false
+    },
+    {
+      "name": "Chicken",
+      "sourceId": "p5c-wildlife",
+      "tameable": false,
+      "rideable": false,
+      "hostile": false
+    },
+    {
+      "name": "Frog",
+      "sourceId": "p5c-wildlife",
+      "tameable": false,
+      "rideable": false,
+      "hostile": false
+    },
+    {
+      "name": "Shade Wolf",
+      "sourceId": "p5c-wildlife",
+      "tameable": false,
+      "rideable": false,
+      "hostile": true
+    },
+    {
+      "name": "Wolf",
+      "sourceId": "p5c-wildlife",
+      "tameable": true,
+      "rideable": true,
+      "hostile": true
+    },
+    {
+      "name": "Boar",
+      "sourceId": "p5c-wildlife",
+      "tameable": true,
+      "rideable": true,
+      "hostile": true
+    },
+    {
+      "name": "Raptor",
+      "sourceId": "p5c-wildlife",
+      "tameable": true,
+      "rideable": true,
+      "hostile": true
+    },
+    {
+      "name": "Loot Shark",
+      "sourceId": "p5c-wildlife",
+      "tameable": false,
+      "rideable": true,
+      "hostile": true
+    },
+    {
+      "name": "Alien Parasite",
+      "sourceId": "p5c-wildlife",
+      "tameable": false,
+      "rideable": false,
+      "hostile": true
+    },
+    {
+      "name": "Cursed Llama",
+      "sourceId": "p5c-wildlife",
+      "tameable": false,
+      "rideable": false,
+      "hostile": false
+    },
+    {
+      "name": "Klombo",
+      "sourceId": "p5c-wildlife",
+      "tameable": false,
+      "rideable": false,
+      "hostile": false
+    },
+    {
+      "name": "Sky Jelly",
+      "sourceId": "p5c-wildlife",
+      "tameable": false,
+      "rideable": false,
+      "hostile": false
+    },
+    {
+      "name": "Wildwasp",
+      "sourceId": "p5c-wildlife",
+      "tameable": false,
+      "rideable": false,
+      "hostile": false
+    },
+    {
+      "name": "Swarmer",
+      "sourceId": "p5c-wildlife",
+      "tameable": false,
+      "rideable": false,
+      "hostile": true
+    },
+    {
+      "name": "Bomber",
+      "sourceId": "p5c-wildlife",
+      "tameable": false,
+      "rideable": false,
+      "hostile": true
+    },
+    {
+      "name": "Roly Poly",
+      "sourceId": "p5c-wildlife",
+      "tameable": false,
+      "rideable": false,
+      "hostile": false
+    },
+    {
+      "name": "Crow",
+      "sourceId": "p5c-wildlife",
+      "tameable": false,
+      "rideable": false,
+      "hostile": false
+    },
+    {
+      "name": "Firefly",
+      "sourceId": "p5c-firefly-jar",
+      "tameable": false,
+      "rideable": false,
+      "hostile": false
+    },
+    {
+      "name": "Supply Llama",
+      "sourceId": "p5c-supply-llama",
+      "tameable": false,
+      "rideable": false,
+      "hostile": false
+    }
+  ],
+  "retail": [
+    {
+      "name": "A Lot O' Auto",
+      "sourceId": "p5c-a-lot-o-27-auto",
+      "kind": "Car and boat dealership",
+      "locations": [
+        "Lazy Lake",
+        "Drop Shop",
+        "Tilted Towers"
+      ]
+    },
+    {
+      "name": "Barrel Restaurant",
+      "sourceId": "p5c-barrel-restaurant",
+      "kind": "Restaurant",
+      "locations": [
+        "Happy Hamlet",
+        "Misty Meadows"
+      ]
+    },
+    {
+      "name": "Big Shots",
+      "sourceId": "p5c-big-shots",
+      "kind": "Espresso chain",
+      "locations": [
+        "Retail Row",
+        "Tilted Towers",
+        "Paradise Palms",
+        "Happy Hamlet",
+        "Mega Mall",
+        "Moisty Palms",
+        "Craggy Cliffs",
+        "Lazy Lake",
+        "Misty Meadows",
+        "Catty Corner",
+        "GHOST Big Shots",
+        "Stonewood",
+        "Condo Canyon",
+        "Sleepy Sound",
+        "Latte Landing"
+      ]
+    },
+    {
+      "name": "Bobom Milk Tea",
+      "sourceId": "p5c-bobom-milk-tea",
+      "kind": "Boba Caf\u00e9 Franchise",
+      "locations": [
+        "Brick Bay",
+        "Reality: 783"
+      ]
+    },
+    {
+      "name": "BURD",
+      "sourceId": "p5c-burd-company",
+      "kind": "*Gas station chain\n*Fast food chain\n*Convenience store",
+      "locations": [
+        "Reality: 783",
+        "Reality: 857a",
+        "Reality: UN-149"
+      ]
+    },
+    {
+      "name": "Cap'n Carp",
+      "sourceId": "p5c-cap-27n-carp",
+      "kind": "Fishing equipment shop",
+      "locations": [
+        "Lazy Lake",
+        "Craggy Cliffs",
+        "Misty Meadows",
+        "Sweaty Sands",
+        "Cap'n Carp Delivery Truck",
+        "Boat N' Tackle",
+        "The Fortilla",
+        "Believer Beach",
+        "Camp Cuddle"
+      ]
+    },
+    {
+      "name": "Cuddle Buns",
+      "sourceId": "p5c-cuddle-buns",
+      "kind": "Restaurant Chain",
+      "locations": [
+        "Oninoshima",
+        "Skyline 10"
+      ]
+    },
+    {
+      "name": "Dodgy Brothers",
+      "sourceId": "p5c-dodgy-brothers",
+      "kind": "Car dealership",
+      "locations": [
+        "Tomato Town",
+        "Tomato Temple"
+      ]
+    },
+    {
+      "name": "Double Plump Buffet",
+      "sourceId": "p5c-double-plump-buffet",
+      "kind": "Restaurant",
+      "locations": [
+        "Neo Tilted"
+      ]
+    },
+    {
+      "name": "Dumpling",
+      "sourceId": "p5c-dumpling",
+      "kind": "Restaurant",
+      "locations": [
+        "Lucky Landing"
+      ]
+    },
+    {
+      "name": "Durrr Burger",
+      "sourceId": "p5c-durrr-burger",
+      "kind": "Fast food chain",
+      "locations": [
+        "The Plaza",
+        "Corruption Corners",
+        "Greasy Grove",
+        "Sports Center",
+        "Retail Row",
+        "Neo Tilted",
+        "Durrr Burger Food Truck",
+        "Logjam Lumberyard",
+        "The Durrr Burger",
+        "eAT-eAT"
+      ]
+    },
+    {
+      "name": "Durrr Sushi",
+      "sourceId": "p5c-durrr-sushi",
+      "kind": "Restaurant",
+      "locations": [
+        "Seaport City",
+        "Twinkle Terrace"
+      ]
+    },
+    {
+      "name": "Farmers Market",
+      "sourceId": "p5c-farmers-market",
+      "kind": "Market",
+      "locations": [
+        "The Orchard"
+      ]
+    },
+    {
+      "name": "Flush Factory Outlet",
+      "sourceId": "p5c-flush-factory-outlet",
+      "kind": "Store",
+      "locations": [
+        "Mega Mall"
+      ]
+    },
+    {
+      "name": "Fork Knife",
+      "sourceId": "p5c-fork-knife",
+      "kind": "Food",
+      "locations": [
+        "Retail Row",
+        "Fatal Fields",
+        "Fork Knife Food Truck",
+        "Trucker's Oasis"
+      ]
+    },
+    {
+      "name": "Garden Center",
+      "sourceId": "p5c-garden-center",
+      "kind": "Plants and gardening equipment shop",
+      "locations": [
+        "Holly Hedges",
+        "Holly Hatchery",
+        "Coney Crossroads"
+      ]
+    },
+    {
+      "name": "GAS",
+      "sourceId": "p5c-gas",
+      "kind": "Gas station chain",
+      "locations": [
+        "Holly Hedges",
+        "Colossal Crops",
+        "Gas N\u2019 Grub",
+        "Catty Corner",
+        "Misty Meadows",
+        "Steamy Stacks",
+        "Weeping Woods",
+        "Boney Burbs",
+        "Pleasant Park",
+        "Blue Steel Bridge",
+        "Sweaty Sands",
+        "Doom's Domain",
+        "Salty Springs",
+        "Salty Towers",
+        "Believer Beach",
+        "Sleepy Sound",
+        "Coney Crossroads",
+        "The Joneses",
+        "Rocky Reels",
+        "Frosty Fields",
+        "Camp Cuddle",
+        "Tilted Towers",
+        "Shroom Station",
+        "'Stools Fuels"
+      ]
+    },
+    {
+      "name": "Hey Boo!",
+      "sourceId": "p5c-hey-boo",
+      "kind": "Shop",
+      "locations": [
+        "Retail Row",
+        "Hey Boo! Megastore"
+      ]
+    },
+    {
+      "name": "Joel's Pub",
+      "sourceId": "p5c-joel-27s-pub",
+      "kind": "Landmark",
+      "locations": [
+        "Retail Row",
+        "Sweaty Sands",
+        "Believer Beach",
+        "Sleepy Sound"
+      ]
+    },
+    {
+      "name": "Junk 4 Cash Pawn Shop",
+      "sourceId": "p5c-junk-4-cash-pawn-shop",
+      "kind": "Pawn shop",
+      "locations": [
+        "Mega Mall"
+      ]
+    },
+    {
+      "name": "Just Build",
+      "sourceId": "p5c-just-build",
+      "kind": "Store",
+      "locations": [
+        "Neo Tilted"
+      ]
+    },
+    {
+      "name": "Knepley's Pawn Shop",
+      "sourceId": "p5c-knepley-27s-pawn-shop",
+      "kind": "Pawn Shop",
+      "locations": [
+        "Tilted Towers",
+        "Sweaty Sands",
+        "Pawntoon",
+        "Believer Beach",
+        "Condo Canyon",
+        "Cloudy Condos",
+        "'Loon Pawntoon",
+        "Tainted Towers"
+      ]
+    },
+    {
+      "name": "Madbuns",
+      "sourceId": "p5c-madbuns",
+      "kind": "Restaurant",
+      "locations": [
+        "Canyon Crossing"
+      ]
+    },
+    {
+      "name": "McGuffin's",
+      "sourceId": "p5c-mcguffin-27s",
+      "kind": "Bookstore",
+      "locations": [
+        "Retail Row",
+        "Tilted Towers",
+        "Paradise Palms",
+        "Happy Hamlet",
+        "Misty Meadows",
+        "The Daily Bugle"
+      ]
+    },
+    {
+      "name": "Mmmmm!",
+      "sourceId": "p5c-mmmmm",
+      "kind": "Restaurant",
+      "locations": [
+        "Neo Tilted"
+      ]
+    },
+    {
+      "name": "Noms",
+      "sourceId": "p5c-noms",
+      "kind": "Grocery shop",
+      "locations": [
+        "Retail Row",
+        "Tilted Towers",
+        "Happy Hamlet",
+        "Floating Island",
+        "Gotham City",
+        "Craggy Cliffs",
+        "Misty Meadows",
+        "Sweaty Sands",
+        "Salty Towers",
+        "Believer Beach",
+        "Sleepy Sound",
+        "Condo Canyon",
+        "Cloudy Condos",
+        "Faulty Splits",
+        "Ice Isle"
+      ]
+    },
+    {
+      "name": "Nugget Hut",
+      "sourceId": "p5c-nugget-hut",
+      "kind": "Restaurant",
+      "locations": [
+        "Neo Tilted"
+      ]
+    },
+    {
+      "name": "Oink!",
+      "sourceId": "p5c-oink",
+      "kind": "Butcher shop Restaurant",
+      "locations": [
+        "Happy Hamlet",
+        "Mega Mall",
+        "Craggy Cliffs",
+        "Misty Meadows"
+      ]
+    },
+    {
+      "name": "Outdoor Equipment Store",
+      "sourceId": "p5c-outdoor-equipment-store",
+      "kind": "Store",
+      "locations": [
+        "Greasy Grove",
+        "Retail Row",
+        "Tilted Towers",
+        "Happy Hamlet"
+      ]
+    },
+    {
+      "name": "Pass 'N' Gas",
+      "sourceId": "p5c-pass-27n-27-gas",
+      "kind": "Gas station chain",
+      "locations": [
+        "Loot Lake",
+        "Pleasant Park",
+        "Greasy Grove",
+        "Tomato Town",
+        "Sports Center",
+        "Convenience Store",
+        "Salty Springs",
+        "Lucky Landing",
+        "Tomato Temple",
+        "Blue Steel Bridge",
+        "The Pizza Pit"
+      ]
+    },
+    {
+      "name": "Pea Bois",
+      "sourceId": "p5c-pea-bois",
+      "kind": "Auto Mechanic shop",
+      "locations": []
+    },
+    {
+      "name": "Peely's Banana Stand",
+      "sourceId": "p5c-peely-27s-banana-stand",
+      "kind": "Food Stand",
+      "locations": [
+        "Neo Tilted",
+        "The Plaza"
+      ]
+    },
+    {
+      "name": "Puppuccino",
+      "sourceId": "p5c-puppuccino",
+      "kind": "",
+      "locations": []
+    },
+    {
+      "name": "Saucy Sausage",
+      "sourceId": "p5c-saucy-sausage",
+      "kind": "Fast food chain",
+      "locations": [
+        "Faulty Splits",
+        "eAT-eAT"
+      ]
+    },
+    {
+      "name": "Scoops Ahoy",
+      "sourceId": "p5c-scoops-ahoy",
+      "kind": "Ice Cream Parlor",
+      "locations": [
+        "Mega Mall"
+      ]
+    },
+    {
+      "name": "Sew What",
+      "sourceId": "p5c-sew-what",
+      "kind": "Shop",
+      "locations": [
+        "Mega Mall"
+      ]
+    },
+    {
+      "name": "Shakes & Burgers",
+      "sourceId": "p5c-shakes-26-burgers",
+      "kind": "Diner",
+      "locations": [
+        "Paradise Palms"
+      ]
+    },
+    {
+      "name": "ShoulderPadz",
+      "sourceId": "p5c-shoulderpadz",
+      "kind": "Shop",
+      "locations": [
+        "Mega Mall"
+      ]
+    },
+    {
+      "name": "Snow Cones",
+      "sourceId": "p5c-snow-cones",
+      "kind": "Snow cone",
+      "locations": [
+        "Trucker's Oasis",
+        "Green Bridge",
+        "Dusty Divot",
+        "Loot Lake",
+        "Neo Tilted",
+        "Lazy Lagoon",
+        "Snow Cone Food Truck"
+      ]
+    },
+    {
+      "name": "SoFDeeZ",
+      "sourceId": "p5c-sofdeez",
+      "kind": "Ice Cream Shop",
+      "locations": [
+        "Race Track",
+        "Sweaty Sands",
+        "Believer Beach",
+        "Coney Crossroads",
+        "Condo Canyon",
+        "Rocky Reels"
+      ]
+    },
+    {
+      "name": "Spillexx",
+      "sourceId": "p5c-spillexx",
+      "kind": "Gas station chain",
+      "locations": [
+        "Athena",
+        "Artemis",
+        "Asteria",
+        "Helios"
+      ]
+    },
+    {
+      "name": "Station 99",
+      "sourceId": "p5c-station-99",
+      "kind": "Gas station chain",
+      "locations": [
+        "Thunder Route 99",
+        "Paradise Palms",
+        "Moisty Palms",
+        "The Fortilla"
+      ]
+    },
+    {
+      "name": "Sticks",
+      "sourceId": "p5c-sticks",
+      "kind": "Restaurant",
+      "locations": [
+        "Neo Tilted",
+        "Spawn Island",
+        "Craggy Cliffs",
+        "The Plaza",
+        "The Fortilla",
+        "Pleasant Park",
+        "Float Fillet",
+        "Sunburned Shacks",
+        "Sleepy Sound",
+        "Shiny Sound",
+        "Sticks"
+      ]
+    },
+    {
+      "name": "Tacos",
+      "sourceId": "p5c-tacos",
+      "kind": "Fast food chain",
+      "locations": [
+        "The Plaza",
+        "eAT-eAT",
+        "Retail Row",
+        "Tomato Town",
+        "Tilted Towers",
+        "Sports Center",
+        "Outskirts",
+        "Race Track",
+        "Mega Mall",
+        "Greasy Grove",
+        "Sweaty Sands",
+        "The Yacht",
+        "Motorboat Mayhem",
+        "Believer Beach",
+        "Rocky Reels"
+      ]
+    },
+    {
+      "name": "The Gilded Lady",
+      "sourceId": "p5c-the-gilded-lady",
+      "kind": "Shop",
+      "locations": [
+        "Lazy Lake"
+      ]
+    },
+    {
+      "name": "The Thousand Faces",
+      "sourceId": "p5c-the-thousand-faces",
+      "kind": "Masks Shop",
+      "locations": [
+        "Oninoshima",
+        "Masked Meadows",
+        "Demon's Domain"
+      ]
+    },
+    {
+      "name": "Totally Tunage",
+      "sourceId": "p5c-totally-tunage",
+      "kind": "Shop",
+      "locations": [
+        "Mega Mall"
+      ]
+    },
+    {
+      "name": "Toys",
+      "sourceId": "p5c-toys-store",
+      "kind": "Shop",
+      "locations": [
+        "Mega Mall"
+      ]
+    },
+    {
+      "name": "Truck 'N' Oasis",
+      "sourceId": "p5c-truck-27n-27-oasis",
+      "kind": "Gas station chain",
+      "locations": [
+        "Trucker's Oasis"
+      ]
+    },
+    {
+      "name": "Uncle Pete's Pizza Pit",
+      "sourceId": "p5c-uncle-pete-27s-pizza-pit",
+      "kind": "Restaurant",
+      "locations": [
+        "The Plaza",
+        "eAT-eAT",
+        "Tomato Town",
+        "Retail Row",
+        "Mega Mall",
+        "Pizza Pete's Food Truck",
+        "Crusty Cruiser",
+        "The Pizza Pit",
+        "The Bridge",
+        "Tilted Towers",
+        "Slappy Shores",
+        "Ice Isle"
+      ]
+    },
+    {
+      "name": "Unnamed Bakery",
+      "sourceId": "p5c-unnamed-bakery",
+      "kind": "Bakery",
+      "locations": [
+        "Lucky Landing",
+        "Happy Hamlet",
+        "Sweaty Sands",
+        "Believer Beach"
+      ]
+    },
+    {
+      "name": "Unnamed Cafe",
+      "sourceId": "p5c-unnamed-cafe",
+      "kind": "Cafe",
+      "locations": [
+        "Lucky Landing",
+        "Happy Hamlet",
+        "Sweaty Sands",
+        "Misty Meadows",
+        "Believer Beach",
+        "Rocky Reels",
+        "The Daily Bugle",
+        "Tilted Towers"
+      ]
+    },
+    {
+      "name": "Unnamed Car Dealership",
+      "sourceId": "p5c-unnamed-car-dealership",
+      "kind": "Car dealership",
+      "locations": [
+        "Paradise Palms",
+        "Moisty Palms"
+      ]
+    }
+  ],
+  "traps": [
+    {
+      "name": "Wall Dynamo",
+      "sourceId": "p5c-traps"
+    },
+    {
+      "name": "Ceiling Zapper",
+      "sourceId": "p5c-traps"
+    },
+    {
+      "name": "Jump Pad (Directional)",
+      "sourceId": "p5c-traps"
+    },
+    {
+      "name": "Jump Pad (Up)",
+      "sourceId": "p5c-traps"
+    },
+    {
+      "name": "Damage Trap",
+      "sourceId": "p5c-traps"
+    },
+    {
+      "name": "Launch Pad",
+      "sourceId": "p5c-traps"
+    },
+    {
+      "name": "Cozy Campfire",
+      "sourceId": "p5c-traps"
+    },
+    {
+      "name": "Bouncer",
+      "sourceId": "p5c-traps"
+    },
+    {
+      "name": "Chiller",
+      "sourceId": "p5c-traps"
+    },
+    {
+      "name": "Mounted Turret",
+      "sourceId": "p5c-traps"
+    },
+    {
+      "name": "Poison Dart Trap",
+      "sourceId": "p5c-traps"
+    },
+    {
+      "name": "Fire Trap",
+      "sourceId": "p5c-traps"
+    },
+    {
+      "name": "Armored Wall",
+      "sourceId": "p5c-traps"
+    }
+  ],
+  "externalItems": [
+    {
+      "name": "Smoke Grenade",
+      "seasonLabel": "Season 1",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Boogie Bomb",
+      "seasonLabel": "Season 2",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Impulse Grenade",
+      "seasonLabel": "Season 2",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Port-A-Fort",
+      "seasonLabel": "Season 3",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Stink Bomb",
+      "seasonLabel": "Season 4",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Shockwave Grenade",
+      "seasonLabel": "Season 4",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Jetpack",
+      "seasonLabel": "Season 4",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Rift-To-Go",
+      "seasonLabel": "Season 5",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Port-A-Fortress",
+      "seasonLabel": "Season 5",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Balloon",
+      "seasonLabel": "Season 6",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Chiller Grenade",
+      "seasonLabel": "Season 7",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Boom Box",
+      "seasonLabel": "Season 7",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Presents!",
+      "seasonLabel": "Season 7",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Shadow Bomb",
+      "seasonLabel": "Season 8",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Buried Treasure",
+      "seasonLabel": "Season 8",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Storm Flip",
+      "seasonLabel": "Season 9",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Chug Splash",
+      "seasonLabel": "Season 9",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Birthday Presents!",
+      "seasonLabel": "Season 9",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Junk Rift",
+      "seasonLabel": "Season X",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Shield Bubble",
+      "seasonLabel": "Season X",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Zapper Trap",
+      "seasonLabel": "Season X",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Spiky Stadium",
+      "seasonLabel": "Season 5",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode"
+    },
+    {
+      "name": "Port-A-Challenge Build 1",
+      "seasonLabel": "Season 6",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode"
+    },
+    {
+      "name": "Port-A-Challenge Build 2",
+      "seasonLabel": "Season 6",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode"
+    },
+    {
+      "name": "Port-A-Challenge Build 3",
+      "seasonLabel": "Season 6",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode"
+    },
+    {
+      "name": "Port-A-Challenge Build 4",
+      "seasonLabel": "Season 6",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode"
+    },
+    {
+      "name": "Port-A-Challenge Build 1",
+      "seasonLabel": "Season 6",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode"
+    },
+    {
+      "name": "Port-A-Challenge Build 2",
+      "seasonLabel": "Season 6",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode"
+    },
+    {
+      "name": "Port-A-Challenge Build 3",
+      "seasonLabel": "Season 6",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode"
+    },
+    {
+      "name": "Port-A-Challenge Build 4",
+      "seasonLabel": "Season 6",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode"
+    },
+    {
+      "name": "Port-A-Challenge Build 1",
+      "seasonLabel": "Season 6",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode"
+    },
+    {
+      "name": "Port-A-Challenge Build 2",
+      "seasonLabel": "Season 6",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode"
+    },
+    {
+      "name": "Port-A-Challenge Build 3",
+      "seasonLabel": "Season 6",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode"
+    },
+    {
+      "name": "Port-A-Challenge Build 4",
+      "seasonLabel": "Season 6",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode"
+    },
+    {
+      "name": "Port-A-Iron Clad",
+      "seasonLabel": "Season 6",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode"
+    },
+    {
+      "name": "Port-A-PirateShip",
+      "seasonLabel": "Season 6",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode"
+    },
+    {
+      "name": "Rusty Can",
+      "seasonLabel": "Chapter 2: Season 1",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Mythic Goldfish",
+      "seasonLabel": "Chapter 2: Season 1",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Crash Pad",
+      "seasonLabel": "Chapter 2: Season 2",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Flare Gun",
+      "seasonLabel": "Chapter 2: Season 3",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Holiday Presents!",
+      "seasonLabel": "Chapter 2: Season 5",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Sneaky Snowmando",
+      "seasonLabel": "Chapter 2: Season 5",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Recon Scanner",
+      "seasonLabel": "Chapter 2: Season 7",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Alien Nanites",
+      "seasonLabel": "Chapter 2: Season 7",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Chili Chug Splash",
+      "seasonLabel": "Chapter 2: Season 8",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Icy Grappler",
+      "seasonLabel": "Chapter 2: Season 8",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Burger",
+      "seasonLabel": "Chapter 2: Season 2",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode"
+    },
+    {
+      "name": "Tomato",
+      "seasonLabel": "Chapter 2: Season 2",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode"
+    },
+    {
+      "name": "Orange Paint Grenade",
+      "seasonLabel": "Chapter 2: Season 2",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode"
+    },
+    {
+      "name": "Purple Paint Grenade",
+      "seasonLabel": "Chapter 2: Season 2",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode"
+    },
+    {
+      "name": "Stink Bomb",
+      "seasonLabel": "Chapter 2: Season 2",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode"
+    },
+    {
+      "name": "Shield Bubble",
+      "seasonLabel": "Chapter 2: Season 2",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode"
+    },
+    {
+      "name": "Chug Splash",
+      "seasonLabel": "Chapter 2: Season 2",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode"
+    },
+    {
+      "name": "Med-Mist",
+      "seasonLabel": "Chapter 3: Season 1",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Guzzle Juice",
+      "seasonLabel": "Chapter 3: Season 1",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Tent",
+      "seasonLabel": "Chapter 3: Season 1",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Pizza Party",
+      "seasonLabel": "Chapter 3: Season 1",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Pizza Slice",
+      "seasonLabel": "Chapter 3: Season 1",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Shield Keg",
+      "seasonLabel": "Chapter 3: Season 1",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Drake's Map",
+      "seasonLabel": "Chapter 3: Season 1",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Repair Torch",
+      "seasonLabel": "Chapter 3: Season 2",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Reality Seed",
+      "seasonLabel": "Chapter 3: Season 3",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Grapple Glove",
+      "seasonLabel": "Chapter 3: Season 3",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Firework Flare Gun",
+      "seasonLabel": "Chapter 3: Season 3",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Launch Pad",
+      "seasonLabel": "Chapter 3: Season 4",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Port-A-Bunker",
+      "seasonLabel": "Chapter 3: Season 4",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Junk Rift",
+      "seasonLabel": "Chapter 3: Season 4",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Dial-A-Drop",
+      "seasonLabel": "Chapter 3: Season 4",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "SypherPK Trap Tower",
+      "seasonLabel": "Chapter 3: Season 4",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode"
+    },
+    {
+      "name": "Guardian Shield",
+      "seasonLabel": "Chapter 4: Season 1",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Big Bush Bomb",
+      "seasonLabel": "Chapter 4: Season 1",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Falcon Scout",
+      "seasonLabel": "Chapter 4: Season 1",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Shockwave Hammer",
+      "seasonLabel": "Chapter 4: Season 1",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "The Ageless Champion's Shockwave Hammer",
+      "seasonLabel": "Chapter 4: Season 1",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "ODM Gear",
+      "seasonLabel": "Chapter 4: Season 2",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Kinetic Boomerang",
+      "seasonLabel": "Chapter 4: Season 3",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Slap Splash",
+      "seasonLabel": "Chapter 4: Season 3",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Super Slap Splash",
+      "seasonLabel": "Chapter 4: Season 3",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Cloak Gauntlets",
+      "seasonLabel": "Chapter 4: Season 3",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Wildguard Relik's Cloak Gauntlets",
+      "seasonLabel": "Chapter 4: Season 3",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Straw Doll Technique",
+      "seasonLabel": "Chapter 4: Season 3",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Crash Pad Jr.",
+      "seasonLabel": "Chapter 4: Season 4",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Rocket Ram",
+      "seasonLabel": "Chapter 4: Season 4",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Todoroki's Ice Wall",
+      "seasonLabel": "Chapter 4: Season 4",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Rift-To-Go",
+      "seasonLabel": "Chapter 4: Season OG",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Patchwork Tool",
+      "seasonLabel": "Chapter 4: Season OG",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "Creative/UEFN only"
+    },
+    {
+      "name": "TMNT Pizza Party",
+      "seasonLabel": "Chapter 5: Season 1",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Wings of Icarus",
+      "seasonLabel": "Chapter 5: Season 2",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Shield Bubble Jr.",
+      "seasonLabel": "Chapter 5: Season 2",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Banana of the Gods",
+      "seasonLabel": "Chapter 5: Season 2",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Waterbending",
+      "seasonLabel": "Chapter 5: Season 2",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Earthbending",
+      "seasonLabel": "Chapter 5: Season 2",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Firebending",
+      "seasonLabel": "Chapter 5: Season 2",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Airbending",
+      "seasonLabel": "Chapter 5: Season 2",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Nitro Fists",
+      "seasonLabel": "Chapter 5: Season 3",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Megalo Don's Nitro Fists",
+      "seasonLabel": "Chapter 5: Season 3",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Magneto Power",
+      "seasonLabel": "Chapter 5: Season 3",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Ship In a Bottle",
+      "seasonLabel": "Chapter 5: Season 3",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Captain America's Shield",
+      "seasonLabel": "Chapter 5: Season 4",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Iron Man's Flight Kit",
+      "seasonLabel": "Chapter 5: Season 4",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Double G Bomb",
+      "seasonLabel": "Chapter 2 Remix",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Ice Spice's Grappler",
+      "seasonLabel": "Chapter 2 Remix",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Shockwave Grenade",
+      "seasonLabel": "Chapter 5: Season 4",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Typhoon Blade",
+      "seasonLabel": "Chapter 6: Season 1",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Blizzard Grenade",
+      "seasonLabel": "Chapter 6: Season 1",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Icy Feet",
+      "seasonLabel": "Chapter 6: Season 1",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Port-A-Cover",
+      "seasonLabel": "Chapter 6: Season 2",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Pulse Scanner",
+      "seasonLabel": "Chapter 6: Season 2",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Rocket Drill",
+      "seasonLabel": "Chapter 6: Season 2",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Thermal Imploder",
+      "seasonLabel": "Chapter 6: Mini Season 1",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Krypto Treat",
+      "seasonLabel": "Chapter 6: Season 3",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Wingshot Grappler",
+      "seasonLabel": "Chapter 6: Season 3",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Bass Boost",
+      "seasonLabel": "Chapter 6: Season 3",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Myst Form",
+      "seasonLabel": "Chapter 6: Season 3",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Storm Beast's Pom Poms",
+      "seasonLabel": "Chapter 6: Season 3",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Surf Cube",
+      "seasonLabel": "Chapter 6: Season 3",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Lightrider's Surf Cube",
+      "seasonLabel": "Chapter 6: Season 3",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Tracking Visor",
+      "seasonLabel": "Chapter 6: Season 3",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Super Launch Pad",
+      "seasonLabel": "Chapter 6: Season 4",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Zoey's Bubble Shield",
+      "seasonLabel": "Chapter 6: Season 4",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Big Bush Bomb",
+      "seasonLabel": "Chapter 6: Mini Season 2",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Chug Splash",
+      "seasonLabel": "Chapter 6: Mini Season 2",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Launch Pad",
+      "seasonLabel": "OG Chapter 1: Season 1",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode"
+    },
+    {
+      "name": "Smoke Grenade",
+      "seasonLabel": "OG Chapter 1: Season 1",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode"
+    },
+    {
+      "name": "Rift Point Device",
+      "seasonLabel": "Chapter 6: Season 1",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode"
+    },
+    {
+      "name": "Boogie Bomb",
+      "seasonLabel": "OG Chapter 1: Season 2",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode"
+    },
+    {
+      "name": "Impulse Grenade",
+      "seasonLabel": "OG Chapter 1: Season 2",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode"
+    },
+    {
+      "name": "Port-A-Fort",
+      "seasonLabel": "OG Chapter 1: Season 3",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode"
+    },
+    {
+      "name": "Jetpack",
+      "seasonLabel": "OG Chapter 1: Season 3",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode"
+    },
+    {
+      "name": "Stink Bomb",
+      "seasonLabel": "OG Chapter 1: Season 4",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode"
+    },
+    {
+      "name": "Ddakji (Blue)",
+      "seasonLabel": "Chapter 6: Season 3",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "Creative/UEFN only"
+    },
+    {
+      "name": "Ddakji (Red)",
+      "seasonLabel": "Chapter 6: Season 3",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "Creative/UEFN only"
+    },
+    {
+      "name": "Flying Stone",
+      "seasonLabel": "Chapter 6: Season 3",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "Creative/UEFN only"
+    },
+    {
+      "name": "Blitz Boss Ninja's More Movement Bomb",
+      "seasonLabel": "Chapter 6: Season 3",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode"
+    },
+    {
+      "name": "Blitz Chains of Hades",
+      "seasonLabel": "Chapter 6: Season 3",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode"
+    },
+    {
+      "name": "Blitz Rocket Drill",
+      "seasonLabel": "Chapter 6: Season 3",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode"
+    },
+    {
+      "name": "Blitz Rocket Ram",
+      "seasonLabel": "Chapter 6: Season 3",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode"
+    },
+    {
+      "name": "Balloons",
+      "seasonLabel": "OG Chapter 1: Season 5",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode"
+    },
+    {
+      "name": "Rift-To-Go",
+      "seasonLabel": "OG Chapter 1: Season 5",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode"
+    },
+    {
+      "name": "Shockwave Grenade",
+      "seasonLabel": "OG Chapter 1: Season 5",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode"
+    },
+    {
+      "name": "Port-A-Fortress",
+      "seasonLabel": "OG Chapter 1: Season 5",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode"
+    },
+    {
+      "name": "Birthday Presents!",
+      "seasonLabel": "OG Chapter 1: Season 5",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode"
+    },
+    {
+      "name": "Balloon Boom Box",
+      "seasonLabel": "Chapter 6: Mini Season 2",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode"
+    },
+    {
+      "name": "Thermal Imploder",
+      "seasonLabel": "Chapter 6: Mini Season 1",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Beach Brutus' Kit",
+      "seasonLabel": "Chapter 7: Season 1",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Human Bill's Kit",
+      "seasonLabel": "Chapter 7: Season 1",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Hush's Kit",
+      "seasonLabel": "Chapter 7: Season 1",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Yule Trooper's Kit",
+      "seasonLabel": "Chapter 7: Season 1",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "The Perfect Gift",
+      "seasonLabel": "Chapter 7: Season 1",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Cheesy Poofs",
+      "seasonLabel": "Chapter 7: Season 1",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Stick of Truth",
+      "seasonLabel": "Chapter 7: Season 1",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Bigfoot's Kit",
+      "seasonLabel": "Chapter 7: Season 1",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Brick-A-Bunker",
+      "seasonLabel": "Chapter 7: Season 2",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Overdrive Grenade",
+      "seasonLabel": "Chapter 7: Season 2",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Skyline Deployer",
+      "seasonLabel": "Chapter 7: Season 2",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Seven Power Gloves",
+      "seasonLabel": "Chapter 7: Season 2",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Foundation's Power Gloves",
+      "seasonLabel": "Chapter 7: Season 2",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Slapperoni Pizza",
+      "seasonLabel": "Chapter 7: Season 2",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Pocket Shield Bubble",
+      "seasonLabel": "Chapter 7: Season 2",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Pocket Shockwave Grenade",
+      "seasonLabel": "Chapter 7: Season 2",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Pocket Crash Pad Jr.",
+      "seasonLabel": "Chapter 7: Season 2",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Smoke Cloud",
+      "seasonLabel": "Chapter 7: Season 2",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Shrub Bomb",
+      "seasonLabel": "Chapter 7: Season 2",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Caduceus Staff",
+      "seasonLabel": "Chapter 7: Season 2",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Seven Sliders",
+      "seasonLabel": "Chapter 7: Season 3",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Limitless Seven Sliders",
+      "seasonLabel": "Chapter 7: Season 3",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Portable Extractor",
+      "seasonLabel": "Chapter 7: Season 3",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Sprite Locator",
+      "seasonLabel": "Chapter 7: Season 3",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Extraction Site Booster",
+      "seasonLabel": "Chapter 7: Season 3",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Lucky Locator",
+      "seasonLabel": "Chapter 7: Season 3",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Pocket Crash Pad Jr.",
+      "seasonLabel": "Chapter 7: Season 3",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Pocket Port-A-Cover",
+      "seasonLabel": "Chapter 7: Season 3",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Friend Zone Bubble",
+      "seasonLabel": "Chapter 7: Season 3",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Batman Grapnel Gun",
+      "seasonLabel": "Chapter 7: Season 3",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Sonic Power Sneakers",
+      "seasonLabel": "Chapter 7: Season 4",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Tetris Rift",
+      "seasonLabel": "Chapter 7: Season 4",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Pocket Rift",
+      "seasonLabel": "Chapter 7: Season 4",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Shield Keg",
+      "seasonLabel": "Chapter 7: Season 4",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Pocket Shield Bubble Jr.",
+      "seasonLabel": "Chapter 7: Season 4",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Kingdom Key",
+      "seasonLabel": "Chapter 7: Season 4",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Sprite Treasure Map",
+      "seasonLabel": "Treasure Hunters",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Flame-Flame Fruit",
+      "seasonLabel": "Treasure Hunters",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Zoro's Three Sword Style",
+      "seasonLabel": "Treasure Hunters",
+      "sourceId": "p5c-utility-items",
+      "exclusion": null
+    },
+    {
+      "name": "Updoot",
+      "seasonLabel": "Chapter 7: Season 1",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode"
+    },
+    {
+      "name": "Chiller Grenade",
+      "seasonLabel": "OG Chapter 1: Season 7",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode"
+    },
+    {
+      "name": "Boom Box",
+      "seasonLabel": "OG Chapter 1: Season 7",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode"
+    },
+    {
+      "name": "Presents!",
+      "seasonLabel": "OG Chapter 1: Season 7",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode"
+    },
+    {
+      "name": "Sneaky Snowman",
+      "seasonLabel": "OG Chapter 1: Season 7",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode"
+    },
+    {
+      "name": "Enhanced Mandalorian Jetpack",
+      "seasonLabel": "Chapter 7: Season 2",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "Creative/UEFN only"
+    },
+    {
+      "name": "Orbliterator",
+      "seasonLabel": "Chapter 7: Season 2",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode"
+    },
+    {
+      "name": "Shadow Bomb",
+      "seasonLabel": "OG Chapter 1: Season 8",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode"
+    },
+    {
+      "name": "Captain America's Shield",
+      "seasonLabel": "OG Chapter 1: Season 8",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode"
+    },
+    {
+      "name": "Iron Man's Flight Kit",
+      "seasonLabel": "OG Chapter 1: Season 8",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode"
+    },
+    {
+      "name": "Chug Splash",
+      "seasonLabel": "OG Chapter 1: Season 9",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode"
+    },
+    {
+      "name": "Storm Flip",
+      "seasonLabel": "OG Chapter 1: Season 9",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode"
+    },
+    {
+      "name": "Junk Rift",
+      "seasonLabel": "OG Chapter 1: Season X",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode"
+    },
+    {
+      "name": "Zapper Trap",
+      "seasonLabel": "OG Chapter 1: Season X",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode"
+    },
+    {
+      "name": "Shield Bubble",
+      "seasonLabel": "OG Chapter 1: Season X",
+      "sourceId": "p5c-utility-items",
+      "exclusion": "separate mode"
+    },
+    {
+      "name": "Legacy Bandage",
+      "seasonLabel": "Pre-Season",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Legacy Med Kit",
+      "seasonLabel": "Pre-Season",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Legacy Shield Potion",
+      "seasonLabel": "Pre-Season",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Bush",
+      "seasonLabel": "Season 1",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Slurp Juice",
+      "seasonLabel": "Season 1",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Legacy Small Shield Potion",
+      "seasonLabel": "Season 2",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Legacy Chug Jug",
+      "seasonLabel": "Season 2",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Grappler",
+      "seasonLabel": "Season 5",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Sneaky Snowman",
+      "seasonLabel": "Season 7",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Gliders",
+      "seasonLabel": "Season 7",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Buried Treasure",
+      "seasonLabel": "Season 8",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Air Strike",
+      "seasonLabel": "Season 9",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Bandage Bazooka",
+      "seasonLabel": "Chapter 2: Season 1",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Fishing Rod",
+      "seasonLabel": "Chapter 2: Season 1",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Small Fry",
+      "seasonLabel": "Chapter 2: Season 1",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Flopper",
+      "seasonLabel": "Chapter 2: Season 1",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Slurpfish",
+      "seasonLabel": "Chapter 2: Season 1",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Harpoon Gun",
+      "seasonLabel": "Chapter 2: Season 1",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Lump Of Coal",
+      "seasonLabel": "Chapter 2: Season 1",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Creepin' Cardboard",
+      "seasonLabel": "Chapter 2: Season 2",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Skye's Grappler",
+      "seasonLabel": "Chapter 2: Season 2",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Decoy",
+      "seasonLabel": "Chapter 2: Season 2",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Jules' Glider Gun",
+      "seasonLabel": "Chapter 2: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Ocean's Bottomless Chug Jug",
+      "seasonLabel": "Chapter 2: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Apple",
+      "seasonLabel": "Chapter 2: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Pepper",
+      "seasonLabel": "Chapter 2: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Banana",
+      "seasonLabel": "Chapter 2: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Cabbage",
+      "seasonLabel": "Chapter 2: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Coconut",
+      "seasonLabel": "Chapter 2: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Corn",
+      "seasonLabel": "Chapter 2: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Shield Mushroom",
+      "seasonLabel": "Chapter 2: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Slurp Mushroom",
+      "seasonLabel": "Chapter 2: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Upgrade Bench",
+      "seasonLabel": "Chapter 2: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Jellyfish",
+      "seasonLabel": "Chapter 2: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Shield Fish",
+      "seasonLabel": "Chapter 2: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Spicy Fish",
+      "seasonLabel": "Chapter 2: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Hop Flopper",
+      "seasonLabel": "Chapter 2: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Thermal Fish",
+      "seasonLabel": "Chapter 2: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Midas Flopper",
+      "seasonLabel": "Chapter 2: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Vendetta Flopper",
+      "seasonLabel": "Chapter 2: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Pro Fishing Rod",
+      "seasonLabel": "Chapter 2: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Thor's Mjolnir Strike",
+      "seasonLabel": "Chapter 2: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Storm's Whirlwind Blast",
+      "seasonLabel": "Chapter 2: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Candy Corn",
+      "seasonLabel": "Chapter 2: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Hop Drop",
+      "seasonLabel": "Chapter 2: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Jelly Bean",
+      "seasonLabel": "Chapter 2: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Pepper Mint",
+      "seasonLabel": "Chapter 2: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Thermal Taffy",
+      "seasonLabel": "Chapter 2: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Zero Point Fish",
+      "seasonLabel": "Chapter 2: Season 5",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Rift Fish",
+      "seasonLabel": "Chapter 2: Season 5",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Snowy Flopper",
+      "seasonLabel": "Chapter 2: Season 5",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Chug Cannon",
+      "seasonLabel": "Chapter 2: Season 5",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Meat",
+      "seasonLabel": "Chapter 2: Season 6",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Stink Fish",
+      "seasonLabel": "Chapter 2: Season 6",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Vehicle Mod: Off-Road Tires",
+      "seasonLabel": "Chapter 2: Season 6",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Bouncy Egg",
+      "seasonLabel": "Chapter 2: Season 6",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Shadow Flopper",
+      "seasonLabel": "Chapter 2: Season 8",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Zero Point Pretzel",
+      "seasonLabel": "Chapter 2: Season 8",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Enemy Bot Grenade",
+      "seasonLabel": "Chapter 2: Season 1",
+      "sourceId": "p5c-consumables",
+      "exclusion": "separate mode"
+    },
+    {
+      "name": "Friendly Bot Grenade",
+      "seasonLabel": "Chapter 2: Season 1",
+      "sourceId": "p5c-consumables",
+      "exclusion": "separate mode"
+    },
+    {
+      "name": "Bandage Bazooka",
+      "seasonLabel": "Chapter 2: Season 2",
+      "sourceId": "p5c-consumables",
+      "exclusion": "separate mode"
+    },
+    {
+      "name": "Grappler",
+      "seasonLabel": "Chapter 2: Season 2",
+      "sourceId": "p5c-consumables",
+      "exclusion": "separate mode"
+    },
+    {
+      "name": "Bandage Bazooka",
+      "seasonLabel": "Chapter 2: Season 5",
+      "sourceId": "p5c-consumables",
+      "exclusion": "separate mode"
+    },
+    {
+      "name": "Revive Grenade",
+      "seasonLabel": "Chapter 2: Season 5",
+      "sourceId": "p5c-consumables",
+      "exclusion": "separate mode"
+    },
+    {
+      "name": "Creative Fishing Rod",
+      "seasonLabel": "Chapter 2: Season 7",
+      "sourceId": "p5c-consumables",
+      "exclusion": "Creative/UEFN only"
+    },
+    {
+      "name": "Creative Pro Fishing Rod",
+      "seasonLabel": "Chapter 2: Season 7",
+      "sourceId": "p5c-consumables",
+      "exclusion": "Creative/UEFN only"
+    },
+    {
+      "name": "Klomberry",
+      "seasonLabel": "Chapter 3: Season 1",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Vehicle Mod: Cow Catcher",
+      "seasonLabel": "Chapter 3: Season 2",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Ripsaw Launcher",
+      "seasonLabel": "Chapter 3: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Icecream Cone",
+      "seasonLabel": "Chapter 3: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Spicy Icecream Cone",
+      "seasonLabel": "Chapter 3: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Frozen Icecream Cone",
+      "seasonLabel": "Chapter 3: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Guzzling Icecream Cone",
+      "seasonLabel": "Chapter 3: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Lil'Whip's Special Serve",
+      "seasonLabel": "Chapter 3: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Chrome Splash",
+      "seasonLabel": "Chapter 3: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Grapple Glider",
+      "seasonLabel": "Chapter 3: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Grapple Glider",
+      "seasonLabel": "Chapter 3: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": "separate mode"
+    },
+    {
+      "name": "Slap Berry",
+      "seasonLabel": "Chapter 4: Season 1",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Slap Juice",
+      "seasonLabel": "Chapter 4: Season 1",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Heal Egg",
+      "seasonLabel": "Chapter 4: Season 2",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Hop Egg",
+      "seasonLabel": "Chapter 4: Season 2",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Wildwasp Jar",
+      "seasonLabel": "Chapter 4: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Business Turret",
+      "seasonLabel": "Chapter 4: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Bush",
+      "seasonLabel": "Chapter 4: Season OG",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Bandage",
+      "seasonLabel": "Chapter 5: Season 1",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Small Shield Potion",
+      "seasonLabel": "Chapter 5: Season 1",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Shield Potion",
+      "seasonLabel": "Chapter 5: Season 1",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Med Kit",
+      "seasonLabel": "Chapter 5: Season 1",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "FlowBerry",
+      "seasonLabel": "Chapter 5: Season 1",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Cluster Clinger",
+      "seasonLabel": "Chapter 5: Season 1",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "FlowBerry Fizz",
+      "seasonLabel": "Chapter 5: Season 1",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Thunderbolt of Zeus",
+      "seasonLabel": "Chapter 5: Season 2",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Nuka-Cola",
+      "seasonLabel": "Chapter 5: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Bandage Bazooka",
+      "seasonLabel": "Chapter 2 Remix",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Slurp Juice",
+      "seasonLabel": "Chapter 2 Remix",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Chug Jug",
+      "seasonLabel": "Chapter 2 Remix",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Juice's Chug Cannon",
+      "seasonLabel": "Chapter 2 Remix",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Zeus' Lightning Bolt",
+      "seasonLabel": "Chapter 5: Season 2",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Godzilla's Fragment",
+      "seasonLabel": "Chapter 6: Season 1",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Chug Jug",
+      "seasonLabel": "Chapter 6: Season 2",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Thermite",
+      "seasonLabel": "Chapter 6: Season 2",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Gold Splash",
+      "seasonLabel": "Chapter 6: Season 2",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Med-Mist Smoke Grenade",
+      "seasonLabel": "Chapter 6: Season 2",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Lawless Slap Cannon",
+      "seasonLabel": "Chapter 6: Season 2",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Lawless Slap Jug",
+      "seasonLabel": "Chapter 6: Season 2",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Exotic SlapBerry Fizz",
+      "seasonLabel": "Chapter 6: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Precision Air Strike",
+      "seasonLabel": "Chapter 6: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Mira's X-tra Spicy Ramyeon",
+      "seasonLabel": "Chapter 6: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Scooby Snacks",
+      "seasonLabel": "Chapter 6: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Krusty Burger",
+      "seasonLabel": "Chapter 6: Mini Season 2",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Super Squishee",
+      "seasonLabel": "Chapter 6: Mini Season 2",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Blinky Fish",
+      "seasonLabel": "Chapter 6: Mini Season 2",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Chug Jug",
+      "seasonLabel": "Chapter 6: Mini Season 2",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Tomato",
+      "seasonLabel": "Chapter 6: Mini Season 2",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Tomato (???)",
+      "seasonLabel": "Chapter 6: Mini Season 2",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Bandage",
+      "seasonLabel": "OG Chapter 1: Season 1",
+      "sourceId": "p5c-consumables",
+      "exclusion": "separate mode"
+    },
+    {
+      "name": "Shield Potion",
+      "seasonLabel": "OG Chapter 1: Season 1",
+      "sourceId": "p5c-consumables",
+      "exclusion": "separate mode"
+    },
+    {
+      "name": "Bush",
+      "seasonLabel": "OG Chapter 1: Season 1",
+      "sourceId": "p5c-consumables",
+      "exclusion": "separate mode"
+    },
+    {
+      "name": "Slurp Juice",
+      "seasonLabel": "OG Chapter 1: Season 1",
+      "sourceId": "p5c-consumables",
+      "exclusion": "separate mode"
+    },
+    {
+      "name": "Med Kit",
+      "seasonLabel": "OG Chapter 1: Season 1",
+      "sourceId": "p5c-consumables",
+      "exclusion": "separate mode"
+    },
+    {
+      "name": "Instant Shield",
+      "seasonLabel": "Chapter 6: Season 1",
+      "sourceId": "p5c-consumables",
+      "exclusion": "separate mode"
+    },
+    {
+      "name": "Small Shield Potion",
+      "seasonLabel": "OG Chapter 1: Season 2",
+      "sourceId": "p5c-consumables",
+      "exclusion": "separate mode"
+    },
+    {
+      "name": "Chug Jug",
+      "seasonLabel": "OG Chapter 1: Season 2",
+      "sourceId": "p5c-consumables",
+      "exclusion": "separate mode"
+    },
+    {
+      "name": "Overdrive",
+      "seasonLabel": "Chapter 6: Season 2",
+      "sourceId": "p5c-consumables",
+      "exclusion": "separate mode"
+    },
+    {
+      "name": "Med-Mist Smoke Grenade",
+      "seasonLabel": "Chapter 6: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": "separate mode"
+    },
+    {
+      "name": "Squid Game Disguises",
+      "seasonLabel": "Chapter 6: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": "Creative/UEFN only"
+    },
+    {
+      "name": "Grappler",
+      "seasonLabel": "OG Chapter 1: Season 5",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "FlowBerry Mist Grenade",
+      "seasonLabel": "Chapter 7: Season 1",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Sneaky Snowman",
+      "seasonLabel": "Chapter 7: Season 1",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Stealth Splash",
+      "seasonLabel": "Chapter 7: Season 1",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Pocket Med-Mist Smoke",
+      "seasonLabel": "Chapter 7: Season 2",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Enhanced Harpoon Gun",
+      "seasonLabel": "Chapter 7: Season 2",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Slapperoni Slice",
+      "seasonLabel": "Chapter 7: Season 2",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Golden Firework",
+      "seasonLabel": "Chapter 7: Season 2",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Pocket Spicy IceCream",
+      "seasonLabel": "Chapter 7: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Water Sprite",
+      "seasonLabel": "Chapter 7: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Earth Sprite",
+      "seasonLabel": "Chapter 7: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Fire Sprite",
+      "seasonLabel": "Chapter 7: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Demon Sprite",
+      "seasonLabel": "Chapter 7: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Ghost Sprite",
+      "seasonLabel": "Chapter 7: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Duck Sprite",
+      "seasonLabel": "Chapter 7: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "King Sprite",
+      "seasonLabel": "Chapter 7: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Dream Sprite",
+      "seasonLabel": "Chapter 7: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Punk Sprite",
+      "seasonLabel": "Chapter 7: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Zero Point Sprite",
+      "seasonLabel": "Chapter 7: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Burnt Peanut",
+      "seasonLabel": "Chapter 7: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Shock Rock",
+      "seasonLabel": "Chapter 7: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Quack Snacks",
+      "seasonLabel": "Chapter 7: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Fishy Sprite",
+      "seasonLabel": "Chapter 7: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Aura Sprite",
+      "seasonLabel": "Chapter 7: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Striker Sprite",
+      "seasonLabel": "Chapter 7: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Boss Sprite",
+      "seasonLabel": "Chapter 7: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Grim Sprite",
+      "seasonLabel": "Chapter 7: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Air Sprite",
+      "seasonLabel": "Chapter 7: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Seven Sprite",
+      "seasonLabel": "Chapter 7: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Batman Sprite",
+      "seasonLabel": "Chapter 7: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Vini Jr. Sprite",
+      "seasonLabel": "Chapter 7: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Pollo Sprite",
+      "seasonLabel": "Chapter 7: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Portable Extractor",
+      "seasonLabel": "Chapter 7: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Lootin' Llama Sprite",
+      "seasonLabel": "Chapter 7: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Peeky Peely Sprite",
+      "seasonLabel": "Chapter 7: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "John Wick Sprite",
+      "seasonLabel": "Chapter 7: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Ironmouse Sprite",
+      "seasonLabel": "Chapter 7: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Golden Apple",
+      "seasonLabel": "Chapter 7: Season 3",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "8-Bit Sprite",
+      "seasonLabel": "Chapter 7: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Adventure Sprite",
+      "seasonLabel": "Chapter 7: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Jonesy Sprite",
+      "seasonLabel": "Chapter 7: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Bush Sprite",
+      "seasonLabel": "Chapter 7: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Shadow Sprite",
+      "seasonLabel": "Chapter 7: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Sonic Sprite",
+      "seasonLabel": "Chapter 7: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Tails Sprite",
+      "seasonLabel": "Chapter 7: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Jackrabbit Sprite",
+      "seasonLabel": "Chapter 7: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Killswitch Sprite",
+      "seasonLabel": "Chapter 7: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Crown Sprite",
+      "seasonLabel": "Chapter 7: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Klombo Sprite",
+      "seasonLabel": "Chapter 7: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Storm Scout Sprite",
+      "seasonLabel": "Chapter 7: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Mega Man Sprite",
+      "seasonLabel": "Chapter 7: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Onigiri Sprite",
+      "seasonLabel": "Chapter 7: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Overshield Sprite",
+      "seasonLabel": "Chapter 7: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "X-Ray Sprite",
+      "seasonLabel": "Chapter 7: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Pond Sprite",
+      "seasonLabel": "Chapter 7: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Sea Salt Ice Cream",
+      "seasonLabel": "Chapter 7: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Blinky Sprite",
+      "seasonLabel": "Chapter 7: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Crash Bandicoot Sprite",
+      "seasonLabel": "Chapter 7: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Birthday Sprite",
+      "seasonLabel": "Chapter 7: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Morgana Sprite",
+      "seasonLabel": "Chapter 7: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Slap Candy Corn",
+      "seasonLabel": "Chapter 7: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Golden Truffle",
+      "seasonLabel": "Chapter 7: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Dumpster Dive Sprite",
+      "seasonLabel": "Chapter 7: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "The Deer Sprite",
+      "seasonLabel": "Chapter 7: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Vampire Sprite",
+      "seasonLabel": "Chapter 7: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Spooky Dash Sprite",
+      "seasonLabel": "Chapter 7: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Honey Sprite",
+      "seasonLabel": "Chapter 7: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "One Wish Willow Sprite",
+      "seasonLabel": "Chapter 7: Season 4",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Meat on a Stick",
+      "seasonLabel": "Treasure Hunters",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Nami's Tangerine",
+      "seasonLabel": "Treasure Hunters",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Pocket Slap Berry",
+      "seasonLabel": "Treasure Hunters",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Golden Firework",
+      "seasonLabel": "Treasure Hunters",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Halfpeel'd",
+      "seasonLabel": "Treasure Hunters",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Re-Pete",
+      "seasonLabel": "Treasure Hunters",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Barry O'Fish",
+      "seasonLabel": "Treasure Hunters",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Wayfinder",
+      "seasonLabel": "Treasure Hunters",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Chester",
+      "seasonLabel": "Treasure Hunters",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Exmarks",
+      "seasonLabel": "Treasure Hunters",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Kelper",
+      "seasonLabel": "Treasure Hunters",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Lil' Squibbly",
+      "seasonLabel": "Treasure Hunters",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Lil' Flacko",
+      "seasonLabel": "Treasure Hunters",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Transponder Snail",
+      "seasonLabel": "Treasure Hunters",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Plundarrgh",
+      "seasonLabel": "Treasure Hunters",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Sweet Dreams",
+      "seasonLabel": "Treasure Hunters",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Lil' Uzi Vert Jr.",
+      "seasonLabel": "Treasure Hunters",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Gliders",
+      "seasonLabel": "OG Chapter 1: Season 7",
+      "sourceId": "p5c-consumables",
+      "exclusion": "separate mode"
+    },
+    {
+      "name": "Spicy Slapperoni Slice",
+      "seasonLabel": "Chapter 7: Season 2",
+      "sourceId": "p5c-consumables",
+      "exclusion": "separate mode"
+    },
+    {
+      "name": "Force Mind Trick",
+      "seasonLabel": "Chapter 7: Season 2",
+      "sourceId": "p5c-consumables",
+      "exclusion": "Creative/UEFN only"
+    },
+    {
+      "name": "Force Barrier",
+      "seasonLabel": "Chapter 7: Season 2",
+      "sourceId": "p5c-consumables",
+      "exclusion": "Creative/UEFN only"
+    },
+    {
+      "name": "Star Wars Disguises",
+      "seasonLabel": "Chapter 7: Season 2",
+      "sourceId": "p5c-consumables",
+      "exclusion": "Creative/UEFN only"
+    },
+    {
+      "name": "Imperial Air Strike",
+      "seasonLabel": "Chapter 7: Season 2",
+      "sourceId": "p5c-consumables",
+      "exclusion": "Creative/UEFN only"
+    },
+    {
+      "name": "Rebel Air Strike",
+      "seasonLabel": "Chapter 7: Season 2",
+      "sourceId": "p5c-consumables",
+      "exclusion": "Creative/UEFN only"
+    },
+    {
+      "name": "Buried Treasure",
+      "seasonLabel": "OG Chapter 1: Season 8",
+      "sourceId": "p5c-consumables",
+      "exclusion": "separate mode"
+    },
+    {
+      "name": "Air Strike",
+      "seasonLabel": "OG Chapter 1: Season 9",
+      "sourceId": "p5c-consumables",
+      "exclusion": "separate mode"
+    },
+    {
+      "name": "Batman Grapnel Gun",
+      "seasonLabel": "OG Chapter 1: Season X",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Explosive Batarang",
+      "seasonLabel": "OG Chapter 1: Season X",
+      "sourceId": "p5c-consumables",
+      "exclusion": null
+    },
+    {
+      "name": "Wall Dynamo",
+      "seasonLabel": "Pre-Season",
+      "sourceId": "p5c-traps",
+      "exclusion": null
+    },
+    {
+      "name": "Ceiling Zapper",
+      "seasonLabel": "Pre-Season",
+      "sourceId": "p5c-traps",
+      "exclusion": null
+    },
+    {
+      "name": "Jump Pad (Directional)",
+      "seasonLabel": "Pre-Season",
+      "sourceId": "p5c-traps",
+      "exclusion": null
+    },
+    {
+      "name": "Jump Pad (Up)",
+      "seasonLabel": "Pre-Season",
+      "sourceId": "p5c-traps",
+      "exclusion": null
+    },
+    {
+      "name": "Damage Trap",
+      "seasonLabel": "Pre-Season",
+      "sourceId": "p5c-traps",
+      "exclusion": null
+    },
+    {
+      "name": "Launch Pad",
+      "seasonLabel": "Season 1",
+      "sourceId": "p5c-traps",
+      "exclusion": null
+    },
+    {
+      "name": "Cozy Campfire",
+      "seasonLabel": "Season 2",
+      "sourceId": "p5c-traps",
+      "exclusion": null
+    },
+    {
+      "name": "Bouncer",
+      "seasonLabel": "Season 4",
+      "sourceId": "p5c-traps",
+      "exclusion": null
+    },
+    {
+      "name": "Chiller",
+      "seasonLabel": "Season 6",
+      "sourceId": "p5c-traps",
+      "exclusion": null
+    },
+    {
+      "name": "Mounted Turret",
+      "seasonLabel": "Season 6",
+      "sourceId": "p5c-traps",
+      "exclusion": null
+    },
+    {
+      "name": "Poison Dart Trap",
+      "seasonLabel": "Season 8",
+      "sourceId": "p5c-traps",
+      "exclusion": null
+    },
+    {
+      "name": "Speed Boost",
+      "seasonLabel": "Season 7",
+      "sourceId": "p5c-traps",
+      "exclusion": "Creative/UEFN only"
+    },
+    {
+      "name": "Ice Block",
+      "seasonLabel": "Season 7",
+      "sourceId": "p5c-traps",
+      "exclusion": "Creative/UEFN only"
+    },
+    {
+      "name": "Half Damage Rail",
+      "seasonLabel": "Season 7",
+      "sourceId": "p5c-traps",
+      "exclusion": "Creative/UEFN only"
+    },
+    {
+      "name": "Full Damage Rail",
+      "seasonLabel": "Season 7",
+      "sourceId": "p5c-traps",
+      "exclusion": "Creative/UEFN only"
+    },
+    {
+      "name": "Fire Trap",
+      "seasonLabel": "Chapter 2: Season 4",
+      "sourceId": "p5c-traps",
+      "exclusion": null
+    },
+    {
+      "name": "Armored Wall",
+      "seasonLabel": "Chapter 2: Season 8",
+      "sourceId": "p5c-traps",
+      "exclusion": null
+    },
+    {
+      "name": "Wall Dynamo",
+      "seasonLabel": "OG Chapter 1: Season 1",
+      "sourceId": "p5c-traps",
+      "exclusion": "separate mode"
+    },
+    {
+      "name": "Ceiling Zapper",
+      "seasonLabel": "OG Chapter 1: Season 1",
+      "sourceId": "p5c-traps",
+      "exclusion": "separate mode"
+    },
+    {
+      "name": "Jump Pad (Directional)",
+      "seasonLabel": "OG Chapter 1: Season 1",
+      "sourceId": "p5c-traps",
+      "exclusion": "separate mode"
+    },
+    {
+      "name": "Jump Pad (Up)",
+      "seasonLabel": "OG Chapter 1: Season 1",
+      "sourceId": "p5c-traps",
+      "exclusion": "separate mode"
+    },
+    {
+      "name": "Damage Trap",
+      "seasonLabel": "OG Chapter 1: Season 1",
+      "sourceId": "p5c-traps",
+      "exclusion": "separate mode"
+    },
+    {
+      "name": "Launch Pad",
+      "seasonLabel": "OG Chapter 1: Season 1",
+      "sourceId": "p5c-traps",
+      "exclusion": "separate mode"
+    },
+    {
+      "name": "Cozy Campfire",
+      "seasonLabel": "OG Chapter 1: Season 2",
+      "sourceId": "p5c-traps",
+      "exclusion": "separate mode"
+    },
+    {
+      "name": "Bouncer",
+      "seasonLabel": "OG Chapter 1: Season 4",
+      "sourceId": "p5c-traps",
+      "exclusion": "separate mode"
+    },
+    {
+      "name": "Super Launch Pad",
+      "seasonLabel": "Chapter 6: Season 4",
+      "sourceId": "p5c-traps",
+      "exclusion": "Creative/UEFN only"
+    },
+    {
+      "name": "Chiller",
+      "seasonLabel": "OG Chapter 1: Season 6",
+      "sourceId": "p5c-traps",
+      "exclusion": "separate mode"
+    },
+    {
+      "name": "Mounted Turret",
+      "seasonLabel": "OG Chapter 1: Season 6",
+      "sourceId": "p5c-traps",
+      "exclusion": "separate mode"
+    },
+    {
+      "name": "Poison Dart Trap",
+      "seasonLabel": "OG Chapter 1: Season 6",
+      "sourceId": "p5c-traps",
+      "exclusion": "separate mode"
+    }
+  ],
+  "containers": [
+    {
+      "name": "Chest",
+      "chapter": 1,
+      "sourceId": "p5c-containers",
+      "isChest": true,
+      "lootLinks": []
+    },
+    {
+      "name": "Small Ammo Box",
+      "chapter": 1,
+      "sourceId": "p5c-containers",
+      "isChest": false,
+      "lootLinks": [
+        "Ammo"
+      ]
+    },
+    {
+      "name": "Supply Drop",
+      "chapter": 1,
+      "sourceId": "p5c-containers",
+      "isChest": false,
+      "lootLinks": []
+    },
+    {
+      "name": "Supply Llama",
+      "chapter": 1,
+      "sourceId": "p5c-containers",
+      "isChest": false,
+      "lootLinks": [
+        "Materials",
+        "Consumables"
+      ]
+    },
+    {
+      "name": "Block Chest",
+      "chapter": 1,
+      "sourceId": "p5c-containers",
+      "isChest": true,
+      "lootLinks": []
+    },
+    {
+      "name": "Treasure Chest",
+      "chapter": 1,
+      "sourceId": "p5c-containers",
+      "isChest": true,
+      "lootLinks": []
+    },
+    {
+      "name": "Borderlands Chest",
+      "chapter": 1,
+      "sourceId": "p5c-containers",
+      "isChest": true,
+      "lootLinks": []
+    },
+    {
+      "name": "Star",
+      "chapter": 1,
+      "sourceId": "p5c-containers",
+      "isChest": false,
+      "lootLinks": []
+    },
+    {
+      "name": "Fishing Barrel",
+      "chapter": 2,
+      "sourceId": "p5c-containers",
+      "isChest": false,
+      "lootLinks": [
+        "Fishing Rods",
+        "Harpoon Gun"
+      ]
+    },
+    {
+      "name": "Freezer",
+      "chapter": 2,
+      "sourceId": "p5c-containers",
+      "isChest": true,
+      "lootLinks": [
+        "Fish"
+      ]
+    },
+    {
+      "name": "Large Ammo Box",
+      "chapter": 2,
+      "sourceId": "p5c-containers",
+      "isChest": false,
+      "lootLinks": [
+        "Ammo",
+        "Small Shield Potions"
+      ]
+    },
+    {
+      "name": "Lightsaber Cubes",
+      "chapter": 2,
+      "sourceId": "p5c-containers",
+      "isChest": true,
+      "lootLinks": [
+        "Lightsabers"
+      ]
+    },
+    {
+      "name": "Rare Chest",
+      "chapter": 2,
+      "sourceId": "p5c-containers",
+      "isChest": true,
+      "lootLinks": []
+    },
+    {
+      "name": "Faction Chest",
+      "chapter": 2,
+      "sourceId": "p5c-containers",
+      "isChest": true,
+      "lootLinks": []
+    },
+    {
+      "name": "GHOST Chest",
+      "chapter": 2,
+      "sourceId": "p5c-containers",
+      "isChest": true,
+      "lootLinks": []
+    },
+    {
+      "name": "SHADOW Chest",
+      "chapter": 2,
+      "sourceId": "p5c-containers",
+      "isChest": true,
+      "lootLinks": []
+    },
+    {
+      "name": "Produce Boxes",
+      "chapter": 2,
+      "sourceId": "p5c-containers",
+      "isChest": false,
+      "lootLinks": [
+        "Foraged Items"
+      ]
+    },
+    {
+      "name": "Doom Chest",
+      "chapter": 2,
+      "sourceId": "p5c-containers",
+      "isChest": true,
+      "lootLinks": []
+    },
+    {
+      "name": "S.H.I.E.L.D. Chest",
+      "chapter": 2,
+      "sourceId": "p5c-containers",
+      "isChest": true,
+      "lootLinks": []
+    },
+    {
+      "name": "Stark Industries Chest",
+      "chapter": 2,
+      "sourceId": "p5c-containers",
+      "isChest": true,
+      "lootLinks": []
+    },
+    {
+      "name": "Broom Barrel",
+      "chapter": 2,
+      "sourceId": "p5c-containers",
+      "isChest": false,
+      "lootLinks": [
+        "Witch Brooms"
+      ]
+    },
+    {
+      "name": "Cash Register",
+      "chapter": 2,
+      "sourceId": "p5c-containers",
+      "isChest": false,
+      "lootLinks": [
+        "Bars"
+      ]
+    },
+    {
+      "name": "Candy Buckets",
+      "chapter": 2,
+      "sourceId": "p5c-containers",
+      "isChest": false,
+      "lootLinks": [
+        "Candy"
+      ]
+    },
+    {
+      "name": "Safe",
+      "chapter": 2,
+      "sourceId": "p5c-containers",
+      "isChest": true,
+      "lootLinks": [
+        "Bars"
+      ]
+    },
+    {
+      "name": "Bunker Chest",
+      "chapter": 2,
+      "sourceId": "p5c-containers",
+      "isChest": true,
+      "lootLinks": []
+    },
+    {
+      "name": "Cosmic Chest",
+      "chapter": 2,
+      "sourceId": "p5c-containers",
+      "isChest": true,
+      "lootLinks": [
+        "Alien Artifacts"
+      ]
+    },
+    {
+      "name": "IO Supply Chest",
+      "chapter": 2,
+      "sourceId": "p5c-containers",
+      "isChest": true,
+      "lootLinks": []
+    },
+    {
+      "name": "Common Mothership Vault Chest",
+      "chapter": 2,
+      "sourceId": "p5c-containers",
+      "isChest": true,
+      "lootLinks": [
+        "Common"
+      ]
+    },
+    {
+      "name": "Uncommon Mothership Vault Chest",
+      "chapter": 2,
+      "sourceId": "p5c-containers",
+      "isChest": true,
+      "lootLinks": [
+        "Uncommon"
+      ]
+    },
+    {
+      "name": "Rare Mothership Vault Chest",
+      "chapter": 2,
+      "sourceId": "p5c-containers",
+      "isChest": true,
+      "lootLinks": [
+        "Rare"
+      ]
+    },
+    {
+      "name": "Epic Mothership Vault Chest",
+      "chapter": 2,
+      "sourceId": "p5c-containers",
+      "isChest": true,
+      "lootLinks": [
+        "Epic"
+      ]
+    },
+    {
+      "name": "Legendary Mothership Vault Chest",
+      "chapter": 2,
+      "sourceId": "p5c-containers",
+      "isChest": true,
+      "lootLinks": [
+        "Legendary"
+      ]
+    },
+    {
+      "name": "Toolbox",
+      "chapter": 2,
+      "sourceId": "p5c-containers",
+      "isChest": false,
+      "lootLinks": [
+        "Ammo",
+        "Repair Torch",
+        "Vehicle Mods"
+      ]
+    },
+    {
+      "name": "Sideways Chest",
+      "chapter": 2,
+      "sourceId": "p5c-containers",
+      "isChest": true,
+      "lootLinks": []
+    },
+    {
+      "name": "Symbiote Canister",
+      "chapter": 2,
+      "sourceId": "p5c-containers",
+      "isChest": false,
+      "lootLinks": [
+        "Venom Symbiote",
+        "Carnage Symbiote"
+      ]
+    },
+    {
+      "name": "Cooler",
+      "chapter": 3,
+      "sourceId": "p5c-containers",
+      "isChest": false,
+      "lootLinks": [
+        "Chug Splash",
+        "Fish",
+        "Klomberry"
+      ]
+    },
+    {
+      "name": "Seven Chest",
+      "chapter": 3,
+      "sourceId": "p5c-containers",
+      "isChest": true,
+      "lootLinks": [
+        "Rare",
+        "Legendary"
+      ]
+    },
+    {
+      "name": "Spider-Man's Backpack",
+      "chapter": 3,
+      "sourceId": "p5c-containers",
+      "isChest": false,
+      "lootLinks": [
+        "Spider-Man's Web Shooters"
+      ]
+    },
+    {
+      "name": "Jetpack Container",
+      "chapter": 3,
+      "sourceId": "p5c-containers",
+      "isChest": false,
+      "lootLinks": [
+        "Jetpack"
+      ]
+    },
+    {
+      "name": "Grapple Glove Toolbox",
+      "chapter": 3,
+      "sourceId": "p5c-containers",
+      "isChest": false,
+      "lootLinks": [
+        "Grapple Glove"
+      ]
+    },
+    {
+      "name": "Imperial Chest",
+      "chapter": 3,
+      "sourceId": "p5c-containers",
+      "isChest": true,
+      "lootLinks": [
+        "E-11 Blaster Rifle",
+        "Chug Splash",
+        "Shockwave Grenade"
+      ]
+    },
+    {
+      "name": "Capsule Corp. Drops",
+      "chapter": 3,
+      "sourceId": "p5c-containers",
+      "isChest": false,
+      "lootLinks": [
+        "Kamehameha",
+        "Nimbus Cloud (Kintoun)"
+      ]
+    },
+    {
+      "name": "Chrome Chest",
+      "chapter": 3,
+      "sourceId": "p5c-containers",
+      "isChest": true,
+      "lootLinks": [
+        "EvoChrome Burst Rifle",
+        "EvoChrome Shotgun"
+      ]
+    },
+    {
+      "name": "Holo-Chest",
+      "chapter": 3,
+      "sourceId": "p5c-containers",
+      "isChest": true,
+      "lootLinks": [
+        "Epic",
+        "Legendary"
+      ]
+    },
+    {
+      "name": "Exotic Holo-Chest",
+      "chapter": 3,
+      "sourceId": "p5c-containers",
+      "isChest": true,
+      "lootLinks": [
+        "Exotic"
+      ]
+    },
+    {
+      "name": "Oathbound Chest",
+      "chapter": 4,
+      "sourceId": "p5c-containers",
+      "isChest": true,
+      "lootLinks": []
+    },
+    {
+      "name": "My Hero Academia Supply Drop",
+      "chapter": 4,
+      "sourceId": "p5c-containers",
+      "isChest": false,
+      "lootLinks": [
+        "Deku's Smash"
+      ]
+    },
+    {
+      "name": "Cold Blooded Coffer",
+      "chapter": 4,
+      "sourceId": "p5c-containers",
+      "isChest": true,
+      "lootLinks": []
+    },
+    {
+      "name": "Combat Cache",
+      "chapter": 4,
+      "sourceId": "p5c-containers",
+      "isChest": false,
+      "lootLinks": []
+    },
+    {
+      "name": "Kinetic Blade Stand",
+      "chapter": 4,
+      "sourceId": "p5c-containers",
+      "isChest": false,
+      "lootLinks": [
+        "Kinetic Blade"
+      ]
+    },
+    {
+      "name": "Golden Egg",
+      "chapter": 4,
+      "sourceId": "p5c-containers",
+      "isChest": false,
+      "lootLinks": [
+        "Bars"
+      ]
+    },
+    {
+      "name": "Scout Regiment Footlocker",
+      "chapter": 4,
+      "sourceId": "p5c-containers",
+      "isChest": true,
+      "lootLinks": [
+        "ODM Gear",
+        "Thunder Spears",
+        "Small Shield Potion"
+      ]
+    },
+    {
+      "name": "Republic Chest",
+      "chapter": 4,
+      "sourceId": "p5c-containers",
+      "isChest": true,
+      "lootLinks": [
+        "DC-15 Blaster Rifle"
+      ]
+    },
+    {
+      "name": "Kinetic Boomerang Pedestal",
+      "chapter": 4,
+      "sourceId": "p5c-containers",
+      "isChest": false,
+      "lootLinks": [
+        "Kinetic Boomerang"
+      ]
+    },
+    {
+      "name": "Heist Bag",
+      "chapter": 4,
+      "sourceId": "p5c-containers",
+      "isChest": false,
+      "lootLinks": []
+    },
+    {
+      "name": "Weapon Case",
+      "chapter": 5,
+      "sourceId": "p5c-containers",
+      "isChest": false,
+      "lootLinks": [
+        "Rare",
+        "Epic",
+        "Legendary"
+      ]
+    },
+    {
+      "name": "Train Heist Chest",
+      "chapter": 5,
+      "sourceId": "p5c-containers",
+      "isChest": false,
+      "lootLinks": [
+        "Society"
+      ]
+    },
+    {
+      "name": "Train Chest",
+      "chapter": 5,
+      "sourceId": "p5c-containers",
+      "isChest": true,
+      "lootLinks": [
+        "Society"
+      ]
+    },
+    {
+      "name": "Present",
+      "chapter": 5,
+      "sourceId": "p5c-containers",
+      "isChest": false,
+      "lootLinks": [
+        "Epic",
+        "Consumables"
+      ]
+    },
+    {
+      "name": "Ninja Turtle Supply Drop",
+      "chapter": 5,
+      "sourceId": "p5c-containers",
+      "isChest": false,
+      "lootLinks": [
+        "Mythic"
+      ]
+    },
+    {
+      "name": "Olympus Chest",
+      "chapter": 5,
+      "sourceId": "p5c-containers",
+      "isChest": true,
+      "lootLinks": []
+    },
+    {
+      "name": "Underworld Chest",
+      "chapter": 5,
+      "sourceId": "p5c-containers",
+      "isChest": true,
+      "lootLinks": []
+    },
+    {
+      "name": "Ride the Lightning Stand",
+      "chapter": 5,
+      "sourceId": "p5c-containers",
+      "isChest": true,
+      "lootLinks": [
+        "Ride the Lightning"
+      ]
+    },
+    {
+      "name": "Cursed Chest",
+      "chapter": 5,
+      "sourceId": "p5c-containers",
+      "isChest": true,
+      "lootLinks": [
+        "Ship In a Bottle"
+      ]
+    },
+    {
+      "name": "Avenger Chest",
+      "chapter": 5,
+      "sourceId": "p5c-containers",
+      "isChest": true,
+      "lootLinks": []
+    },
+    {
+      "name": "Iron Man Stand",
+      "chapter": 5,
+      "sourceId": "p5c-containers",
+      "isChest": false,
+      "lootLinks": [
+        "Iron Man's Combat Kit",
+        "Iron Man's Flight Kit"
+      ]
+    },
+    {
+      "name": "War Machine Stand",
+      "chapter": 5,
+      "sourceId": "p5c-containers",
+      "isChest": false,
+      "lootLinks": [
+        "War Machine's Arsenal",
+        "War Machine's Hover Jets",
+        "War Machine's Auto Turret"
+      ]
+    },
+    {
+      "name": "Elemental Chest",
+      "chapter": 6,
+      "sourceId": "p5c-containers",
+      "isChest": true,
+      "lootLinks": [
+        "Typhoon Blade",
+        "Oni Masks",
+        "Boons"
+      ]
+    },
+    {
+      "name": "Typhoon Blade Stand",
+      "chapter": 6,
+      "sourceId": "p5c-containers",
+      "isChest": false,
+      "lootLinks": [
+        "Typhoon Blade"
+      ]
+    },
+    {
+      "name": "Demon Mask Stand",
+      "chapter": 6,
+      "sourceId": "p5c-containers",
+      "isChest": false,
+      "lootLinks": [
+        "Fire Oni Mask",
+        "Void Oni Mask"
+      ]
+    },
+    {
+      "name": "Academy Stand",
+      "chapter": 6,
+      "sourceId": "p5c-containers",
+      "isChest": false,
+      "lootLinks": [
+        "Supernova Academy"
+      ]
+    },
+    {
+      "name": "Hero Caches",
+      "chapter": 6,
+      "sourceId": "p5c-containers",
+      "isChest": false,
+      "lootLinks": [
+        "Hero Rank"
+      ]
+    },
+    {
+      "name": "Training Targets",
+      "chapter": 6,
+      "sourceId": "p5c-containers",
+      "isChest": false,
+      "lootLinks": [
+        "Legendary",
+        "Deadeye DMR",
+        "Legendary",
+        "Hyperburst Pistol",
+        "Legendary",
+        "Spire Rifle",
+        "Super Showdown"
+      ]
+    },
+    {
+      "name": "Spire Spike",
+      "chapter": 6,
+      "sourceId": "p5c-containers",
+      "isChest": false,
+      "lootLinks": []
+    },
+    {
+      "name": "Hive Stash",
+      "chapter": 6,
+      "sourceId": "p5c-containers",
+      "isChest": true,
+      "lootLinks": []
+    },
+    {
+      "name": "O.X.R. Chest",
+      "chapter": 6,
+      "sourceId": "p5c-containers",
+      "isChest": true,
+      "lootLinks": []
+    },
+    {
+      "name": "Drop Pod",
+      "chapter": 6,
+      "sourceId": "p5c-containers",
+      "isChest": false,
+      "lootLinks": [
+        "O.X.R. Rank",
+        "Rift Pods",
+        "Mythic",
+        "Leadspitter 3000",
+        "Legendary",
+        "Slurp Juice"
+      ]
+    },
+    {
+      "name": "Large Bug Spawner",
+      "chapter": 6,
+      "sourceId": "p5c-containers",
+      "isChest": false,
+      "lootLinks": []
+    },
+    {
+      "name": "Small Bug Spawner",
+      "chapter": 6,
+      "sourceId": "p5c-containers",
+      "isChest": false,
+      "lootLinks": []
+    },
+    {
+      "name": "Rita's Supply Comet",
+      "chapter": 6,
+      "sourceId": "p5c-containers",
+      "isChest": false,
+      "lootLinks": []
+    },
+    {
+      "name": "Pumpkin Chest",
+      "chapter": 6,
+      "sourceId": "p5c-containers",
+      "isChest": false,
+      "lootLinks": []
+    },
+    {
+      "name": "Mr. Burns Mystery Box",
+      "chapter": 6,
+      "sourceId": "p5c-containers",
+      "isChest": false,
+      "lootLinks": []
+    },
+    {
+      "name": "Chest of Drawers",
+      "chapter": 7,
+      "sourceId": "p5c-containers",
+      "isChest": false,
+      "lootLinks": []
+    },
+    {
+      "name": "Wonkeeland Cannon",
+      "chapter": 7,
+      "sourceId": "p5c-containers",
+      "isChest": false,
+      "lootLinks": []
+    },
+    {
+      "name": "Care Package",
+      "chapter": 7,
+      "sourceId": "p5c-containers",
+      "isChest": false,
+      "lootLinks": [
+        "Self-Revive Device"
+      ]
+    },
+    {
+      "name": "Time Travelled Chest",
+      "chapter": 7,
+      "sourceId": "p5c-containers",
+      "isChest": true,
+      "lootLinks": []
+    },
+    {
+      "name": "Overwatch Cache",
+      "chapter": 7,
+      "sourceId": "p5c-containers",
+      "isChest": true,
+      "lootLinks": [
+        "Pulse Pistols",
+        "Caduceus Staff"
+      ]
+    },
+    {
+      "name": "Sprite Chest",
+      "chapter": 7,
+      "sourceId": "p5c-containers",
+      "isChest": true,
+      "lootLinks": [
+        "Sprite"
+      ]
+    },
+    {
+      "name": "Cheat Codes",
+      "chapter": 7,
+      "sourceId": "p5c-containers",
+      "isChest": true,
+      "lootLinks": [
+        "Sprite",
+        "Rare",
+        "Epic",
+        "Legendary",
+        "Mythic"
+      ]
+    },
+    {
+      "name": "Pumpkin Chest",
+      "chapter": 7,
+      "sourceId": "p5c-containers",
+      "isChest": true,
+      "lootLinks": [
+        "Sprite"
+      ]
+    },
+    {
+      "name": "Chest (Treasure Hunters)",
+      "chapter": 7,
+      "sourceId": "p5c-containers",
+      "isChest": true,
+      "lootLinks": [
+        "treasure reward"
+      ]
+    },
+    {
+      "name": "Rare Chest (Treasure Hunters)",
+      "chapter": 7,
+      "sourceId": "p5c-containers",
+      "isChest": true,
+      "lootLinks": []
+    },
+    {
+      "name": "Sprite Wanted Poster",
+      "chapter": 7,
+      "sourceId": "p5c-containers",
+      "isChest": false,
+      "lootLinks": [
+        "Sprite Treasure Map"
+      ]
+    },
+    {
+      "name": "Fortune Sprite Chest",
+      "chapter": 7,
+      "sourceId": "p5c-containers",
+      "isChest": true,
+      "lootLinks": [
+        "Fortune Sprite"
+      ]
+    },
+    {
+      "name": "Cursed Sprite Chest",
+      "chapter": 7,
+      "sourceId": "p5c-containers",
+      "isChest": true,
+      "lootLinks": [
+        "Cursed Sprite"
+      ]
+    }
+  ],
+  "profileFailures": []
+}

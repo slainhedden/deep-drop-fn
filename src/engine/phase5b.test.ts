@@ -20,7 +20,7 @@ describe('Phase 5B world graph and functional evidence',()=>{
  });
  it('keeps season/mode provenance and existing identities on every graph endpoint',()=>{
   const keys=new Set<string>();
-  for(const r of worldRelations){expect(entitiesById.has(r.subjectId)).toBe(true);expect(entitiesById.has(r.objectId)).toBe(true);expect(['core_br','special_br']).toContain(r.mode);expect(r.sourceIds.length).toBeGreaterThan(0);for(const s of r.sourceIds)expect(sourceById.get(s)?.status).toBe('verified');const key=[r.subjectId,r.kind,r.objectId,r.season??''].join(':');expect(keys.has(key)).toBe(false);keys.add(key);}
+  for(const r of worldRelations){expect(entitiesById.has(r.subjectId)).toBe(true);expect(entitiesById.has(r.objectId)).toBe(true);expect(['core_br','special_br','br_ltm']).toContain(r.mode);expect(r.sourceIds.length).toBeGreaterThan(0);for(const s of r.sourceIds)expect(sourceById.get(s)?.status).toBe('verified');const key=[r.subjectId,r.kind,r.objectId,r.season??''].join(':');expect(keys.has(key)).toBe(false);keys.add(key);}
  });
  it('proves Mythic drops from encounter records, not possessive names',()=>{
   expect(entities.some(e=>e.type==='boss'&&e.name==='Health (Battle Royale)')).toBe(false);

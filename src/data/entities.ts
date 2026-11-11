@@ -1,3 +1,4 @@
+import {expandPhase5C} from './phase5c-catalog';
 import {expandPhase5B} from './phase5b-catalog';
 import {expandPhase5} from './phase5-catalog';
 import { expandPhase4B } from './phase4b-catalog';
@@ -19,7 +20,7 @@ import { items } from './catalog/base-items';
 import { vehicles } from './catalog/base-vehicles';
 import { events } from './catalog/base-events';
 const legacyEntities:FortniteEntity[]=[...skins,...weapons,...locations,...collaborations,...items,...vehicles,...events];
-export const entities:FortniteEntity[]=expandPhase5B(expandPhase5(expandPhase4B(applyLocationHistory(expandPhase4Catalog(expandGameplayCatalog(applyClassificationReviews(applyClassicHistory(applyReviewedHistory(attachHistorySeeds(enrichLegacyEntities(legacyEntities, historicalCatalog)))))))))));
+export const entities:FortniteEntity[]=expandPhase5C(expandPhase5B(expandPhase5(expandPhase4B(applyLocationHistory(expandPhase4Catalog(expandGameplayCatalog(applyClassificationReviews(applyClassicHistory(applyReviewedHistory(attachHistorySeeds(enrichLegacyEntities(legacyEntities, historicalCatalog))))))))))));
 export const entitiesById=new Map(entities.map((entity)=>[entity.id,entity]));
 const byType = new Map<EntityType, FortniteEntity[]>();
 for (const entity of entities) byType.set(entity.type, [...(byType.get(entity.type) ?? []), entity]);

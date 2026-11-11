@@ -1,0 +1,249 @@
+{
+  "measurements": [
+    {
+      "screen": "home",
+      "width": 375,
+      "viewport": 375,
+      "document": 375,
+      "central": 375,
+      "sidePanels": 0
+    },
+    {
+      "screen": "game",
+      "width": 375,
+      "viewport": 375,
+      "document": 375,
+      "central": 375,
+      "sidePanels": 0,
+      "question": {
+        "x": 48,
+        "y": 227,
+        "width": 279,
+        "height": 89.0625,
+        "top": 227,
+        "right": 327,
+        "bottom": 316.0625,
+        "left": 48
+      },
+      "input": {
+        "x": 24,
+        "y": 402.0625,
+        "width": 327,
+        "height": 50,
+        "top": 402.0625,
+        "right": 351,
+        "bottom": 452.0625,
+        "left": 24
+      }
+    },
+    {
+      "screen": "rarity",
+      "width": 375,
+      "viewport": 375,
+      "document": 375,
+      "central": 375,
+      "sidePanels": 0
+    },
+    {
+      "screen": "home",
+      "width": 768,
+      "viewport": 768,
+      "document": 768,
+      "central": 720,
+      "sidePanels": 0
+    },
+    {
+      "screen": "game",
+      "width": 768,
+      "viewport": 768,
+      "document": 768,
+      "central": 720,
+      "sidePanels": 0,
+      "question": {
+        "x": 118,
+        "y": 281,
+        "width": 532,
+        "height": 74.78125,
+        "top": 281,
+        "right": 650,
+        "bottom": 355.78125,
+        "left": 118
+      },
+      "input": {
+        "x": 104,
+        "y": 447.78125,
+        "width": 560,
+        "height": 50,
+        "top": 447.78125,
+        "right": 664,
+        "bottom": 497.78125,
+        "left": 104
+      }
+    },
+    {
+      "screen": "rarity",
+      "width": 768,
+      "viewport": 768,
+      "document": 768,
+      "central": 720,
+      "sidePanels": 0
+    },
+    {
+      "screen": "home",
+      "width": 1280,
+      "viewport": 1280,
+      "document": 1280,
+      "central": 716,
+      "sidePanels": 2
+    },
+    {
+      "screen": "game",
+      "width": 1280,
+      "viewport": 1280,
+      "document": 1280,
+      "central": 716,
+      "sidePanels": 2,
+      "question": {
+        "x": 330,
+        "y": 330.359375,
+        "width": 580,
+        "height": 91.28125,
+        "top": 330.359375,
+        "right": 910,
+        "bottom": 421.640625,
+        "left": 330
+      },
+      "input": {
+        "x": 300,
+        "y": 552,
+        "width": 640,
+        "height": 64,
+        "top": 552,
+        "right": 940,
+        "bottom": 616,
+        "left": 300
+      }
+    },
+    {
+      "screen": "rarity",
+      "width": 1280,
+      "viewport": 1280,
+      "document": 1280,
+      "central": 716,
+      "sidePanels": 2
+    },
+    {
+      "screen": "home",
+      "width": 1440,
+      "viewport": 1440,
+      "document": 1440,
+      "central": 784,
+      "sidePanels": 2
+    },
+    {
+      "screen": "game",
+      "width": 1440,
+      "viewport": 1440,
+      "document": 1440,
+      "central": 784,
+      "sidePanels": 2,
+      "question": {
+        "x": 376,
+        "y": 351.671875,
+        "width": 648,
+        "height": 102.65625,
+        "top": 351.671875,
+        "right": 1024,
+        "bottom": 454.328125,
+        "left": 376
+      },
+      "input": {
+        "x": 346,
+        "y": 594,
+        "width": 708,
+        "height": 64,
+        "top": 594,
+        "right": 1054,
+        "bottom": 658,
+        "left": 346
+      }
+    },
+    {
+      "screen": "rarity",
+      "width": 1440,
+      "viewport": 1440,
+      "document": 1440,
+      "central": 784,
+      "sidePanels": 2
+    },
+    {
+      "screen": "results",
+      "width": 1440,
+      "viewport": 1440,
+      "document": 1440,
+      "central": 784,
+      "sidePanels": 2
+    },
+    {
+      "homeReadyMs": 206,
+      "dropReadyMs": 7276,
+      "suggestionsMs": 14,
+      "catalogLoadedAtHome": false,
+      "sevenDailyRoundsScored": true,
+      "invalidRetry": true,
+      "twoCharacterSuggestionsSuppressed": true,
+      "unlimitedTimeout": true,
+      "practiceHistoryPersisted": true,
+      "firstPractice": "Name a Character Collection NPC from Chapter 2."
+    },
+    {
+      "screen": "home",
+      "width": 1920,
+      "viewport": 1920,
+      "document": 1920,
+      "central": 1156,
+      "sidePanels": 2
+    },
+    {
+      "screen": "game",
+      "width": 1920,
+      "viewport": 1920,
+      "document": 1920,
+      "central": 1156,
+      "sidePanels": 2,
+      "question": {
+        "x": 546,
+        "y": 345.5,
+        "width": 788,
+        "height": 115,
+        "top": 345.5,
+        "right": 1334,
+        "bottom": 460.5,
+        "left": 546
+      },
+      "input": {
+        "x": 516,
+        "y": 594,
+        "width": 848,
+        "height": 64,
+        "top": 594,
+        "right": 1364,
+        "bottom": 658,
+        "left": 516
+      }
+    },
+    {
+      "screen": "rarity",
+      "width": 1920,
+      "viewport": 1920,
+      "document": 1920,
+      "central": 1156,
+      "sidePanels": 2
+    },
+    {
+      "directUnlimitedFromHome": true
+    }
+  ],
+  "externalRequests": [],
+  "pageErrors": []
+}

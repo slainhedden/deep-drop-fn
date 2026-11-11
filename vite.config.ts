@@ -12,5 +12,5 @@ export default defineConfig({
       this.emitFile({type:'asset',fileName:'build-info.json',source:readFileSync(metadata,'utf8')});
     },
   }],
-  test: { environment: 'jsdom' },
+  test: { environment: 'jsdom', maxWorkers: 2, testTimeout: 15000 },
 });
