@@ -1,0 +1,163 @@
+{
+  "dataVersion": "fortnite-phase5a-2026.11.11",
+  "playableEntities": 15889,
+  "catalogEntities": 15984,
+  "normalVariants": 238,
+  "expertArchiveVariants": 75,
+  "rawDailyEligible": 103,
+  "independentDailyEligible": 102,
+  "nearDuplicateExclusions": [
+    {
+      "id": "weapon-ammunition:ammo=Shells:fortnite-phase5a-2026.11.11",
+      "similarTo": "weapon-class:weaponClass=shotgun:fortnite-phase5a-2026.11.11",
+      "overlap": 0.9156626506024096
+    }
+  ],
+  "semanticFamilies": 70,
+  "dailySemanticFamilies": 53,
+  "dailyCategoryBanks": {
+    "Bosses": 2,
+    "Containers": 2,
+    "Cosmetics": 43,
+    "Crossovers": 1,
+    "Items": 10,
+    "Locations": 10,
+    "NPCs": 8,
+    "Skins": 14,
+    "Vehicles": 1,
+    "Weapons": 11
+  },
+  "normalAnswerCounts": {
+    "minimum": 10,
+    "median": 32,
+    "10to14": 38,
+    "15to29": 69,
+    "30to99": 81,
+    "100plus": 50
+  },
+  "dailyAnswerCounts": {
+    "minimum": 16,
+    "median": 75,
+    "10to14": 0,
+    "15to29": 17,
+    "30to99": 39,
+    "100plus": 46
+  },
+  "recognizableCoverage": {
+    "minimum": 3,
+    "atLeastThree": 102,
+    "totalDailyQuestions": 102,
+    "note": "Editorial recall estimates, not measured player popularity."
+  },
+  "rotation": {
+    "startUTC": "2026-09-01",
+    "days": 120,
+    "rounds": 840,
+    "exactRepeatedOccurrences": 738,
+    "distinctQuestionsUsed": 102,
+    "adjacentExactRepeats": 0,
+    "exactRepeatsWithin7Days": 0,
+    "exactRepeatsWithin14Days": 555,
+    "minimumExactRepeatGap": 7,
+    "meanExactRepeatGap": 12.65,
+    "semanticFamilyRepeatsWithin3Days": 155,
+    "minimumKnowledgeGroups": 7,
+    "minimumCategories": 4,
+    "maximumCosmeticsPerDay": 2,
+    "maximumLocationsPerDay": 1,
+    "daysWithSevenRounds": 120,
+    "daysWithFiveBroadRounds": 120,
+    "minimumVerifiedAnswers": 16,
+    "categoryAppearances": {
+      "Bosses": 27,
+      "Containers": 28,
+      "Cosmetics": 174,
+      "Crossovers": 14,
+      "Items": 144,
+      "Locations": 120,
+      "NPCs": 106,
+      "Skins": 66,
+      "Vehicles": 14,
+      "Weapons": 147
+    }
+  },
+  "fourteenDayFeasibility": {
+    "requiredUniqueQuestions": 98,
+    "totalIndependent": 102,
+    "requiredNonCosmeticWithTwoCosmeticsMaximum": 70,
+    "availableNonCosmetic": 45,
+    "requiredNonCosmeticNonLocationWithOneLocationMaximum": 56,
+    "availableNonCosmeticNonLocation": 35,
+    "requiredLocationsWithOneEveryDay": 14,
+    "availableLocations": 10,
+    "requiredItemsWithOneEveryDay": 14,
+    "availableItems": 10,
+    "feasible": false,
+    "note": "Global count alone is insufficient. Composition requires more verified non-cosmetic, location and item banks; exact cooldown relaxes oldest-first rather than exceeding category caps."
+  },
+  "phase4bBaseline": {
+    "eligibleVariants": 56,
+    "rotation": {
+      "distinctQuestionsUsed": 56,
+      "adjacentExactRepeats": 0,
+      "exactRepeatsWithin14Days": 784,
+      "semanticFamilyRepeatsWithin3Days": 279,
+      "minimumExactRepeatGap": 7,
+      "meanExactRepeatGap": 7.99
+    },
+    "note": "Committed Phase 4B report, same 120-day UTC window. Semantic family definitions and available populations have expanded."
+  },
+  "chapterNamedPOIs": {
+    "1": 38,
+    "2": 41,
+    "3": 36,
+    "4": 19,
+    "5": 26,
+    "6": 56,
+    "7": 50
+  },
+  "sourceCoverage": {
+    "referenced": 227,
+    "verified": 182,
+    "pending": 39,
+    "legacy": 6
+  },
+  "remainingIncompleteCategories": [
+    {
+      "category": "Cosmetic metadata and rewards",
+      "reason": "Conflicting same-name external records are withheld. Historical bundle populations, exact release dates, and complete Fortnitemares/all-year event reward populations remain incomplete; bundle and Winterfest prompts retain explicit snapshot/year bounds.",
+      "pendingRecords": 51
+    },
+    {
+      "category": "Daily repeat capacity",
+      "reason": "The independent pool exceeds 98, but a balanced fourteen-day rotation needs 70 non-cosmetic banks and fourteen location/item banks. Current composition is insufficient; exact repeats relax oldest-first. See phase5a-report.json for measured capacity.",
+      "pendingRecords": 0
+    },
+    {
+      "category": "Global location returns and transitions",
+      "reason": "Chapter 1–7 named-POI populations are reviewed, preserving the Epic landmark correction and separate throwbacks. Global identity continuity and conflicting return/rename/replacement transitions still need review before unrestricted questions can be enabled.",
+      "pendingRecords": 3
+    },
+    {
+      "category": "Mythic boss drops",
+      "reason": "AI boss identities and explicitly marked Mythic loot entries are reviewed. Complete exact boss/weapon drop tables and historical spawn intervals remain incomplete.",
+      "pendingRecords": 1
+    },
+    {
+      "category": "Containers",
+      "reason": "Reviewed canonical core BR container taxonomy is enabled. Exact container-by-season loot tables and contents remain incomplete.",
+      "pendingRecords": 0
+    },
+    {
+      "category": "Fishing",
+      "reason": "16 BR fish identities reviewed. Some secondary health/shield effects and all exact historical spawn windows remain unknown.",
+      "pendingRecords": 11
+    },
+    {
+      "category": "Marauders",
+      "reason": "No complete C2S3 drop table; ammo/material granularity unresolved.",
+      "pendingRecords": 1
+    }
+  ],
+  "errors": []
+}

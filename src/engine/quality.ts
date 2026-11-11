@@ -1,3 +1,4 @@
+import {independentDailyPool} from './daily-pool';
 import type { GeneratedQuestion } from '../domain/types';
 import { entitiesById } from '../data/entities';
 import { assessPredicate } from './predicates';
@@ -31,10 +32,11 @@ export function questionQuality(q:GeneratedQuestion):QuestionQuality {
  qualityCache.set(q,result);return result;
 }
 export function qualitySummary(questions:GeneratedQuestion[]) {
- const rows=questions.map(q=>({id:q.id,templateId:q.templateId,prompt:q.prompt,...questionQuality(q)}));
+ const independence=independentDailyPool(questions);const rejected=new Set(independence.excluded.map(q=>q.id));
+ const rows=questions.map(q=>({id:q.id,templateId:q.templateId,prompt:q.prompt,...questionQuality(q),dailyEligible:questionQuality(q).dailyEligible&&!rejected.has(q.id)}));
  const bands=[['under10',0,9],['10to19',10,19],['20to49',20,49],['50to99',50,99],['100plus',100,Infinity]] as const;
  const distribution=Object.fromEntries(bands.map(([name,min,max])=>{const count=rows.filter(q=>q.acceptedAnswers>=min&&q.acceptedAnswers<=max).length;return [name,{count,percentage:rows.length?Math.round(count/rows.length*1000)/10:0}]}));
  const counts=rows.map(r=>r.fieldVerifiedAnswers).sort((a,b)=>a-b);
  const percentile=(p:number)=>counts[Math.floor((counts.length-1)*p)]??0;
- return {percentiles:{p10:percentile(.1),p25:percentile(.25),p50:percentile(.5),p75:percentile(.75),p90:percentile(.9)},below10:rows.filter(r=>r.fieldVerifiedAnswers<10).length,below15:rows.filter(r=>r.fieldVerifiedAnswers<15).length,below20:rows.filter(r=>r.fieldVerifiedAnswers<20).length,wordingProblems:rows.filter(r=>/\bv\d+[.-]\d+|map snapshot|historical update observation|answer catalog/i.test(r.prompt)).map(r=>({id:r.id,prompt:r.prompt})),distribution,dailyEligible:rows.filter(q=>q.dailyEligible).length,practiceOnly:rows.filter(q=>!q.dailyEligible).length,preferredDaily:rows.filter(q=>q.preferredDaily).length,questions:rows};
+ return {rawDailyEligible:independence.rawEligible,nearDuplicateDailyExclusions:independence.excluded,percentiles:{p10:percentile(.1),p25:percentile(.25),p50:percentile(.5),p75:percentile(.75),p90:percentile(.9)},below10:rows.filter(r=>r.fieldVerifiedAnswers<10).length,below15:rows.filter(r=>r.fieldVerifiedAnswers<15).length,below20:rows.filter(r=>r.fieldVerifiedAnswers<20).length,wordingProblems:rows.filter(r=>/\bv\d+[.-]\d+|map snapshot|historical update observation|answer catalog/i.test(r.prompt)).map(r=>({id:r.id,prompt:r.prompt})),distribution,dailyEligible:rows.filter(q=>q.dailyEligible).length,practiceOnly:rows.filter(q=>!q.dailyEligible).length,preferredDaily:rows.filter(q=>q.preferredDaily).length,questions:rows};
 }

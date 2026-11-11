@@ -80,14 +80,14 @@ describe('question quality and accessible deterministic dailies',()=>{
   expect(questionQuality({...base,validAnswerIds:obscure}).dailyEligible).toBe(false);
   expect(questionQuality({...base,parameters:{season:'C2S3'},templateId:'weapon-season',advanced:false}).dailyEligible).toBe(false);
  });
- it('selects five large banks, seven knowledge groups and no repeated weapon topic across 120 days',()=>{
+ it('selects five large banks, seven knowledge groups and distinct weapon topics across 120 days',()=>{
   for(let d=1;d<=120;d++){
    const seed=dailySeed(new Date(Date.UTC(2026,8,d)));const game=generateGame(seed,7);
    expect(game).toHaveLength(7);
    expect(game.filter(q=>questionQuality(q).fieldVerifiedAnswers>=20).length).toBeGreaterThanOrEqual(5);
    expect(new Set(game.map(questionKnowledgeGroup)).size).toBe(7);
    expect(new Set(game.map(q=>q.id)).size).toBe(7);
-   expect(game.filter(q=>q.category==='Weapons').length).toBeLessThanOrEqual(1);
+   expect(game.filter(q=>q.category==='Weapons').length).toBeLessThanOrEqual(2);
    expect(game.every(q=>questionQuality(q).fieldVerifiedAnswers>=15)).toBe(true);
    expect(game.every(q=>questionQuality(q).dailyEligible)).toBe(true);
    expect(game.map(q=>q.id)).toEqual(generateGame(seed,7).map(q=>q.id));

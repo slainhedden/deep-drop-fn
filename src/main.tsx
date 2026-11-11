@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App';
+import Bootstrap from './Bootstrap';
 import './styles.css';
 import './rarity.css';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
-  <React.StrictMode><App /></React.StrictMode>,
+  <React.StrictMode><Bootstrap /></React.StrictMode>,
 );

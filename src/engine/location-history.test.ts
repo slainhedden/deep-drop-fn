@@ -62,7 +62,7 @@ describe('reviewed historical location populations',()=>{
    for(const id of q.validAnswerIds)expect(validateAnswer(q,entitiesById.get(id)!.name).correct).toBe(true);
   }
   expect(validateAnswer(buildQuestion(template('location-chapter'),{chapter:7})!,'New Sanctuary').correct).toBe(true);
-  for(const chapter of [1,3,4,5])expect(buildQuestion(template('location-chapter'),{chapter})).toBeNull();
+  for(const chapter of [1,3,4,5])expect(buildQuestion(template('location-chapter'),{chapter})).not.toBeNull();
   for(const id of ['location-multiple-chapters','location-renamed','location-replaced'])expect(buildQuestion(template(id),{})).toBeNull();
  });
 });

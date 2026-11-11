@@ -1,7 +1,7 @@
 import { entities,entitiesById } from '../data/entities';
 import { seasons } from '../data/seasons';
 import { factVerification } from './predicates';
-import { availableIn,appearanceChapters } from './history';
+import { availableIn } from './history';
 import { dailySeed,generateGame,questionPool } from './questions';
 let cached:ReturnType<typeof calculate>|undefined;
 function calculate(){
@@ -9,8 +9,8 @@ function calculate(){
  const questions=questionPool();
  const broadBanks=questions.filter(q=>ids.has(q.templateId)).map(q=>({templateId:q.templateId,parameters:q.parameters,prompt:q.prompt,accepted:q.validAnswerIds.length,explicitlyVerified:q.validAnswerIds.filter(id=>q.predicates.every(p=>factVerification(entitiesById.get(id)!,p.field)==='verified')).length}));
  const verifiedAttribute=(field:string,type?:string)=>entities.filter(e=>(!type||e.type===type)&&e.facts[field]===true&&factVerification(e,field)==='verified').length;
- const seasonAssignments=Object.fromEntries([2,6,7].map(chapter=>{const rows=seasons.filter(s=>s.chapter===chapter&&s.kind!=='throwback').map(s=>({season:s.id,namedPois:entities.filter(e=>e.type==='location'&&availableIn(e,s.id,false,true)).length}));return [chapter,{assignments:rows.reduce((n,r)=>n+r.namedPois,0),bySeason:rows}]}));
- const namedByChapter=Object.fromEntries([1,2,3,4,5,6,7].map(chapter=>[chapter,entities.filter(e=>e.type==='location'&&appearanceChapters(e,false,true).includes(chapter)).length]));
+ const seasonAssignments=Object.fromEntries([1,2,3,4,5,6,7].map(chapter=>{const rows=seasons.filter(s=>s.chapter===chapter&&s.kind!=='throwback').map(s=>({season:s.id,namedPois:entities.filter(e=>e.type==='location'&&availableIn(e,s.id,false,true)).length}));return [chapter,{assignments:rows.reduce((n,r)=>n+r.namedPois,0),bySeason:rows}]}));
+ const namedByChapter=Object.fromEntries([1,2,3,4,5,6,7].map(chapter=>[chapter,entities.filter(e=>e.type==='location'&&e.facts.namedPoi===true&&Array.isArray(e.facts.numberedChapterAppearances)&&e.facts.numberedChapterAppearances.some(value=>value===chapter)).length]));
  let pendingHistoricalClaims=0;
  for(const e of entities){const h=e.history;if(!h)continue;pendingHistoricalClaims+=[...(h.introduction?[h.introduction]:[]),...h.appearances,...h.changes,...h.relationships,...(h.observations??[]),...Object.values(h.flags??{})].filter(r=>r.status==='pending').length;}
  const answerCounts:number[]=[];const examples=[];

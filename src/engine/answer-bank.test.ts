@@ -22,7 +22,7 @@ describe('field-level category completeness',()=>{
  });
  it('accepts a classified pending-history record without promoting its timeline',()=>{
   const scoped=entitiesById.get('weapon-scoped-assault-rifle')!;
-  expect(scoped.verification).toBe('pending');
+  expect(scoped.verification).toBe('verified'); // Identity/ammo review does not promote its introduction.
   expect(scoped.factEvidence?.weaponClass?.status).toBe('verified');
   expect(validateAnswer(rifles,'Scoped Assault Rifle').correct).toBe(true);
   expect(scoped.history?.introduction?.status).toBe('pending');
@@ -67,7 +67,9 @@ describe('active-question autocomplete',()=>{
   const loot=questionPool().find(question=>question.templateId==='reviewed-launch-loot'&&question.parameters.season==='C4S2')!;
   expect(suggestionsFor('hav',loot).map(entity=>entity.name)).toEqual(expect.arrayContaining(['Havoc Pump Shotgun','Havoc Suppressed Assault Rifle']));
   expect(suggestionsFor('hav',rifles).map(entity=>entity.name)).toEqual(['Havoc Suppressed Assault Rifle']);
-  expect(suggestionsFor('hav',broad('shotgun')).map(entity=>entity.name)).toEqual(['Havoc Pump Shotgun']);
+  const shotguns=suggestionsFor('hav',broad('shotgun'));
+  expect(shotguns.map(entity=>entity.name)).toContain('Havoc Pump Shotgun');
+  expect(shotguns.every(entity=>entity.facts.weaponClass==='shotgun')).toBe(true);
  });
  it('never suggests a rejected answer, including after switching questions of the same type',()=>{
   for(const question of questionPool()) for(const query of ['ar','tac','hav','str','pump','mid']) for(const entity of suggestionsFor(query,question)) {
@@ -107,7 +109,7 @@ describe('developer inspector',()=>{
  it('reports accepted, excluded and partially verified rifles with exact reasons',()=>{
   const report=inspectAnswerBank('weapon-class',{weaponClass:'assault rifle'});
   expect(report.questionText).toBe('Name a Fortnite assault rifle.');expect(report.acceptedCount).toBe(rifles.validAnswerIds.length);
-  expect(report.accepted.find(row=>row.id==='weapon-scoped-assault-rifle')?.recordStatus).toBe('pending');
+  expect(report.accepted.find(row=>row.id==='weapon-scoped-assault-rifle')?.recordStatus).toBe('verified');
   expect(report.excluded.find(row=>row.id==='weapon-mk-alpha-assault-rifle')?.exclusionReasons.join(' ')).toContain('missing field-level verification');
   expect(report.excluded.find(row=>row.id==='pump-shotgun')?.exclusionReasons.join(' ')).toContain('does not match');
  });

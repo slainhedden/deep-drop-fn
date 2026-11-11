@@ -1,0 +1,249 @@
+{
+  "measurements": [
+    {
+      "screen": "home",
+      "width": 375,
+      "viewport": 375,
+      "document": 375,
+      "central": 375,
+      "sidePanels": 0
+    },
+    {
+      "screen": "game",
+      "width": 375,
+      "viewport": 375,
+      "document": 375,
+      "central": 375,
+      "sidePanels": 0,
+      "question": {
+        "x": 48,
+        "y": 229.8125,
+        "width": 279,
+        "height": 59.375,
+        "top": 229.8125,
+        "right": 327,
+        "bottom": 289.1875,
+        "left": 48
+      },
+      "input": {
+        "x": 24,
+        "y": 378,
+        "width": 327,
+        "height": 50,
+        "top": 378,
+        "right": 351,
+        "bottom": 428,
+        "left": 24
+      }
+    },
+    {
+      "screen": "rarity",
+      "width": 375,
+      "viewport": 375,
+      "document": 375,
+      "central": 375,
+      "sidePanels": 0
+    },
+    {
+      "screen": "home",
+      "width": 768,
+      "viewport": 768,
+      "document": 768,
+      "central": 720,
+      "sidePanels": 0
+    },
+    {
+      "screen": "game",
+      "width": 768,
+      "viewport": 768,
+      "document": 768,
+      "central": 720,
+      "sidePanels": 0,
+      "question": {
+        "x": 126.09375,
+        "y": 294.796875,
+        "width": 515.796875,
+        "height": 37.390625,
+        "top": 294.796875,
+        "right": 641.890625,
+        "bottom": 332.1875,
+        "left": 126.09375
+      },
+      "input": {
+        "x": 104,
+        "y": 438,
+        "width": 560,
+        "height": 50,
+        "top": 438,
+        "right": 664,
+        "bottom": 488,
+        "left": 104
+      }
+    },
+    {
+      "screen": "rarity",
+      "width": 768,
+      "viewport": 768,
+      "document": 768,
+      "central": 720,
+      "sidePanels": 0
+    },
+    {
+      "screen": "home",
+      "width": 1280,
+      "viewport": 1280,
+      "document": 1280,
+      "central": 716,
+      "sidePanels": 2
+    },
+    {
+      "screen": "game",
+      "width": 1280,
+      "viewport": 1280,
+      "document": 1280,
+      "central": 716,
+      "sidePanels": 2,
+      "question": {
+        "x": 330,
+        "y": 330.359375,
+        "width": 580,
+        "height": 91.28125,
+        "top": 330.359375,
+        "right": 910,
+        "bottom": 421.640625,
+        "left": 330
+      },
+      "input": {
+        "x": 300,
+        "y": 552,
+        "width": 640,
+        "height": 64,
+        "top": 552,
+        "right": 940,
+        "bottom": 616,
+        "left": 300
+      }
+    },
+    {
+      "screen": "rarity",
+      "width": 1280,
+      "viewport": 1280,
+      "document": 1280,
+      "central": 716,
+      "sidePanels": 2
+    },
+    {
+      "screen": "home",
+      "width": 1440,
+      "viewport": 1440,
+      "document": 1440,
+      "central": 784,
+      "sidePanels": 2
+    },
+    {
+      "screen": "game",
+      "width": 1440,
+      "viewport": 1440,
+      "document": 1440,
+      "central": 784,
+      "sidePanels": 2,
+      "question": {
+        "x": 376,
+        "y": 351.671875,
+        "width": 648,
+        "height": 102.65625,
+        "top": 351.671875,
+        "right": 1024,
+        "bottom": 454.328125,
+        "left": 376
+      },
+      "input": {
+        "x": 346,
+        "y": 594,
+        "width": 708,
+        "height": 64,
+        "top": 594,
+        "right": 1054,
+        "bottom": 658,
+        "left": 346
+      }
+    },
+    {
+      "screen": "rarity",
+      "width": 1440,
+      "viewport": 1440,
+      "document": 1440,
+      "central": 784,
+      "sidePanels": 2
+    },
+    {
+      "screen": "results",
+      "width": 1440,
+      "viewport": 1440,
+      "document": 1440,
+      "central": 784,
+      "sidePanels": 2
+    },
+    {
+      "homeReadyMs": 130,
+      "dropReadyMs": 2516,
+      "suggestionsMs": 7,
+      "catalogLoadedAtHome": false,
+      "sevenDailyRoundsScored": true,
+      "invalidRetry": true,
+      "twoCharacterSuggestionsSuppressed": true,
+      "unlimitedTimeout": true,
+      "practiceHistoryPersisted": true,
+      "firstPractice": "Name a cosmetic from Fortnite’s Guardians of the Globe set."
+    },
+    {
+      "screen": "home",
+      "width": 1920,
+      "viewport": 1920,
+      "document": 1920,
+      "central": 1156,
+      "sidePanels": 2
+    },
+    {
+      "screen": "game",
+      "width": 1920,
+      "viewport": 1920,
+      "document": 1920,
+      "central": 1156,
+      "sidePanels": 2,
+      "question": {
+        "x": 560.734375,
+        "y": 374.25,
+        "width": 758.53125,
+        "height": 57.5,
+        "top": 374.25,
+        "right": 1319.265625,
+        "bottom": 431.75,
+        "left": 560.734375
+      },
+      "input": {
+        "x": 516,
+        "y": 594,
+        "width": 848,
+        "height": 64,
+        "top": 594,
+        "right": 1364,
+        "bottom": 658,
+        "left": 516
+      }
+    },
+    {
+      "screen": "rarity",
+      "width": 1920,
+      "viewport": 1920,
+      "document": 1920,
+      "central": 1156,
+      "sidePanels": 2
+    },
+    {
+      "directUnlimitedFromHome": true
+    }
+  ],
+  "externalRequests": [],
+  "pageErrors": []
+}

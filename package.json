@@ -13,7 +13,8 @@
     "diagnostics": "node scripts/build-info.mjs --print",
     "package:site": "node scripts/package-site.mjs",
     "audit:quality": "node scripts/audit-quality.mjs",
-    "audit:phase4b": "node scripts/audit-phase4b.mjs"
+    "audit:phase4b": "node scripts/audit-phase4b.mjs",
+    "audit:phase5a": "node scripts/audit-phase5a.mjs"
   },
   "dependencies": {
     "@vitejs/plugin-react": "latest",

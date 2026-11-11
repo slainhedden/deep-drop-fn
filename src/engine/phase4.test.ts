@@ -88,11 +88,11 @@ describe('typed Chapter 7 snapshots without fabricated Chapter 2 or 6 timelines'
   expect(latte.history?.introduction?.sourceIds).toContain('wg-named-locations');
   expect(availableIn(latte,'C7S1',false,true)).toBe(true);
  });
- it('enables reviewed chapters while retaining unreviewed chapter gates',()=>{
+ it('enables all reviewed chapter populations without promoting other history',()=>{
   const template=templates.find(t=>t.id==='location-chapter')!;
   expect(template).toBeDefined();
   for(const chapter of [2,6,7])expect(buildQuestion(template,{chapter})).not.toBeNull();
-  for(const chapter of [1,3,4,5])expect(buildQuestion(template,{chapter})).toBeNull();
+  for(const chapter of [1,3,4,5])expect(buildQuestion(template,{chapter})).not.toBeNull();
   for(const e of entities.filter(e=>e.type==='location'))for(const p of e.history?.appearances??[])if(['C2S2','C6S1'].includes(p.from)&&p.status==='verified')expect(p.sourceIds.every(id=>!id.startsWith('map-archive-'))).toBe(true);
  });
 });

@@ -1,3 +1,4 @@
+import {independentDailyPool,isCosmeticQuestion,semanticOverlap} from './daily-pool';
 import { naturalWording } from '../data/update-registry';
 import { normalizeAnswer } from './normalize';
 import { questionQuality } from './quality';
@@ -73,13 +74,6 @@ export function questionPool(options:{expert?:boolean}={}): GeneratedQuestion[] 
   cachedPools.set(Boolean(options.expert),pool);return [...pool];
 }
 
-const overlaps=new Map<string,number>();
-function answerOverlap(a:GeneratedQuestion,b:GeneratedQuestion):number {
- const key=[a.id,b.id].sort().join('::');const prior=overlaps.get(key);if(prior!==undefined)return prior;
- const ids=new Set(a.validAnswerIds),common=b.validAnswerIds.filter(id=>ids.has(id)).length;
- const value=common/(ids.size+b.validAnswerIds.length-common);overlaps.set(key,value);return value;
-}
-
 /** Balance knowledge axes as well as answer categories for the daily seven rounds. */
 export function questionKnowledgeGroup(question:GeneratedQuestion):string {
  const template=templates.find(template=>template.id===question.templateId);
@@ -146,6 +140,8 @@ export function dailySeed(date = new Date()): string { return `storm-rare-daily-
 
 const templateMap=new Map(templates.map(t=>[t.id,t]));
 export const semanticFamily=(q:GeneratedQuestion)=>templateMap.get(q.templateId)?.family??q.templateId;
+let cachedDaily:GeneratedQuestion[]|undefined;
+export function dailyQuestionPool():GeneratedQuestion[]{return [...(cachedDaily??(cachedDaily=independentDailyPool(questionPool()).questions))];}
 const epoch=Math.floor(Date.UTC(2025,0,1)/86400000);
 const schedule=new Map<number,GeneratedQuestion[]>();
 let generatedThrough=epoch-1;
@@ -153,7 +149,7 @@ let generatedThrough=epoch-1;
 function historicalDaily(date:string):GeneratedQuestion[]{
  const target=Math.floor(Date.parse(date+'T00:00:00Z')/86400000);
  if(!Number.isFinite(target)||target<epoch)return generateUnscheduled('storm-rare-daily-'+date,7);
- const eligible=questionPool().filter(q=>questionQuality(q).dailyEligible);
+ const eligible=dailyQuestionPool();
  for(let day=generatedThrough+1;day<=target;day++){
   const label=new Date(day*86400000).toISOString().slice(0,10);
   const shuffled=shuffle(eligible,seededRandom('storm-rare-daily-'+label));
@@ -164,8 +160,16 @@ function historicalDaily(date:string):GeneratedQuestion[]{
    let best:GeneratedQuestion|undefined,bestCost=Infinity;
    for(const q of shuffled){
     if(selected.some(p=>p.id===q.id||p.prompt===q.prompt))continue;
-    if(selected.some(p=>answerOverlap(p,q)>=.8))continue;
+    if(questionQuality(q).fieldVerifiedAnswers<20&&selected.filter(p=>questionQuality(p).fieldVerifiedAnswers<20).length>=2)continue;
+    if(selected.some(p=>semanticOverlap(p,q)>=.8))continue;
     const group=questionKnowledgeGroup(q),family=semanticFamily(q);
+    if(isCosmeticQuestion(q)&&selected.filter(isCosmeticQuestion).length>=2)continue;
+    if(q.category==='Locations'&&selected.some(p=>p.category==='Locations'))continue;
+    if(['NPCs','Bosses'].includes(q.category)&&selected.some(p=>p.category===q.category))continue;
+    const neededLocations=selected.some(p=>p.category==='Locations')?0:1,neededItems=selected.some(p=>p.category==='Items')?0:1;
+    if(7-selected.length<=neededLocations+neededItems&&!((neededLocations&&q.category==='Locations')||(neededItems&&q.category==='Items')))continue;
+    if(q.category==='Weapons'&&selected.filter(p=>p.category==='Weapons').length>=2)continue;
+    if(q.category==='Items'&&selected.filter(p=>p.category==='Items').length>=2)continue;
     if(selected.some(p=>questionKnowledgeGroup(p)===group))continue;
     const subjects=(x:GeneratedQuestion)=>/star wars|original trilogy|prequel trilogy/i.test(x.prompt)?'star-wars':/\bMarvel\b/i.test(x.prompt)?'marvel':/\bDC\b/i.test(x.prompt)?'dc':undefined;
     if(subjects(q)&&selected.some(p=>subjects(p)===subjects(q)))continue;

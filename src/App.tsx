@@ -1,3 +1,5 @@
+import {AppFrame,Brand,type InitialRoute} from './components/AppFrame';
+import {HomeScreen} from './components/HomeScreen';
 import {loadPracticeHistory,rememberPracticeQuestion} from './storage/practice';
 import { useCallback,useEffect,useMemo,useRef,useState } from 'react';
 import { BarChart3,CalendarDays,Check,ChevronLeft,ChevronRight,Clock3,Gift,Home,MapPin,Package,Settings,Shield,Star,Swords,Target,Trophy,UserRound,Zap } from 'lucide-react';
@@ -17,8 +19,8 @@ const dropNumber=()=>Math.floor((Date.now()-Date.UTC(2026,0,1))/86400000)+1;
 const demoQuestion=questionPool().find(question=>question.validAnswerIds.includes('zapotron'))!;
 const demoRound:RoundResult={question:demoQuestion,result:{submitted:'Zapotron',canonicalAnswer:'Zapotron',answerId:'zapotron',correct:true,timedOut:false,points:1000,tier:'Legendary',explanation:'Animation preview',frequencySource:'estimated',estimatedFrequency:.0001,matchedVia:'canonical'}};
 
-export default function App(){
- const [screen,setScreen]=useState<Screen>('home');
+export default function App({initialRoute}:{initialRoute?:InitialRoute}={}){
+ const [screen,setScreen]=useState<Screen>(initialRoute&&initialRoute!=='practice'?initialRoute:initialRoute==='practice'?'drop':'home');
  const [mode,setMode]=useState<Mode>('daily');
  const [questions,setQuestions]=useState<GeneratedQuestion[]>([]);
  const [round,setRound]=useState(0);
@@ -42,6 +44,8 @@ export default function App(){
   lockedRef.current=false;deadline.current=Date.now()+20000;setAttemptFeedback('');
   setMode(nextMode);setQuestions(nextMode==='daily'?generateGame(seed,7):generatePractice(seed,7,undefined,loadPracticeHistory()));setRound(0);setResults([]);setAnswer('');setLocked(false);setSeconds(20);setScreen('game');finalized.current=false;
  },[]);
+ const booted=useRef(false);
+ useEffect(()=>{if(initialRoute==='practice'&&!booted.current){booted.current=true;start('practice');}},[initialRoute,start]);
  useEffect(()=>{if(mode==='practice'&&screen==='game'&&question)rememberPracticeQuestion(question.id);},[mode,screen,question]);
  const submit=useCallback((timedOut=false)=>{
   if(!question||lockedRef.current)return;
@@ -55,7 +59,7 @@ export default function App(){
  useEffect(()=>{if(screen==='game'&&!locked)inputRef.current?.focus()},[screen,round,locked]);
  const next=()=>{if(round+1>=questions.length){if(!finalized.current){setStats(recordGame(results,mode==='daily'?'daily':'unlimited',day()));finalized.current=true}setScreen('results');return}lockedRef.current=false;deadline.current=Date.now()+20000;setAttemptFeedback('');setRound(v=>v+1);setAnswer('');setLocked(false);setSeconds(20)};
  const navigate=(nextScreen:Screen)=>{setScreen(nextScreen);if(nextScreen!=='game'){setQuestions([]);setResults([])}};
- return <div className="page"><div className="phone-app">
+ return <AppFrame screen={screen} mode={mode} stats={stats} results={results} round={round} onDaily={openDrop} onPractice={()=>start('practice')} onHome={()=>navigate('home')}>
   {screen==='game'?<GameHeader round={round} total={questions.length} score={total}/>:<Header/>}
   <div className="screen">
    {screen==='home'&&<HomeScreen onPlay={openDrop} streak={stats.currentStreak}/>} 
@@ -68,20 +72,11 @@ export default function App(){
    {screen==='demo'&&<RarityDrop round={demoRound} demo onContinue={()=>setScreen('drop')}/>} 
   </div>
   {screen!=='game'&&screen!=='results'&&screen!=='demo'&&<BottomNav active={screen} navigate={navigate}/>} 
- </div></div>;
+ </AppFrame>;
 }
 
-function Brand(){return <div className="brand"><span>DEEP</span><b>DROP</b><em>FN</em></div>}
 function Header(){return <header className="topbar"><button className="gear" aria-label="Settings"><Settings/></button><Brand/><div className="top-spacer"/></header>}
 function GameHeader({round,total,score}:{round:number;total:number;score:number}){return <><header className="topbar game-top"><button className="gear" aria-label="Settings"><Settings/></button><Brand/><div className="live-score">{fmt(score)}</div></header><div className="game-progress"><span>Q{round+1} of {total}</span><div>{Array.from({length:total},(_,i)=><i key={i} className={i<round?'done':i===round?'active':''}/>)}</div></div></>}
-
-function HomeScreen({onPlay,streak}:{onPlay:()=>void;streak:number}){return <section className="splash scene">
- <div className="crown">♛</div><div className="hero-brand"><Brand/></div>
- <div className="drop-orb"><Zap/><span/></div>
- <h1>The daily Fortnite trivia game.</h1><p>The rarer your answer, the more points you earn.</p>
- <div className="benefits"><span><CalendarDays/>New questions every day</span><span><Swords/>Challenge the same seven prompts</span><span><Zap/>Prove your deep-cut knowledge</span></div>
- <button className="lime-button" onClick={onPlay}>PLAY TODAY <ChevronRight/></button>{streak>0&&<small className="streak-note">🔥 {streak} day streak</small>}
- </section>}
 
 function DropScreen({stats,onStart,onPreview}:{stats:PlayerStats;onStart:(mode:Mode)=>void;onPreview:()=>void}){
  const dailyDone=stats.completedDailyDates.includes(day());
@@ -92,6 +87,7 @@ function DropScreen({stats,onStart,onPreview}:{stats:PlayerStats;onStart:(mode:M
   <div className="topic-card"><h2>Today’s Topics</h2>{Object.entries(counts).map(([name,count])=><div className="topic" key={name}><span>{icons[name]}</span><b>{name}</b><em>{count}</em></div>)}<div className="reset"><Clock3/>Resets at <b>00:00 UTC</b></div></div>
   {!dailyDone?<button className="lime-button" onClick={()=>onStart('daily')}>START GAME <ChevronRight/></button>:<><div className="completed"><Check/>Today’s ranked drop is complete</div><button className="lime-button" onClick={()=>onStart('practice')}>PRACTICE AGAIN <ChevronRight/></button></>}
   <button className="preview-drop" onClick={onPreview}><Zap/> Preview Chapter 1 OG reveal</button>
+ {!dailyDone&&<button className="unlimited-button" onClick={()=>onStart('practice')}><Swords/> PLAY UNLIMITED <ChevronRight/></button>}
  </section>}
 
 export function GameScreen({question,round,total,seconds,score,answer,setAnswer,locked,onSubmit,current,onNext,inputRef,attemptFeedback}:{question:GeneratedQuestion;round:number;total:number;seconds:number;score:number;answer:string;setAnswer:(value:string)=>void;locked:boolean;onSubmit:()=>void;current?:RoundResult;onNext:()=>void;inputRef:React.RefObject<HTMLInputElement|null>;attemptFeedback?:string}){
@@ -113,7 +109,7 @@ function Feedback({round,onNext,last}:{round:RoundResult;onNext:()=>void;last:bo
  <div className="verified-box"><UserRound/>1 of {round.question.validAnswerIds.length} eligible answers in this prompt</div><button className="lime-button" onClick={onNext}>{last?'VIEW RESULTS':'NEXT QUESTION'} <ChevronRight/></button>
  </section>}
 
-function Results({results,score,onAgain,onLeaderboard}:{results:RoundResult[];score:number;onAgain:()=>void;onLeaderboard:()=>void}){const correct=results.filter(r=>r.result.correct);const best=[...correct].sort((a,b)=>b.result.points-a.result.points)[0];return <section className="results scene"><h2>DAILY DROP #{String(dropNumber()).padStart(3,'0')}</h2><span>Results</span><div className="score-burst"><small>TOTAL SCORE</small><strong>{fmt(score)}</strong></div><div className="rank-line"><Trophy/>Your score is saved on this device</div><div className="result-grid"><div><Target/><b>{correct.length}/{results.length}</b><small>Correct</small></div><div><BarChart3/><b>{correct.length?Math.round(score/correct.length):0}</b><small>Avg points</small></div></div><div className="best-answer"><Zap/><span><small>BEST ANSWER</small><b>{best?.result.canonicalAnswer??'—'}</b></span><strong>+{best?.result.points??0}</strong></div><button className="lime-button" onClick={onLeaderboard}>VIEW LEADERBOARD</button><button className="ghost-button" onClick={onAgain}>PLAY AGAIN <ChevronRight/></button></section>}
+function Results({results,score,onAgain,onLeaderboard}:{results:RoundResult[];score:number;onAgain:()=>void;onLeaderboard:()=>void}){const correct=results.filter(r=>r.result.correct);const best=[...correct].sort((a,b)=>b.result.points-a.result.points)[0];return <section className="results scene"><h2>YOUR DROP</h2><span>Results</span><div className="score-burst"><small>TOTAL SCORE</small><strong>{fmt(score)}</strong></div><div className="rank-line"><Trophy/>Your score is saved on this device</div><div className="result-grid"><div><Target/><b>{correct.length}/{results.length}</b><small>Correct</small></div><div><BarChart3/><b>{correct.length?Math.round(score/correct.length):0}</b><small>Avg points</small></div></div><div className="best-answer"><Zap/><span><small>BEST ANSWER</small><b>{best?.result.canonicalAnswer??'—'}</b></span><strong>+{best?.result.points??0}</strong></div><ol className="results-rounds">{results.map((r,i)=><li key={r.question.id}><span>{i+1}</span><div><small>{r.question.category}</small><b>{r.result.canonicalAnswer??'Time’s up'}</b></div><strong>+{r.result.points}</strong></li>)}</ol><button className="lime-button" onClick={onLeaderboard}>VIEW LEADERBOARD</button><button className="ghost-button" onClick={onAgain}>PLAY AGAIN <ChevronRight/></button></section>}
 
 function Leaderboard({stats}:{stats:PlayerStats}){return <section className="standard"><h1>LEADERBOARD</h1><p>Daily Drop #{String(dropNumber()).padStart(3,'0')}</p><div className="tabs"><b>THIS DEVICE</b><span>FRIENDS — SOON</span></div><div className="leader-row you"><span>1</span><div><b>You</b><small>Personal best</small></div><strong>{fmt(stats.highScore)}</strong></div><div className="empty-card"><Swords/><h2>Friend rankings are next</h2><p>The current MVP keeps scores honest on each device. Shared rooms and verified global ranks need the multiplayer service.</p></div></section>}
 
