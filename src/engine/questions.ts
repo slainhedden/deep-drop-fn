@@ -164,7 +164,7 @@ function historicalDaily(date:string):GeneratedQuestion[]{
     if(selected.some(p=>semanticOverlap(p,q)>=.8))continue;
     const group=questionKnowledgeGroup(q),family=semanticFamily(q);
     if(isCosmeticQuestion(q)&&selected.filter(isCosmeticQuestion).length>=2)continue;
-    if(q.category==='Locations'&&selected.some(p=>p.category==='Locations'))continue;
+    if(q.category==='Locations'&&selected.filter(p=>p.category==='Locations').length>=2)continue;
     if(['NPCs','Bosses'].includes(q.category)&&selected.some(p=>p.category===q.category))continue;
     const neededLocations=selected.some(p=>p.category==='Locations')?0:1,neededItems=selected.some(p=>p.category==='Items')?0:1;
     if(7-selected.length<=neededLocations+neededItems&&!((neededLocations&&q.category==='Locations')||(neededItems&&q.category==='Items')))continue;

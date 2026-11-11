@@ -6,10 +6,10 @@ const broad=(id:string,prompt:string,field:string,types:QuestionTemplate['answer
 const sets=['FNCS','TMNT','The Seven','Original Trilogy','The Prequel Trilogy','Dragon Ball','Naruto','Street Fighter','Fort Knights','Space Explorers','Adventure Time','Skull Squad'];
 const setMemberships=[...new Map(catalog.flatMap(c=>c.memberships.filter(m=>m.kind==='set')).filter(m=>sets.includes(m.name)).map(m=>[m.id,m])).values()];
 export const phase4bTemplates:QuestionTemplate[]=[
- broad('rotation-general','Name something you can use to rotate in Fortnite.','function:rotate',['item','weapon','vehicle'],'movement'),
- broad('restorative-general','Name something that gives you health or shield.','function:restorative',['item'],'restoration'),
+ broad('rotation-general','Name something you can use to rotate in Fortnite.','function:rotate',['item','weapon','vehicle','feature'],'movement'),
+ broad('restorative-general','Name something that gives you health or shield.','function:restorative',['item','weapon','feature'],'restoration'),
  broad('high-ground','Name an item that helps you get high ground.','function:highGround',['item','weapon'],'movement'),
- broad('flight-general','Name something that lets you fly or glide.','function:fly',['item','vehicle'],'movement'),
+ broad('flight-general','Name something that lets you fly or glide.','function:fly',['item','weapon','vehicle','feature'],'movement'),
  broad('launch-general','Name an item that can launch you into the air.','function:launch',['item','weapon'],'movement'),
  broad('throwable-general','Name a throwable item in Fortnite.','function:throwable',['item','weapon'],'throwables'),
  ...cosmeticTypes.map(([type,noun]):QuestionTemplate=>({id:`cosmetic-${type}`,category:type==='outfit'?'Skins':'Cosmetics',answerType:type==='outfit'?'skin':'cosmetic',baseDifficulty:'easy',parameters:[],family:`cosmetic-${type}`,diversityGroup:`cosmetic-${type}`,prompt:()=>`Name a Fortnite ${noun}.`,predicates:()=>[p('cosmeticType',type)],explanation:a=>`${a.name} is a documented Fortnite ${noun}.`})),

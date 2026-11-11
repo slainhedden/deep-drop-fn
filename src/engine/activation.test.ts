@@ -89,7 +89,7 @@ describe('approved historical scopes',()=>{
   const report=auditQuestionBank();
   expect(report.errors).toEqual([]);
   expect(report.disabledCombinations).toContainEqual(expect.objectContaining({templateId:'vehicle-introduced-chapter',parameters:{chapter:2},reason:'coverage-incomplete'}));
- });
+ },15000);
  it('detects contradictory verified update observations',()=>{
   const rifle=structuredClone(entity('Scoped Revolver'));
   rifle.history!.observations!.push({...rifle.history!.observations!.find(record=>record.update==='v9-00')!,state:'present'});

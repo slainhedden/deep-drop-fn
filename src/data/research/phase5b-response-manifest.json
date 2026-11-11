@@ -1,0 +1,1264 @@
+{
+  "companies-index": [
+    {
+      "name": "A Lot O' Auto",
+      "page": "A_Lot_O%27_Auto"
+    },
+    {
+      "name": "Arcade (Company)",
+      "page": "Arcade_(Company)"
+    },
+    {
+      "name": "Ballers Pub",
+      "page": "Ballers_Pub"
+    },
+    {
+      "name": "Barrel Restaurant",
+      "page": "Barrel_Restaurant"
+    },
+    {
+      "name": "Big Shots",
+      "page": "Big_Shots"
+    },
+    {
+      "name": "Boat N' Tackle",
+      "page": "Boat_N%27_Tackle"
+    },
+    {
+      "name": "Bobom Milk Tea",
+      "page": "Bobom_Milk_Tea"
+    },
+    {
+      "name": "BURD (Company)",
+      "page": "BURD_(Company)"
+    },
+    {
+      "name": "Cap'n Carp",
+      "page": "Cap%27n_Carp"
+    },
+    {
+      "name": "Car Manufacturers",
+      "page": "Car_Manufacturers"
+    },
+    {
+      "name": "Classy Condos",
+      "page": "Classy_Condos"
+    },
+    {
+      "name": "Companies",
+      "page": "Companies"
+    },
+    {
+      "name": "Cuddle Buns",
+      "page": "Cuddle_Buns"
+    },
+    {
+      "name": "Detective Agency",
+      "page": "Detective_Agency"
+    },
+    {
+      "name": "Dirty Duck",
+      "page": "Dirty_Duck"
+    },
+    {
+      "name": "Dodgy Brothers",
+      "page": "Dodgy_Brothers"
+    },
+    {
+      "name": "Double Plump Buffet",
+      "page": "Double_Plump_Buffet"
+    },
+    {
+      "name": "Dumpling",
+      "page": "Dumpling"
+    },
+    {
+      "name": "Durrr Burger",
+      "page": "Durrr_Burger"
+    },
+    {
+      "name": "Durrr Sushi",
+      "page": "Durrr_Sushi"
+    },
+    {
+      "name": "Dusty Diner",
+      "page": "Dusty_Diner"
+    },
+    {
+      "name": "Farmers Market",
+      "page": "Farmers_Market"
+    },
+    {
+      "name": "Flow (Company)",
+      "page": "Flow_(Company)"
+    },
+    {
+      "name": "Flush Factory Outlet",
+      "page": "Flush_Factory_Outlet"
+    },
+    {
+      "name": "FNTransport",
+      "page": "FNTransport"
+    },
+    {
+      "name": "Fork Knife",
+      "page": "Fork_Knife"
+    },
+    {
+      "name": "Garden Center",
+      "page": "Garden_Center"
+    },
+    {
+      "name": "GAS",
+      "page": "GAS"
+    },
+    {
+      "name": "Hey Boo!",
+      "page": "Hey_Boo!"
+    },
+    {
+      "name": "Hotel 23",
+      "page": "Hotel_23"
+    },
+    {
+      "name": "Joel's Pub",
+      "page": "Joel%27s_Pub"
+    },
+    {
+      "name": "Junk 4 Cash Pawn Shop",
+      "page": "Junk_4_Cash_Pawn_Shop"
+    },
+    {
+      "name": "Just Build",
+      "page": "Just_Build"
+    },
+    {
+      "name": "Kappa Kappa Pickle Co.",
+      "page": "Kappa_Kappa_Pickle_Co."
+    },
+    {
+      "name": "Kevolution Energy",
+      "page": "Kevolution_Energy"
+    },
+    {
+      "name": "Keyboard King",
+      "page": "Keyboard_King"
+    },
+    {
+      "name": "Knepley's Pawn Shop",
+      "page": "Knepley%27s_Pawn_Shop"
+    },
+    {
+      "name": "Lazy Lake Spa",
+      "page": "Lazy_Lake_Spa"
+    },
+    {
+      "name": "Logjam",
+      "page": "Logjam"
+    },
+    {
+      "name": "Madbuns",
+      "page": "Madbuns"
+    },
+    {
+      "name": "McGuffin's",
+      "page": "McGuffin%27s"
+    },
+    {
+      "name": "Meowscle's Morsels",
+      "page": "Meowscle%27s_Morsels"
+    },
+    {
+      "name": "Mmmmm!",
+      "page": "Mmmmm!"
+    },
+    {
+      "name": "Mr. Polar's Artisanal Ice",
+      "page": "Mr._Polar%27s_Artisanal_Ice"
+    },
+    {
+      "name": "No Sweat Insurance",
+      "page": "No_Sweat_Insurance"
+    },
+    {
+      "name": "No Sweat Storage",
+      "page": "No_Sweat_Storage"
+    },
+    {
+      "name": "Noms",
+      "page": "Noms"
+    },
+    {
+      "name": "Nugget Hut",
+      "page": "Nugget_Hut"
+    },
+    {
+      "name": "Oink!",
+      "page": "Oink!"
+    },
+    {
+      "name": "One Shot Sports!",
+      "page": "One_Shot_Sports!"
+    },
+    {
+      "name": "Outdoor Equipment Store",
+      "page": "Outdoor_Equipment_Store"
+    },
+    {
+      "name": "Pass 'N' Gas",
+      "page": "Pass_%27N%27_Gas"
+    },
+    {
+      "name": "Pea Bois",
+      "page": "Pea_Bois"
+    },
+    {
+      "name": "Peely's Banana Stand",
+      "page": "Peely%27s_Banana_Stand"
+    },
+    {
+      "name": "Pump Gym",
+      "page": "Pump_Gym"
+    },
+    {
+      "name": "Puppuccino",
+      "page": "Puppuccino"
+    },
+    {
+      "name": "Pym Technologies",
+      "page": "Pym_Technologies"
+    },
+    {
+      "name": "Saucy Sausage",
+      "page": "Saucy_Sausage"
+    },
+    {
+      "name": "Scoops Ahoy",
+      "page": "Scoops_Ahoy"
+    },
+    {
+      "name": "Sew What",
+      "page": "Sew_What"
+    },
+    {
+      "name": "Shakes & Burgers",
+      "page": "Shakes_%26_Burgers"
+    },
+    {
+      "name": "Ship It!",
+      "page": "Ship_It!"
+    },
+    {
+      "name": "Shiver Inn",
+      "page": "Shiver_Inn"
+    },
+    {
+      "name": "ShoulderPadz",
+      "page": "ShoulderPadz"
+    },
+    {
+      "name": "Slap Co.",
+      "page": "Slap_Co."
+    },
+    {
+      "name": "Slurp Co.",
+      "page": "Slurp_Co."
+    },
+    {
+      "name": "Snow Cones",
+      "page": "Snow_Cones"
+    },
+    {
+      "name": "SoFDeeZ",
+      "page": "SoFDeeZ"
+    },
+    {
+      "name": "Spillexx",
+      "page": "Spillexx"
+    },
+    {
+      "name": "Splits Bowl",
+      "page": "Splits_Bowl"
+    },
+    {
+      "name": "Stark Industries",
+      "page": "Stark_Industries"
+    },
+    {
+      "name": "Station 99",
+      "page": "Station_99"
+    },
+    {
+      "name": "Sticks",
+      "page": "Sticks"
+    },
+    {
+      "name": "Super Slurp Juice Co.",
+      "page": "Super_Slurp_Juice_Co."
+    },
+    {
+      "name": "Tacos",
+      "page": "Tacos"
+    },
+    {
+      "name": "The Gilded Lady",
+      "page": "The_Gilded_Lady"
+    },
+    {
+      "name": "The Thousand Faces",
+      "page": "The_Thousand_Faces"
+    },
+    {
+      "name": "Totally Tunage",
+      "page": "Totally_Tunage"
+    },
+    {
+      "name": "Toys (Store)",
+      "page": "Toys_(Store)"
+    },
+    {
+      "name": "Trask Industries",
+      "page": "Trask_Industries"
+    },
+    {
+      "name": "Truck 'N' Oasis",
+      "page": "Truck_%27N%27_Oasis"
+    },
+    {
+      "name": "Turtle INN",
+      "page": "Turtle_INN"
+    },
+    {
+      "name": "U2.0",
+      "page": "U2.0"
+    },
+    {
+      "name": "Uncle Pete's Pizza Pit",
+      "page": "Uncle_Pete%27s_Pizza_Pit"
+    },
+    {
+      "name": "Unnamed Bakery",
+      "page": "Unnamed_Bakery"
+    },
+    {
+      "name": "Unnamed Cafe",
+      "page": "Unnamed_Cafe"
+    },
+    {
+      "name": "Unnamed Car Dealership",
+      "page": "Unnamed_Car_Dealership"
+    },
+    {
+      "name": "Vindertech",
+      "page": "Vindertech"
+    },
+    {
+      "name": "Wayne Enterprises",
+      "page": "Wayne_Enterprises"
+    },
+    {
+      "name": "Y-Labs",
+      "page": "Y-Labs"
+    }
+  ],
+  "loot-review-index": [
+    {
+      "name": "1-Up Token",
+      "page": "1-Up_Token"
+    },
+    {
+      "name": "8-Bit Shotgun",
+      "page": "8-Bit_Shotgun"
+    },
+    {
+      "name": "A$AP Rocky's Shock Rocket",
+      "page": "A%24AP_Rocky%27s_Shock_Rocket"
+    },
+    {
+      "name": "Amban Sniper Rifle",
+      "page": "Amban_Sniper_Rifle"
+    },
+    {
+      "name": "Ares' Warforged Assault Rifle",
+      "page": "Ares%27_Warforged_Assault_Rifle"
+    },
+    {
+      "name": "Assault Rifle",
+      "page": "Assault_Rifle"
+    },
+    {
+      "name": "Baron's Double Down Pistol",
+      "page": "Baron%27s_Double_Down_Pistol"
+    },
+    {
+      "name": "Beach Brutus' Kit",
+      "page": "Beach_Brutus%27_Kit"
+    },
+    {
+      "name": "Bigfoot's Flex SMG",
+      "page": "Bigfoot%27s_Flex_SMG"
+    },
+    {
+      "name": "Bigfoot's Kit",
+      "page": "Bigfoot%27s_Kit"
+    },
+    {
+      "name": "Boom Billy",
+      "page": "Boom_Billy"
+    },
+    {
+      "name": "Brutus' Minigun",
+      "page": "Brutus%27_Minigun"
+    },
+    {
+      "name": "Brutus' Twin Hammer Shotguns",
+      "page": "Brutus%27_Twin_Hammer_Shotguns"
+    },
+    {
+      "name": "Bundlebuss Repeater Rifle",
+      "page": "Bundlebuss_Repeater_Rifle"
+    },
+    {
+      "name": "Captain Phasma's F-11D Blaster",
+      "page": "Captain_Phasma%27s_F-11D_Blaster"
+    },
+    {
+      "name": "Cartoon Chainsaw",
+      "page": "Cartoon_Chainsaw"
+    },
+    {
+      "name": "Catwoman's Rapid Fire SMG",
+      "page": "Catwoman%27s_Rapid_Fire_SMG"
+    },
+    {
+      "name": "Cerberus' Gatekeeper Shotgun",
+      "page": "Cerberus%27_Gatekeeper_Shotgun"
+    },
+    {
+      "name": "Chains of Hades",
+      "page": "Chains_of_Hades"
+    },
+    {
+      "name": "Chaos Reloader Shotgun",
+      "page": "Chaos_Reloader_Shotgun"
+    },
+    {
+      "name": "Collateral Damage Assault Rifle",
+      "page": "Collateral_Damage_Assault_Rifle"
+    },
+    {
+      "name": "Combat Assault Rifle/Chapter 6",
+      "page": "Combat_Assault_Rifle%2FChapter_6"
+    },
+    {
+      "name": "Combat SMG",
+      "page": "Combat_SMG"
+    },
+    {
+      "name": "Dark Voyager's Chaos Rifle",
+      "page": "Dark_Voyager%27s_Chaos_Rifle"
+    },
+    {
+      "name": "Dark Voyager's Obliterator",
+      "page": "Dark_Voyager%27s_Obliterator"
+    },
+    {
+      "name": "Darth Vader's Lightsaber",
+      "page": "Darth_Vader%27s_Lightsaber"
+    },
+    {
+      "name": "Deadpool's Dual Hand Cannons",
+      "page": "Deadpool%27s_Dual_Hand_Cannons"
+    },
+    {
+      "name": "Diamond's Thermal DMR",
+      "page": "Diamond%27s_Thermal_DMR"
+    },
+    {
+      "name": "Doctor Doom's Arcane Gauntlets",
+      "page": "Doctor_Doom%27s_Arcane_Gauntlets"
+    },
+    {
+      "name": "Doctor Doom's Monarch Pistol",
+      "page": "Doctor_Doom%27s_Monarch_Pistol"
+    },
+    {
+      "name": "Doctor Doom's Mystical Bomb",
+      "page": "Doctor_Doom%27s_Mystical_Bomb"
+    },
+    {
+      "name": "Dual Micro SMGs",
+      "page": "Dual_Micro_SMGs"
+    },
+    {
+      "name": "Emma Frost's Striker Burst AR",
+      "page": "Emma_Frost%27s_Striker_Burst_AR"
+    },
+    {
+      "name": "Enhanced Assault Rifle",
+      "page": "Enhanced_Assault_Rifle"
+    },
+    {
+      "name": "Enhanced Compact SMG",
+      "page": "Enhanced_Compact_SMG"
+    },
+    {
+      "name": "Enhanced DL-44 Blaster Pistol",
+      "page": "Enhanced_DL-44_Blaster_Pistol"
+    },
+    {
+      "name": "Enhanced Enforcer AR",
+      "page": "Enhanced_Enforcer_AR"
+    },
+    {
+      "name": "Enhanced Fury Assault Rifle",
+      "page": "Enhanced_Fury_Assault_Rifle"
+    },
+    {
+      "name": "Enhanced Holo Twister Assault Rifle",
+      "page": "Enhanced_Holo_Twister_Assault_Rifle"
+    },
+    {
+      "name": "Enhanced Oni Shotgun",
+      "page": "Enhanced_Oni_Shotgun"
+    },
+    {
+      "name": "Enhanced Sentinel Pump Shotgun",
+      "page": "Enhanced_Sentinel_Pump_Shotgun"
+    },
+    {
+      "name": "Enhanced Spire Rifle",
+      "page": "Enhanced_Spire_Rifle"
+    },
+    {
+      "name": "Enhanced Striker AR",
+      "page": "Enhanced_Striker_AR"
+    },
+    {
+      "name": "Enhanced Surgefire SMG",
+      "page": "Enhanced_Surgefire_SMG"
+    },
+    {
+      "name": "Enhanced Tactical Shotgun",
+      "page": "Enhanced_Tactical_Shotgun"
+    },
+    {
+      "name": "Enhanced Twinfire Auto Shotgun",
+      "page": "Enhanced_Twinfire_Auto_Shotgun"
+    },
+    {
+      "name": "Enhanced Wrecker Revolver",
+      "page": "Enhanced_Wrecker_Revolver"
+    },
+    {
+      "name": "Freddy's Nightmare",
+      "page": "Freddy%27s_Nightmare"
+    },
+    {
+      "name": "Grenade/Chapter 7",
+      "page": "Grenade%2FChapter_7"
+    },
+    {
+      "name": "Gunnar's Stinger SMG",
+      "page": "Gunnar%27s_Stinger_SMG"
+    },
+    {
+      "name": "Hades' Harbinger SMG",
+      "page": "Hades%27_Harbinger_SMG"
+    },
+    {
+      "name": "Hammer Revolver",
+      "page": "Hammer_Revolver"
+    },
+    {
+      "name": "Harley Quinn's Warforged AR",
+      "page": "Harley_Quinn%27s_Warforged_AR"
+    },
+    {
+      "name": "Heart's Havoc Suppressed Rifle",
+      "page": "Heart%27s_Havoc_Suppressed_Rifle"
+    },
+    {
+      "name": "Heisted Blink Mag SMG",
+      "page": "Heisted_Blink_Mag_SMG"
+    },
+    {
+      "name": "Heisted Breacher Shotgun",
+      "page": "Heisted_Breacher_Shotgun"
+    },
+    {
+      "name": "Heisted Explosive Assault Rifle",
+      "page": "Heisted_Explosive_Assault_Rifle"
+    },
+    {
+      "name": "High Stakes' Shotgun",
+      "page": "High_Stakes%27_Shotgun"
+    },
+    {
+      "name": "Highcard's Havoc Suppressed Rifle",
+      "page": "Highcard%27s_Havoc_Suppressed_Rifle"
+    },
+    {
+      "name": "Holo Twister Assault Rifle",
+      "page": "Holo_Twister_Assault_Rifle"
+    },
+    {
+      "name": "Human Bill's Arc-Lightning Gun",
+      "page": "Human_Bill%27s_Arc-Lightning_Gun"
+    },
+    {
+      "name": "Human Bill's Kit",
+      "page": "Human_Bill%27s_Kit"
+    },
+    {
+      "name": "Huntmaster Saber's Thermal Rifle",
+      "page": "Huntmaster_Saber%27s_Thermal_Rifle"
+    },
+    {
+      "name": "Huntress DMR",
+      "page": "Huntress_DMR"
+    },
+    {
+      "name": "Hush's Deadeye Assault Rifle",
+      "page": "Hush%27s_Deadeye_Assault_Rifle"
+    },
+    {
+      "name": "Hush's Kit",
+      "page": "Hush%27s_Kit"
+    },
+    {
+      "name": "Ice King's Gauntlets",
+      "page": "Ice_King%27s_Gauntlets"
+    },
+    {
+      "name": "Ice Spice's Grappler",
+      "page": "Ice_Spice%27s_Grappler"
+    },
+    {
+      "name": "Ice Spice's Rifle",
+      "page": "Ice_Spice%27s_Rifle"
+    },
+    {
+      "name": "Inkquisitor's Suppressed SMG",
+      "page": "Inkquisitor%27s_Suppressed_SMG"
+    },
+    {
+      "name": "Iron Man's Repulsor Gauntlets",
+      "page": "Iron_Man%27s_Repulsor_Gauntlets"
+    },
+    {
+      "name": "Iron Man's Unibeam",
+      "page": "Iron_Man%27s_Unibeam"
+    },
+    {
+      "name": "Jules' Drum Gun",
+      "page": "Jules%27_Drum_Gun"
+    },
+    {
+      "name": "Jules' Glider Gun",
+      "page": "Jules%27_Glider_Gun"
+    },
+    {
+      "name": "Kit's Charge Shotgun",
+      "page": "Kit%27s_Charge_Shotgun"
+    },
+    {
+      "name": "Kit's Shockwave Launcher",
+      "page": "Kit%27s_Shockwave_Launcher"
+    },
+    {
+      "name": "Kor's Deadeye DMR",
+      "page": "Kor%27s_Deadeye_DMR"
+    },
+    {
+      "name": "Krusty's Mr. Blasty",
+      "page": "Krusty%27s_Mr._Blasty"
+    },
+    {
+      "name": "Lil Uzi Vert’s Lil' SMG",
+      "page": "Lil_Uzi_Vert%E2%80%99s_Lil%27_SMG"
+    },
+    {
+      "name": "Megalo Don's Combat Shotgun",
+      "page": "Megalo_Don%27s_Combat_Shotgun"
+    },
+    {
+      "name": "Megalo Don's Nitro Fists",
+      "page": "Megalo_Don%27s_Nitro_Fists"
+    },
+    {
+      "name": "Meowdas' Peow Peow Rifle",
+      "page": "Meowdas%27_Peow_Peow_Rifle"
+    },
+    {
+      "name": "Meowscles' Peow Peow Rifle",
+      "page": "Meowscles%27_Peow_Peow_Rifle"
+    },
+    {
+      "name": "Midas' Drum Gun (OG)",
+      "page": "Midas%27_Drum_Gun_(OG)"
+    },
+    {
+      "name": "Midas' Masterpiece",
+      "page": "Midas%27_Masterpiece"
+    },
+    {
+      "name": "Modular Hammer Pump Shotgun",
+      "page": "Modular_Hammer_Pump_Shotgun"
+    },
+    {
+      "name": "Montague's Nemesis AR",
+      "page": "Montague%27s_Nemesis_AR"
+    },
+    {
+      "name": "Mysterio's Sovereign Shotgun",
+      "page": "Mysterio%27s_Sovereign_Shotgun"
+    },
+    {
+      "name": "Night Rose Veiled Precision SMG",
+      "page": "Night_Rose_Veiled_Precision_SMG"
+    },
+    {
+      "name": "Night Rose's Void Oni Mask",
+      "page": "Night_Rose%27s_Void_Oni_Mask"
+    },
+    {
+      "name": "Nisha's Striker AR",
+      "page": "Nisha%27s_Striker_AR"
+    },
+    {
+      "name": "O.X.R. Rifle",
+      "page": "O.X.R._Rifle"
+    },
+    {
+      "name": "Ocean's Bottomless Chug Jug",
+      "page": "Ocean%27s_Bottomless_Chug_Jug"
+    },
+    {
+      "name": "Ocean's Burst Assault Rifle",
+      "page": "Ocean%27s_Burst_Assault_Rifle"
+    },
+    {
+      "name": "Oscar's Frenzy Auto Shotgun",
+      "page": "Oscar%27s_Frenzy_Auto_Shotgun"
+    },
+    {
+      "name": "Peter Griffin's Hammer Pump Shotgun",
+      "page": "Peter_Griffin%27s_Hammer_Pump_Shotgun"
+    },
+    {
+      "name": "Poison Ivy's Ranger Pistol",
+      "page": "Poison_Ivy%27s_Ranger_Pistol"
+    },
+    {
+      "name": "Predator's Cloaking Device",
+      "page": "Predator%27s_Cloaking_Device"
+    },
+    {
+      "name": "Primal Rifle",
+      "page": "Primal_Rifle"
+    },
+    {
+      "name": "Pumpkin Launcher",
+      "page": "Pumpkin_Launcher"
+    },
+    {
+      "name": "RG's Minigun",
+      "page": "RG%27s_Minigun"
+    },
+    {
+      "name": "Ranger Assault Rifle",
+      "page": "Ranger_Assault_Rifle"
+    },
+    {
+      "name": "Raz's Explosive Bow",
+      "page": "Raz%27s_Explosive_Bow"
+    },
+    {
+      "name": "Reacher Extending Shotgun",
+      "page": "Reacher_Extending_Shotgun"
+    },
+    {
+      "name": "Rebecca's Guns",
+      "page": "Rebecca%27s_Guns"
+    },
+    {
+      "name": "Recon Scanner",
+      "page": "Recon_Scanner"
+    },
+    {
+      "name": "Relik's MK-Alpha Assault Rifle",
+      "page": "Relik%27s_MK-Alpha_Assault_Rifle"
+    },
+    {
+      "name": "Ringmaster's Boom Bolt",
+      "page": "Ringmaster%27s_Boom_Bolt"
+    },
+    {
+      "name": "Scorpion's Kombat Kit",
+      "page": "Scorpion%27s_Kombat_Kit"
+    },
+    {
+      "name": "Sentinel Pump Shotgun",
+      "page": "Sentinel_Pump_Shotgun"
+    },
+    {
+      "name": "Shadow Midas' Drum Gun",
+      "page": "Shadow_Midas%27_Drum_Gun"
+    },
+    {
+      "name": "Shogun X's Fire Oni Mask",
+      "page": "Shogun_X%27s_Fire_Oni_Mask"
+    },
+    {
+      "name": "Sideways Minigun",
+      "page": "Sideways_Minigun"
+    },
+    {
+      "name": "Sideways Rifle",
+      "page": "Sideways_Rifle"
+    },
+    {
+      "name": "Sith Apprentice Lightsaber",
+      "page": "Sith_Apprentice_Lightsaber"
+    },
+    {
+      "name": "Skye's Assault Rifle",
+      "page": "Skye%27s_Assault_Rifle"
+    },
+    {
+      "name": "Skye's Grappler",
+      "page": "Skye%27s_Grappler"
+    },
+    {
+      "name": "Slap Candy Corn",
+      "page": "Slap_Candy_Corn"
+    },
+    {
+      "name": "Slone's Burst Assault Rifle",
+      "page": "Slone%27s_Burst_Assault_Rifle"
+    },
+    {
+      "name": "Slone's Pulse Rifle",
+      "page": "Slone%27s_Pulse_Rifle"
+    },
+    {
+      "name": "Slone's Striker Burst Rifle",
+      "page": "Slone%27s_Striker_Burst_Rifle"
+    },
+    {
+      "name": "Snoop Dogg's Drum Gun",
+      "page": "Snoop_Dogg%27s_Drum_Gun"
+    },
+    {
+      "name": "Sonic Power Sneakers",
+      "page": "Sonic_Power_Sneakers"
+    },
+    {
+      "name": "Spire Assassin's Primal Shotgun",
+      "page": "Spire_Assassin%27s_Primal_Shotgun"
+    },
+    {
+      "name": "Spire Assassin's Recycler",
+      "page": "Spire_Assassin%27s_Recycler"
+    },
+    {
+      "name": "Spire Guardian's Primal Assault Rifle",
+      "page": "Spire_Guardian%27s_Primal_Assault_Rifle"
+    },
+    {
+      "name": "Squibbly's Combat Assault Rifle",
+      "page": "Squibbly%27s_Combat_Assault_Rifle"
+    },
+    {
+      "name": "Striker AR",
+      "page": "Striker_AR"
+    },
+    {
+      "name": "Suppressed Pistol",
+      "page": "Suppressed_Pistol"
+    },
+    {
+      "name": "Surgefire SMG",
+      "page": "Surgefire_SMG"
+    },
+    {
+      "name": "Sweeper Shotgun",
+      "page": "Sweeper_Shotgun"
+    },
+    {
+      "name": "TNTina's Ka-Boom Bow",
+      "page": "TNTina%27s_Ka-Boom_Bow"
+    },
+    {
+      "name": "Tetris Rift",
+      "page": "Tetris_Rift"
+    },
+    {
+      "name": "The Ageless Champion's Ex-Caliber Rifle",
+      "page": "The_Ageless_Champion%27s_Ex-Caliber_Rifle"
+    },
+    {
+      "name": "The Ageless Champion's Shockwave Hammer",
+      "page": "The_Ageless_Champion%27s_Shockwave_Hammer"
+    },
+    {
+      "name": "The Foundation's MK-Seven Assault Rifle",
+      "page": "The_Foundation%27s_MK-Seven_Assault_Rifle"
+    },
+    {
+      "name": "The Herald's Burst Rifle",
+      "page": "The_Herald%27s_Burst_Rifle"
+    },
+    {
+      "name": "The Machinist's Modular Combat Assault Rifle",
+      "page": "The_Machinist%27s_Modular_Combat_Assault_Rifle"
+    },
+    {
+      "name": "The Mandalorian's Jetpack",
+      "page": "The_Mandalorian%27s_Jetpack"
+    },
+    {
+      "name": "The Voidblade's Burst Rifle",
+      "page": "The_Voidblade%27s_Burst_Rifle"
+    },
+    {
+      "name": "Thermal Scoped Assault Rifle",
+      "page": "Thermal_Scoped_Assault_Rifle"
+    },
+    {
+      "name": "Thorn Ripper",
+      "page": "Thorn_Ripper"
+    },
+    {
+      "name": "Thorne's Scoped Burst SMG",
+      "page": "Thorne%27s_Scoped_Burst_SMG"
+    },
+    {
+      "name": "Thorne's Vampiric Blade",
+      "page": "Thorne%27s_Vampiric_Blade"
+    },
+    {
+      "name": "Thunderbolt of Zeus",
+      "page": "Thunderbolt_of_Zeus"
+    },
+    {
+      "name": "Twin Mag Assault Rifle",
+      "page": "Twin_Mag_Assault_Rifle"
+    },
+    {
+      "name": "Twinfire Auto Shotgun",
+      "page": "Twinfire_Auto_Shotgun"
+    },
+    {
+      "name": "Typhoon Blade",
+      "page": "Typhoon_Blade"
+    },
+    {
+      "name": "Unstable Bounce Grenade",
+      "page": "Unstable_Bounce_Grenade"
+    },
+    {
+      "name": "Unstable Frostfire Shotgun",
+      "page": "Unstable_Frostfire_Shotgun"
+    },
+    {
+      "name": "Unstable Thunderclap DMR",
+      "page": "Unstable_Thunderclap_DMR"
+    },
+    {
+      "name": "Unstable Voltage Burst Pistol",
+      "page": "Unstable_Voltage_Burst_Pistol"
+    },
+    {
+      "name": "Unstable Yoink Shotgun",
+      "page": "Unstable_Yoink_Shotgun"
+    },
+    {
+      "name": "Valeria's Hyper SMG",
+      "page": "Valeria%27s_Hyper_SMG"
+    },
+    {
+      "name": "Wildguard Relik's Cloak Gauntlets",
+      "page": "Wildguard_Relik%27s_Cloak_Gauntlets"
+    },
+    {
+      "name": "Wolfe's Maven Auto Shotgun",
+      "page": "Wolfe%27s_Maven_Auto_Shotgun"
+    },
+    {
+      "name": "Wolverine's Claws",
+      "page": "Wolverine%27s_Claws"
+    },
+    {
+      "name": "Wood Stake Shotgun",
+      "page": "Wood_Stake_Shotgun"
+    },
+    {
+      "name": "Yule Trooper's Holo Rush SMG",
+      "page": "Yule_Trooper%27s_Holo_Rush_SMG"
+    },
+    {
+      "name": "Yule Trooper's Kit",
+      "page": "Yule_Trooper%27s_Kit"
+    },
+    {
+      "name": "Zeus' Huntress DMR",
+      "page": "Zeus%27_Huntress_DMR"
+    },
+    {
+      "name": "Zyg and Choppy's Ray Gun",
+      "page": "Zyg_and_Choppy%27s_Ray_Gun"
+    }
+  ],
+  "guard-refs-index": [
+    {
+      "name": "Henchfans",
+      "page": "Henchfans"
+    },
+    {
+      "name": "Crazy 88 Henchmen",
+      "page": "Crazy_88_Henchmen"
+    },
+    {
+      "name": "Lady Windfrost",
+      "page": "Lady_Windfrost"
+    },
+    {
+      "name": "Security Guards",
+      "page": "Security_Guards"
+    },
+    {
+      "name": "NITE Unit Guards",
+      "page": "NITE_Unit_Guards"
+    },
+    {
+      "name": "NITE Unit Sentries",
+      "page": "NITE_Unit_Guards"
+    },
+    {
+      "name": "Light Demon Grunts",
+      "page": "Demon_Grunt"
+    },
+    {
+      "name": "Dark Demon Grunts",
+      "page": "Demon_Grunt"
+    },
+    {
+      "name": "Demon Lieutenants",
+      "page": "Demon_Grunt"
+    },
+    {
+      "name": "Night Rose's Shades",
+      "page": "The_Night_Rose"
+    },
+    {
+      "name": "Alpha Guards",
+      "page": "Alpha_Guards"
+    },
+    {
+      "name": "Alpha Heavies",
+      "page": "Alpha_Guards"
+    },
+    {
+      "name": "Clone Troopers",
+      "page": "Clone_Trooper"
+    },
+    {
+      "name": "Imperial Stormtroopers",
+      "page": "Imperial_Stormtrooper"
+    },
+    {
+      "name": "Stormtrooper Samurai",
+      "page": "Stormtrooper_Samurai"
+    },
+    {
+      "name": "AWR Troopers",
+      "page": "AWR_Trooper"
+    },
+    {
+      "name": "First Order Stormtroopers",
+      "page": "First_Order_Stormtrooper"
+    },
+    {
+      "name": "Light Demon Guards",
+      "page": "Kintsugi_Demon_Guards"
+    },
+    {
+      "name": "Heavy Demon Guards",
+      "page": "Kintsugi_Demon_Guards"
+    },
+    {
+      "name": "Dober Men",
+      "page": "Dober_Men"
+    },
+    {
+      "name": "Legion Tactical Grunts",
+      "page": "Society_Guards"
+    },
+    {
+      "name": "Legion Heavy Grunts",
+      "page": "Society_Guards"
+    },
+    {
+      "name": "Legion Tactical Elites",
+      "page": "Society_Guards"
+    },
+    {
+      "name": "Legion Heavy Elites",
+      "page": "Society_Guards"
+    },
+    {
+      "name": "Underworld Minions",
+      "page": "Minions"
+    },
+    {
+      "name": "Commanders",
+      "page": "Minions"
+    },
+    {
+      "name": "Olympian Minions",
+      "page": "Minions"
+    },
+    {
+      "name": "Stormtroopers",
+      "page": "Imperial_Stormtrooper"
+    },
+    {
+      "name": "Wasteland Tactical Grunts",
+      "page": "Wasteland_Guards"
+    },
+    {
+      "name": "Wasteland Heavy Grunts",
+      "page": "Wasteland_Guards"
+    },
+    {
+      "name": "Wasteland Heavy Elites",
+      "page": "Wasteland_Guards"
+    },
+    {
+      "name": "Wasteland Tactical Elites",
+      "page": "Wasteland_Guards"
+    },
+    {
+      "name": "Latverian Tactical Grunts",
+      "page": "Latverian_Guards"
+    },
+    {
+      "name": "Latverian Heavy Elites",
+      "page": "Latverian_Guards"
+    },
+    {
+      "name": "SHADOW Henchmen",
+      "page": "SHADOW_Henchmen_(Remix)"
+    },
+    {
+      "name": "GHOST Henchmen",
+      "page": "GHOST_Henchmen_(Remix)"
+    },
+    {
+      "name": "Guard Dogg Heavies",
+      "page": "Guard_Dogg_Heavies"
+    },
+    {
+      "name": "SHADOW Henchmen",
+      "page": "Kitbash"
+    },
+    {
+      "name": "Cold Blooded Suits",
+      "page": "Wild_Card"
+    },
+    {
+      "name": "Red-nosed Rangers",
+      "page": "Red-nosed_Ranger"
+    },
+    {
+      "name": "Wild Card Suits",
+      "page": "Wild_Card"
+    },
+    {
+      "name": "501st Troopers",
+      "page": "501st_Trooper"
+    },
+    {
+      "name": "Low Cards",
+      "page": "Low_Cards"
+    },
+    {
+      "name": "Seven Sentries",
+      "page": "Seven_Sentries"
+    },
+    {
+      "name": "IO Guards",
+      "page": "IO_Guards"
+    },
+    {
+      "name": "IO Patrols",
+      "page": "IO_Patrols"
+    },
+    {
+      "name": "The First Order",
+      "page": "First_Order_Stormtrooper"
+    },
+    {
+      "name": "SHADOW Henchmen",
+      "page": "SHADOW_Henchmen"
+    },
+    {
+      "name": "GHOST Henchmen",
+      "page": "GHOST_Henchmen"
+    },
+    {
+      "name": "Grotto Henchmen",
+      "page": "Grotto_Henchmen"
+    },
+    {
+      "name": "Shark Henchmen",
+      "page": "Shark_Henchmen"
+    },
+    {
+      "name": "Rig Henchmen",
+      "page": "Rig_Henchmen"
+    },
+    {
+      "name": "SHADOW Beach Brawlers",
+      "page": "SHADOW_Henchmen"
+    },
+    {
+      "name": "GHOST Beach Brawlers",
+      "page": "GHOST_Henchmen"
+    },
+    {
+      "name": "Kit's Henchmen",
+      "page": "Kit%27s_Henchmen"
+    },
+    {
+      "name": "Assault Marauders",
+      "page": "Marauders"
+    },
+    {
+      "name": "Heavy Marauders",
+      "page": "Marauders"
+    },
+    {
+      "name": "Deadeye Marauders",
+      "page": "Marauders"
+    },
+    {
+      "name": "Doom Henchmen",
+      "page": "Doom_Henchmen"
+    },
+    {
+      "name": "Stark Robots",
+      "page": "Stark_Robots"
+    },
+    {
+      "name": "Ghostly GHOST Henchmen",
+      "page": "Ghostly_GHOST_Henchmen"
+    },
+    {
+      "name": "Trespassers",
+      "page": "Trespassers"
+    }
+  ]
+}

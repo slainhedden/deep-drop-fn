@@ -1,0 +1,460 @@
+[
+  {
+    "page": "Balloons",
+    "name": "Balloons",
+    "tags": [
+      "fallProtection",
+      "fly",
+      "rotate"
+    ],
+    "note": "Lift and reduced gravity prevent a fall while balloons remain attached.",
+    "kind": null,
+    "season": null
+  },
+  {
+    "page": "Bouncer",
+    "name": "Bouncer",
+    "tags": [
+      "fallProtection",
+      "launch",
+      "knockback",
+      "rotate"
+    ],
+    "note": "The placed bouncer launches players and vehicles; the launch grants fall protection.",
+    "kind": null,
+    "season": null
+  },
+  {
+    "page": "Chiller_Grenade",
+    "name": "Chiller Grenade",
+    "tags": [
+      "knockback",
+      "rotate"
+    ],
+    "note": "The impact displaces players and gives icy feet; it does not cancel fall damage.",
+    "kind": null,
+    "season": null
+  },
+  {
+    "page": "Crash_Pad",
+    "name": "Crash Pad",
+    "tags": [
+      "fallProtection",
+      "launch",
+      "knockback",
+      "rotate"
+    ],
+    "note": "Landing on the deployed pad launches the player safely; opponents can also be bounced.",
+    "kind": null,
+    "season": null
+  },
+  {
+    "page": "Crash_Pad_Jr.",
+    "name": "Crash Pad Jr.",
+    "tags": [
+      "fallProtection",
+      "launch",
+      "knockback",
+      "rotate"
+    ],
+    "note": "The small pad launches players on contact without landing damage.",
+    "kind": null,
+    "season": null
+  },
+  {
+    "page": "Flint-Knock_Pistol",
+    "name": "Flint-Knock Pistol",
+    "tags": [
+      "knockback",
+      "launch",
+      "rotate"
+    ],
+    "note": "An uncrouched shot displaces both the user and the target.",
+    "kind": null,
+    "season": null
+  },
+  {
+    "page": "Flint-Knock_Pistol",
+    "name": "The Dub",
+    "tags": [
+      "knockback"
+    ],
+    "note": "The article explicitly identifies The Dub as sharing the pistol’s knockback behavior.",
+    "kind": null,
+    "season": null
+  },
+  {
+    "page": "Grapple_Blade",
+    "name": "Grapple Blade",
+    "tags": [
+      "fallProtection",
+      "knockback",
+      "rotate"
+    ],
+    "note": "A connected grapple grants protection through the following landing; grounded attacks displace targets.",
+    "kind": null,
+    "season": null
+  },
+  {
+    "page": "Grappler",
+    "name": "Grappler",
+    "tags": [
+      "fallProtection",
+      "rotate"
+    ],
+    "note": "A successful surface connection protects the following landing; missed shots are not protected.",
+    "kind": null,
+    "season": null
+  },
+  {
+    "page": "Hop_Rock",
+    "name": "Hop Rock",
+    "tags": [
+      "fallProtection",
+      "rotate"
+    ],
+    "note": "Its low-gravity effect prevents landing damage while active.",
+    "kind": null,
+    "season": null
+  },
+  {
+    "page": "Impulse_Grenade",
+    "name": "Impulse Grenade",
+    "tags": [
+      "knockback",
+      "launch",
+      "rotate"
+    ],
+    "note": "Its blast launches players but does not grant fall protection.",
+    "kind": null,
+    "season": null
+  },
+  {
+    "page": "Jetpack",
+    "name": "Jetpack",
+    "tags": [
+      "fly",
+      "rotate"
+    ],
+    "note": "Thrust provides flight while fueled; fuel loss can still cause landing damage.",
+    "kind": null,
+    "season": null
+  },
+  {
+    "page": "Jump_Pad",
+    "name": "Jump Pad (Directional)",
+    "tags": [
+      "fallProtection",
+      "rotate"
+    ],
+    "note": "The original directional floor trap launches players horizontally with fall protection.",
+    "kind": "item",
+    "season": "C1S1"
+  },
+  {
+    "page": "Kinetic_Blade",
+    "name": "Kinetic Blade",
+    "tags": [
+      "knockback",
+      "fallProtection",
+      "rotate"
+    ],
+    "note": "The second slash displaces an enemy; the user’s dash cancels falling damage.",
+    "kind": null,
+    "season": null
+  },
+  {
+    "page": "Launch_Pad",
+    "name": "Launch Pad",
+    "tags": [
+      "fallProtection",
+      "launch",
+      "fly",
+      "rotate"
+    ],
+    "note": "The launch returns a player to skydiving and permits glider deployment.",
+    "kind": null,
+    "season": null
+  },
+  {
+    "page": "Mechanical_Shockwave_Bow",
+    "name": "Mechanical Shockwave Bow",
+    "tags": [
+      "fallProtection",
+      "knockback",
+      "launch",
+      "rotate"
+    ],
+    "note": "The charged projectile applies shockwave displacement with fall protection.",
+    "kind": null,
+    "season": null
+  },
+  {
+    "page": "Nimbus_Cloud_(Kintoun)",
+    "name": "Nimbus Cloud (Kintoun)",
+    "tags": [
+      "fallProtection",
+      "fly",
+      "launch",
+      "rotate",
+      "structureDamage"
+    ],
+    "note": "Activation breaks colliding structures and opens a cloud glide; cancelling the glide is safe.",
+    "kind": null,
+    "season": null
+  },
+  {
+    "page": "Pepper_Mint",
+    "name": "Pepper Mint",
+    "tags": [
+      "speed"
+    ],
+    "note": "Consumption grants a temporary movement-speed increase.",
+    "kind": null,
+    "season": null
+  },
+  {
+    "page": "Rift-To-Go",
+    "name": "Rift-To-Go",
+    "tags": [
+      "fly",
+      "launch",
+      "rotate"
+    ],
+    "note": "Activation teleports the user into the sky with glider deployment.",
+    "kind": null,
+    "season": null
+  },
+  {
+    "page": "Rift_Fish",
+    "name": "Rift Fish",
+    "tags": [
+      "fly",
+      "launch",
+      "rotate"
+    ],
+    "note": "Consumption produces the same functional rift as a Rift-To-Go.",
+    "kind": null,
+    "season": null
+  },
+  {
+    "page": "Rocket_Ram",
+    "name": "Rocket Ram",
+    "tags": [
+      "launch",
+      "rotate",
+      "structureDamage"
+    ],
+    "note": "Thrust and landing can break structures; it is also a traversal tool.",
+    "kind": null,
+    "season": null
+  },
+  {
+    "page": "Shadow_Stone",
+    "name": "Shadow Stone",
+    "tags": [
+      "fallProtection",
+      "speed",
+      "stealth",
+      "rotate"
+    ],
+    "note": "Shadow form grants invisibility, faster movement and protected falls only while the form remains active.",
+    "kind": null,
+    "season": null
+  },
+  {
+    "page": "Shockwave_Grenade",
+    "name": "Shockwave Grenade",
+    "tags": [
+      "fallProtection",
+      "knockback",
+      "launch",
+      "rotate",
+      "structureDamage"
+    ],
+    "note": "The shockwave protects displaced players; a player propelled through a build breaks that build.",
+    "kind": null,
+    "season": null
+  },
+  {
+    "page": "Shockwave_Hammer",
+    "name": "Shockwave Hammer",
+    "tags": [
+      "fallProtection",
+      "knockback",
+      "launch",
+      "rotate",
+      "structureDamage"
+    ],
+    "note": "The slam breaks builds and displaces opponents; its bounce protects the user’s landing.",
+    "kind": null,
+    "season": null
+  },
+  {
+    "page": "Sideways_Scythe",
+    "name": "Sideways Scythe",
+    "tags": [
+      "fallProtection",
+      "launch",
+      "rotate",
+      "structureDamage"
+    ],
+    "note": "Swings damage builds; its leap gained landing protection after the original unsafe implementation.",
+    "kind": null,
+    "season": null
+  },
+  {
+    "page": "Silver_Surfer%27s_Board",
+    "name": "Silver Surfer’s Board",
+    "tags": [
+      "fallProtection",
+      "fly",
+      "launch",
+      "rotate"
+    ],
+    "note": "Activation opens a surfboard glide, and cancelling early does not cause landing damage.",
+    "kind": null,
+    "season": null
+  },
+  {
+    "page": "Spicy_Fish",
+    "name": "Spicy Fish",
+    "tags": [
+      "speed"
+    ],
+    "note": "Consumption grants a temporary speed effect.",
+    "kind": null,
+    "season": null
+  },
+  {
+    "page": "Airbending",
+    "name": "Airbending",
+    "tags": [
+      "speed",
+      "launch",
+      "knockback",
+      "rotate"
+    ],
+    "note": "Air Wheel has a sprint boost; Air Jump also launches nearby opponents.",
+    "kind": null,
+    "season": null
+  },
+  {
+    "page": "War_Machine%27s_Hover_Jets",
+    "name": "War Machine’s Hover Jets",
+    "tags": [
+      "fly",
+      "rotate"
+    ],
+    "note": "The jets provide sustained powered flight; sprinting accelerates it while consuming more fuel.",
+    "kind": null,
+    "season": null
+  },
+  {
+    "page": "Wings_of_Icarus",
+    "name": "Wings of Icarus",
+    "tags": [
+      "fallProtection",
+      "fly",
+      "rotate",
+      "knockback",
+      "structureDamage"
+    ],
+    "note": "Holding the wings protects falls; the dive bomb damages builds and displaces enemies.",
+    "kind": null,
+    "season": null
+  },
+  {
+    "page": "Witch_Broom",
+    "name": "Witch Broom",
+    "tags": [
+      "fallProtection",
+      "fly",
+      "launch",
+      "rotate",
+      "structureDamage"
+    ],
+    "note": "The upward burst breaks intersecting builds and opens a cancellable safe glide.",
+    "kind": null,
+    "season": null
+  },
+  {
+    "page": "Slurp_Barrel",
+    "name": "Slurp Barrel",
+    "tags": [
+      "health",
+      "shield",
+      "restorative"
+    ],
+    "note": "Destroying a normal barrel near the player restores effective health. Quest-only inert barrels do not qualify.",
+    "kind": "feature",
+    "season": "C2S1"
+  },
+  {
+    "page": "Zipline",
+    "name": "Zipline",
+    "tags": [
+      "fallProtection",
+      "rotate"
+    ],
+    "note": "Attaching and dismounting cancels falling damage.",
+    "kind": "feature",
+    "season": "C1S7"
+  },
+  {
+    "page": "Ascender",
+    "name": "Ascender",
+    "tags": [
+      "fallProtection",
+      "rotate",
+      "structureDamage"
+    ],
+    "note": "Vertical transport protects falls until landing and can clear a blocking structure.",
+    "kind": "feature",
+    "season": "C3S2"
+  },
+  {
+    "page": "Geyser",
+    "name": "Geyser",
+    "tags": [
+      "launch",
+      "fly",
+      "rotate"
+    ],
+    "note": "A vent burst launches the player and permits a glider.",
+    "kind": "feature",
+    "season": "C1S8"
+  },
+  {
+    "page": "Slipstream",
+    "name": "Slipstream",
+    "tags": [
+      "fly",
+      "rotate"
+    ],
+    "note": "The wind tunnel transports players; exiting permits glider deployment.",
+    "kind": "feature",
+    "season": "C1S9"
+  },
+  {
+    "page": "Grind_Rail",
+    "name": "Grind Rail",
+    "tags": [
+      "rotate"
+    ],
+    "note": "Grinding provides transport along the rail and allows faster grinding through sprint input.",
+    "kind": "feature",
+    "season": "C4S2"
+  },
+  {
+    "page": "Kinetic_Ore",
+    "name": "Kinetic Ore",
+    "tags": [
+      "launch",
+      "rotate"
+    ],
+    "note": "A struck rock launches and can carry a player standing on it.",
+    "kind": "feature",
+    "season": "C4S1"
+  }
+]

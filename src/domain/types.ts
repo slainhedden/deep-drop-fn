@@ -1,4 +1,4 @@
-export type EntityType = 'skin' | 'weapon' | 'location' | 'collaboration' | 'item' | 'vehicle' | 'event' | 'boss' | 'npc' | 'container' | 'ammo' | 'material' | 'faction' | 'cosmetic';
+export type EntityType = 'skin' | 'weapon' | 'location' | 'collaboration' | 'item' | 'vehicle' | 'event' | 'boss' | 'npc' | 'container' | 'ammo' | 'material' | 'faction' | 'cosmetic' | 'feature';
 export type Category = 'Skins' | 'Weapons' | 'Locations' | 'Crossovers' | 'Items' | 'Vehicles' | 'Events' | 'Bosses' | 'NPCs' | 'Containers' | 'Ammunition' | 'Materials' | 'Cosmetics';
 export type Difficulty = 'easy' | 'medium' | 'hard' | 'expert';
 export type Operator = 'eq' | 'includes' | 'contains' | 'introducedOnOrAfter' | 'introducedOnOrBefore' | 'availableIn' | 'appearedInChapter' | 'historyChange' | 'hasRelationship' | 'historyFlag' | 'chapterCountAtLeast' | 'introducedInChapter' | 'changeInSeason' | 'relatedTo';

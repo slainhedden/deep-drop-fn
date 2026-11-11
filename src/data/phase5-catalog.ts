@@ -24,6 +24,9 @@ export function expandPhase5(bank:FortniteEntity[]):FortniteEntity[]{
   const outfit=find('skin',row.name);e.familiarity=Math.max(e.familiarity,outfit?.familiarity??.4);
  }
  for(const row of research.bosses){
+  // Phase 5B: animated name headers exposed a health-icon label in the older extractor.
+  // Correct encounters are re-read from the full AI index; this is not a boss identity.
+  if(row.name==='Health (Battle Royale)')continue;
   const preferred=bossAliases[row.name]??row.name;const name=(find('boss',preferred)??find('boss',row.name))?.name??preferred;
   const e=edit.record('boss',name,row.sourceId,{isBoss:true,isAiBoss:true});
   if(row.name!==name&&!e.aliases.some(a=>a.text===row.name))e.aliases.push({text:row.name,kind:'official',confidence:'exact'});

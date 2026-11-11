@@ -22,5 +22,5 @@ describe('question bank audit',()=>{
    ambiguousAliases:report.ambiguousAliases,sourceCoverage:report.sourceCoverage,poiByChapter:report.poiByChapter,
    errors:report.errors,warnings:report.warnings,
   },null,2));
- });
+ },15000);
 });

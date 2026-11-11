@@ -1,3 +1,4 @@
+import {phase5bTemplates} from './phase5b-templates';
 import {phase5Templates} from './phase5-templates';
 import { phase4bTemplates } from './phase4b-templates';
 import { activateLocationHistory } from './activate-location-history';
@@ -21,7 +22,7 @@ export const templates:QuestionTemplate[]=[
  {id:'health-and-shield-item',category:'Items',answerType:'item',baseDifficulty:'medium',family:'item-function',parameters:[],prompt:()=> 'Name an item that can restore both health and shield in Fortnite.',predicates:()=>[{field:'restoresHealth',operator:'eq',value:true},{field:'restoresShield',operator:'eq',value:true}],explanation:(a)=>`${a.name} can restore both health and shield.`},
  ...gameplayTemplates,
  ...phase4bTemplates,
- ...phase5Templates,
+ ...phase5Templates,...phase5bTemplates,
  ...phase4Templates,
  ...historyTemplates,
  ...reviewedTemplates,

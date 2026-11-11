@@ -49,7 +49,8 @@ describe('Phase 5A source populations and independent rotation',()=>{
    expect(game).toHaveLength(7);
    expect(game.some(q=>recent.has(q.id))).toBe(false);
    expect(game.filter(isCosmeticQuestion).length).toBeLessThanOrEqual(2);
-   expect(game.filter(q=>q.category==='Locations')).toHaveLength(1);
+   expect(game.filter(q=>q.category==='Locations').length).toBeGreaterThanOrEqual(1);
+   expect(game.filter(q=>q.category==='Locations').length).toBeLessThanOrEqual(2);
    expect(game.some(q=>q.category==='Items')).toBe(true);
    expect(new Set(game.map(semanticFamily)).size).toBe(7);
    history.push(game.map(q=>q.id));

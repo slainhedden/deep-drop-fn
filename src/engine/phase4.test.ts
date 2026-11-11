@@ -18,7 +18,7 @@ describe('shared gameplay attributes and Small Fry regression',()=>{
   expect(factVerification(fry,'isFish')).toBe('verified');
   expect(fry.facts.catalogSeasonTag).toBe('CH2S1');
   expect(fry.history?.introduction?.status).not.toBe('verified');
-  expect(availableIn(fry,'C2S1')).toBe(false); // unknown, not known absent
+  expect(availableIn(fry,'C2S1')).toBe(true); // Phase 5B item table now proves presence, not first introduction.
   expect(suggestionsFor('small f',q('health-item')).some(e=>e.id===fry.id)).toBe(true);
  });
  it('accepts every reviewed restorative attribute independently of unrelated timeline fields',()=>{
@@ -32,7 +32,8 @@ describe('shared gameplay attributes and Small Fry regression',()=>{
   for(const name of ['Slurpfish','Shield Fish','Jellyfish'])expect(validateAnswer(q('shield-item'),name).correct).toBe(true);
   expect(validateAnswer(q('health-item'),'Cuddle Fish').correct).toBe(false);
   expect(byName('Cuddle Fish').facts.restoresHealth).toBeUndefined();
-  expect(byName('Thermal Fish').facts.restoresHealth).toBeUndefined();
+  expect(byName('Thermal Fish').facts.restoresHealth).toBe(true);
+  expect(byName('Thermal Fish').factEvidence?.restoresHealth.sourceIds).toContain('p5b-healing-items');
   expect(byName('Rift Fish').facts.playerMobility).toBe(true);
   expect(byName('Spicy Fish').facts.playerMobility).toBe(true);
  });
@@ -70,7 +71,8 @@ describe('typed Chapter 7 snapshots without fabricated Chapter 2 or 6 timelines'
   expect(question.validAnswerIds.length).toBeGreaterThan(20);
   expect(validateAnswer(question,'Latte Landing').correct).toBe(false);
   expect(availableIn(byName('Latte Landing'),'C7S3',false,true)).toBe(true);
-  const landmark=entitiesById.get(question.validAnswerIds[0])!;
+  const landmark=entities.find(e=>e.type==='location'&&e.factEvidence?.reviewedLandmarkMapVersions?.status==='verified')!;
+  expect(question.validAnswerIds).toContain(landmark.id);
   expect(landmark.history!.appearances.some(p=>p.status==='verified'&&p.namedPoi===false)).toBe(true);
  });
  it('maps v43 to the separately documented Treasure Hunters island rather than inventing season five',()=>{
