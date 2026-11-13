@@ -1,0 +1,6 @@
+.missing-answer-report { margin: 12px 24px; text-align: left; }
+.missing-answer-report small { display: block; margin: 8px 0; }
+.missing-answer-report input, .missing-answer-report textarea { box-sizing: border-box; width: 100%; padding: 8px; border: 1px solid #8151bf; border-radius: 8px; background: #17103e; color: #fff; font: inherit; }
+.missing-answer-report textarea { max-height: 80px; resize: vertical; font-size: 11px; }
+/* Extra clarification/report content may scroll; retain the live deadline in view. */
+.game-screen:has(.missing-answer-report[data-open="true"]) .clock { position: sticky; top: 8px; z-index: 6; background: #10073b; }

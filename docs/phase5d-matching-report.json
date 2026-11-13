@@ -1,0 +1,61 @@
+{
+  "startingCommit": "952a03bacc5be7e10afa4e0f3308c0f6fab52ac3",
+  "normalQuestions": 319,
+  "largeBankEntities": 11657,
+  "coldIndexAndFirstQueryMs": 139.69281299999966,
+  "warmQueries": 200,
+  "warmMedianMs": 0.9234500000002299,
+  "warmP95Ms": 1.5402309999999488,
+  "maximumScoredCandidates": 600,
+  "canonicalFailures": 0,
+  "examples": [
+    {
+      "input": "Pleasent Park",
+      "automaticallyAccepted": false,
+      "suggestions": [
+        {
+          "id": "pleasant",
+          "name": "Pleasant Park"
+        }
+      ]
+    },
+    {
+      "input": "shock wave",
+      "automaticallyAccepted": false,
+      "suggestions": [
+        {
+          "id": "shockwave",
+          "name": "Shockwave Grenade"
+        },
+        {
+          "id": "item-shockwave-hammer",
+          "name": "Shockwave Hammer"
+        }
+      ]
+    },
+    {
+      "input": "makeshift shotty",
+      "automaticallyAccepted": false,
+      "suggestions": [
+        {
+          "id": "weapon-makeshift-shotgun",
+          "name": "Makeshift Shotgun"
+        }
+      ]
+    },
+    {
+      "input": "avatar aang",
+      "automaticallyAccepted": false,
+      "suggestions": [
+        {
+          "id": "skin-character_doubledutydart",
+          "name": "Avatar State Aang"
+        },
+        {
+          "id": "skin-character_doubleduty",
+          "name": "Aang"
+        }
+      ]
+    }
+  ]
+}

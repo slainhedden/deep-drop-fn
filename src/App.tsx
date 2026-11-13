@@ -1,3 +1,4 @@
+import {MissingAnswerReport} from './components/MissingAnswerReport';
 import {AppFrame,Brand,type InitialRoute} from './components/AppFrame';
 import {HomeScreen} from './components/HomeScreen';
 import {loadPracticeHistory,rememberPracticeQuestion} from './storage/practice';
@@ -28,6 +29,8 @@ export default function App({initialRoute}:{initialRoute?:InitialRoute}={}){
  const [answer,setAnswer]=useState('');
  const [locked,setLocked]=useState(false);
  const [attemptFeedback,setAttemptFeedback]=useState('');
+ const [clarifications,setClarifications]=useState<ReturnType<typeof suggestionsFor>>([]);
+ const [failedAttempt,setFailedAttempt]=useState('');
  const lockedRef=useRef(false);
  const deadline=useRef(0);
  const [seconds,setSeconds]=useState(20);
@@ -41,30 +44,30 @@ export default function App({initialRoute}:{initialRoute?:InitialRoute}={}){
  const openDrop=()=>setScreen('drop');
  const start=useCallback((nextMode:Mode)=>{
   const seed=nextMode==='daily'?dailySeed():`practice-${Date.now()}`;
-  lockedRef.current=false;deadline.current=Date.now()+20000;setAttemptFeedback('');
+  lockedRef.current=false;deadline.current=Date.now()+20000;setAttemptFeedback('');setClarifications([]);setFailedAttempt('');
   setMode(nextMode);setQuestions(nextMode==='daily'?generateGame(seed,7):generatePractice(seed,7,undefined,loadPracticeHistory()));setRound(0);setResults([]);setAnswer('');setLocked(false);setSeconds(20);setScreen('game');finalized.current=false;
  },[]);
  const booted=useRef(false);
  useEffect(()=>{if(initialRoute==='practice'&&!booted.current){booted.current=true;start('practice');}},[initialRoute,start]);
  useEffect(()=>{if(mode==='practice'&&screen==='game'&&question)rememberPracticeQuestion(question.id);},[mode,screen,question]);
- const submit=useCallback((timedOut=false)=>{
+ const submit=useCallback((timedOut=false,confirmed?:string)=>{
   if(!question||lockedRef.current)return;
-  const result=validateAnswer(question,answer,timedOut||Date.now()>=deadline.current);
-  if(!result.correct&&!result.timedOut){setAttemptFeedback(result.explanation);inputRef.current?.focus();inputRef.current?.select();return}
-  lockedRef.current=true;setAttemptFeedback('');
+  const result=validateAnswer(question,confirmed??answer,timedOut||Date.now()>=deadline.current);
+  if(!result.correct&&!result.timedOut){const matches=suggestionsFor(answer,question,3);setFailedAttempt(answer);setClarifications(matches);setAttemptFeedback(matches.length?'Choose an answer to confirm, or keep typing.':result.explanation);inputRef.current?.focus();inputRef.current?.select();return}
+  lockedRef.current=true;setAttemptFeedback('');setClarifications([]);setFailedAttempt('');
   setResults(previous=>[...previous,{question,result}]);setLocked(true);
  },[answer,locked,question]);
  const submitRef=useRef(submit);submitRef.current=submit;
  useEffect(()=>{if(screen!=='game'||locked||!question)return;const timer=window.setInterval(()=>{const left=Math.max(0,Math.ceil((deadline.current-Date.now())/1000));setSeconds(left);if(left===0)submitRef.current(true)},100);return()=>window.clearInterval(timer)},[screen,locked,question]);
  useEffect(()=>{if(screen==='game'&&!locked)inputRef.current?.focus()},[screen,round,locked]);
- const next=()=>{if(round+1>=questions.length){if(!finalized.current){setStats(recordGame(results,mode==='daily'?'daily':'unlimited',day()));finalized.current=true}setScreen('results');return}lockedRef.current=false;deadline.current=Date.now()+20000;setAttemptFeedback('');setRound(v=>v+1);setAnswer('');setLocked(false);setSeconds(20)};
+ const next=()=>{if(round+1>=questions.length){if(!finalized.current){setStats(recordGame(results,mode==='daily'?'daily':'unlimited',day()));finalized.current=true}setScreen('results');return}lockedRef.current=false;deadline.current=Date.now()+20000;setAttemptFeedback('');setClarifications([]);setFailedAttempt('');setRound(v=>v+1);setAnswer('');setLocked(false);setSeconds(20)};
  const navigate=(nextScreen:Screen)=>{setScreen(nextScreen);if(nextScreen!=='game'){setQuestions([]);setResults([])}};
  return <AppFrame screen={screen} mode={mode} stats={stats} results={results} round={round} onDaily={openDrop} onPractice={()=>start('practice')} onHome={()=>navigate('home')}>
   {screen==='game'?<GameHeader round={round} total={questions.length} score={total}/>:<Header/>}
   <div className="screen">
    {screen==='home'&&<HomeScreen onPlay={openDrop} streak={stats.currentStreak}/>} 
    {screen==='drop'&&<DropScreen stats={stats} onStart={start} onPreview={()=>setScreen('demo')}/>} 
-   {screen==='game'&&question&&<GameScreen question={question} round={round} total={questions.length} seconds={seconds} score={total} answer={answer} setAnswer={value=>{setAnswer(value);setAttemptFeedback('')}} attemptFeedback={attemptFeedback} locked={locked} onSubmit={()=>submit(false)} current={current} onNext={next} inputRef={inputRef}/>}
+   {screen==='game'&&question&&<GameScreen question={question} round={round} total={questions.length} seconds={seconds} score={total} answer={answer} setAnswer={value=>{setAnswer(value);setAttemptFeedback('');setClarifications([]);setFailedAttempt('')}} attemptFeedback={attemptFeedback} clarifications={clarifications} failedAttempt={failedAttempt} onConfirm={name=>submit(false,name)} onDismiss={()=>{setClarifications([]);inputRef.current?.focus()}} locked={locked} onSubmit={()=>submit(false)} current={current} onNext={next} inputRef={inputRef}/>}
    {screen==='results'&&<Results results={results} score={total} onAgain={openDrop} onLeaderboard={()=>navigate('leaderboard')}/>} 
    {screen==='leaderboard'&&<Leaderboard stats={stats}/>} 
    {screen==='stats'&&<Stats stats={stats}/>} 
@@ -90,16 +93,20 @@ function DropScreen({stats,onStart,onPreview}:{stats:PlayerStats;onStart:(mode:M
  {!dailyDone&&<button className="unlimited-button" onClick={()=>onStart('practice')}><Swords/> PLAY UNLIMITED <ChevronRight/></button>}
  </section>}
 
-export function GameScreen({question,round,total,seconds,score,answer,setAnswer,locked,onSubmit,current,onNext,inputRef,attemptFeedback}:{question:GeneratedQuestion;round:number;total:number;seconds:number;score:number;answer:string;setAnswer:(value:string)=>void;locked:boolean;onSubmit:()=>void;current?:RoundResult;onNext:()=>void;inputRef:React.RefObject<HTMLInputElement|null>;attemptFeedback?:string}){
+export function GameScreen({question,round,total,seconds,score,answer,setAnswer,locked,onSubmit,current,onNext,inputRef,attemptFeedback,clarifications=[],failedAttempt='',onConfirm,onDismiss}:{question:GeneratedQuestion;round:number;total:number;seconds:number;score:number;answer:string;setAnswer:(value:string)=>void;locked:boolean;onSubmit:()=>void;current?:RoundResult;onNext:()=>void;inputRef:React.RefObject<HTMLInputElement|null>;attemptFeedback?:string;clarifications?:ReturnType<typeof suggestionsFor>;failedAttempt?:string;onConfirm?:(name:string)=>void;onDismiss?:()=>void}){
  const suggestions=useMemo(()=>suggestionsFor(answer,question,6),[answer,question]);
+ const [dismissed,setDismissed]=useState(false);
+ useEffect(()=>setDismissed(false),[answer,question.id]);
+ const dismiss=()=>{setDismissed(true);onDismiss?.()};
  if(locked&&current)return <Feedback round={current} onNext={onNext} last={round+1===total}/>;
  return <section className="game-screen scene"><div className={`clock ${seconds<=5?'urgent':''}`}><Clock3/>00:{String(seconds).padStart(2,'0')}</div>
   <div className="question-card"><span>{question.category.toUpperCase()}</span><h1>{question.prompt}</h1><small>{question.validAnswerIds.length} eligible answers</small></div>
-  <form onSubmit={event=>{event.preventDefault();if(answer.trim())onSubmit()}} className="game-form"><label htmlFor="answer">YOUR ANSWER</label><input ref={inputRef} id="answer" value={answer} onChange={e=>setAnswer(e.target.value)} placeholder="Type a name or nickname…" autoComplete="off"/>
-   {suggestions.length>0&&<div className="suggestions">{suggestions.map(item=><button type="button" key={item.id} onClick={()=>setAnswer(item.name)}>{item.name}</button>)}</div>}
+  <form onSubmit={event=>{event.preventDefault();if(answer.trim())onSubmit()}} className="game-form"><label htmlFor="answer">YOUR ANSWER</label><input ref={inputRef} id="answer" value={answer} onKeyDown={e=>{if(e.key==='Escape')dismiss()}} onChange={e=>setAnswer(e.target.value)} placeholder="Type a name or nickname…" autoComplete="off"/>
+   {clarifications.length>0&&<div role="group" aria-label="Answer clarification" aria-live="polite"><small>Did you mean{clarifications.length===1?' '+clarifications[0].name+'?':' one of these?'}</small><div className="suggestions">{clarifications.map(item=><button type="button" key={item.id} onClick={()=>onConfirm?.(item.name)}>Confirm {item.name}</button>)}<button type="button" onClick={dismiss}>Keep typing</button></div></div>}
+   {!dismissed&&clarifications.length===0&&suggestions.length>0&&<div className="suggestions">{suggestions.map(item=><button type="button" key={item.id} onClick={()=>setAnswer(item.name)}>{item.name}</button>)}</div>}
    {attemptFeedback&&<small role="status" aria-live="polite">{attemptFeedback}</small>}
-   <small>Slang and small typos count. Suggestions match this question.</small><button className="lime-button" disabled={!answer.trim()}>SUBMIT <ChevronRight/></button>
-  </form><div className="score-corner">SCORE <b>{fmt(score)}</b></div>
+   <small>Nicknames count. Confirm spelling suggestions for this question.</small><button className="lime-button" disabled={!answer.trim()}>SUBMIT <ChevronRight/></button>
+  </form>{failedAttempt&&<MissingAnswerReport key={question.id+failedAttempt} question={question} attempt={failedAttempt} onClose={()=>{inputRef.current?.focus({preventScroll:true});const container=inputRef.current?.closest('.screen');if(container)container.scrollTop=0}}/>}<div className="score-corner">SCORE <b>{fmt(score)}</b></div>
  </section>}
 
 function Feedback({round,onNext,last}:{round:RoundResult;onNext:()=>void;last:boolean}){const a=round.result;if(a.correct)return <RarityDrop round={round} onContinue={onNext}/>;return <section className="reveal scene lose">

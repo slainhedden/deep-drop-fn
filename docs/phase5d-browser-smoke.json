@@ -1,0 +1,34 @@
+{
+  "results": [
+    {
+      "method": "mouse",
+      "reportExport": true,
+      "reportCopy": true,
+      "deadlinePreserved": true,
+      "overflow": false
+    },
+    {
+      "method": "keyboard",
+      "reportExport": true,
+      "reportCopy": true,
+      "deadlinePreserved": true,
+      "overflow": false
+    },
+    {
+      "method": "touch",
+      "reportExport": true,
+      "reportCopy": true,
+      "deadlinePreserved": true,
+      "overflow": false
+    },
+    {
+      "method": "timeout",
+      "reportExport": true,
+      "reportCopy": true,
+      "deadlinePreserved": true,
+      "overflow": false
+    }
+  ],
+  "errors": [],
+  "external": []
+}
